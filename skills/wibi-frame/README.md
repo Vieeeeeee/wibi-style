@@ -7,6 +7,20 @@
 当前稳定版本：`v1.1`  
 作者：`@威比 Hunter Wei.`
 
+## 成图示例
+
+以下均为本 Skill 的实际生成结果。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-01.png" alt="面条与筷子局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-02.png" alt="双眼局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-03.png" alt="帽檐与眼神局部成图" width="30%" />
+  <br />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-04.png" alt="帽子与双手局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-05.png" alt="西瓜与表情局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-06.png" alt="侧脸与香烟局部成图" width="30%" />
+</p>
+
 ## 它会怎么工作
 
 1. 上传一张照片并调用 Skill。
