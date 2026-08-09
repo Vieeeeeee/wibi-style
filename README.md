@@ -8,7 +8,7 @@
 
 | Skill | 说明 | 目录 |
 | --- | --- | --- |
-| `wibi-frame` | 从照片中蒸馏局部事件，生成带自然越框与框内外同色融合的复古平面漫画特写 | [`skills/wibi-frame/`](skills/wibi-frame/) |
+| `wibi-frame` | 先给出三个局部文字候选，用户选择后生成带自然越框与框内外同色融合的复古平面漫画特写 | [`skills/wibi-frame/`](skills/wibi-frame/) |
 
 ## 安装
 
