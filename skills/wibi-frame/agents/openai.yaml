@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wibi 框景漫画"
+  short_description: "蒸馏照片局部事件，生成并主动优化复古小框漫画特写"
+  default_prompt: "使用 $wibi-frame 分析我上传的照片，选择最有张力的局部事件，生成并主动优化到通过自检的框景漫画特写。"
+
+policy:
+  allow_implicit_invocation: true
