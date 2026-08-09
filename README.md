@@ -4,11 +4,13 @@
 
 每个风格独立放在 `skills/<skill-name>/` 中，包含可直接读取的 `SKILL.md`、必要的构图模板和参考素材。后续新增风格继续沿用同一目录结构，互不混放。
 
+仓库内的 `SKILL.md` 使用英文编写，以减少歧义和重复；Skill 实际运行时默认使用中文与用户沟通。
+
 ## 当前风格
 
 | Skill | 说明 | 目录 |
 | --- | --- | --- |
-| `wibi-frame` | 从照片中蒸馏局部事件，生成带自然越框与框内外同色融合的复古平面漫画特写 | [`skills/wibi-frame/`](skills/wibi-frame/) |
+| `wibi-frame` | 先给出三个局部文字候选，用户选择后生成带自然越框与框内外同色融合的复古平面漫画特写 | [`skills/wibi-frame/`](skills/wibi-frame/) |
 
 ## 安装
 
