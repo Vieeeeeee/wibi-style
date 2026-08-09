@@ -12,6 +12,7 @@ description: Analyze a user photo, propose three high-value close-up events in C
 - Process one photo at a time unless the user explicitly authorizes batch work.
 - Treat a newly uploaded photo as content authority. References define visual treatment; layout guides define geometry only.
 - Preserve every substantive prompt revision and generated version. Never overwrite an earlier result.
+- Keep raw generations, failed versions, and repaired intermediates as private local records. Do not render, link, or otherwise surface them to the user unless the user explicitly asks to see process work or a specific earlier version.
 
 ## Interaction state
 
@@ -162,6 +163,7 @@ The generation prompt for the current photo must specify:
 
 - Deliver `1440×2560` pixels, `9:16`, PNG.
 - Request a 9:16 image and retain the highest-resolution source returned by the built-in tool.
+- Treat the built-in tool result as an unapproved intermediate until the complete quality gate passes. During generation and repair, capture its saved path without presenting the raw image to the user.
 - Perform crop cleanup and outer-field correction at source resolution.
 - Resize once, at the end, directly to `1440×2560`; do not pass through intermediate sizes.
 - Preserve PNG throughout. A final upscale can preserve the delivery dimensions but cannot create detail absent from the native result.
@@ -179,20 +181,21 @@ Check in this order:
 6. **Color:** palette and layout were selected independently; an exact shared color fuses inside and outside when available.
 7. **Style:** heavy contours and large tonal masses dominate over fine lines and noise.
 8. **Background:** the connected outer field is a uniform flat color with clean edges and corners.
-9. **File:** PNG, exact `1440×2560`, undistorted 9:16.
+9. **Ratio lock:** local cleanup preserves the complete framed unit with identical width-to-height ratio, no clipped edge, and no change to the internal crop. Allow at most `0.5%` ratio drift from the generated unit.
+10. **File:** PNG, exact `1440×2560`, undistorted 9:16.
 
 Repair by failure class:
 
 - Event, source fidelity, anatomy, contact, or comic style failure: preserve the failed version and use one targeted regeneration when authorized.
 - Correct content with only frame scale, position, outer-field uniformity, or final-size issues: use safe local post-processing.
-- Safe post-processing may scale or reposition the complete framed unit, replace only the connected outer field, remove outer artifacts, and perform the one final resize. It may not redraw the subject, change the crop, move fingers or props, reorder occlusion, reconstruct anatomy, or place a border over a breakout subject.
-- If the authorized targeted regeneration still fails, show the best version, state the remaining issue in Chinese, and wait for the user.
+- Safe post-processing may uniformly scale the complete framed unit with the same factor on both axes, reposition it, replace only the connected outer field, remove outer artifacts, and perform the one final resize. It may not manually crop any framed-unit edge, distort its aspect ratio, redraw the subject, change the internal crop, move fingers or props, reorder occlusion, reconstruct anatomy, or place a border over a breakout subject.
+- If the authorized targeted regeneration still fails, retain the best version locally, state the remaining issue in Chinese, and wait for the user. Show that version only when the user explicitly asks to see it.
 
 For batches, apply the full gate independently to every photo. Report partial success accurately and retain all case-level versions.
 
 ## User-facing delivery
 
-After a successful generation, show the image first. Then explain the selected local event, why it was worth enlarging, and how the frame and palette support it in two or three concise Chinese sentences. Do not expose candidate scoring or the internal generation prompt.
+After generation, repair, and the complete quality gate, show only the single final approved image. Do not show raw tool output, failed generations, before-and-after comparisons, repaired intermediates, or alternate versions unless the user explicitly requests them. Then explain the selected local event, why it was worth enlarging, and how the frame and palette support it in two or three concise Chinese sentences. Do not expose candidate scoring or the internal generation prompt.
 
 For the first two successful generations in a conversation, append:
 
