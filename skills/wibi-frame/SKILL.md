@@ -51,8 +51,10 @@ If the user already specifies a precise crop in the initial request, skip the ca
 
 Create a small framed scene inside a large field of flat color. Maintain two simultaneous scales:
 
-- the framed scene occupies only about 30–40% of the canvas along its dominant axis;
+- on the 9:16 canvas, the complete visible unit—the geometric frame plus every breakout element—normally spans about 36–42% of the canvas width;
 - the chosen detail is enlarged inside that frame and reaches its edges.
+
+Treat the width range as a visual target, not a rigid pixel quota; the event determines the unit's height. Default to a compact unit centered near the canvas midpoint with generous space on all sides. A layout guide may introduce a mild offset, but the unit must still feel balanced and stay clear of the canvas edge. A breakout crosses the frame border only; it does not touch the final canvas edge.
 
 A valid close-up can be described as “one specific part + one visual relationship”, such as fingers exposing an earring, noodles touching the mouth, a palm covering one eye, or a shoe crossing a border. Preserve identifiers unique to the source photo. A centered full face, reduced half-body portrait, or miniature full figure indicates failed distillation.
 
@@ -60,9 +62,9 @@ A valid close-up can be described as “one specific part + one visual relations
 
 1. Read the complete action, pose, object interaction, occlusion, and distinctive accessories.
 2. Build three candidates from different parts, scales, or relationships. Do not relabel the same crop three times.
-3. Rank by source specificity, contact or occlusion clarity, silhouette strength, thumbnail legibility, color potential, and surprise value.
+3. Rank by source specificity, contact or occlusion clarity, silhouette strength, thumbnail legibility, color potential, surprise value, and whether the likely breakout is complete inside the source photo.
 4. Prefer the strongest recognizable relationship. For a quiet frontal portrait, two eyes with brow and hairline may be stronger than an artificially isolated ear or environmental fragment.
-5. After selection, lock a real tight crop from the source. Preserve angle, contact points, occlusion order, finger direction, object position, accessory structure, and the chosen expression. Do not reconstruct cropped-away anatomy or scenery.
+5. After selection, lock a real tight crop from the source. Preserve angle, contact points, occlusion order, finger direction, object position, accessory structure, and the chosen expression. Do not reconstruct cropped-away anatomy or scenery. When the source edge already cuts an element, keep that cut inside the frame instead of using the clipped end as the breakout path.
 
 Candidate labels must be concrete, for example:
 
@@ -121,6 +123,8 @@ Prefer one credible breakout. Let the model choose the source-supported element,
 
 Keep the chosen close-up even when another crop would break out more easily. At the crossing, the subject sits in front and fully hides that segment of the border. Resume the border on both sides of the subject. Use a contained frame only when no continuous source element can cross naturally.
 
+The breakout must remain fully visible before it reaches the final canvas edge. If the intended path is already cut by the source edge, use another complete visible part, choose another source-supported element, or keep the frame contained.
+
 ### Color fusion
 
 Prefer one connection color already present in the selected crop. When that exact color reaches the frame edge, use the same value outside the frame and remove only the border segment at the true color contact. Preserve enough straight edges and corners for the original frame shape to remain legible.
@@ -145,7 +149,7 @@ Build identity through silhouette, expression, accessories, action, and local st
 Plan in two internal design passes; do not interpret them as two mandatory tool calls.
 
 1. Establish the selected close-up at large scale, preserving source geometry, contact, and the intended breakout path.
-2. Place that locked event into the selected guide, scale the complete framed unit to 30–40% of the canvas along its dominant axis, and resolve the outer color field and color-fusion contact.
+2. Place that locked event into the selected guide, scale the complete visible unit to about 36–42% of the 9:16 canvas width, keep generous final-canvas margins, and resolve the outer color field and color-fusion contact. Let the event determine the unit's height.
 
 The generation prompt for the current photo must specify:
 
@@ -153,9 +157,9 @@ The generation prompt for the current photo must specify:
 2. source invariants: angle, contact, occlusion, direction, and accessory structure;
 3. one primary reference and its assigned style role;
 4. omitted content that must remain cropped away;
-5. selected regular frame, placement, and target scale;
+5. selected regular frame, placement, target scale, and clear outer margin;
 6. independently chosen palette, exact connection color, and border segment to remove;
-7. one natural breakout path with the subject covering the crossed border;
+7. one natural breakout path with the subject covering the crossed border while staying clear of the final canvas edge;
 8. vintage flat-comic line and shading treatment;
 9. final 9:16 composition with no text, watermark, analysis, or comparison layout.
 
@@ -175,20 +179,21 @@ Check in this order:
 
 1. **Event:** the first read is a specific local relationship, not a generic portrait.
 2. **Source fidelity:** crop, pose, contact, occlusion, and object direction match the source.
-3. **Scale:** the frame is small on the canvas while the selected detail remains large inside it.
+3. **Scale:** the complete visible unit, including the breakout, spans about 36–42% of the canvas width; its height follows the event, and the detail remains large inside the frame. Judge the visible mass, not the rectangle alone.
 4. **Geometry:** the frame is one of the approved regular shapes and remains legible.
-5. **Boundary:** a credible breakout is used when available; the subject covers the crossed border.
+5. **Boundary:** a credible breakout is used when available; the subject covers the crossed border, remains fully visible, and keeps a clear margin from the final canvas edge.
 6. **Color:** palette and layout were selected independently; an exact shared color fuses inside and outside when available.
 7. **Style:** heavy contours and large tonal masses dominate over fine lines and noise.
 8. **Background:** the connected outer field is a uniform flat color with clean edges and corners.
-9. **Ratio lock:** local cleanup preserves the complete framed unit with identical width-to-height ratio, no clipped edge, and no change to the internal crop. Allow at most `0.5%` ratio drift from the generated unit.
+9. **Ratio lock:** local cleanup preserves the complete visible unit with identical width-to-height ratio, adds no clipping at the final canvas edge, and leaves the source-authorized internal crop unchanged. Allow at most `0.5%` ratio drift from the generated unit.
 10. **File:** PNG, exact `1440×2560`, undistorted 9:16.
 
 Repair by failure class:
 
 - Event, source fidelity, anatomy, contact, or comic style failure: preserve the failed version and use one targeted regeneration when authorized.
-- Correct content with only frame scale, position, outer-field uniformity, or final-size issues: use safe local post-processing.
-- Safe post-processing may uniformly scale the complete framed unit with the same factor on both axes, reposition it, replace only the connected outer field, remove outer artifacts, and perform the one final resize. It may not manually crop any framed-unit edge, distort its aspect ratio, redraw the subject, change the internal crop, move fingers or props, reorder occlusion, reconstruct anatomy, or place a border over a breakout subject.
+- Correct content with only frame scale, position, outer-field uniformity, or final-size issues: use safe local post-processing only when the complete visible unit is intact and can keep clear canvas margins.
+- Safe post-processing may uniformly scale the complete visible unit with the same factor on both axes, reposition it, replace only the connected outer field, remove outer artifacts, and perform the one final resize. It may not manually crop any unit edge, distort its aspect ratio, redraw the subject, change the internal crop, move fingers or props, reorder occlusion, reconstruct anatomy, or place a border over a breakout subject.
+- If a subject or breakout is already cut by the generated canvas edge, treat it as a regeneration issue whenever repositioning would expose that cut. Do not anchor the unit to the canvas edge to conceal it.
 - If the authorized targeted regeneration still fails, retain the best version locally, state the remaining issue in Chinese, and wait for the user. Show that version only when the user explicitly asks to see it.
 
 For batches, apply the full gate independently to every photo. Report partial success accurately and retain all case-level versions.
