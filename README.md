@@ -19,6 +19,7 @@
 | `alt-manga-avatar` | 正面或半侧脸的自拍 | [`skills/alt-manga-avatar/`](skills/alt-manga-avatar/) |
 | `pixel-stretch` | 主体清楚的任意照片，人物或静物都行 | [`skills/pixel-stretch/`](skills/pixel-stretch/) |
 | `art-print-poster` | 五官清楚、表情有记忆点的自拍 | [`skills/art-print-poster/`](skills/art-print-poster/) |
+| `iridescent-long-exposure` | 想要朦胧氛围的人物近景或局部特写 | [`skills/iridescent-long-exposure/`](skills/iridescent-long-exposure/) |
 
 ## 安装
 
