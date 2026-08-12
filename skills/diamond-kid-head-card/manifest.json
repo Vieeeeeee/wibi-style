@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "slug": "diamond-kid-head-card",
+  "name": "钻牙萌娃大头",
+  "version": "1.0.0",
+  "updated_at": "2026-08-12",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/diamond-kid-head-card",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/diamond-kid-head-card",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/diamond-kid-head-card",
+  "update_manifest_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/skills/diamond-kid-head-card/manifest.json",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": ["抖音", "小红书"],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/钻牙萌娃大头/02_提示词/09_v9_将D波普双色分区替换为干净可爱的蜡笔.md",
+    "source_sha256": "81ece4e2674106c8738d9d63b2bbb4e9f3534ace8268644b95104926fb803eb3"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 0
+  },
+  "references": [],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/diamond-kid-head-card/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": false,
+    "original_assets": [],
+    "redistributable_assets": [],
+    "bundled_third_party_assets": []
+  }
+}
