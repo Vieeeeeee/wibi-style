@@ -2,22 +2,22 @@
 
 把单人人像或宠物大头照做成 1:1 电光蓝粗网点半调唱片海报：纯黑、纯白和可数的粗圆点组成主体，电光蓝底配红黄星星与白色条码。
 
-当前版本：`v1.0.2`
+当前版本：`v1.0.3`
 
-作者：`@威比 Hunter Wei.`
+作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
 ## 成图示例
 
 以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-01.png" alt="打哈欠表情电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-02.png" alt="黑框眼镜电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-03.png" alt="帽子眼镜电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-01.png" alt="打哈欠表情电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-02.png" alt="黑框眼镜电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-03.png" alt="帽子眼镜电蓝粗网点海报" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-04.png" alt="墨镜长发电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-05.png" alt="豹纹头巾电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-06.png" alt="吐舌表情电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-04.png" alt="墨镜长发电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-05.png" alt="豹纹头巾电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-06.png" alt="吐舌表情电蓝粗网点海报" width="30%" />
 </p>
 
 ## 安装
@@ -25,11 +25,11 @@
 在 Codex 中发送：
 
 ```text
-请安装这个 Skill：
+请安装这个 Skill；安装完成后，运行包内 `scripts/show_skill_info.py --always`，并把输出的 Skill 信息完整展示给我：
 https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster
 ```
 
-安装完成后，新开一个任务即可使用。安装器只下载这一款 Skill，不会下载仓库中的其他风格。
+安装器只下载这一款 Skill，不会下载仓库中的其他风格。安装完成后会展示名称、版本、作者、同名平台、官方来源和安装路径；若安装器没有展示，第一次使用时会补展示一次。
 
 ## 使用
 
@@ -64,7 +64,7 @@ Skill 默认生成一张 1:1 PNG。每个新任务第一次使用时会检查这
 
 ## 使用与授权
 
-原创 Skill 规则与提示词仅限个人非商业使用；商业使用请先联系作者获得许可。公开分享时欢迎标注：
+原创 Skill 规则与提示词仅限个人非商业使用；商业使用请先联系作者获得许可。复制、修改、转发、镜像或重新打包本 Skill 时，必须完整保留作者、抖音/小红书同名备注、官方仓库地址、`LICENSE` 和 `NOTICE`。公开分享生成结果时欢迎标注：
 
 ```text
 Visual Skill by @威比 Hunter Wei.

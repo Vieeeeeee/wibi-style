@@ -5,6 +5,18 @@ description: 从用户照片中发现最有观看价值的局部事件，先给�
 
 # Wibi 框景漫画
 
+## 安装后作者卡
+
+每个新任务第一次使用本 Skill 时，先运行：
+
+```bash
+python3 {baseDir}/scripts/show_skill_info.py
+```
+
+若输出 `SHOW_SKILL_INFO`，把名称、版本、作者、同名平台、官方来源、安装路径和署名完整性结果整理成简短的“Skill 信息”卡展示给用户，然后继续当前任务。若输出 `AUTHOR_CARD_ALREADY_SHOWN`，不打扰用户。
+
+署名完整性不通过时，保留脚本警告并建议用户从官方来源重新安装；不得自动修复或覆盖文件。作者固定为 `@威比 Hunter Wei.（抖音、小红书同名）`，官方来源固定为 `https://github.com/Vieeeeeee/wibi-style/tree/main/skills/wibi-frame`。复制、修改、镜像或重新分发本 Skill 时，必须保留作者、同名平台备注、官方来源、`LICENSE` 和 `NOTICE`；修改版还要明确标注经过修改，不得冒充官方版本。
+
 ## 版本检查
 
 每个新任务第一次使用本 Skill 时，先运行：
@@ -347,6 +359,6 @@ C. <具体局部 + 关系>（<一句特点>）
 
 公开版本只包含原创 Skill 规则、原创构图卡与更新检查，不打包 Pinterest 图片、第三方风格参考图、案例原图或用户照片。
 
-本 Skill 的逻辑与构图模板仅限个人非商业使用；商业使用请先联系作者获得许可。完整范围见 `LICENSE` 与 `SOURCES.md`。
+本 Skill 的逻辑与构图模板仅限个人非商业使用；商业使用请先联系作者获得许可。复制、修改、镜像或重新分发时，必须保留作者 `@威比 Hunter Wei.`、抖音/小红书同名备注、官方来源、`LICENSE` 和 `NOTICE`。完整范围见 `LICENSE` 与 `SOURCES.md`。
 
 作者署名固定为 `@威比 Hunter Wei.`，句点属于名字的一部分。

@@ -5,8 +5,12 @@
 | `SKILL.md` | 框景漫画特写项目的 25 组案例验证与历次规则迭代 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
 | `assets/layout-guides/` | 项目自制的 14 张空白构图卡 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
 | `scripts/check_update.py` | 为 Wibi Style 独立编写的无遥测更新检查 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
+| `scripts/show_skill_info.py` | 安装后作者卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
+| `NOTICE` | 作者、同名平台和官方来源声明 | © 2026 @威比 Hunter Wei.，必须随再分发副本保留 |
 
 本包不包含 Pinterest 图片、第三方风格参考图、案例原图或用户照片。运行时上传的照片只用于用户当次任务；本 Skill 不把照片写入 GitHub，也不把照片发送给版本检查地址。
+
+作者：`@威比 Hunter Wei.`（抖音、小红书同名）。官方来源：`https://github.com/Vieeeeeee/wibi-style/tree/main/skills/wibi-frame`。
 
 项目开发阶段曾用 17 张 Pinterest 收集图做内部视觉研究。原作者、原始 Pin 地址和再分发授权未形成可核验记录，因此这些图片不进入 `v1.2.0` 及以后的公开安装包。公开 Skill 使用从案例中蒸馏出的文字规则代替这些图片。
 
