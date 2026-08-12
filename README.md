@@ -20,6 +20,7 @@
 | `pixel-stretch` | 主体清楚的任意照片，人物或静物都行 | [`skills/pixel-stretch/`](skills/pixel-stretch/) |
 | `art-print-poster` | 五官清楚、表情有记忆点的自拍 | [`skills/art-print-poster/`](skills/art-print-poster/) |
 | `iridescent-long-exposure` | 想要朦胧氛围的人物近景或局部特写 | [`skills/iridescent-long-exposure/`](skills/iridescent-long-exposure/) |
+| `blue-retro-print` | 轮廓和神态清楚的人物照片 | [`skills/blue-retro-print/`](skills/blue-retro-print/) |
 
 ## 安装
 
