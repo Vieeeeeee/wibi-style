@@ -1,94 +1,75 @@
-# Wibi Frame
+# Wibi 框景漫画
 
-把一张普通照片里最值得看的局部，做成大面积留白中的复古平面漫画特写。
+把普通照片里最值得看的局部，做成大面积纯色留白中的复古平面漫画特写。Skill 会先给出三个具体局部供你选择，再完成小框聚焦、自然越框和框内外同色连接。
 
-它会先找出三个具体局部，让你选择后再生成。最终画面强调小框聚焦、主体越框、框内外同色连接，以及适合手机观看的清楚轮廓。
+当前版本：`v1.2.0`
 
-当前稳定版本：`v1.1`  
 作者：`@威比 Hunter Wei.`
 
 ## 成图示例
 
-以下均为本 Skill 的实际生成结果。
+以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-01.png" alt="面条与筷子局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-02.png" alt="双眼局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-03.png" alt="帽檐与眼神局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.2.0/docs/wibi-frame/examples/example-01.png" alt="面条与筷子局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.2.0/docs/wibi-frame/examples/example-02.png" alt="双眼局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.2.0/docs/wibi-frame/examples/example-03.png" alt="帽檐与眼神局部成图" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-04.png" alt="帽子与双手局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-05.png" alt="西瓜与表情局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/v1.1/docs/wibi-frame/examples/example-06.png" alt="侧脸与香烟局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.2.0/docs/wibi-frame/examples/example-04.png" alt="帽子与双手局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.2.0/docs/wibi-frame/examples/example-05.png" alt="西瓜与表情局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.2.0/docs/wibi-frame/examples/example-06.png" alt="侧脸与香烟局部成图" width="30%" />
 </p>
-
-## 它会怎么工作
-
-1. 上传一张照片并调用 Skill。
-2. Skill 只分析照片，给出 A、B、C 三个不同的局部候选，并推荐一个。
-3. 回复 A、B、C，或说“按推荐来”。
-4. Skill 使用 Codex 内置图片生成工具生成并检查一张结果。
-
-首次分析不会生图。选定局部后默认生成一张；如果首次结果没有通过核心质量检查，Skill 可能按现有规则做一次定向重做。接口报错、空输出或超时不会自动重试。批量处理需要你明确授权。
 
 ## 安装
 
-在 Codex 中发送下面这句话：
+在 Codex 中发送：
 
 ```text
 请安装这个 Skill：
-https://github.com/Vieeeeeee/wibi-style/tree/v1.1/skills/wibi-frame
+https://github.com/Vieeeeeee/wibi-style/tree/main/skills/wibi-frame
 ```
 
-安装完成后，新开一个任务即可使用。
+安装完成后，新开一个任务即可使用。安装器只下载这一款 Skill，不会下载仓库中的其他风格。
 
-如果安装时出现 `503`，通常表示 Codex 的安全审核服务暂时不可用。仓库地址无需修改，稍后或新开任务重试即可。
+旧 `v1.1` 没有更新检查，需要先按上面的地址手动更新一次。从 `v1.2.0` 起，每个新任务第一次使用时会查询这一款有没有新版本；只在发现更新时提醒，不自动覆盖本地文件，也不上传用户照片。
 
 ## 使用
 
-上传照片后说：
+上传一张照片后说：
 
 ```text
 使用 $wibi-frame 处理这张照片
 ```
 
-你会先收到类似下面的选择：
+Skill 会先给出 A、B、C 三个不同的局部候选并推荐一个。回复选项或说“按推荐来”后，才会开始生成一张结果。批量处理需要你明确授权。
 
-```text
-A. 眼睛与发丝遮挡（推荐）
-B. 手指与饰品接触
-C. 嘴角与道具关系
-```
+## 适合的照片
 
-选定局部后，Skill 才会开始生成。
+- 有清楚眼神、表情、手势或饰品关系的人像；
+- 人与杯子、筷子、食物、眼镜等物件发生接触的照片；
+- 服饰、腿鞋、珠宝或发型有独特轮廓的照片。
 
-## 输出
+局部关系越具体，成图越有惊喜感。主体太远、严重模糊或看不清接触关系时，Skill 会先指出限制。
+
+## 视觉规格
 
 | 项目 | 规格 |
 | --- | --- |
-| 画面比例 | 9:16 竖图 |
-| 交付尺寸 | 1440×2560 像素 |
-| 文件格式 | PNG |
-| 主要风格 | 复古平面漫画、粗轮廓、有限色盘 |
-| 构图特点 | 局部放大、小框留白、自然越框、同色融框 |
+| 比例 | 9:16 竖图 |
+| 尺寸 | 1440×2560 像素 |
+| 格式 | PNG |
+| 画风 | 复古平面漫画、粗轮廓、有限色盘 |
+| 构图 | 局部放大、小框留白、自然越框、同色融框 |
 | 默认工具 | Codex 内置图片生成工具 |
 
-## 文件说明
-
-| 目录或文件 | 用途 |
-| --- | --- |
-| `SKILL.md` | Codex 执行工作流与质量检查规则 |
-| `agents/openai.yaml` | Skill 的显示名称和默认调用方式 |
-| `assets/layout-guides/` | 小框尺寸、位置与形状参考 |
-| `assets/references/` | 17 张构图与画风研究参考图 |
+在线体验更多风格：[威比风格实验室](https://style.abdc.online)
 
 ## 使用与授权
 
-本 Skill 的原创逻辑与构图模板仅限个人非商业使用；商业使用请先联系作者获得许可。
-
-随 Skill 提供的参考图仅用于研究局部密度、截取节奏、边界关系、线条与色彩组织。参考图原始作品的权利归各自权利人所有，不应单独提取、再次分发或商用。
-
-若公开分享生成结果，欢迎标注：
+原创 Skill 规则与原创构图卡仅限个人非商业使用；商业使用请先联系作者获得许可。公开分享时欢迎标注：
 
 ```text
 Visual Skill by @威比 Hunter Wei.
 ```
+
+本包没有打包 Pinterest 图片、第三方风格参考图、案例原图或用户照片。README 展示的六张成图位于仓库 `docs/`，不随单款 Skill 安装。完整范围见 [`LICENSE`](LICENSE) 与 [`SOURCES.md`](SOURCES.md)。

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "slug": "wibi-frame",
+  "name": "Wibi 框景漫画",
+  "version": "1.2.0",
+  "updated_at": "2026-08-12",
+  "author": "@威比 Hunter Wei.",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/wibi-frame",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/wibi-frame",
+  "update_manifest_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/skills/wibi-frame/manifest.json",
+  "input": {
+    "type": "single-photo-guided-restyle",
+    "bundled_references": 0
+  },
+  "layout_guides": {
+    "count": 14,
+    "repository_path": "skills/wibi-frame/assets/layout-guides"
+  },
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/wibi-frame/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "original_assets": [
+      "assets/layout-guides/"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
