@@ -51,6 +51,6 @@
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）。官方来源：`https://github.com/Vieeeeeee/wibi-style/tree/main/skills/wibi-frame`。
 
-项目作者已确认这 17 张项目参考图有来源并允许随本款 Skill 分发；它们进入 `v1.3.0` 的 `assets/references/`，运行时由 Skill 按职责选择，不替代用户照片的内容权威。
+项目作者已确认这 17 张项目参考图有来源并允许随本款 Skill 分发；它们进入 `v1.3.1` 的 `assets/references/`，运行时由 Skill 按职责选择，不替代用户照片的内容权威。
 
 仓库 `docs/wibi-frame/examples/` 中另有六张实际生成结果，只供 README 展示风格效果，不随单款 Skill 安装。对应原始照片未上传；展示图的来源哈希与使用边界见该目录的 `SOURCES.md`。
