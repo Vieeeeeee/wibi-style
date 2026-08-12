@@ -1,0 +1,7 @@
+interface:
+  display_name: "乱码像素拼贴 · 威比"
+  short_description: "威比原创视觉 Skill：把上传照片转换成乱码像素拼贴风格并完成生成质量检查"
+  default_prompt: "使用 $glitch-pixel-collage 处理这张照片。"
+
+policy:
+  allow_implicit_invocation: true

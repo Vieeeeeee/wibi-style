@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "slug": "glitch-pixel-collage",
+  "name": "乱码像素拼贴",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/glitch-pixel-collage",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/glitch-pixel-collage",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/glitch-pixel-collage",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/glitch-pixel-collage/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/乱码像素拼贴/02_提示词/98_线上版.md",
+    "source_sha256": "38e74bb29eee77b2e2a3ddd4da2c1125b5b2631b758b36abe3e4bb41abe4d9f1"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 3
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.jpg",
+      "source": "01_风格参考/01_足球人物.jpg",
+      "source_sha256": "18aa8662a1b1cbcde277508765ad7878d86038834d76bccde6bed48bf735a18e"
+    },
+    {
+      "file": "assets/references/reference-02.jpg",
+      "source": "01_风格参考/02_果盘静物.jpg",
+      "source_sha256": "aa1c100b5cdcca8a5ad8705dfc89522041afedde37536308088a5be2ac8f61c3"
+    },
+    {
+      "file": "assets/references/reference-03.jpg",
+      "source": "01_风格参考/03_果篮静物.jpg",
+      "source_sha256": "4afe231c8cc840616ebc9bb387f7e01f90269b93fb3837196646eb876079b55d"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/glitch-pixel-collage/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.jpg",
+      "assets/references/reference-02.jpg",
+      "assets/references/reference-03.jpg"
+    ],
+    "bundled_third_party_assets": []
+  }
+}

@@ -15,6 +15,7 @@
 | `clear-sky-urban-cel` | 适合城市街道、建筑、旅行纪实、交通设施和环境人物照片 | [`skills/clear-sky-urban-cel/`](skills/clear-sky-urban-cel/) |
 | `photo-perler-charm` | 适合人物、宠物、花束、食物和轮廓清晰的物件照片 | [`skills/photo-perler-charm/`](skills/photo-perler-charm/) |
 | `dark-red-black-cel-shaded` | 轮廓清楚、适合戏剧性红黑光影的人物照片 | [`skills/dark-red-black-cel-shaded/`](skills/dark-red-black-cel-shaded/) |
+| `glitch-pixel-collage` | 人物、静物或色彩层次明确的照片 | [`skills/glitch-pixel-collage/`](skills/glitch-pixel-collage/) |
 
 ## 安装
 
