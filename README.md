@@ -18,6 +18,7 @@
 | `glitch-pixel-collage` | 人物、静物或色彩层次明确的照片 | [`skills/glitch-pixel-collage/`](skills/glitch-pixel-collage/) |
 | `alt-manga-avatar` | 正面或半侧脸的自拍 | [`skills/alt-manga-avatar/`](skills/alt-manga-avatar/) |
 | `pixel-stretch` | 主体清楚的任意照片，人物或静物都行 | [`skills/pixel-stretch/`](skills/pixel-stretch/) |
+| `art-print-poster` | 五官清楚、表情有记忆点的自拍 | [`skills/art-print-poster/`](skills/art-print-poster/) |
 
 ## 安装
 
