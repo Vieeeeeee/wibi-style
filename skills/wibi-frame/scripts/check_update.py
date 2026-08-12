@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import re
+import base64
 import time
 import urllib.error
 import urllib.parse
@@ -47,7 +48,11 @@ def main() -> int:
 
     try:
         with urllib.request.urlopen(request, timeout=args.timeout) as response:
-            remote = json.loads(response.read().decode("utf-8"))
+            payload = json.loads(response.read().decode("utf-8"))
+        if parsed_url.netloc == "api.github.com" and isinstance(payload, dict) and payload.get("encoding") == "base64":
+            remote = json.loads(base64.b64decode(payload["content"]).decode("utf-8"))
+        else:
+            remote = payload
         if remote.get("slug") != local.get("slug"):
             raise ValueError("remote manifest slug does not match local skill")
         current = local["version"]

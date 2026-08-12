@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "wibi-frame",
   "name": "Wibi 框景漫画",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "updated_at": "2026-08-12",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
@@ -22,7 +22,7 @@
   "repository": "https://github.com/Vieeeeeee/wibi-style",
   "path": "skills/wibi-frame",
   "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/wibi-frame",
-  "update_manifest_url": "https://github.com/Vieeeeeee/wibi-style/raw/refs/heads/main/skills/wibi-frame/manifest.json",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/wibi-frame/manifest.json?ref=main",
   "input": {
     "type": "single-photo-guided-restyle",
     "bundled_references": 17
