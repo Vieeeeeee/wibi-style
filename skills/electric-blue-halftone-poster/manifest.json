@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "electric-blue-halftone-poster",
   "name": "电蓝网点海报",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "updated_at": "2026-08-12",
   "author": "@威比 Hunter Wei.",
   "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
@@ -18,6 +18,12 @@
   "input": {
     "type": "single-photo-restyle",
     "bundled_references": 0
+  },
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/electric-blue-halftone-poster/examples",
+    "bundled_with_install": false
   },
   "rights": {
     "status": "cleared",
