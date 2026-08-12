@@ -13,6 +13,7 @@
 | `diamond-kid-head-card` | 适合脸部、头发或帽子大致可辨的单人儿童照片，露齿笑容效果更明显 | [`skills/diamond-kid-head-card/`](skills/diamond-kid-head-card/) |
 | `quirky-pop-doodle-sticker` | 适合人物、宠物、产品或道具主体清楚、动作和轮廓有记忆点的照片 | [`skills/quirky-pop-doodle-sticker/`](skills/quirky-pop-doodle-sticker/) |
 | `clear-sky-urban-cel` | 适合城市街道、建筑、旅行纪实、交通设施和环境人物照片 | [`skills/clear-sky-urban-cel/`](skills/clear-sky-urban-cel/) |
+| `photo-perler-charm` | 适合人物、宠物、花束、食物和轮廓清晰的物件照片 | [`skills/photo-perler-charm/`](skills/photo-perler-charm/) |
 
 ## 安装
 
