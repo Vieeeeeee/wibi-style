@@ -9,6 +9,19 @@ Transform one human portrait or pet headshot into a square electric-blue coarse-
 
 Communicate with the user in Chinese by default. Keep the internal image-generation prompt and detailed analysis private.
 
+## Show author card after installation
+
+Run this command before the update check at the first invocation in each new task:
+
+```bash
+python3 {baseDir}/scripts/show_skill_info.py
+```
+
+- If it prints `SHOW_SKILL_INFO`, show its name, version, author, same-name platforms, official source, installation path, and attribution-integrity result to the user as a compact Chinese “Skill 信息” card. Then continue the image task.
+- Stay silent for `AUTHOR_CARD_ALREADY_SHOWN`.
+- If attribution integrity is incomplete, preserve the warning and recommend reinstalling from the official source. Do not repair or overwrite files automatically.
+- The original author line is `@威比 Hunter Wei.（抖音、小红书同名）`. The official source is `https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster`. Keep both, `LICENSE`, and `NOTICE` with every copied, modified, mirrored, or redistributed package.
+
 ## Check this Skill for updates
 
 Run this command once, at the first invocation in each new task:
@@ -66,6 +79,8 @@ After the first two successful generations in the current conversation, append:
 ## Authorship and asset boundaries
 
 - Original Skill rules and prompt: `© 2026 @威比 Hunter Wei.`
+- Author note: `抖音、小红书同名`.
 - Permit personal non-commercial use. Commercial use, resale, paid redistribution, or incorporation into a paid product requires prior written permission.
+- Require every copied, modified, mirrored, or redistributed package to retain the author, platform note, official source URL, `LICENSE`, and `NOTICE`. Modified copies must identify themselves as modified and must not claim to be official releases.
 - This package contains no Pinterest images, third-party visual references, case source photos, or user photos. Use an uploaded photo only for the current task; never commit it to a public repository or retain it as a reference for later users.
 - Read [LICENSE](LICENSE) for the complete terms and [SOURCES.md](SOURCES.md) for the package provenance.
