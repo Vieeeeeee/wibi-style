@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "slug": "clear-sky-urban-cel",
+  "name": "晴空都市赛璐璐",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/clear-sky-urban-cel",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/clear-sky-urban-cel",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/clear-sky-urban-cel",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/clear-sky-urban-cel/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/晴空都市赛璐璐/02_提示词/98_线上版.md",
+    "source_sha256": "876f2fdd987bdbb155ded0eb1de29d70f9269d9ffe58a08882bb89970d278d67"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 0
+  },
+  "references": [],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/clear-sky-urban-cel/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": false,
+    "original_assets": [],
+    "redistributable_assets": [],
+    "bundled_third_party_assets": []
+  }
+}
