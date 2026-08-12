@@ -26,7 +26,7 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-
 使用 $electric-blue-halftone-poster 处理这张照片
 ```
 
-每款新格式 Skill 都有独立版本清单。每个新任务第一次调用时只查询这一款的远端版本；发现新版才提示，不自动覆盖本地文件，也不上传用户照片或使用数据。
+每款新发布的 Skill 都有独立版本清单。每个新任务第一次调用时只查询这一款的远端版本；发现新版才提示，不自动覆盖本地文件，也不上传用户照片或使用数据。
 
 ## 使用与署名
 
