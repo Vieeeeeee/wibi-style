@@ -9,20 +9,24 @@
 | Skill | 说明 | 目录 |
 | --- | --- | --- |
 | `wibi-frame` | 先给出三个局部文字候选，用户选择后生成带自然越框与框内外同色融合的复古平面漫画特写 | [`skills/wibi-frame/`](skills/wibi-frame/) |
+| `electric-blue-halftone-poster` | 把单人人像或宠物大头照做成电光蓝粗网点半调唱片海报 | [`skills/electric-blue-halftone-poster/`](skills/electric-blue-halftone-poster/) |
 
 ## 安装
 
-将需要的风格文件夹完整复制到 Codex Skills 目录：
-
-```bash
-cp -R skills/wibi-frame ~/.codex/skills/
-```
-
-重新启动 Codex 后，可以直接说：
+在 Codex 中发送所需风格的独立 GitHub 地址。例如只安装电蓝网点海报：
 
 ```text
-使用 $wibi-frame 处理这张照片
+请安装这个 Skill：
+https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster
 ```
+
+安装器只下载这个风格目录，不会把其他 Skill 一起下载。安装完成后新开一个任务，再直接说：
+
+```text
+使用 $electric-blue-halftone-poster 处理这张照片
+```
+
+每款新格式 Skill 都有独立版本清单。每个新任务第一次调用时只查询这一款的远端版本；发现新版才提示，不自动覆盖本地文件，也不上传用户照片或使用数据。
 
 ## 使用与署名
 
@@ -32,4 +36,4 @@ cp -R skills/wibi-frame ~/.codex/skills/
 Visual Skill by @威比 Hunter Wei.
 ```
 
-本仓库中的原创 Skill 逻辑与构图模板仅限个人非商业使用；商业使用请先联系作者获得许可。随 Skill 提供的参考图仅用于风格研究，其原始作品权利归各自权利人所有。
+本仓库中的原创 Skill 逻辑、提示词与原创构图模板仅限个人非商业使用；商业使用请先联系作者获得许可。每款 Skill 的 `LICENSE` 与 `SOURCES.md` 会分别说明本包拥有和不拥有的内容权利。第三方图片公开可见不代表获得再分发许可，未通过版权门的素材不会加入新的公开安装包。

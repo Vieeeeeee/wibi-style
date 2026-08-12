@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "slug": "electric-blue-halftone-poster",
+  "name": "电蓝网点海报",
+  "version": "1.0.0",
+  "updated_at": "2026-08-12",
+  "author": "@威比 Hunter Wei.",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/electric-blue-halftone-poster",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster",
+  "update_manifest_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/skills/electric-blue-halftone-poster/manifest.json",
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/电蓝网点海报/02_提示词/98_线上版.md",
+    "source_sha256": "2add27b26b5536b4875694e9d9b474910ba85edbfb9c86c76a12ed453b5cc46a"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 0
+  },
+  "rights": {
+    "status": "cleared",
+    "original_assets": [],
+    "bundled_third_party_assets": []
+  }
+}

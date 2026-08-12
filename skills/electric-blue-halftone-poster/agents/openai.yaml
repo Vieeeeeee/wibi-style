@@ -1,0 +1,4 @@
+interface:
+  display_name: "电蓝网点海报"
+  short_description: "将单人人像或宠物头像转成电光蓝粗网点半调唱片海报风格"
+  default_prompt: "使用 $electric-blue-halftone-poster 把这张照片做成电蓝粗网点大头海报。"
