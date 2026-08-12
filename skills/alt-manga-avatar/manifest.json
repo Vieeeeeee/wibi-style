@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "slug": "alt-manga-avatar",
+  "name": "粗线条漫画头像",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/alt-manga-avatar",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/alt-manga-avatar",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/alt-manga-avatar",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/alt-manga-avatar/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/漫画插画头像/02_提示词/98_线上版.md",
+    "source_sha256": "05289e6fe90e495d42751b6ddde2e56eb9f43c91f9eed8bb07d32c87e196a6f5"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.jpeg",
+      "source": "05_发布/01_F55FF35D-0F00-49AE-8EA3-69484181D485.jpeg.jpeg",
+      "source_sha256": "7d0a2a1dce5c7555a979ddebd66dda9dd80f25d140f2a600337e948ba10fdca3"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/alt-manga-avatar/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.jpeg"
+    ],
+    "bundled_third_party_assets": []
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "粗线条漫画头像 · 威比"
+  short_description: "威比原创视觉 Skill：把上传照片转换成粗线条漫画头像风格并完成生成质量检查"
+  default_prompt: "使用 $alt-manga-avatar 处理这张照片。"
+
+policy:
+  allow_implicit_invocation: true
