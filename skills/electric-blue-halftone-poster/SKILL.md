@@ -1,67 +1,71 @@
 ---
 name: electric-blue-halftone-poster
-description: Turn one uploaded portrait or pet headshot into a square electric-blue coarse-halftone poster with a tightly cropped black-and-white head, red and yellow stars, and a small white barcode accent. Use when the user asks for 电蓝网点海报、电光蓝粗网点、大头半调唱片封套、Y2K 复印 zine 人像，或明确调用 $electric-blue-halftone-poster。
+description: Turn one uploaded portrait or pet headshot into a square electric-blue coarse-halftone poster with a tightly cropped black-and-white head, red and yellow stars, and a small white barcode accent. Use when the user asks for 电蓝网点海报、电光蓝粗网点、大头半调唱片封套、Y2K 复印 zine 人像，or explicitly invokes $electric-blue-halftone-poster.
 ---
 
-# 电蓝网点海报
+# Electric Blue Halftone Poster
 
-把一张单人照片或宠物大头照改造成 1:1 电光蓝粗网点海报。用户照片始终决定主体身份、姿态、表情、配件和发色明暗；本 Skill 只提供视觉转换规则。
+Transform one human portrait or pet headshot into a square electric-blue coarse-halftone poster. Treat the uploaded photo as the sole content authority for identity, pose, expression, accessories, and light-dark hair or fur relationships. Use this Skill only for the visual treatment.
 
-## 每个任务先检查更新
+Communicate with the user in Chinese by default. Keep the internal image-generation prompt and detailed analysis private.
 
-在当前任务第一次调用时运行：
+## Check this Skill for updates
+
+Run this command once, at the first invocation in each new task:
 
 ```bash
 python3 {baseDir}/scripts/check_update.py
 ```
 
-- 输出 `UPDATE_AVAILABLE` 时，用一句中文告知当前版本、新版本和安装链接，然后继续处理当前任务。
-- 输出 `UP_TO_DATE` 或 `CHECK_UNAVAILABLE` 时不打扰用户。
-- 不自动覆盖本地 Skill，不因更新检查失败阻断生图。
+- If it prints `UPDATE_AVAILABLE`, tell the user in one short Chinese sentence which version is installed, which version is available, and that they can say “帮我更新” to update from the returned installation link. Continue the current image task.
+- Stay silent for `UP_TO_DATE` and `CHECK_UNAVAILABLE`.
+- Never overwrite the local Skill automatically, block image generation because the check failed, or send user images or usage data to the update address.
 
-## 输入与生成边界
+## Input and generation contract
 
-- 一次处理一张照片；收到多张且用户未明确批量时，请用户先选一张。
-- 适合五官或头部结构清楚的单人自拍、大头照和宠物大头照。多人、远景、严重遮挡或主体过小时，先说明效果会受限。
-- 用户上传照片并明确要求制作时，可直接生成一张，无需再确认。
-- 默认使用 Codex 内置图片生成工具。只有用户明确指定 Lovart 时才改用 Lovart。
-- 工具报错、空输出或超时后停止，不自动重试、换模型或提高质量档。
-- 用户只提出反馈时记录调整方向，等待下一次明确的“再做一张”“重做”或同义指令。
+- Process one photo at a time. If several photos arrive without explicit batch authorization, ask which one to use first.
+- Prefer a single person or pet whose face and head silhouette are clear. Warn briefly that crowds, distant subjects, severe occlusion, or a very small head will reduce fidelity.
+- When the user uploads one photo and clearly asks to make the style, generate one image directly without another confirmation turn.
+- Use the Codex built-in image-generation tool by default. Use Lovart only when the user explicitly requests it.
+- Stop after a tool error, empty output, or timeout. Do not retry, switch models, or increase quality automatically.
+- When the user gives feedback without requesting another generation, record the requested change and wait for an explicit “再做一张”, “重做”, or equivalent instruction.
 
-## 制作流程
+## Workflow
 
-1. 完整查看照片，锁定主体身份、脸型或物种特征、五官关系、表情、头部角度、发型与发色明暗、眼镜帽子耳饰等关键配件。
-2. 读取 [references/style-prompt.md](references/style-prompt.md) 的完整视觉规则。
-3. 为当前照片编写专属编辑指令：保留原照片的内容关系，把风格规则作用于裁切、黑白层级、粗网点、电光蓝底、星星和条码。
-4. 把用户照片作为唯一内容输入，调用图像生成工具生成一张 1:1 PNG。没有内置风格参考图，不添加网络图片。
-5. 按质量门检查结果。核心结构失败时说明问题并停下；只有用户授权后才重新生成。
+1. Inspect the complete photo. Lock the subject identity, face or species structure, expression, head angle, hair or fur shape and light-dark relationship, and important glasses, hat, earrings, collar, or other accessories.
+2. Read [references/style-prompt.md](references/style-prompt.md) for the complete visual specification.
+3. Compile a photo-specific editing prompt. Preserve the photo's content relationships while applying the crop, black-white tonal structure, coarse halftone, electric-blue field, stars, and barcode treatment.
+4. Pass only the user's photo as content input and request one square PNG. This package has no bundled visual reference and must not add network images.
+5. Apply the quality gate below. If a core requirement fails, state the problem and stop. Regenerate only after the user authorizes another generation.
 
-不要向用户展示完整内部生图指令或逐项分析。
+Do not expose the complete internal generation prompt or itemized visual analysis.
 
-## 质量门
+## Quality gate
 
-交付前逐项确认：
+Check every item before delivery:
 
-1. **身份与特征**：主体仍能对应原照片；脸型、表情、头部角度、配件和发色明暗没有被随意替换。
-2. **裁切**：画面只保留头部主体；头顶和两侧可以轻微出框，下巴与下颌线完整，肩膀与衣服不抢画面。
-3. **三层黑白**：脸或头部同时存在明确纯白高光、可数的粗圆点中间调、硬边实心黑阴影。
-4. **网点尺度**：网点粗大、有明显间隙，能在手机缩略图上看清；没有细密报纸网、均匀灰雾或全图颗粒滤镜。
-5. **发色关系**：深色毛发或头发保持深，浅色、漂染或白色部分保持浅；人物和宠物本体不染蓝。
-6. **背景与边缘**：背景是均匀高饱和电光蓝，主体边缘干净，没有蓝色描边、光晕、渐变和暗角。
-7. **平面图形**：六颗红黄五角星位于蓝色空处，不遮住关键五官；右侧有白色装饰条码与不超过十个字符的中性小字。
-8. **文件**：单张、1:1、PNG，无边框、签名、平台标识和可识别品牌。
+1. **Identity:** The result still corresponds to the source. Preserve face shape or species traits, expression, head angle, accessories, and light-dark hair or fur relationships.
+2. **Crop:** The head dominates the square. The top and side hair may touch or slightly cross the canvas, while the complete chin or lower muzzle remains visible. Shoulders and clothing must not compete with the head.
+3. **Three-tone structure:** The face or head contains distinct pure-white highlights, countable coarse-dot midtones, and hard-edged solid-black shadows.
+4. **Dot scale:** Large separated dots remain legible at phone-thumbnail size. Reject fine newspaper screening, uniform gray haze, or a full-image grain filter.
+5. **Value fidelity:** Dark hair or fur remains dark; blond, bleached, white, or otherwise light areas stay light. Do not color the person or pet blue.
+6. **Background:** Use one uniform saturated electric blue with crisp subject edges and no blue outline, halo, gradient, texture, or vignette.
+7. **Graphic layer:** Place six red-and-yellow stars only in available blue space without obscuring critical facial features. Keep a small white decorative barcode and neutral text of no more than ten uppercase characters along the right side.
+8. **File:** Deliver one square PNG with no frame, signature, platform mark, or recognizable brand.
 
-## 交付
+## Delivery
 
-展示最终图片，并用一至两句中文说明保留了原照片的哪些特征，以及粗网点与电蓝底怎样形成画面重点。当前对话前两次成功生成后附上：
+Show the final image and add one or two concise Chinese sentences explaining which source traits were preserved and how the coarse halftone and electric-blue field organize the composition.
+
+After the first two successful generations in the current conversation, append:
 
 `若公开分享，欢迎标注：Visual Skill by @威比 Hunter Wei.`
 
 `仅限个人非商业使用；商业使用请先联系作者获得许可。`
 
-## 作者与素材边界
+## Authorship and asset boundaries
 
-- 原创 Skill 规则与提示词：`© 2026 @威比 Hunter Wei.`
-- 允许个人非商业使用；商业使用、转售、付费再分发或加入收费产品前需取得书面许可。
-- 本包不含 Pinterest 图片或其他第三方风格参考图。用户照片只用于当前任务，不得写入公开仓库或作为后续用户的参考素材。
-- 完整许可见 [LICENSE](LICENSE)，素材来源说明见 [SOURCES.md](SOURCES.md)。
+- Original Skill rules and prompt: `© 2026 @威比 Hunter Wei.`
+- Permit personal non-commercial use. Commercial use, resale, paid redistribution, or incorporation into a paid product requires prior written permission.
+- This package contains no Pinterest images, third-party visual references, case source photos, or user photos. Use an uploaded photo only for the current task; never commit it to a public repository or retain it as a reference for later users.
+- Read [LICENSE](LICENSE) for the complete terms and [SOURCES.md](SOURCES.md) for the package provenance.
