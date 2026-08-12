@@ -2,9 +2,23 @@
 
 把单人人像或宠物大头照做成 1:1 电光蓝粗网点半调唱片海报：纯黑、纯白和可数的粗圆点组成主体，电光蓝底配红黄星星与白色条码。
 
-当前版本：`v1.0.1`
+当前版本：`v1.0.2`
 
 作者：`@威比 Hunter Wei.`
+
+## 成图示例
+
+以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-01.png" alt="打哈欠表情电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-02.png" alt="黑框眼镜电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-03.png" alt="帽子眼镜电蓝粗网点海报" width="30%" />
+  <br />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-04.png" alt="墨镜长发电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-05.png" alt="豹纹头巾电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.2/docs/electric-blue-halftone-poster/examples/example-06.png" alt="吐舌表情电蓝粗网点海报" width="30%" />
+</p>
 
 ## 安装
 
@@ -56,4 +70,4 @@ Skill 默认生成一张 1:1 PNG。每个新任务第一次使用时会检查这
 Visual Skill by @威比 Hunter Wei.
 ```
 
-本包没有打包 Pinterest 图片、第三方参考图、案例原图或用户照片。完整范围见 [`LICENSE`](LICENSE) 与 [`SOURCES.md`](SOURCES.md)。
+本包没有打包 Pinterest 图片、第三方参考图、案例原图或用户照片。README 展示的六张成图位于仓库 `docs/`，不随单款 Skill 安装。完整范围见 [`LICENSE`](LICENSE) 与 [`SOURCES.md`](SOURCES.md)。
