@@ -16,7 +16,7 @@
 在 Codex 中发送所需风格的独立 GitHub 地址。例如只安装电蓝网点海报：
 
 ```text
-请安装这个 Skill：
+请安装这个 Skill；安装完成后，运行包内 `scripts/show_skill_info.py --always`，并把输出的 Skill 信息完整展示给我：
 https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster
 ```
 
