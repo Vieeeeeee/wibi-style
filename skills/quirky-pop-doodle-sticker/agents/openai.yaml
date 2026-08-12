@@ -1,0 +1,7 @@
+interface:
+  display_name: "怪趣波普涂鸦贴纸 · 威比"
+  short_description: "威比原创视觉 Skill：把上传照片转换成怪趣波普涂鸦贴纸风格并完成生成质量检查"
+  default_prompt: "使用 $quirky-pop-doodle-sticker 处理这张照片。"
+
+policy:
+  allow_implicit_invocation: true

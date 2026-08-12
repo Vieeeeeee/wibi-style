@@ -11,6 +11,7 @@
 | `wibi-frame` | 先给出三个局部文字候选，用户选择后生成带自然越框与框内外同色融合的复古平面漫画特写 | [`skills/wibi-frame/`](skills/wibi-frame/) |
 | `electric-blue-halftone-poster` | 把单人人像或宠物大头照做成电光蓝粗网点半调唱片海报 | [`skills/electric-blue-halftone-poster/`](skills/electric-blue-halftone-poster/) |
 | `diamond-kid-head-card` | 适合脸部、头发或帽子大致可辨的单人儿童照片，露齿笑容效果更明显 | [`skills/diamond-kid-head-card/`](skills/diamond-kid-head-card/) |
+| `quirky-pop-doodle-sticker` | 适合人物、宠物、产品或道具主体清楚、动作和轮廓有记忆点的照片 | [`skills/quirky-pop-doodle-sticker/`](skills/quirky-pop-doodle-sticker/) |
 
 ## 安装
 
