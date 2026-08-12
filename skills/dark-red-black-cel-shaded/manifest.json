@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "slug": "dark-red-black-cel-shaded",
+  "name": "暗夜红黑赛璐璐",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/dark-red-black-cel-shaded",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/dark-red-black-cel-shaded",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/dark-red-black-cel-shaded",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/dark-red-black-cel-shaded/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/暗夜红黑赛璐璐/02_提示词/98_线上版.md",
+    "source_sha256": "62ce15dbd4efb085128b9175b36f3d2f6dcfd2c584dd1e7f804ba854ff9b70b5"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.jpg",
+      "source": "01_风格参考/HOFhUOJXgAAhGWo.jpg",
+      "source_sha256": "3c5fe422ca4ec96c71bad28e6331737a84b52270b8c5dd59dce567af9f88c6be"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/dark-red-black-cel-shaded/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.jpg"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
