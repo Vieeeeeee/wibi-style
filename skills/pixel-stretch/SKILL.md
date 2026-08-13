@@ -1,9 +1,9 @@
 ---
 name: pixel-stretch
-description: 把用户上传的一张照片转换成像素切片拉伸风格。适用于用户要求像素切片拉伸、上传照片换风格，或明确调用 $pixel-stretch 时。
+description: Wibi Style 官方视觉风格。把用户上传的一张照片转换成像素切片拉伸风格。适用于用户要求像素切片拉伸、上传照片换风格，或明确调用 $pixel-stretch 时。
 ---
 
-# 像素切片拉伸
+# Wibi Style · 像素切片拉伸
 
 ## 安装后作者卡
 

@@ -1,15 +1,18 @@
 {
   "schema_version": 1,
   "slug": "wibi-frame",
-  "name": "Wibi 框景漫画",
-  "version": "1.3.2",
-  "updated_at": "2026-08-12",
+  "name": "Wibi Style · 框景漫画",
+  "version": "1.3.3",
+  "updated_at": "2026-08-13",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/wibi-frame",
   "attribution": {
     "text": "Visual Skill by @威比 Hunter Wei.",
-    "platforms": ["抖音", "小红书"],
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
     "retention_required_on_redistribution": true,
     "notice_file": "NOTICE"
   },
@@ -28,23 +31,91 @@
     "bundled_references": 17
   },
   "references": [
-    {"file": "assets/references/01_手眼镜面横框.png", "role": "手、眼睛与小物件的互动；适合化妆、照镜子或拿东西靠近脸部。", "sha256": "f03fb7fc9cc4eb3fbc61cf4dae37c0c84baf6ff6df91ca689b28627763ea48c8"},
-    {"file": "assets/references/02_分块眼神拼窗.png", "role": "分块拼窗；适合表情强、局部重叠或单一裁切不够有力。", "sha256": "84a59aefacf79c5a4be38cc21569c936ff2080dec464556bf9c42c4c2a255c2c"},
-    {"file": "assets/references/03_异形窗蜷缩人物.png", "role": "异形开窗；适合蹲坐、蜷缩、抱膝和明显曲线姿态。", "sha256": "2299080422adb257185305db24a0b198fea3e89ae83a116217440f5a22d75c82"},
-    {"file": "assets/references/04_越框人像与烟雾.png", "role": "人像越框；适合头发、烟雾或帽饰有延伸的肖像。", "sha256": "1eb63a37a6c5b1009382c847c917fe7a05a159021265fb74de885456ec5a0d92"},
-    {"file": "assets/references/05_黑底极简眼睛.png", "role": "极小眼部窗口；适合眼神是唯一强信息的照片。", "sha256": "b7bb81e73eb312252f2e1f709a3878452d688c370eb60c2edcd8556d26a28710"},
-    {"file": "assets/references/06_手掌遮面方框.png", "role": "遮挡动作方框；适合手遮脸、扶额、挡光和手五官重叠。", "sha256": "8bcd2003f6cdfdc6e2f6d967f09e05782a6e14b2416e454bf38e94116a647f46"},
-    {"file": "assets/references/07_男性侧脸与道具.png", "role": "侧脸与道具；适合侧脸、手持道具和鲜明轮廓。", "sha256": "39f676a55e3550d9a80566d00d442a3a89e80b7103f40674bc913c1989c060e4"},
-    {"file": "assets/references/08_双手托脸横框.png", "role": "双手托脸；适合双手靠近面部和轻松表情。", "sha256": "491abc71c574dd8ae40cce360228d368a459fba0abc4b3648284166e12f42b44"},
-    {"file": "assets/references/09_多手围脸菱形.png", "role": "多手围合；适合多人手势、对称手势和脸被手包围。", "sha256": "32e2b3e2dcaa93504d4cae3b27b42fed2602105259bd8e6294fc7b3563881dad"},
-    {"file": "assets/references/10_斜切脸部与香烟.png", "role": "斜切脸与小物件；适合半张脸、手指、眼镜、花或杯子。", "sha256": "2a3f23ce546201f3f5b197bba3582b5490428b14fcc7a2cc36d557b842eb6a42"},
-    {"file": "assets/references/11_越框腿部与高跟鞋.png", "role": "腿部越框；适合鞋、袜、纹身和交叠腿姿。", "sha256": "8148225d5cdc3b090562cb333aaee1f1a90e68967768bbc78c4d71c112bd3844"},
-    {"file": "assets/references/12_裙摆与花饰鞋.png", "role": "裙摆与鞋；适合鞋履、裙摆、裤脚和花纹细节。", "sha256": "82beb74200d9b2be8ec37eced4698037e71e02fe8b056ed562b2a289e4845596"},
-    {"file": "assets/references/13_胸衣蝴蝶结与手.png", "role": "胸前服饰与双手；适合蝴蝶结、纽扣、书、包或乐器。", "sha256": "bdf17cbe4e40936fa235a1b7d2ba15d375b42e8ecc6b436c7424d0d7f0db852f"},
-    {"file": "assets/references/14_珠宝领口竖框.png", "role": "珠宝与领口；适合项链、耳环、领口和锁骨。", "sha256": "42201ff16d1c7dcf7e87e946870e9b28f20a4876d55080c0ec48d7930439f707"},
-    {"file": "assets/references/15_梳发动作窄竖框.png", "role": "狭长动作切片；适合梳头、系领带和拉拉链等纵向动作。", "sha256": "c4e6eaf65e7b772abd58ca8919d82de5643a2490f27572a292dbec25074056ef"},
-    {"file": "assets/references/16_耳饰蛇形菱框.png", "role": "耳饰与身体小细节；适合耳环、耳骨夹、纹身、痣和发饰。", "sha256": "398cd0964bb77aa0b89d09ae6b74ebcfafd21985adf77343d07a9a33e9b3c3d9"},
-    {"file": "assets/references/17_眼妆方框特写.png", "role": "眼妆纯特写；适合眼妆、眉形和彩色隐形眼镜。", "sha256": "dc9e2e8b5f6318adcad44b015087d62fe6ec9600e8e0bedd4c1d7acaff9aeed0"}
+    {
+      "file": "assets/references/01_手眼镜面横框.png",
+      "role": "手、眼睛与小物件的互动；适合化妆、照镜子或拿东西靠近脸部。",
+      "sha256": "f03fb7fc9cc4eb3fbc61cf4dae37c0c84baf6ff6df91ca689b28627763ea48c8"
+    },
+    {
+      "file": "assets/references/02_分块眼神拼窗.png",
+      "role": "分块拼窗；适合表情强、局部重叠或单一裁切不够有力。",
+      "sha256": "84a59aefacf79c5a4be38cc21569c936ff2080dec464556bf9c42c4c2a255c2c"
+    },
+    {
+      "file": "assets/references/03_异形窗蜷缩人物.png",
+      "role": "异形开窗；适合蹲坐、蜷缩、抱膝和明显曲线姿态。",
+      "sha256": "2299080422adb257185305db24a0b198fea3e89ae83a116217440f5a22d75c82"
+    },
+    {
+      "file": "assets/references/04_越框人像与烟雾.png",
+      "role": "人像越框；适合头发、烟雾或帽饰有延伸的肖像。",
+      "sha256": "1eb63a37a6c5b1009382c847c917fe7a05a159021265fb74de885456ec5a0d92"
+    },
+    {
+      "file": "assets/references/05_黑底极简眼睛.png",
+      "role": "极小眼部窗口；适合眼神是唯一强信息的照片。",
+      "sha256": "b7bb81e73eb312252f2e1f709a3878452d688c370eb60c2edcd8556d26a28710"
+    },
+    {
+      "file": "assets/references/06_手掌遮面方框.png",
+      "role": "遮挡动作方框；适合手遮脸、扶额、挡光和手五官重叠。",
+      "sha256": "8bcd2003f6cdfdc6e2f6d967f09e05782a6e14b2416e454bf38e94116a647f46"
+    },
+    {
+      "file": "assets/references/07_男性侧脸与道具.png",
+      "role": "侧脸与道具；适合侧脸、手持道具和鲜明轮廓。",
+      "sha256": "39f676a55e3550d9a80566d00d442a3a89e80b7103f40674bc913c1989c060e4"
+    },
+    {
+      "file": "assets/references/08_双手托脸横框.png",
+      "role": "双手托脸；适合双手靠近面部和轻松表情。",
+      "sha256": "491abc71c574dd8ae40cce360228d368a459fba0abc4b3648284166e12f42b44"
+    },
+    {
+      "file": "assets/references/09_多手围脸菱形.png",
+      "role": "多手围合；适合多人手势、对称手势和脸被手包围。",
+      "sha256": "32e2b3e2dcaa93504d4cae3b27b42fed2602105259bd8e6294fc7b3563881dad"
+    },
+    {
+      "file": "assets/references/10_斜切脸部与香烟.png",
+      "role": "斜切脸与小物件；适合半张脸、手指、眼镜、花或杯子。",
+      "sha256": "2a3f23ce546201f3f5b197bba3582b5490428b14fcc7a2cc36d557b842eb6a42"
+    },
+    {
+      "file": "assets/references/11_越框腿部与高跟鞋.png",
+      "role": "腿部越框；适合鞋、袜、纹身和交叠腿姿。",
+      "sha256": "8148225d5cdc3b090562cb333aaee1f1a90e68967768bbc78c4d71c112bd3844"
+    },
+    {
+      "file": "assets/references/12_裙摆与花饰鞋.png",
+      "role": "裙摆与鞋；适合鞋履、裙摆、裤脚和花纹细节。",
+      "sha256": "82beb74200d9b2be8ec37eced4698037e71e02fe8b056ed562b2a289e4845596"
+    },
+    {
+      "file": "assets/references/13_胸衣蝴蝶结与手.png",
+      "role": "胸前服饰与双手；适合蝴蝶结、纽扣、书、包或乐器。",
+      "sha256": "bdf17cbe4e40936fa235a1b7d2ba15d375b42e8ecc6b436c7424d0d7f0db852f"
+    },
+    {
+      "file": "assets/references/14_珠宝领口竖框.png",
+      "role": "珠宝与领口；适合项链、耳环、领口和锁骨。",
+      "sha256": "42201ff16d1c7dcf7e87e946870e9b28f20a4876d55080c0ec48d7930439f707"
+    },
+    {
+      "file": "assets/references/15_梳发动作窄竖框.png",
+      "role": "狭长动作切片；适合梳头、系领带和拉拉链等纵向动作。",
+      "sha256": "c4e6eaf65e7b772abd58ca8919d82de5643a2490f27572a292dbec25074056ef"
+    },
+    {
+      "file": "assets/references/16_耳饰蛇形菱框.png",
+      "role": "耳饰与身体小细节；适合耳环、耳骨夹、纹身、痣和发饰。",
+      "sha256": "398cd0964bb77aa0b89d09ae6b74ebcfafd21985adf77343d07a9a33e9b3c3d9"
+    },
+    {
+      "file": "assets/references/17_眼妆方框特写.png",
+      "role": "眼妆纯特写；适合眼妆、眉形和彩色隐形眼镜。",
+      "sha256": "dc9e2e8b5f6318adcad44b015087d62fe6ec9600e8e0bedd4c1d7acaff9aeed0"
+    }
   ],
   "layout_guides": {
     "count": 14,
@@ -59,7 +130,9 @@
   "rights": {
     "status": "cleared",
     "project_owner_confirmed_reference_distribution": true,
-    "redistributable_assets": ["assets/references/"],
+    "redistributable_assets": [
+      "assets/references/"
+    ],
     "original_assets": [
       "assets/layout-guides/"
     ],

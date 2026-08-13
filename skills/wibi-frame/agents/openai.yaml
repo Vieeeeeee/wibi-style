@@ -1,6 +1,6 @@
 interface:
-  display_name: "Wibi 框景漫画 · 威比"
-  short_description: "威比原创：先选局部，再生成复古小框漫画特写"
+  display_name: "Wibi Style · 框景漫画"
+  short_description: "Wibi Style 官方：先选局部，再生成复古小框漫画特写"
   default_prompt: "使用 $wibi-frame 分析我上传的照片，先给出三个具体局部候选并推荐一个，等我选择后再生成框景漫画特写。"
 
 policy:

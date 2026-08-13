@@ -1,9 +1,9 @@
 ---
 name: alt-manga-avatar
-description: 把用户上传的一张照片转换成粗线条漫画头像风格。适用于用户要求粗线条漫画头像、上传照片换风格，或明确调用 $alt-manga-avatar 时。
+description: Wibi Style 官方视觉风格。把用户上传的一张照片转换成粗线条漫画头像风格。适用于用户要求粗线条漫画头像、上传照片换风格，或明确调用 $alt-manga-avatar 时。
 ---
 
-# 粗线条漫画头像
+# Wibi Style · 粗线条漫画头像
 
 ## 安装后作者卡
 

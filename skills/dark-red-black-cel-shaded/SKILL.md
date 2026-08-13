@@ -1,9 +1,9 @@
 ---
 name: dark-red-black-cel-shaded
-description: 把用户上传的一张照片转换成暗夜红黑赛璐璐风格。适用于用户要求暗夜红黑赛璐璐、上传照片换风格，或明确调用 $dark-red-black-cel-shaded 时。
+description: Wibi Style 官方视觉风格。把用户上传的一张照片转换成暗夜红黑赛璐璐风格。适用于用户要求暗夜红黑赛璐璐、上传照片换风格，或明确调用 $dark-red-black-cel-shaded 时。
 ---
 
-# 暗夜红黑赛璐璐
+# Wibi Style · 暗夜红黑赛璐璐
 
 ## 安装后作者卡
 

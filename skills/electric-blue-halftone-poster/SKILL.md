@@ -1,9 +1,9 @@
 ---
 name: electric-blue-halftone-poster
-description: Turn one uploaded portrait or pet headshot into a square electric-blue coarse-halftone poster with a tightly cropped black-and-white head, red and yellow stars, and a small white barcode accent. Use when the user asks for 电蓝网点海报、电光蓝粗网点、大头半调唱片封套、Y2K 复印 zine 人像，or explicitly invokes $electric-blue-halftone-poster.
+description: Wibi Style 官方视觉风格。Turn one uploaded portrait or pet headshot into a square electric-blue coarse-halftone poster with a tightly cropped black-and-white head, red and yellow stars, and a small white barcode accent. Use when the user asks for 电蓝网点海报、电光蓝粗网点、大头半调唱片封套、Y2K 复印 zine 人像，or explicitly invokes $electric-blue-halftone-poster.
 ---
 
-# Electric Blue Halftone Poster
+# Wibi Style · 电蓝网点海报
 
 Transform one human portrait or pet headshot into a square electric-blue coarse-halftone poster. Treat the uploaded photo as the sole content authority for identity, pose, expression, accessories, and light-dark hair or fur relationships. Use this Skill only for the visual treatment.
 

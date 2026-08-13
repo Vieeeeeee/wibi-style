@@ -1,6 +1,6 @@
 interface:
-  display_name: "蓝底复古印刷 · 威比"
-  short_description: "威比原创视觉 Skill：把上传照片转换成蓝底复古印刷风格并完成生成质量检查"
+  display_name: "Wibi Style · 蓝底复古印刷"
+  short_description: "Wibi Style 官方视觉 Skill：把上传照片转换成蓝底复古印刷风格并完成生成质量检查"
   default_prompt: "使用 $blue-retro-print 处理这张照片。"
 
 policy:

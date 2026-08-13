@@ -1,8 +1,8 @@
-# 电蓝网点海报
+# Wibi Style · 电蓝网点海报
 
 把单人人像或宠物大头照做成 1:1 电光蓝粗网点半调唱片海报：纯黑、纯白和可数的粗圆点组成主体，电光蓝底配红黄星星与白色条码。
 
-当前版本：`v1.0.3`
+当前版本：`v1.0.4`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,13 +11,13 @@
 以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-01.png" alt="打哈欠表情电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-02.png" alt="黑框眼镜电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-03.png" alt="帽子眼镜电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.4/docs/electric-blue-halftone-poster/examples/example-01.png" alt="打哈欠表情电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.4/docs/electric-blue-halftone-poster/examples/example-02.png" alt="黑框眼镜电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.4/docs/electric-blue-halftone-poster/examples/example-03.png" alt="帽子眼镜电蓝粗网点海报" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-04.png" alt="墨镜长发电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-05.png" alt="豹纹头巾电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.3/docs/electric-blue-halftone-poster/examples/example-06.png" alt="吐舌表情电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.4/docs/electric-blue-halftone-poster/examples/example-04.png" alt="墨镜长发电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.4/docs/electric-blue-halftone-poster/examples/example-05.png" alt="豹纹头巾电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.4/docs/electric-blue-halftone-poster/examples/example-06.png" alt="吐舌表情电蓝粗网点海报" width="30%" />
 </p>
 
 ## 安装

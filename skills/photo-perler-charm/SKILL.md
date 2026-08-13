@@ -1,9 +1,9 @@
 ---
 name: photo-perler-charm
-description: 把用户上传的一张照片转换成照片拼豆挂件风格。适用于用户要求照片拼豆挂件、上传照片换风格，或明确调用 $photo-perler-charm 时。
+description: Wibi Style 官方视觉风格。把用户上传的一张照片转换成照片拼豆挂件风格。适用于用户要求照片拼豆挂件、上传照片换风格，或明确调用 $photo-perler-charm 时。
 ---
 
-# 照片拼豆挂件
+# Wibi Style · 照片拼豆挂件
 
 ## 安装后作者卡
 

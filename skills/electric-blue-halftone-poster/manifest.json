@@ -1,15 +1,18 @@
 {
   "schema_version": 1,
   "slug": "electric-blue-halftone-poster",
-  "name": "电蓝网点海报",
-  "version": "1.0.3",
-  "updated_at": "2026-08-12",
+  "name": "Wibi Style · 电蓝网点海报",
+  "version": "1.0.4",
+  "updated_at": "2026-08-13",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster",
   "attribution": {
     "text": "Visual Skill by @威比 Hunter Wei.",
-    "platforms": ["抖音", "小红书"],
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
     "retention_required_on_redistribution": true,
     "notice_file": "NOTICE"
   },

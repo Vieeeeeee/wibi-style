@@ -1,9 +1,9 @@
 ---
 name: quirky-pop-doodle-sticker
-description: 把用户上传的一张照片转换成怪趣波普涂鸦贴纸风格。适用于用户要求怪趣波普涂鸦贴纸、上传照片换风格，或明确调用 $quirky-pop-doodle-sticker 时。
+description: Wibi Style 官方视觉风格。把用户上传的一张照片转换成怪趣波普涂鸦贴纸风格。适用于用户要求怪趣波普涂鸦贴纸、上传照片换风格，或明确调用 $quirky-pop-doodle-sticker 时。
 ---
 
-# 怪趣波普涂鸦贴纸
+# Wibi Style · 怪趣波普涂鸦贴纸
 
 ## 安装后作者卡
 

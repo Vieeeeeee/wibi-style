@@ -1,4 +1,4 @@
 interface:
-  display_name: "钻牙萌娃大头 · 威比"
-  short_description: "威比原创：把儿童老照片变成露齿才镶钻的纯大头卡贴"
+  display_name: "Wibi Style · 钻牙萌娃大头"
+  short_description: "Wibi Style 官方：把儿童老照片变成露齿才镶钻的纯大头卡贴"
   default_prompt: "使用 $diamond-kid-head-card 处理这张儿童老照片。"

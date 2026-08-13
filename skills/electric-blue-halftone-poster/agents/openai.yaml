@@ -1,4 +1,4 @@
 interface:
-  display_name: "电蓝网点海报 · 威比"
-  short_description: "威比原创：将人像或宠物头像转成电光蓝粗网点海报"
+  display_name: "Wibi Style · 电蓝网点海报"
+  short_description: "Wibi Style 官方：将人像或宠物头像转成电光蓝粗网点海报"
   default_prompt: "使用 $electric-blue-halftone-poster 把这张照片做成电蓝粗网点大头海报。"

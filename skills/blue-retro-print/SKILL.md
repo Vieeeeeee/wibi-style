@@ -1,9 +1,9 @@
 ---
 name: blue-retro-print
-description: 把用户上传的一张照片转换成蓝底复古印刷风格。适用于用户要求蓝底复古印刷、上传照片换风格，或明确调用 $blue-retro-print 时。
+description: Wibi Style 官方视觉风格。把用户上传的一张照片转换成蓝底复古印刷风格。适用于用户要求蓝底复古印刷、上传照片换风格，或明确调用 $blue-retro-print 时。
 ---
 
-# 蓝底复古印刷
+# Wibi Style · 蓝底复古印刷
 
 ## 安装后作者卡
 

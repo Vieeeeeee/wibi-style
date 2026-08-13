@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "slug": "glitch-pixel-collage",
-  "name": "乱码像素拼贴",
-  "version": "1.0.0",
+  "name": "Wibi Style · 乱码像素拼贴",
+  "version": "1.0.1",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/glitch-pixel-collage",
@@ -67,5 +67,6 @@
       "assets/references/reference-03.jpg"
     ],
     "bundled_third_party_assets": []
-  }
+  },
+  "updated_at": "2026-08-13"
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "slug": "pixel-stretch",
-  "name": "像素切片拉伸",
-  "version": "1.0.0",
+  "name": "Wibi Style · 像素切片拉伸",
+  "version": "1.0.1",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/pixel-stretch",
@@ -47,5 +47,6 @@
     "original_assets": [],
     "redistributable_assets": [],
     "bundled_third_party_assets": []
-  }
+  },
+  "updated_at": "2026-08-13"
 }

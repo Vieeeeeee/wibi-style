@@ -12,31 +12,33 @@
 
 | 你的照片 | 推荐风格 |
 | --- | --- |
-| 自拍、头像、人物近景 | 电蓝网点海报、粗线条漫画头像、蜡笔手绘头像、暗夜红黑赛璐璐、虹彩柔焦长曝光、蓝底复古印刷 |
-| 儿童正脸或大头照 | 钻牙萌娃大头 |
-| 人物、宠物、产品或物件 | 怪趣波普涂鸦贴纸、照片拼豆挂件、像素切片拉伸、乱码像素拼贴 |
-| 城市街景、建筑、旅行照片 | 晴空都市赛璐璐 |
-| 想先挑选照片里最有意思的局部 | Wibi 框景漫画（进阶、多步骤） |
+| 自拍、头像、人物近景 | Wibi Style · 电蓝网点海报、Wibi Style · 粗线条漫画头像、Wibi Style · 蜡笔手绘头像、Wibi Style · 暗夜红黑赛璐璐、Wibi Style · 虹彩柔焦长曝光、Wibi Style · 蓝底复古印刷 |
+| 儿童正脸或大头照 | Wibi Style · 钻牙萌娃大头 |
+| 人物、宠物、产品或物件 | Wibi Style · 怪趣波普涂鸦贴纸、Wibi Style · 照片拼豆挂件、Wibi Style · 像素切片拉伸、Wibi Style · 乱码像素拼贴 |
+| 城市街景、建筑、旅行照片 | Wibi Style · 晴空都市赛璐璐 |
+| 想先挑选照片里最有意思的局部 | Wibi Style · 框景漫画（进阶、多步骤） |
 
 ## 全部风格
 
 点击名称可查看 6 张实际生成结果、适合的照片和该款安装指令。
 
+`Wibi Style ·` 是统一展示前缀；英文 Skill 名、GitHub 地址和 `$调用名` 保持不变，旧用法继续有效。
+
 | 中文名 | Skill | 适合的照片 |
 | --- | --- | --- |
-| [Wibi 框景漫画](skills/wibi-frame/) | `wibi-frame` | 有清楚眼神、表情、手势或物件关系的照片；先选局部，再生成 |
-| [电蓝网点海报](skills/electric-blue-halftone-poster/) | `electric-blue-halftone-poster` | 单人人像或宠物大头照 |
-| [钻牙萌娃大头](skills/diamond-kid-head-card/) | `diamond-kid-head-card` | 脸部、头发或帽子大致可辨的单人儿童照片 |
-| [怪趣波普涂鸦贴纸](skills/quirky-pop-doodle-sticker/) | `quirky-pop-doodle-sticker` | 主体清楚、动作和轮廓有记忆点的人物、宠物、产品或道具 |
-| [晴空都市赛璐璐](skills/clear-sky-urban-cel/) | `clear-sky-urban-cel` | 城市街道、建筑、旅行纪实、交通设施和环境人物 |
-| [照片拼豆挂件](skills/photo-perler-charm/) | `photo-perler-charm` | 人物、宠物、花束、食物和轮廓清晰的物件 |
-| [暗夜红黑赛璐璐](skills/dark-red-black-cel-shaded/) | `dark-red-black-cel-shaded` | 轮廓清楚、适合戏剧性红黑光影的人物照片 |
-| [乱码像素拼贴](skills/glitch-pixel-collage/) | `glitch-pixel-collage` | 人物、静物或色彩层次明确的照片 |
-| [粗线条漫画头像](skills/alt-manga-avatar/) | `alt-manga-avatar` | 正面或半侧脸自拍 |
-| [像素切片拉伸](skills/pixel-stretch/) | `pixel-stretch` | 主体清楚的人物、静物或其他照片 |
-| [蜡笔手绘头像](skills/art-print-poster/) | `art-print-poster` | 五官清楚、表情有记忆点的自拍 |
-| [虹彩柔焦长曝光](skills/iridescent-long-exposure/) | `iridescent-long-exposure` | 想要朦胧氛围的人物近景或局部特写 |
-| [蓝底复古印刷](skills/blue-retro-print/) | `blue-retro-print` | 轮廓和神态清楚的人物照片 |
+| [Wibi Style · 框景漫画](skills/wibi-frame/) | `wibi-frame` | 有清楚眼神、表情、手势或物件关系的照片；先选局部，再生成 |
+| [Wibi Style · 电蓝网点海报](skills/electric-blue-halftone-poster/) | `electric-blue-halftone-poster` | 单人人像或宠物大头照 |
+| [Wibi Style · 钻牙萌娃大头](skills/diamond-kid-head-card/) | `diamond-kid-head-card` | 脸部、头发或帽子大致可辨的单人儿童照片 |
+| [Wibi Style · 怪趣波普涂鸦贴纸](skills/quirky-pop-doodle-sticker/) | `quirky-pop-doodle-sticker` | 主体清楚、动作和轮廓有记忆点的人物、宠物、产品或道具 |
+| [Wibi Style · 晴空都市赛璐璐](skills/clear-sky-urban-cel/) | `clear-sky-urban-cel` | 城市街道、建筑、旅行纪实、交通设施和环境人物 |
+| [Wibi Style · 照片拼豆挂件](skills/photo-perler-charm/) | `photo-perler-charm` | 人物、宠物、花束、食物和轮廓清晰的物件 |
+| [Wibi Style · 暗夜红黑赛璐璐](skills/dark-red-black-cel-shaded/) | `dark-red-black-cel-shaded` | 轮廓清楚、适合戏剧性红黑光影的人物照片 |
+| [Wibi Style · 乱码像素拼贴](skills/glitch-pixel-collage/) | `glitch-pixel-collage` | 人物、静物或色彩层次明确的照片 |
+| [Wibi Style · 粗线条漫画头像](skills/alt-manga-avatar/) | `alt-manga-avatar` | 正面或半侧脸自拍 |
+| [Wibi Style · 像素切片拉伸](skills/pixel-stretch/) | `pixel-stretch` | 主体清楚的人物、静物或其他照片 |
+| [Wibi Style · 蜡笔手绘头像](skills/art-print-poster/) | `art-print-poster` | 五官清楚、表情有记忆点的自拍 |
+| [Wibi Style · 虹彩柔焦长曝光](skills/iridescent-long-exposure/) | `iridescent-long-exposure` | 想要朦胧氛围的人物近景或局部特写 |
+| [Wibi Style · 蓝底复古印刷](skills/blue-retro-print/) | `blue-retro-print` | 轮廓和神态清楚的人物照片 |
 
 ## 三步安装和使用
 

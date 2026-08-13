@@ -1,8 +1,8 @@
-# 虹彩柔焦长曝光
+# Wibi Style · 虹彩柔焦长曝光
 
 想要朦胧氛围的人物近景或局部特写
 
-当前版本：`v1.0.0`
+当前版本：`v1.0.1`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,13 +11,13 @@
 以下仅展示本 Skill 的实际生成结果，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.0/docs/iridescent-long-exposure/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.0/docs/iridescent-long-exposure/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.0/docs/iridescent-long-exposure/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.1/docs/iridescent-long-exposure/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.1/docs/iridescent-long-exposure/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.1/docs/iridescent-long-exposure/examples/example-03.png" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.0/docs/iridescent-long-exposure/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.0/docs/iridescent-long-exposure/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.0/docs/iridescent-long-exposure/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.1/docs/iridescent-long-exposure/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.1/docs/iridescent-long-exposure/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/iridescent-long-exposure-v1.0.1/docs/iridescent-long-exposure/examples/example-06.png" width="30%" />
 </p>
 
 ## 安装
