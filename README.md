@@ -4,6 +4,8 @@
 
 当前收录 **13 款可独立安装的视觉风格 Skill**。选择一款、上传照片，即可在 Codex 中生成对应风格；也可以前往 [威比风格实验室](https://style.abdc.online) 在线体验。
 
+> 商务合作、商业授权或使用咨询，请加微信：`Wibi2077`（添加时请备注来意）。
+
 [![Wibi Style 13 款视觉风格总览](assets/readme-style-overview.png)](https://style.abdc.online)
 
 ## 按照片选风格
