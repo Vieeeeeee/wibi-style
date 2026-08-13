@@ -1,50 +1,78 @@
 # Wibi Style
 
-由 `@威比 Hunter Wei.` 制作和维护的视觉风格 Skill 仓库；抖音、小红书同名。
+由 `@威比 Hunter Wei.` 制作和维护的视觉风格 Skill 仓库，抖音、小红书同名。
 
-每个风格独立放在 `skills/<skill-name>/` 中，包含可直接读取的 `SKILL.md`、必要的原创构图模板和支持文件。后续新增风格继续沿用同一目录结构，互不混放。
+当前收录 **13 款可独立安装的视觉风格 Skill**。选择一款、上传照片，即可在 Codex 中生成对应风格；也可以前往 [威比风格实验室](https://style.abdc.online) 在线体验。
 
-## 当前风格
+[![Wibi Style 13 款视觉风格总览](assets/readme-style-overview.png)](https://style.abdc.online)
 
-| Skill | 说明 | 目录 |
+## 按照片选风格
+
+| 你的照片 | 推荐风格 |
+| --- | --- |
+| 自拍、头像、人物近景 | 电蓝网点海报、粗线条漫画头像、蜡笔手绘头像、暗夜红黑赛璐璐、虹彩柔焦长曝光、蓝底复古印刷 |
+| 儿童正脸或大头照 | 钻牙萌娃大头 |
+| 人物、宠物、产品或物件 | 怪趣波普涂鸦贴纸、照片拼豆挂件、像素切片拉伸、乱码像素拼贴 |
+| 城市街景、建筑、旅行照片 | 晴空都市赛璐璐 |
+| 想先挑选照片里最有意思的局部 | Wibi 框景漫画（进阶、多步骤） |
+
+## 全部风格
+
+点击名称可查看 6 张实际生成结果、适合的照片和该款安装指令。
+
+| 中文名 | Skill | 适合的照片 |
 | --- | --- | --- |
-| `wibi-frame` | 先给出三个局部文字候选，用户选择后生成带自然越框与框内外同色融合的复古平面漫画特写 | [`skills/wibi-frame/`](skills/wibi-frame/) |
-| `electric-blue-halftone-poster` | 把单人人像或宠物大头照做成电光蓝粗网点半调唱片海报 | [`skills/electric-blue-halftone-poster/`](skills/electric-blue-halftone-poster/) |
-| `diamond-kid-head-card` | 适合脸部、头发或帽子大致可辨的单人儿童照片，露齿笑容效果更明显 | [`skills/diamond-kid-head-card/`](skills/diamond-kid-head-card/) |
-| `quirky-pop-doodle-sticker` | 适合人物、宠物、产品或道具主体清楚、动作和轮廓有记忆点的照片 | [`skills/quirky-pop-doodle-sticker/`](skills/quirky-pop-doodle-sticker/) |
-| `clear-sky-urban-cel` | 适合城市街道、建筑、旅行纪实、交通设施和环境人物照片 | [`skills/clear-sky-urban-cel/`](skills/clear-sky-urban-cel/) |
-| `photo-perler-charm` | 适合人物、宠物、花束、食物和轮廓清晰的物件照片 | [`skills/photo-perler-charm/`](skills/photo-perler-charm/) |
-| `dark-red-black-cel-shaded` | 轮廓清楚、适合戏剧性红黑光影的人物照片 | [`skills/dark-red-black-cel-shaded/`](skills/dark-red-black-cel-shaded/) |
-| `glitch-pixel-collage` | 人物、静物或色彩层次明确的照片 | [`skills/glitch-pixel-collage/`](skills/glitch-pixel-collage/) |
-| `alt-manga-avatar` | 正面或半侧脸的自拍 | [`skills/alt-manga-avatar/`](skills/alt-manga-avatar/) |
-| `pixel-stretch` | 主体清楚的任意照片，人物或静物都行 | [`skills/pixel-stretch/`](skills/pixel-stretch/) |
-| `art-print-poster` | 五官清楚、表情有记忆点的自拍 | [`skills/art-print-poster/`](skills/art-print-poster/) |
-| `iridescent-long-exposure` | 想要朦胧氛围的人物近景或局部特写 | [`skills/iridescent-long-exposure/`](skills/iridescent-long-exposure/) |
-| `blue-retro-print` | 轮廓和神态清楚的人物照片 | [`skills/blue-retro-print/`](skills/blue-retro-print/) |
+| [Wibi 框景漫画](skills/wibi-frame/) | `wibi-frame` | 有清楚眼神、表情、手势或物件关系的照片；先选局部，再生成 |
+| [电蓝网点海报](skills/electric-blue-halftone-poster/) | `electric-blue-halftone-poster` | 单人人像或宠物大头照 |
+| [钻牙萌娃大头](skills/diamond-kid-head-card/) | `diamond-kid-head-card` | 脸部、头发或帽子大致可辨的单人儿童照片 |
+| [怪趣波普涂鸦贴纸](skills/quirky-pop-doodle-sticker/) | `quirky-pop-doodle-sticker` | 主体清楚、动作和轮廓有记忆点的人物、宠物、产品或道具 |
+| [晴空都市赛璐璐](skills/clear-sky-urban-cel/) | `clear-sky-urban-cel` | 城市街道、建筑、旅行纪实、交通设施和环境人物 |
+| [照片拼豆挂件](skills/photo-perler-charm/) | `photo-perler-charm` | 人物、宠物、花束、食物和轮廓清晰的物件 |
+| [暗夜红黑赛璐璐](skills/dark-red-black-cel-shaded/) | `dark-red-black-cel-shaded` | 轮廓清楚、适合戏剧性红黑光影的人物照片 |
+| [乱码像素拼贴](skills/glitch-pixel-collage/) | `glitch-pixel-collage` | 人物、静物或色彩层次明确的照片 |
+| [粗线条漫画头像](skills/alt-manga-avatar/) | `alt-manga-avatar` | 正面或半侧脸自拍 |
+| [像素切片拉伸](skills/pixel-stretch/) | `pixel-stretch` | 主体清楚的人物、静物或其他照片 |
+| [蜡笔手绘头像](skills/art-print-poster/) | `art-print-poster` | 五官清楚、表情有记忆点的自拍 |
+| [虹彩柔焦长曝光](skills/iridescent-long-exposure/) | `iridescent-long-exposure` | 想要朦胧氛围的人物近景或局部特写 |
+| [蓝底复古印刷](skills/blue-retro-print/) | `blue-retro-print` | 轮廓和神态清楚的人物照片 |
 
-## 安装
+## 三步安装和使用
 
-在 Codex 中发送所需风格的独立 GitHub 地址。例如只安装电蓝网点海报：
+### 1. 选择一款
+
+打开上方任意一款的页面，复制它的 GitHub 地址。每款都放在独立目录中，只会安装你选择的这一款。
+
+### 2. 在 Codex 中发送安装指令
+
+以“电蓝网点海报”为例：
 
 ```text
 请安装这个 Skill；安装完成后，运行包内 `scripts/show_skill_info.py --always`，并把输出的 Skill 信息完整展示给我：
 https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster
 ```
 
-安装器只下载这个风格目录，不会把其他 Skill 一起下载。推荐在安装指令中同时要求安装代理运行包内 `scripts/show_skill_info.py --always`，这样安装完成后会立即展示作者卡。安装完成后新开一个任务，再直接说：
+### 3. 新开一个任务，上传照片后调用
 
 ```text
 使用 $electric-blue-halftone-poster 处理这张照片
 ```
 
-每款新发布的 Skill 都有独立版本清单。每个新任务第一次调用时只查询这一款的远端版本；发现新版才提示，不自动覆盖本地文件，也不上传用户照片或使用数据。
+调用其他风格时，将 `$electric-blue-halftone-poster` 换成列表中的对应 Skill 名称。
+
+## 包含内容与更新
+
+每款风格都有独立的 `SKILL.md`、运行规则、提示词、版本清单，以及该款需要的参考素材或支持文件。各款互不混放。
+
+每个新任务第一次调用时，只查询当前使用的这一款是否有新版本；发现新版才提示，不自动覆盖本地文件，也不上传用户照片或使用数据。
 
 ## 使用与署名
 
-若公开分享生成结果，欢迎标注：
+公开分享生成结果时，欢迎标注：
 
 ```text
 Visual Skill by @威比 Hunter Wei.
 ```
 
-本仓库中的原创 Skill 逻辑、提示词与原创构图模板仅限个人非商业使用；商业使用请先联系作者获得许可。复制、修改、转发、镜像或重新打包某款 Skill 时，必须保留作者、抖音/小红书同名备注、官方来源、`LICENSE` 与 `NOTICE`；修改版必须明确标注经过修改，不得冒充官方版本。每款 Skill 的 `SOURCES.md` 会分别说明本包拥有和不拥有的内容权利。第三方图片公开可见不代表获得再分发许可，未通过版权门的素材不会加入新的公开安装包。
+本仓库中的原创 Skill 逻辑、提示词与原创构图模板仅限个人非商业使用；商业使用请先联系作者获得许可。复制、修改、转发、镜像或重新打包某款 Skill 时，必须保留作者、抖音/小红书同名备注、官方来源、`LICENSE` 与 `NOTICE`；修改版必须明确标注经过修改，不得冒充官方版本。
+
+每款 Skill 的 `SOURCES.md` 会分别说明本包拥有和不拥有的内容权利。第三方图片公开可见不代表获得再分发许可，未通过版权门的素材不会加入新的公开安装包。
