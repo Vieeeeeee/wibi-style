@@ -6,6 +6,16 @@
 
 > 商务合作、商业授权或使用咨询，请加微信：`Wibi2077`（添加时请备注来意）。
 
+## 加入交流群
+
+欢迎加入「威比 😌 AIGC 学习群」，交流 AI 视觉玩法、Skill 使用和新风格。
+
+[点击加入微信群](https://weixin.qq.com/g/AQYAAFCgkb4xsWUyI8RZ1eIfp48iPM_RN7O5DV_6BIEZLSEDGLmaHxMw1r2FlhGf)，或用微信扫描下方二维码：
+
+<a href="https://weixin.qq.com/g/AQYAAFCgkb4xsWUyI8RZ1eIfp48iPM_RN7O5DV_6BIEZLSEDGLmaHxMw1r2FlhGf"><img src="assets/wechat-aigc-group-qr.jpg" alt="威比 AIGC 学习群二维码" width="360"></a>
+
+> 当前二维码和链接有效期至 2026 年 8 月 20 日；过期后请加微信 `Wibi2077` 获取新入口。
+
 [![Wibi Style 13 款视觉风格总览](assets/readme-style-overview.png)](https://style.abdc.online)
 
 ## 按照片选风格
