@@ -14,8 +14,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "community.json"
 TARGETS = {
-    "diamond-kid-head-card": "1.0.3",
-    "wibi-frame": "1.3.5",
+    "diamond-kid-head-card": "1.0.4",
+    "wibi-frame": "1.3.6",
 }
 
 
@@ -71,7 +71,7 @@ class CommunityRolloutTest(unittest.TestCase):
                 author_card = run_script(scripts / "show_skill_info.py", "--always", env=env)
                 self.assertIn("SHOW_SKILL_INFO", author_card.stdout)
                 self.assertIn(f"版本：{version}", author_card.stdout)
-                self.assertIn(self.config["name"], author_card.stdout)
+                self.assertIn(f"**{self.config['name']}**", author_card.stdout)
                 self.assertIn("回复“进群”", author_card.stdout)
 
     def test_expired_config_never_returns_stale_qr(self) -> None:

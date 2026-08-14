@@ -9,7 +9,7 @@ description: Wibi Style 官方视觉风格。将单人儿童老照片重新拍�
 
 ## 安装后作者卡与更新
 
-每个新任务第一次使用时，先运行 `python3 {baseDir}/scripts/show_skill_info.py`。输出 `SHOW_SKILL_INFO` 时展示简短的作者卡，包含名称、版本、作者、同名平台、官方来源、交流学习群用途和“回复进群可获取当前二维码”；开场不直接展示二维码。输出 `AUTHOR_CARD_ALREADY_SHOWN` 时静默。署名不完整时建议从官方来源重新安装，不自动修复或覆盖文件。
+每个新任务第一次使用时，先运行 `python3 {baseDir}/scripts/show_skill_info.py`。输出 `SHOW_SKILL_INFO` 时展示简短的作者卡，包含名称、版本、作者、同名平台、官方来源、交流学习群用途和“回复进群可获取当前二维码”；交流群名称保留脚本输出的 Markdown 加粗，开场不直接展示二维码。输出 `AUTHOR_CARD_ALREADY_SHOWN` 时静默。署名不完整时建议从官方来源重新安装，不自动修复或覆盖文件。
 
 随后运行 `python3 {baseDir}/scripts/check_update.py`。只有输出 `UPDATE_AVAILABLE` 时才用一句中文告知当前版、最新版和安装地址；`UP_TO_DATE` 与 `CHECK_UNAVAILABLE` 均静默，不阻断生图，不自动更新，也不上传用户照片或使用数据。
 

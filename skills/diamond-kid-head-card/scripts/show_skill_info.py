@@ -71,7 +71,7 @@ def main() -> int:
     print(f"官方来源：{official_source}")
     print(f"安装路径：{skill_dir}")
     community = load_community(timeout=2.0)
-    print(f"交流学习群：{community['name']}")
+    print(f"交流学习群：**{community['name']}**")
     print(f"可以交流：{community['description']}")
     print("获取当前群二维码：回复“进群”")
     print(f"稳定入口：{community['landing_url']}")
