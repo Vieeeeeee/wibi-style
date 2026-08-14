@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wibi Style · 鱼眼城市海报"
+  short_description: "黑银、靛蓝或复古粉三选一，把照片转成强鱼眼 Y2K 海报"
+  default_prompt: "使用 $fisheye-city-cover 和内置风格参考，把这张照片做成完整的 Y2K 强鱼眼城市海报；如果我还没选择风格和城市，请自然友好地让我从黑银、靛蓝、复古粉中选一个，再轻松问我照片的城市或地点，等我回答后直接生成。"

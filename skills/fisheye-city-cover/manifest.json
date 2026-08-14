@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "slug": "fisheye-city-cover",
+  "name": "Wibi Style · 鱼眼城市海报",
+  "version": "0.13.1",
+  "updated_at": "2026-08-14",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/fisheye-city-cover",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": ["抖音", "小红书"],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "summary-once",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/fisheye-city-cover",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/fisheye-city-cover",
+  "update_manifest_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/skills/fisheye-city-cover/manifest.json",
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/鱼眼海报/02_提示词/02_迭代记录/115_风格分支_A_黑银强鱼眼.md",
+    "source_sha256": "9471df9c3c6a28936918adeb7270670fff5bf040ece88cdf7deb9d6f6206aceb"
+  },
+  "style_prompts": {
+    "selection_required": true,
+    "items": [
+      {
+        "id": "black-silver",
+        "label": "黑银",
+        "file": "references/styles/black-silver.md",
+        "source": "projects/鱼眼海报/02_提示词/02_迭代记录/115_风格分支_A_黑银强鱼眼.md",
+        "source_sha256": "9471df9c3c6a28936918adeb7270670fff5bf040ece88cdf7deb9d6f6206aceb"
+      },
+      {
+        "id": "indigo",
+        "label": "靛蓝",
+        "file": "references/styles/indigo.md",
+        "source": "projects/鱼眼海报/02_提示词/02_迭代记录/116_风格分支_B_显性靛蓝强鱼眼.md",
+        "source_sha256": "3d31593d1ee6a5f2898e9a6245959f5e7c16f8a3c8e353ad81cea59a3d3ae81f"
+      },
+      {
+        "id": "retro-pink",
+        "label": "复古粉",
+        "file": "references/styles/retro-pink.md",
+        "source": "projects/鱼眼海报/02_提示词/02_迭代记录/118_风格分支_C_清透珠光粉强鱼眼.md",
+        "source_sha256": "8ca698d45fe09c16bd9093df8f4b53c2c4c0c2e041d75e51db387dc8179f5828"
+      }
+    ]
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1,
+    "preserve_source_styling": true
+  },
+  "references": [
+    {
+      "file": "assets/references/y2k-fisheye-layout-reference.png",
+      "source": "01_风格参考/01_Y2K鱼眼版式参考.png",
+      "source_sha256": "9fae4a112369ddab549edce7c007f2cbe1bffd925575ab7511022cbff4869924"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/fisheye-city-cover/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/y2k-fisheye-layout-reference.png"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
