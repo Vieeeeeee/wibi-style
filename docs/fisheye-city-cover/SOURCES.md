@@ -9,6 +9,6 @@
 | `examples/example-03.png` | `03_案例/02_中国女性银耳机墨镜_CHENGDU/03_候选结果/03_v0.13_CHENGDU_靛蓝强鱼眼.png` | `e08c441a58863c125eb4bb43d2cc05a32fbea7ef13f6501ae455d569684e66ea` |
 | `examples/example-04.png` | `03_案例/07_中国女性镜面自拍_HANGZHOU/03_候选结果/03_v0.13_HANGZHOU_清透粉强鱼眼.png` | `c21578212c111145b0ed13d33574d3780fa8535ba3c2356bf7136d095d357c04` |
 | `examples/example-05.png` | `03_案例/09_中国女性小贩中心端碗_SINGAPORE/03_候选结果/02_v0.13_SINGAPORE_清透粉强鱼眼.png` | `9c3b4229638b7e56d37d3668cd3b96f131a6f614a8042456f5188fadaae410ac` |
-| `examples/example-06.png` | `03_案例/13_中国成年男性室内人像_GUANGDONG/03_候选结果/05_v18_GUANGDONG_清透珠光粉强鱼眼.png` | `0dff60923435cf57aeb0b0885390c2231de4bb4996e3bf1f3bfefb91a0c4da8c` |
+| `examples/example-06.png` | `03_案例/05_三位中国成年男性朋友/03_候选结果/02_v12_BEIJING_RGB信号噪波.png` | `e571b726d2cd73fb74461ef4d3d4c6b18d74c476758de1cd8bad9311ebd56ea0` |
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）。展示许可不等于案例原图或第三方元素的独立授权。
