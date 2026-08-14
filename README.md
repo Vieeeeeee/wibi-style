@@ -16,6 +16,8 @@
 
 > 当前二维码和链接有效期至 2026 年 8 月 20 日；过期后请加微信 `Wibi2077` 获取新入口。
 
+支持交流群入口的 Skill 会按需只读根目录 [`community.json`](community.json)，并引用上方同一张二维码。更新群链接、有效期和 `assets/wechat-aigc-group-qr.jpg` 后，已安装的试验版 Skill 在下次查询时会读取新入口。这个查询不上传用户照片或使用数据。
+
 [![Wibi Style 13 款视觉风格总览](assets/readme-style-overview.png)](https://style.abdc.online)
 
 ## 按照片选风格

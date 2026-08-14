@@ -8,8 +8,17 @@ import hashlib
 import json
 from pathlib import Path
 
+from community_info import load_community
 
-REQUIRED_FILES = ("README.md", "SKILL.md", "LICENSE", "NOTICE", "manifest.json")
+
+REQUIRED_FILES = (
+    "README.md",
+    "SKILL.md",
+    "LICENSE",
+    "NOTICE",
+    "manifest.json",
+    "scripts/community_info.py",
+)
 AUTHOR = "@威比 Hunter Wei."
 AUTHOR_NOTE = "抖音、小红书同名"
 
@@ -61,6 +70,11 @@ def main() -> int:
     print(f"作者：{AUTHOR}（{AUTHOR_NOTE}）")
     print(f"官方来源：{official_source}")
     print(f"安装路径：{skill_dir}")
+    community = load_community(timeout=2.0)
+    print(f"交流学习群：{community['name']}")
+    print(f"可以交流：{community['description']}")
+    print("获取当前群二维码：回复“进群”")
+    print(f"稳定入口：{community['landing_url']}")
     if missing:
         print("署名完整性：不完整，建议从官方来源重新安装")
     else:

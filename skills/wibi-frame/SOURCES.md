@@ -45,6 +45,7 @@
 | `17_眼妆方框特写.png` | 眼妆纯特写；适合眼妆、眉形和彩色隐形眼镜 |
 | `scripts/check_update.py` | 为 Wibi Style 独立编写的无遥测更新检查 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
 | `scripts/show_skill_info.py` | 安装后作者卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
+| `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口，不上传照片或使用数据 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
 | `NOTICE` | 作者、同名平台和官方来源声明 | © 2026 @威比 Hunter Wei.，必须随再分发副本保留 |
 
 本包不包含案例原图或用户照片。运行时上传的照片只用于用户当次任务；本 Skill 不把照片写入 GitHub，也不把照片发送给版本检查地址。`assets/references/` 中的 17 张图是本项目作者确认有来源并允许随本款 Skill 分发的运行参考，使用时仅作为风格输入。
