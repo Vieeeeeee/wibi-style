@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "fisheye-city-cover",
   "name": "Wibi Style · 鱼眼城市海报",
-  "version": "0.13.2",
+  "version": "0.13.3",
   "updated_at": "2026-08-14",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
@@ -31,8 +31,8 @@
   "update_manifest_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/skills/fisheye-city-cover/manifest.json",
   "prompt": {
     "file": "references/style-prompt.md",
-    "source": "projects/鱼眼海报/02_提示词/02_迭代记录/115_风格分支_A_黑银强鱼眼.md",
-    "source_sha256": "9471df9c3c6a28936918adeb7270670fff5bf040ece88cdf7deb9d6f6206aceb"
+    "source": "projects/鱼眼海报/02_提示词/02_迭代记录/119_风格分支_A_黑银强鱼眼_英文设计小字.md",
+    "source_sha256": "9c91773f765cf8538c10d6a070e00ddc44229f230843b7f2a31ae32564ccd987"
   },
   "style_prompts": {
     "selection_required": true,
@@ -41,22 +41,22 @@
         "id": "black-silver",
         "label": "黑银",
         "file": "references/styles/black-silver.md",
-        "source": "projects/鱼眼海报/02_提示词/02_迭代记录/115_风格分支_A_黑银强鱼眼.md",
-        "source_sha256": "9471df9c3c6a28936918adeb7270670fff5bf040ece88cdf7deb9d6f6206aceb"
+        "source": "projects/鱼眼海报/02_提示词/02_迭代记录/119_风格分支_A_黑银强鱼眼_英文设计小字.md",
+        "source_sha256": "9c91773f765cf8538c10d6a070e00ddc44229f230843b7f2a31ae32564ccd987"
       },
       {
         "id": "indigo",
         "label": "靛蓝",
         "file": "references/styles/indigo.md",
-        "source": "projects/鱼眼海报/02_提示词/02_迭代记录/116_风格分支_B_显性靛蓝强鱼眼.md",
-        "source_sha256": "3d31593d1ee6a5f2898e9a6245959f5e7c16f8a3c8e353ad81cea59a3d3ae81f"
+        "source": "projects/鱼眼海报/02_提示词/02_迭代记录/120_风格分支_B_显性靛蓝强鱼眼_英文设计小字.md",
+        "source_sha256": "999a82e6d7a4ef01ffe163033de5ec9e1219af0085237d4b25e91aad643d89c8"
       },
       {
         "id": "retro-pink",
         "label": "复古粉",
         "file": "references/styles/retro-pink.md",
-        "source": "projects/鱼眼海报/02_提示词/02_迭代记录/118_风格分支_C_清透珠光粉强鱼眼.md",
-        "source_sha256": "8ca698d45fe09c16bd9093df8f4b53c2c4c0c2e041d75e51db387dc8179f5828"
+        "source": "projects/鱼眼海报/02_提示词/02_迭代记录/121_风格分支_C_清透珠光粉强鱼眼_英文设计小字.md",
+        "source_sha256": "6e8b2da733bf8a814012cf082789aa5eaff1dc6a7ad42cd549d3398e1a656ec3"
       }
     ]
   },

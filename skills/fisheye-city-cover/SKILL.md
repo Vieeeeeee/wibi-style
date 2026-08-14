@@ -71,7 +71,7 @@ Before compiling or generating anything, establish exactly one user photo, one u
    Stop after this question. Do not infer the city from buildings, signs, metadata, or visual appearance, and do not generate yet.
 7. If the same message already contains a style and a city or place, do not ask again. Accept city, province, region, or other user-chosen place labels such as `东京`, `香港`, or `云南`.
 8. After the user answers, convert the supplied label to its conventional uppercase English title when unambiguous, for example `东京 → TOKYO` and `香港 → HONG KONG`. If the user already supplied English, preserve its wording and uppercase it. Never replace the user's place with a more specific or different location.
-9. Do not add a second confirmation turn. Once the photo, style, and city are present and the user has asked to make the poster, create three to five short non-factual atmosphere phrases for `{SMALL_TEXT}` from the visible scene. Use exact user wording if they supplied the small text. Do not invent dates, coordinates, venues, events, rankings, or brands. Then generate one image directly.
+9. Do not add a second confirmation turn. Once the photo, style, and city are present and the user has asked to make the poster, create three to five concise, non-factual, `UPPERCASE ENGLISH` atmosphere phrases for `{SMALL_TEXT}` from the visible scene. Each phrase should contain two to four English words. If the user supplied Chinese small text, translate its meaning into concise English; use conventional English or romanization for proper place names. Do not invent dates, coordinates, venues, events, rankings, or brands. Then generate one image directly.
 
 ## Input contract
 
@@ -83,8 +83,8 @@ Before compiling or generating anything, establish exactly one user photo, one u
 - Apply a strict prop-presence gate: an object may appear only when it is visible in the user photo. A lighter or flame must remain when present and must never be invented when absent. Do not invent a cigarette, microphone, handheld device, or foreground prop to strengthen the fisheye effect.
 - Apply the same closed-set rule to pose and clothing. Never invent a visible arm, hand, V sign, pointing gesture, open palm, or other pose that is absent from the user photo. Preserve sleeve length, neckline, garment category, layers, body coverage, and visible skin exactly; short sleeves remain short and unseen hands remain unseen.
 - Preserve the user photo’s people, count, identity, faces, makeup, hair, clothing, body coverage, pose, gestures, interaction, accessories, scene, and essential composition.
-- The required user-facing controls are the style choice and city or place title. Optional small text is accepted when the user supplies it; otherwise the Skill generates only non-factual atmosphere phrases from the visible scene.
-- Use user-supplied wording exactly where possible. Never invent real coordinates, dates, venues, rankings, event claims, or brands.
+- The required user-facing controls are the style choice and city or place title. Optional small text is accepted when the user supplies it; otherwise the Skill generates only non-factual atmosphere phrases from the visible scene. The bottom small text must always be concise uppercase English.
+- Preserve the meaning of user-supplied wording. Keep supplied English wording where possible; translate supplied Chinese into concise English and normalize it to uppercase. Never invent real coordinates, dates, venues, rankings, event claims, or brands.
 - When the photo, style, and city gate is satisfied and the user has clearly asked to generate, make one image directly. Stop after an error, empty output, timeout, or failed visual gate. Never retry automatically.
 
 ## Separate style templates
@@ -102,9 +102,9 @@ Do not dynamically redesign or narrate the photo. Treat the uploaded image as on
 After selecting the template, fill only two fields:
 
 1. `{CITY_TITLE}`: the uppercase English title derived from the user's supplied city or place. Never infer it from the photo.
-2. `{SMALL_TEXT}`: exact user-supplied phrases, or three to five short non-factual scene-based atmosphere phrases generated after the city gate.
+2. `{SMALL_TEXT}`: three to five uppercase English phrases, each two to four words. Keep user-supplied English where possible; translate user-supplied Chinese faithfully into concise English. Use conventional English or romanization for proper place names. Never place Chinese, Japanese, Korean, placeholder glyphs, or meaningless pseudo-English in the bottom information area.
 
-Everything else stays fixed: preserve the uploaded image as a whole; add the selected background color, true strong fisheye optics, all-silver poster typography, bottom graphic hierarchy, and CCD/MiniDV/CRT finish. The fisheye circle may bend only content already visible in the user photo; the 3:4 extension belongs to poster background and typography, not photographic outpainting.
+Everything else stays fixed: preserve the uploaded image as a whole; add the selected background color, true strong fisheye optics, all-silver poster typography, bottom graphic hierarchy, and CCD/MiniDV/CRT finish. The bottom English must use designed typography rather than plain default body text: condensed techno grotesk, extended sans, or Y2K instrument lettering, with deliberate tracking, scale and weight contrast, modular columns, rules or frames, and clean baseline alignment. The fisheye circle may bend only content already visible in the user photo; the 3:4 extension belongs to poster background and typography, not photographic outpainting.
 
 ## Generation
 
@@ -128,7 +128,7 @@ Approve only when all are true:
 4. **Scene and prop fidelity:** The entire background comes from the user photo. No reference room, speaker, computer, monitor, desk, chair, or other scenery appears. Every foreground prop exists in the user photo; a lighter or flame is kept only when originally present.
 5. **Pose and clothing fidelity:** No new arm, hand, V sign, pointing gesture, or pose appears. Sleeve length, neckline, garment structure, layers, body coverage, and visible skin match the user photo.
 6. **True fisheye:** The circle is not merely a crop or mask. Faces remain readable while the nearest existing feature is visibly enlarged, peripheral straight lines curve, background space compresses toward the circle, and edges stretch naturally. Groups preserve every member and their relationship.
-7. **Typography:** The main title is correct and immediately readable. All readable text follows the selected silver family. Required user-provided details are accurate; no unauthorized numbers, facts, or obvious gibberish appear.
+7. **Typography:** The main title is correct and immediately readable. All readable text follows the selected silver family. Bottom text contains only 3–5 clear uppercase English phrases and uses visibly designed narrow-techno, extended-sans, or Y2K-instrument typography with deliberate tracking, hierarchy, modular alignment, rules, frames, or subtle cut/outline/emboss details. Plain default body text, Chinese bottom text, placeholder glyphs, meaningless pseudo-English, unauthorized numbers, invented facts, or obvious gibberish fail this gate.
 8. **Selected color:** Black-silver reads near-black, indigo reads visibly medium-dark indigo, and retro pink reads clean luminous pearl pink without dirty gray paper wear. Every readable text element remains silver, and the user photo is not tinted with the selected background color.
 9. **Finish:** The design feels polished and intentional while clearly sourced from low-resolution 1999–2004 consumer imaging. At normal viewing size and in a face crop, verify limited detail, hard-flash clipping, low dynamic range, scanlines or interlace evidence, chroma bleed, signal noise, early JPEG damage, and CRT/print aging. Grain restricted to the border or top layer fails this gate.
 10. **Originality:** No recognizable celebrity, artist, brand, album, mascot, logo, watermark, or platform mark is introduced.

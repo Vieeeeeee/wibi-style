@@ -3,7 +3,9 @@
 | 内容 | 来源 | 当前状态 |
 | --- | --- | --- |
 | `SKILL.md` | 鱼眼海报旧项目与原 Prompt 基础上独立编写的动态运行规则 | © 2026 @威比 Hunter Wei. |
-| `references/style-prompt.md` | `02_提示词/03_当前版本/112_Skill动态版_v12_RGB横向信号噪波.md` | © 2026 @威比 Hunter Wei. |
+| `references/style-prompt.md`、`references/styles/black-silver.md` | `02_提示词/02_迭代记录/119_风格分支_A_黑银强鱼眼_英文设计小字.md` | © 2026 @威比 Hunter Wei. |
+| `references/styles/indigo.md` | `02_提示词/02_迭代记录/120_风格分支_B_显性靛蓝强鱼眼_英文设计小字.md` | © 2026 @威比 Hunter Wei. |
+| `references/styles/retro-pink.md` | `02_提示词/02_迭代记录/121_风格分支_C_清透珠光粉强鱼眼_英文设计小字.md` | © 2026 @威比 Hunter Wei. |
 | `references/presets.md` | 本项目独立编写的配色、鱼眼与文字密度选项 | © 2026 @威比 Hunter Wei. |
 | `assets/references/y2k-fisheye-layout-reference.png` | `01_风格参考/01_Y2K鱼眼版式参考.png`，SHA-256 `9fae4a112369ddab549edce7c007f2cbe1bffd925575ab7511022cbff4869924` | 用户于 2026-08-14 明确确认为公开素材，并授权随本 Skill 公开再分发 |
 | `scripts/check_update.py` | Wibi Style 无遥测更新检查 | © 2026 @威比 Hunter Wei. |
