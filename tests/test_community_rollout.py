@@ -14,7 +14,18 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "community.json"
 TARGETS = {
+    "alt-manga-avatar": "1.0.3",
+    "art-print-poster": "1.0.3",
+    "blue-retro-print": "1.0.3",
+    "clear-sky-urban-cel": "1.0.3",
+    "dark-red-black-cel-shaded": "1.0.3",
     "diamond-kid-head-card": "1.0.4",
+    "electric-blue-halftone-poster": "1.0.6",
+    "glitch-pixel-collage": "1.0.3",
+    "iridescent-long-exposure": "1.0.3",
+    "photo-perler-charm": "1.0.3",
+    "pixel-stretch": "1.0.3",
+    "quirky-pop-doodle-sticker": "1.0.3",
     "wibi-frame": "1.3.6",
 }
 
@@ -47,7 +58,7 @@ class CommunityRolloutTest(unittest.TestCase):
         self.assertIsNotNone(expires_at.tzinfo)
         self.assertGreater(expires_at.astimezone(timezone.utc), datetime.now(timezone.utc))
 
-    def test_two_skills_share_the_same_community_reader(self) -> None:
+    def test_all_skills_share_the_same_community_reader(self) -> None:
         digests = set()
         for slug in TARGETS:
             path = ROOT / "skills" / slug / "scripts" / "community_info.py"
@@ -96,7 +107,7 @@ class CommunityRolloutTest(unittest.TestCase):
         self.assertNotIn("qr_image_url", payload)
         self.assertEqual(payload["fallback_wechat"], "Wibi2077")
 
-    def test_manifests_and_skill_policies_are_scoped_to_two_targets(self) -> None:
+    def test_manifests_and_skill_policies_cover_all_public_skills(self) -> None:
         for slug, version in TARGETS.items():
             skill_dir = ROOT / "skills" / slug
             manifest = json.loads((skill_dir / "manifest.json").read_text(encoding="utf-8"))

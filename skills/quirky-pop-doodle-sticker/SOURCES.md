@@ -5,6 +5,7 @@
 | `SKILL.md` 与 `references/style-prompt.md` | 当前项目已验收规则，源文件 SHA-256：`633669c97e47e554c4e9b507423eff35cb4a116bbc96eba23aaa7c554770ab4a` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/check_update.py` | 无遥测更新检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/show_skill_info.py` | 作者卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
+| `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口，不上传照片或使用数据 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `NOTICE` | 作者、平台和官方来源声明 | 必须随再分发副本保留 |
 
 

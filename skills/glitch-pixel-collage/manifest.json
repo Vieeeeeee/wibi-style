@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "glitch-pixel-collage",
   "name": "Wibi Style · 乱码像素拼贴",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/glitch-pixel-collage",
@@ -24,6 +24,12 @@
     "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
     "display_output": true,
     "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "summary-once",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
   },
   "prompt": {
     "file": "references/style-prompt.md",
