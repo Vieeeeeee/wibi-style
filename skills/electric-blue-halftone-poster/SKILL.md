@@ -39,8 +39,8 @@ python3 {baseDir}/scripts/check_update.py
 - Process one photo at a time. If several photos arrive without explicit batch authorization, ask which one to use first.
 - Prefer a single person or pet whose face and head silhouette are clear. Warn briefly that crowds, distant subjects, severe occlusion, or a very small head will reduce fidelity.
 - When the user uploads one photo and clearly asks to make the style, generate one image directly without another confirmation turn.
-- Use the Codex built-in image-generation tool by default. Use Lovart only when the user explicitly requests it.
-- Stop after a tool error, empty output, or timeout. Do not retry, switch models, or increase quality automatically.
+- Use an image-generation tool or model already available in the current environment, preferring built-in capabilities that require no extra user setup.
+- If one tool is unavailable, continue with another image-generation capability available in the current environment. Ask the user to add or enable one only after confirming that none is available. After an actual submission returns an error, empty output, or timeout, stop and do not resubmit automatically.
 - When the user gives feedback without requesting another generation, record the requested change and wait for an explicit “再做一张”, “重做”, or equivalent instruction.
 
 ## Workflow

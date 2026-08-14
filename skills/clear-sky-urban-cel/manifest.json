@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "clear-sky-urban-cel",
   "name": "Wibi Style · 晴空都市赛璐璐",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/clear-sky-urban-cel",
@@ -48,5 +48,5 @@
     "redistributable_assets": [],
     "bundled_third_party_assets": []
   },
-  "updated_at": "2026-08-13"
+  "updated_at": "2026-08-14"
 }

@@ -41,7 +41,7 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/diamond-kid-head-card
 使用 $diamond-kid-head-card 处理这张照片，背景选 D 蜡笔手绘小星星。
 ```
 
-若不指定背景，Skill 会询问 A–E 五种选项；用户说“默认”或“都行”时使用 A 暖白。默认调用 Codex 内置图像生成工具，每次生成一张 1:1 PNG。
+若不指定背景，Skill 会询问 A–E 五种选项；用户说“默认”或“都行”时使用 A 暖白。Skill 使用当前环境已经可用的生图能力，每次生成一张 1:1 PNG。
 
 ## 关键规则
 

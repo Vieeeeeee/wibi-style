@@ -14,8 +14,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "community.json"
 TARGETS = {
-    "diamond-kid-head-card": "1.0.2",
-    "wibi-frame": "1.3.4",
+    "diamond-kid-head-card": "1.0.3",
+    "wibi-frame": "1.3.5",
 }
 
 

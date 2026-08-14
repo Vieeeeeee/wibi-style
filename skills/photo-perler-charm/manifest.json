@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "photo-perler-charm",
   "name": "Wibi Style · 照片拼豆挂件",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/photo-perler-charm",
@@ -56,5 +56,5 @@
     ],
     "bundled_third_party_assets": []
   },
-  "updated_at": "2026-08-13"
+  "updated_at": "2026-08-14"
 }
