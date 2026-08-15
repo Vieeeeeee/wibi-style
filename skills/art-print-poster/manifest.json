@@ -2,7 +2,16 @@
   "schema_version": 1,
   "slug": "art-print-poster",
   "name": "Wibi Style · 蜡笔手绘头像",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "welcome": {
+    "waiting": [
+      "先发一张你想画成蜡笔头像的照片给我吧～",
+      "我会保留最有辨识度的脸型、发型和神态，把它画成温暖又有手作感的蜡笔头像。"
+    ],
+    "received": [
+      "照片收到啦～我会抓住人物最有辨识度的脸型、发型和神态，再把它画成温暖又有手作感的蜡笔头像。"
+    ]
+  },
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/art-print-poster",
@@ -23,11 +32,12 @@
   "post_install": {
     "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
     "display_output": true,
-    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
   },
   "community": {
     "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
-    "opening": "summary-once",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
     "on_generation_failure": "current-qr-once-per-conversation",
     "on_first_success": "author-and-join-cta"
   },
@@ -62,5 +72,5 @@
     ],
     "bundled_third_party_assets": []
   },
-  "updated_at": "2026-08-14"
+  "updated_at": "2026-08-15"
 }

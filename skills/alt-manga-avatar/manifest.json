@@ -2,7 +2,16 @@
   "schema_version": 1,
   "slug": "alt-manga-avatar",
   "name": "Wibi Style · 粗线条漫画头像",
-  "version": "1.0.4",
+  "version": "1.0.5",
+  "welcome": {
+    "waiting": [
+      "先发一张你想画成漫画头像的照片给我吧～",
+      "正面或半侧脸都可以，我会把它变成有点怪、有点酷的粗线条漫画角色。"
+    ],
+    "received": [
+      "照片收到啦～我会抓住脸型、发型和神态里最有记忆点的部分，再把它画成有点怪、有点酷的粗线条漫画头像。"
+    ]
+  },
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/alt-manga-avatar",
@@ -23,7 +32,7 @@
   "post_install": {
     "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
     "display_output": true,
-    "fallback": "Each new conversation shows the compact welcome card once."
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
   },
   "community": {
     "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",

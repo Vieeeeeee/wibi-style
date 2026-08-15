@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Show the install card or the compact per-conversation welcome card."""
+"""Show the install card or the two-section per-conversation welcome card."""
 
 from __future__ import annotations
 
@@ -26,7 +26,13 @@ AUTHOR_NOTE = "抖音、小红书同名"
 def main() -> int:
     parser = argparse.ArgumentParser(description="Show Wibi Style Skill information")
     parser.add_argument("--always", action="store_true", help="show even if this installed copy was shown before")
-    parser.add_argument("--welcome", action="store_true", help="show the compact welcome card")
+    parser.add_argument("--welcome", action="store_true", help="show the two-section welcome card")
+    parser.add_argument(
+        "--input-state",
+        choices=("waiting", "received"),
+        default="waiting",
+        help="choose the next-action copy shown in the welcome card",
+    )
     args = parser.parse_args()
 
     skill_dir = Path(__file__).resolve().parents[1]
@@ -48,10 +54,29 @@ def main() -> int:
                     missing.append(f"{name}:{value}")
 
     if args.welcome:
+        welcome = manifest.get("welcome", {})
+        next_lines = welcome.get(args.input_state)
+        if not isinstance(next_lines, list) or not next_lines:
+            print("WELCOME_CONFIG_INCOMPLETE")
+            return 1
         print("SHOW_SKILL_WELCOME")
-        print(f"嗨，这是 {AUTHOR} 创作的「{manifest['name']}」。")
-        print("上传一张正面或半侧脸自拍，我会帮你转换成独立漫画杂志风头像。想交流 Skill 使用和新风格内测，可以回复“进群”。")
+        print()
+        print(f"### {manifest['name']}")
+        print()
+        print(f"**Visual Skill by {AUTHOR}**  ")
+        print(AUTHOR_NOTE)
+        print()
+        print("如果你也喜欢研究好玩的 AI 视觉 Skill，可以回复 **「进群」**，来一起交流～")
+        print()
+        print("---")
+        print()
+        print("#### 现在开始")
+        print()
+        for index, line in enumerate(next_lines):
+            suffix = "  " if index < len(next_lines) - 1 else ""
+            print(f"{line}{suffix}")
         if missing:
+            print()
             print("署名完整性：不完整，建议从官方来源重新安装")
         return 0
 

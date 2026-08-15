@@ -2,8 +2,17 @@
   "schema_version": 1,
   "slug": "electric-blue-halftone-poster",
   "name": "Wibi Style · 电蓝网点海报",
-  "version": "1.0.6",
-  "updated_at": "2026-08-14",
+  "version": "1.0.7",
+  "welcome": {
+    "waiting": [
+      "先发一张清楚的人像或宠物大头照给我吧～",
+      "我会把它变成电蓝粗网点、红黄星星和复印质感组成的方形海报。"
+    ],
+    "received": [
+      "照片收到啦～我会保留这张脸最有辨识度的轮廓和神态，把它做成醒目的电蓝粗网点海报。"
+    ]
+  },
+  "updated_at": "2026-08-15",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster",
@@ -19,11 +28,12 @@
   "post_install": {
     "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
     "display_output": true,
-    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
   },
   "community": {
     "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
-    "opening": "summary-once",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
     "on_generation_failure": "current-qr-once-per-conversation",
     "on_first_success": "author-and-join-cta"
   },

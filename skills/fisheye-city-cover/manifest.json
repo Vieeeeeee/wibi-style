@@ -2,8 +2,17 @@
   "schema_version": 1,
   "slug": "fisheye-city-cover",
   "name": "Wibi Style · 鱼眼城市海报",
-  "version": "0.13.3",
-  "updated_at": "2026-08-14",
+  "version": "0.13.4",
+  "welcome": {
+    "waiting": [
+      "先发一张你想做成海报的照片给我吧～",
+      "人像、合照、街景或旅行照都可以；收到后我们再挑海报气质和城市标题。"
+    ],
+    "received": [
+      "照片收到啦～我会先看看你有没有选好海报气质和城市；信息齐了就直接开始，缺哪项我只问哪项。"
+    ]
+  },
+  "updated_at": "2026-08-15",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/fisheye-city-cover",
@@ -16,11 +25,12 @@
   "post_install": {
     "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
     "display_output": true,
-    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
   },
   "community": {
     "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
-    "opening": "summary-once",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
     "on_generation_failure": "current-qr-once-per-conversation",
     "on_first_success": "author-and-join-cta"
   },

@@ -2,7 +2,7 @@
 
 把一张人物、合照、街拍或旅行照片做成 3:4 Y2K 强鱼眼城市杂志海报：真实 8–12mm 鱼眼畸变、液态铬银城市标题、三种可选背景、旧 CCD / MiniDV 质感和断续 RGB 信号横条。
 
-当前版本：`v0.13.3`
+当前版本：`v0.13.4`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -17,7 +17,7 @@
 https://github.com/Vieeeeeee/wibi-style/tree/main/skills/fisheye-city-cover
 ```
 
-安装器只下载这一款 Skill，不会下载仓库中的其他风格。安装完成后会展示名称、版本、作者、同名平台、官方来源、安装路径和署名完整性；如果安装器没有展示，第一次使用时会补展示一次。
+安装器只下载这一款 Skill，不会下载仓库中的其他风格。每个新对话第一次使用时会展示两段式 Markdown 欢迎卡。
 
 ## 使用
 
@@ -73,13 +73,13 @@ Skill 每次固定携带一张内置鱼眼版式参考。参考只定义鱼眼�
 以下均为本 Skill 的实际生成结果，只展示成图，不包含用户原图、Before / After 对比图或运行参考。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.3/docs/fisheye-city-cover/examples/example-01.png" alt="深圳黑银鱼眼城市海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.3/docs/fisheye-city-cover/examples/example-02.png" alt="香港黑银鱼眼城市海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.3/docs/fisheye-city-cover/examples/example-03.png" alt="成都靛蓝鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-01.png" alt="深圳黑银鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-02.png" alt="香港黑银鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-03.png" alt="成都靛蓝鱼眼城市海报" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.3/docs/fisheye-city-cover/examples/example-04.png" alt="杭州清透粉鱼眼城市海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.3/docs/fisheye-city-cover/examples/example-05.png" alt="新加坡清透粉鱼眼城市海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.3/docs/fisheye-city-cover/examples/example-06.png" alt="北京三人合照鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-04.png" alt="杭州清透粉鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-05.png" alt="新加坡清透粉鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-06.png" alt="北京三人合照鱼眼城市海报" width="30%" />
 </p>
 
 ## 更新与隐私
@@ -88,7 +88,7 @@ Skill 每次固定携带一张内置鱼眼版式参考。参考只定义鱼眼�
 
 用户照片只用于当前任务，不进入安装包、公开仓库或后续用户的参考集。
 
-想交流 Skill 安装、选图、生图问题或参加新风格内测，可以在使用时回复“进群”。Skill 会读取仓库维护的当前入口；二维码过期或网络不可用时不会展示旧图。群内交流请勿直接发送含个人隐私的原图，可以先发错误提示或打码截图。
+想交流 Skill 安装、选图、生图问题或参加新风格内测，可以在使用时回复“进群”。Skill 会从官方仓库下载当前二维码并通过本地图片展示；不会提供无法从普通浏览器直接入群的链接。二维码过期或网络不可用时不会展示旧图。
 
 ## 使用与授权
 

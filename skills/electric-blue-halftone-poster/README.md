@@ -2,7 +2,7 @@
 
 把单人人像或宠物大头照做成 1:1 电光蓝粗网点半调唱片海报：纯黑、纯白和可数的粗圆点组成主体，电光蓝底配红黄星星与白色条码。
 
-当前版本：`v1.0.6`
+当前版本：`v1.0.7`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,13 +11,13 @@
 以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.6/docs/electric-blue-halftone-poster/examples/example-01.png" alt="打哈欠表情电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.6/docs/electric-blue-halftone-poster/examples/example-02.png" alt="黑框眼镜电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.6/docs/electric-blue-halftone-poster/examples/example-03.png" alt="帽子眼镜电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.7/docs/electric-blue-halftone-poster/examples/example-01.png" alt="打哈欠表情电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.7/docs/electric-blue-halftone-poster/examples/example-02.png" alt="黑框眼镜电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.7/docs/electric-blue-halftone-poster/examples/example-03.png" alt="帽子眼镜电蓝粗网点海报" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.6/docs/electric-blue-halftone-poster/examples/example-04.png" alt="墨镜长发电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.6/docs/electric-blue-halftone-poster/examples/example-05.png" alt="豹纹头巾电蓝粗网点海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.6/docs/electric-blue-halftone-poster/examples/example-06.png" alt="吐舌表情电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.7/docs/electric-blue-halftone-poster/examples/example-04.png" alt="墨镜长发电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.7/docs/electric-blue-halftone-poster/examples/example-05.png" alt="豹纹头巾电蓝粗网点海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/electric-blue-halftone-poster-v1.0.7/docs/electric-blue-halftone-poster/examples/example-06.png" alt="吐舌表情电蓝粗网点海报" width="30%" />
 </p>
 
 ## 安装
@@ -29,9 +29,9 @@
 https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster
 ```
 
-安装器只下载这一款 Skill，不会下载仓库中的其他风格。安装完成后会展示名称、版本、作者、同名平台、官方来源和安装路径；若安装器没有展示，第一次使用时会补展示一次。
+安装器只下载这一款 Skill，不会下载仓库中的其他风格。每个新对话第一次使用时会展示两段式 Markdown 欢迎卡。
 
-作者卡会简短介绍「威比 😌 AIGC 学习群」；回复“进群”可从官方仓库读取当前入群链接和二维码。真实生图接口报错、空输出或超时时，也会在停止自动重试后展示一次当前入群信息。
+回复“进群”会从官方仓库读取并下载当前二维码，再通过本地图片展示；不会提供无法从普通浏览器直接入群的链接。真实生图接口报错、空输出或超时时，也会在停止自动重试后展示一次当前入群信息。
 
 ## 使用
 

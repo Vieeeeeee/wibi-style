@@ -2,8 +2,17 @@
   "schema_version": 1,
   "slug": "diamond-kid-head-card",
   "name": "Wibi Style · 钻牙萌娃大头",
-  "version": "1.0.4",
-  "updated_at": "2026-08-14",
+  "version": "1.0.5",
+  "welcome": {
+    "waiting": [
+      "先发一张单人儿童照片给我吧～老照片也可以。",
+      "收到后我们先挑一个背景，再把它做成明亮可爱的萌娃大头卡贴。"
+    ],
+    "received": [
+      "照片收到啦～接下来我们先挑一个背景，再把它做成明亮可爱的萌娃大头卡贴；原片明显露齿时才会加满钻牙。"
+    ]
+  },
+  "updated_at": "2026-08-15",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/diamond-kid-head-card",
@@ -24,11 +33,12 @@
   "post_install": {
     "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
     "display_output": true,
-    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
   },
   "community": {
     "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
-    "opening": "summary-once",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
     "on_generation_failure": "current-qr-once-per-conversation",
     "on_first_success": "author-and-join-cta"
   },

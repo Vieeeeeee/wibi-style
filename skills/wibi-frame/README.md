@@ -2,7 +2,7 @@
 
 把普通照片里最值得看的局部，做成大面积纯色留白中的复古平面漫画特写。Skill 会先给出三个具体局部供你选择，再完成小框聚焦、自然越框和框内外同色连接。
 
-当前版本：`v1.3.6`
+当前版本：`v1.3.7`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,13 +11,13 @@
 以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.6/docs/wibi-frame/examples/example-01.png" alt="面条与筷子局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.6/docs/wibi-frame/examples/example-02.png" alt="双眼局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.6/docs/wibi-frame/examples/example-03.png" alt="帽檐与眼神局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-01.png" alt="面条与筷子局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-02.png" alt="双眼局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-03.png" alt="帽檐与眼神局部成图" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.6/docs/wibi-frame/examples/example-04.png" alt="帽子与双手局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.6/docs/wibi-frame/examples/example-05.png" alt="西瓜与表情局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.6/docs/wibi-frame/examples/example-06.png" alt="侧脸与香烟局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-04.png" alt="帽子与双手局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-05.png" alt="西瓜与表情局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-06.png" alt="侧脸与香烟局部成图" width="30%" />
 </p>
 
 ## 安装
@@ -29,9 +29,9 @@
 https://github.com/Vieeeeeee/wibi-style/tree/main/skills/wibi-frame
 ```
 
-安装器只下载这一款 Skill，不会下载仓库中的其他风格。此款 Skill 会同时下载本款运行所需的 17 张风格参考图和 14 张构图卡；不会下载其他风格的文件、案例原图或用户照片。安装完成后会展示名称、版本、作者、同名平台、官方来源和安装路径；若安装器没有展示，第一次使用时会补展示一次。
+安装器只下载这一款 Skill，不会下载仓库中的其他风格。此款 Skill 会同时下载本款运行所需的 17 张风格参考图和 14 张构图卡；不会下载其他风格的文件、案例原图或用户照片。每个新对话第一次使用时会展示两段式 Markdown 欢迎卡。
 
-作者卡会简短介绍「威比 😌 AIGC 学习群」；回复“进群”可从官方仓库读取当前入群链接和二维码。真实生图接口报错、空输出或超时时，也会在停止自动重试后展示一次当前入群信息。
+回复“进群”会从官方仓库读取并下载当前二维码，再通过本地图片展示；不会提供无法从普通浏览器直接入群的链接。真实生图接口报错、空输出或超时时，也会在停止自动重试后展示一次当前入群信息。
 
 旧 `v1.1` 没有更新检查，需要先按上面的地址手动更新一次。从 `v1.2.0` 起，每个新任务第一次使用时会查询这一款有没有新版本；只在发现更新时提醒，不自动覆盖本地文件，也不上传用户照片。
 

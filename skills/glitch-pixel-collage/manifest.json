@@ -2,7 +2,16 @@
   "schema_version": 1,
   "slug": "glitch-pixel-collage",
   "name": "Wibi Style · 乱码像素拼贴",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "welcome": {
+    "waiting": [
+      "先发一张你想拆成像素拼贴的照片给我吧～",
+      "我会保留主体关系，把它变成带乱码、像素块和故障感的实验拼贴。"
+    ],
+    "received": [
+      "照片收到啦～我会保留主体和画面关系，把它拆成带乱码、像素块和故障感的实验拼贴。"
+    ]
+  },
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/glitch-pixel-collage",
@@ -23,11 +32,12 @@
   "post_install": {
     "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
     "display_output": true,
-    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
   },
   "community": {
     "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
-    "opening": "summary-once",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
     "on_generation_failure": "current-qr-once-per-conversation",
     "on_first_success": "author-and-join-cta"
   },
@@ -74,5 +84,5 @@
     ],
     "bundled_third_party_assets": []
   },
-  "updated_at": "2026-08-14"
+  "updated_at": "2026-08-15"
 }

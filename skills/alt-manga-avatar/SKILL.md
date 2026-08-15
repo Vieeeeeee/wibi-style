@@ -7,7 +7,19 @@ description: Wibi Style 官方视觉风格。把用户上传的一张照片转�
 
 ## 欢迎卡
 
-每个新对话第一次使用时运行 `python3 {baseDir}/scripts/show_skill_info.py --welcome`，完整展示 `SHOW_SKILL_WELCOME` 后的精简欢迎卡；同一对话后续不重复。开场不直接展示二维码。署名不完整时建议从官方来源重装。
+每个新对话第一次使用时展示一次欢迎卡，同一对话后续不重复：
+
+- 用户尚未提供照片时，运行 `python3 {baseDir}/scripts/show_skill_info.py --welcome --input-state waiting`。
+- 用户已经提供照片时，运行 `python3 {baseDir}/scripts/show_skill_info.py --welcome --input-state received`。
+- 完整展示 `SHOW_SKILL_WELCOME` 后的 Markdown 内容，保留标题、空行、分隔线和加粗格式。作者身份与交流信息放在上半区；只用一条分隔线；下半区专门说明当前操作。
+- 开场不直接展示二维码。署名不完整时建议从官方来源重装。
+
+## 对话语气
+
+- 使用自然、轻松、有来有回的中文，像在陪用户一起做图。
+- 每次只给一个明确的下一步，让用户一眼知道该上传、选择、等待或重试。
+- 可以少量使用“～”或一个贴合语境的表情；保持克制，不连续堆叠。
+- 少讲技术过程。遇到失败时直接说明发生了什么和下一步怎么做，不责怪用户。
 
 ## 更新检查
 

@@ -16,19 +16,20 @@ from unittest import mock
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "community.json"
 TARGETS = {
-    "alt-manga-avatar": "1.0.4",
-    "art-print-poster": "1.0.3",
-    "blue-retro-print": "1.0.3",
-    "clear-sky-urban-cel": "1.0.3",
-    "dark-red-black-cel-shaded": "1.0.3",
-    "diamond-kid-head-card": "1.0.4",
-    "electric-blue-halftone-poster": "1.0.6",
-    "glitch-pixel-collage": "1.0.3",
-    "iridescent-long-exposure": "1.0.3",
-    "photo-perler-charm": "1.0.3",
-    "pixel-stretch": "1.0.3",
-    "quirky-pop-doodle-sticker": "1.0.3",
-    "wibi-frame": "1.3.6",
+    "alt-manga-avatar": "1.0.5",
+    "art-print-poster": "1.0.4",
+    "blue-retro-print": "1.0.4",
+    "clear-sky-urban-cel": "1.0.4",
+    "dark-red-black-cel-shaded": "1.0.4",
+    "diamond-kid-head-card": "1.0.5",
+    "electric-blue-halftone-poster": "1.0.7",
+    "fisheye-city-cover": "0.13.4",
+    "glitch-pixel-collage": "1.0.4",
+    "iridescent-long-exposure": "1.0.4",
+    "photo-perler-charm": "1.0.4",
+    "pixel-stretch": "1.0.4",
+    "quirky-pop-doodle-sticker": "1.0.4",
+    "wibi-frame": "1.3.7",
 }
 
 
@@ -60,15 +61,13 @@ class CommunityRolloutTest(unittest.TestCase):
         self.assertIsNotNone(expires_at.tzinfo)
         self.assertGreater(expires_at.astimezone(timezone.utc), datetime.now(timezone.utc))
 
-    def test_legacy_skills_share_the_same_community_reader_during_pilot(self) -> None:
+    def test_all_skills_share_the_local_qr_community_reader(self) -> None:
         digests = set()
-        for slug in TARGETS.keys() - {"alt-manga-avatar"}:
+        for slug in TARGETS:
             path = ROOT / "skills" / slug / "scripts" / "community_info.py"
             self.assertTrue(path.is_file())
             digests.add(hashlib.sha256(path.read_bytes()).hexdigest())
         self.assertEqual(len(digests), 1)
-        pilot = ROOT / "skills" / "alt-manga-avatar" / "scripts" / "community_info.py"
-        self.assertNotIn(hashlib.sha256(pilot.read_bytes()).hexdigest(), digests)
 
     def test_available_community_output_and_opening_card(self) -> None:
         with tempfile.TemporaryDirectory() as home:
@@ -78,35 +77,38 @@ class CommunityRolloutTest(unittest.TestCase):
             }
             for slug, version in TARGETS.items():
                 scripts = ROOT / "skills" / slug / "scripts"
-                if slug != "alt-manga-avatar":
-                    community = run_script(scripts / "community_info.py", "--json", env=env)
-                    payload = json.loads(community.stdout)
-                    self.assertEqual(payload["status"], "available")
-                    self.assertEqual(payload["qr_image_url"], self.config["qr_image_url"])
-
                 author_card = run_script(scripts / "show_skill_info.py", "--always", env=env)
                 self.assertIn("SHOW_SKILL_INFO", author_card.stdout)
                 self.assertIn(f"版本：{version}", author_card.stdout)
                 self.assertIn(f"**{self.config['name']}**", author_card.stdout)
                 self.assertIn("回复“进群”", author_card.stdout)
 
-    def test_alt_manga_welcome_card_is_compact_and_repeatable(self) -> None:
+    def test_all_welcome_cards_have_two_sections_and_contextual_actions(self) -> None:
         with tempfile.TemporaryDirectory() as home:
             env = {
                 "HOME": home,
                 "WIBI_COMMUNITY_CONFIG_URL": CONFIG_PATH.as_uri(),
             }
-            script = ROOT / "skills" / "alt-manga-avatar" / "scripts" / "show_skill_info.py"
-            first = run_script(script, "--welcome", env=env)
-            second = run_script(script, "--welcome", env=env)
-        for output in (first.stdout, second.stdout):
-            self.assertIn("SHOW_SKILL_WELCOME", output)
-            self.assertIn("@威比 Hunter Wei.", output)
-            self.assertIn("上传一张正面或半侧脸自拍", output)
-            self.assertIn("回复“进群”", output)
-            self.assertNotIn("安装路径：", output)
+            for slug in TARGETS:
+                skill_dir = ROOT / "skills" / slug
+                manifest = json.loads((skill_dir / "manifest.json").read_text(encoding="utf-8"))
+                script = skill_dir / "scripts" / "show_skill_info.py"
+                waiting = run_script(script, "--welcome", "--input-state", "waiting", env=env).stdout
+                received = run_script(script, "--welcome", "--input-state", "received", env=env).stdout
+                for state, output in (("waiting", waiting), ("received", received)):
+                    self.assertIn("SHOW_SKILL_WELCOME", output)
+                    self.assertIn(f"### {manifest['name']}", output)
+                    self.assertIn("**Visual Skill by @威比 Hunter Wei.**", output)
+                    self.assertEqual(output.count("\n---\n"), 1)
+                    brand, action = output.split("\n---\n")
+                    self.assertIn("**「进群」**", brand)
+                    self.assertNotIn("进群", action)
+                    self.assertIn("#### 现在开始", action)
+                    for line in manifest["welcome"][state]:
+                        self.assertIn(line, action)
+                    self.assertNotIn("安装路径：", output)
 
-    def test_alt_manga_downloads_current_qr_and_returns_only_local_path(self) -> None:
+    def test_current_qr_is_downloaded_and_only_local_path_is_returned(self) -> None:
         script = ROOT / "skills" / "alt-manga-avatar" / "scripts" / "community_info.py"
         spec = importlib.util.spec_from_file_location("alt_manga_community_info", script)
         self.assertIsNotNone(spec)
@@ -183,10 +185,22 @@ class CommunityRolloutTest(unittest.TestCase):
             manifest = json.loads((skill_dir / "manifest.json").read_text(encoding="utf-8"))
             self.assertEqual(manifest["version"], version)
             self.assertEqual(manifest["community"]["config_url"], self.config_url)
+            self.assertEqual(manifest["community"]["opening"], "welcome-once-per-conversation")
+            self.assertEqual(
+                manifest["community"]["qr_display"],
+                "download-current-github-image-and-render-locally",
+            )
+            self.assertEqual(len(manifest["welcome"]["waiting"]), 2)
+            self.assertEqual(len(manifest["welcome"]["received"]), 1)
             skill_text = (skill_dir / "SKILL.md").read_text(encoding="utf-8")
             self.assertIn("## 交流学习群", skill_text)
             self.assertIn("同一对话只展示一次失败入群卡", skill_text)
             self.assertIn("当前对话第一次成功", skill_text)
+            self.assertIn("--input-state waiting", skill_text)
+            self.assertIn("--input-state received", skill_text)
+            self.assertIn("qr_local_path", skill_text)
+            self.assertNotIn("qr_image_url", skill_text)
+            self.assertTrue("## 对话语气" in skill_text or "## Conversation tone" in skill_text)
 
     @property
     def config_url(self) -> str:
