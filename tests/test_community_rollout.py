@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 import hashlib
+import importlib.util
 import json
 import os
 from pathlib import Path
@@ -9,12 +10,13 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest import mock
 
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "community.json"
 TARGETS = {
-    "alt-manga-avatar": "1.0.3",
+    "alt-manga-avatar": "1.0.4",
     "art-print-poster": "1.0.3",
     "blue-retro-print": "1.0.3",
     "clear-sky-urban-cel": "1.0.3",
@@ -58,13 +60,15 @@ class CommunityRolloutTest(unittest.TestCase):
         self.assertIsNotNone(expires_at.tzinfo)
         self.assertGreater(expires_at.astimezone(timezone.utc), datetime.now(timezone.utc))
 
-    def test_all_skills_share_the_same_community_reader(self) -> None:
+    def test_legacy_skills_share_the_same_community_reader_during_pilot(self) -> None:
         digests = set()
-        for slug in TARGETS:
+        for slug in TARGETS.keys() - {"alt-manga-avatar"}:
             path = ROOT / "skills" / slug / "scripts" / "community_info.py"
             self.assertTrue(path.is_file())
             digests.add(hashlib.sha256(path.read_bytes()).hexdigest())
         self.assertEqual(len(digests), 1)
+        pilot = ROOT / "skills" / "alt-manga-avatar" / "scripts" / "community_info.py"
+        self.assertNotIn(hashlib.sha256(pilot.read_bytes()).hexdigest(), digests)
 
     def test_available_community_output_and_opening_card(self) -> None:
         with tempfile.TemporaryDirectory() as home:
@@ -74,16 +78,82 @@ class CommunityRolloutTest(unittest.TestCase):
             }
             for slug, version in TARGETS.items():
                 scripts = ROOT / "skills" / slug / "scripts"
-                community = run_script(scripts / "community_info.py", "--json", env=env)
-                payload = json.loads(community.stdout)
-                self.assertEqual(payload["status"], "available")
-                self.assertEqual(payload["qr_image_url"], self.config["qr_image_url"])
+                if slug != "alt-manga-avatar":
+                    community = run_script(scripts / "community_info.py", "--json", env=env)
+                    payload = json.loads(community.stdout)
+                    self.assertEqual(payload["status"], "available")
+                    self.assertEqual(payload["qr_image_url"], self.config["qr_image_url"])
 
                 author_card = run_script(scripts / "show_skill_info.py", "--always", env=env)
                 self.assertIn("SHOW_SKILL_INFO", author_card.stdout)
                 self.assertIn(f"版本：{version}", author_card.stdout)
                 self.assertIn(f"**{self.config['name']}**", author_card.stdout)
                 self.assertIn("回复“进群”", author_card.stdout)
+
+    def test_alt_manga_welcome_card_is_compact_and_repeatable(self) -> None:
+        with tempfile.TemporaryDirectory() as home:
+            env = {
+                "HOME": home,
+                "WIBI_COMMUNITY_CONFIG_URL": CONFIG_PATH.as_uri(),
+            }
+            script = ROOT / "skills" / "alt-manga-avatar" / "scripts" / "show_skill_info.py"
+            first = run_script(script, "--welcome", env=env)
+            second = run_script(script, "--welcome", env=env)
+        for output in (first.stdout, second.stdout):
+            self.assertIn("SHOW_SKILL_WELCOME", output)
+            self.assertIn("@威比 Hunter Wei.", output)
+            self.assertIn("上传一张正面或半侧脸自拍", output)
+            self.assertIn("回复“进群”", output)
+            self.assertNotIn("安装路径：", output)
+
+    def test_alt_manga_downloads_current_qr_and_returns_only_local_path(self) -> None:
+        script = ROOT / "skills" / "alt-manga-avatar" / "scripts" / "community_info.py"
+        spec = importlib.util.spec_from_file_location("alt_manga_community_info", script)
+        self.assertIsNotNone(spec)
+        self.assertIsNotNone(spec.loader)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+
+        class Response:
+            def __init__(self, body: bytes, url: str, content_type: str) -> None:
+                self.body = body
+                self.url = url
+                self.headers = {
+                    "Content-Length": str(len(body)),
+                    "Content-Type": content_type,
+                }
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *_args):
+                return False
+
+            def read(self, limit: int = -1) -> bytes:
+                return self.body if limit < 0 else self.body[:limit]
+
+            def geturl(self) -> str:
+                return self.url
+
+        config_body = json.dumps(self.config, ensure_ascii=False).encode("utf-8")
+        qr_body = b"\xff\xd8\xff" + b"current-github-qr"
+        qr_url = self.config["qr_image_url"]
+        responses = [
+            Response(config_body, module.DEFAULT_CONFIG_URL, "application/json"),
+            Response(qr_body, qr_url, "image/jpeg"),
+        ]
+        with tempfile.TemporaryDirectory() as cache:
+            with mock.patch.dict(os.environ, {"WIBI_COMMUNITY_CACHE_DIR": cache}):
+                with mock.patch.object(module.urllib.request, "urlopen", side_effect=responses):
+                    payload = module.load_community(download_qr=True)
+            local_qr = Path(payload["qr_local_path"])
+            self.assertTrue(local_qr.is_file())
+            self.assertEqual(local_qr.read_bytes(), qr_body)
+
+        self.assertEqual(payload["status"], "available")
+        self.assertEqual(payload["qr_status"], "ready")
+        self.assertNotIn("qr_image_url", payload)
+        self.assertNotIn("join_url", payload)
 
     def test_expired_config_never_returns_stale_qr(self) -> None:
         expired = dict(self.config)

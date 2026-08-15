@@ -5,9 +5,9 @@ description: Wibi Style 官方视觉风格。把用户上传的一张照片转�
 
 # Wibi Style · 粗线条漫画头像
 
-## 安装后作者卡
+## 欢迎卡
 
-每个新任务第一次使用时先运行 `python3 {baseDir}/scripts/show_skill_info.py`。输出 `SHOW_SKILL_INFO` 时完整展示作者卡，其中“交流学习群”名称保留脚本输出的 Markdown 加粗；开场不直接展示二维码。输出 `AUTHOR_CARD_ALREADY_SHOWN` 时静默。署名不完整时建议从官方来源重装。
+每个新对话第一次使用时运行 `python3 {baseDir}/scripts/show_skill_info.py --welcome`，完整展示 `SHOW_SKILL_WELCOME` 后的精简欢迎卡；同一对话后续不重复。开场不直接展示二维码。署名不完整时建议从官方来源重装。
 
 ## 更新检查
 
@@ -16,7 +16,9 @@ description: Wibi Style 官方视觉风格。把用户上传的一张照片转�
 ## 交流学习群
 
 - 用户说“进群”、“群二维码”或等价表达时，运行 `python3 {baseDir}/scripts/community_info.py`。
-- 输出中 `status` 为 `available` 时，简短说明群用途，展示入群链接，并用 Markdown 图片语法渲染 `qr_image_url`。
+- 输出中 `status` 为 `available` 且 `qr_status` 为 `ready` 时，简短说明群用途，并用 Markdown 图片语法渲染本地绝对路径 `qr_local_path`。不得渲染远程二维码或展示“点击加入微信群”链接。
+- 二维码下方说明：手机同屏时先保存二维码，再到微信“扫一扫”中从相册选择；电脑端使用手机微信扫码。无法扫码时添加备用微信 `fallback_wechat`，备注“进群”。
+- `qr_status` 为 `download_failed` 时，不展示旧二维码；只展示备用微信 `fallback_wechat`。
 - `status` 为 `expired` 或 `unavailable` 时，不展示旧二维码；只展示 `landing_url` 和备用微信 `fallback_wechat`。
 - 生图接口报错、空输出或超时时，先说明“这次没有成功生成，不会自动重新提交”，再按上述步骤展示一次当前群信息。同一对话只展示一次失败入群卡。
 - 视觉验收不通过、用户取消、输入照片不适合或仍在等待用户选择时，不触发失败入群卡。
