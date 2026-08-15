@@ -1,5 +1,7 @@
 # Wibi Style
 
+[English](README.en.md) · **简体中文**
+
 由 `@威比 Hunter Wei.` 制作和维护的视觉风格 Skill 仓库，抖音、小红书同名。
 
 当前收录 **15 款可独立安装的视觉风格 Skill**。选择一款、上传照片，即可在 Codex 中生成对应风格；也可以前往 [威比风格实验室](https://style.abdc.online) 在线体验。
