@@ -2,7 +2,7 @@
 
 由 `@威比 Hunter Wei.` 制作和维护的视觉风格 Skill 仓库，抖音、小红书同名。
 
-当前收录 **14 款可独立安装的视觉风格 Skill**。选择一款、上传照片，即可在 Codex 中生成对应风格；也可以前往 [威比风格实验室](https://style.abdc.online) 在线体验。
+当前收录 **15 款可独立安装的视觉风格 Skill**。选择一款、上传照片，即可在 Codex 中生成对应风格；也可以前往 [威比风格实验室](https://style.abdc.online) 在线体验。
 
 > 商务合作、商业授权或使用咨询，请加微信：`Wibi2077`（添加时请备注来意）。
 
@@ -18,7 +18,7 @@
 
 支持交流群入口的 Skill 会按需只读根目录 [`community.json`](community.json)，并引用上方同一张二维码。更新群链接、有效期和 `assets/wechat-aigc-group-qr.jpg` 后，已安装的试验版 Skill 在下次查询时会读取新入口。这个查询不上传用户照片或使用数据。
 
-[![Wibi Style 14 款视觉风格总览](assets/readme-style-overview.png)](https://style.abdc.online)
+[![Wibi Style 15 款视觉风格总览](assets/readme-style-overview.png)](https://style.abdc.online)
 
 ## 按照片选风格
 
@@ -29,6 +29,7 @@
 | 儿童正脸或大头照 | Wibi Style · 钻牙萌娃大头 |
 | 人物、宠物、产品或物件 | Wibi Style · 怪趣波普涂鸦贴纸、Wibi Style · 照片拼豆挂件、Wibi Style · 像素切片拉伸、Wibi Style · 乱码像素拼贴 |
 | 城市街景、建筑、旅行照片 | Wibi Style · 晴空都市赛璐璐 |
+| 餐厅打卡照、美食照、餐桌照 | Wibi Style · 复古餐桌杂志 |
 | 想先挑选照片里最有意思的局部 | Wibi Style · 框景漫画（进阶、多步骤） |
 
 ## 全部风格
@@ -53,6 +54,7 @@
 | [Wibi Style · 虹彩柔焦长曝光](skills/iridescent-long-exposure/) | `iridescent-long-exposure` | 想要朦胧氛围的人物近景或局部特写 |
 | [Wibi Style · 蓝底复古印刷](skills/blue-retro-print/) | `blue-retro-print` | 轮廓和神态清楚的人物照片 |
 | [Wibi Style · 鱼眼城市海报](skills/fisheye-city-cover/) | `fisheye-city-cover` | 想把人物、合照、街拍或旅行照片做成 Y2K 强鱼眼城市封面 |
+| [Wibi Style · 复古餐桌杂志](skills/retro-table-print/) | `retro-table-print` | 能看清菜和器皿的餐桌照片，整桌或单盘都可以 |
 
 ## 三步安装和使用
 

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "slug": "retro-table-print",
+  "name": "Wibi Style · 复古餐桌杂志",
+  "version": "1.0.0",
+  "updated_at": "2026-08-15",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/retro-table-print",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/retro-table-print",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/retro-table-print",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/retro-table-print/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "先发一张餐桌照片给我吧～餐厅打卡、家里做的、外卖拆开的都行。",
+      "整桌或单盘都可以，能看清菜和器皿就够。我会自己挑主角、重新构图，把背景换成红底复古杂志质感。",
+      "默认出 3:4 竖图、复古印刷红底；想换底色或比例，发照片时顺手说一句。"
+    ],
+    "received": [
+      "照片收到啦～我先看这一桌谁最适合当主角、留白该放哪一侧，然后直接开始，不再多问。",
+      "想指定某道菜当主角，或者想换个底色，现在说还来得及。"
+    ]
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "subject": "餐桌照片、餐厅打卡照、外卖照",
+    "bundled_references": 2,
+    "output_ratio": "3:4"
+  },
+  "references": [
+    {
+      "file": "assets/references/01_多器皿红底静物.jpg",
+      "role": "多件器皿在红底上的排布节奏、前后层次、金属与玻璃反光、器皿之间的投影关系；适合一整桌、两道以上菜、或主菜之外还有值得保留的杯碟酒瓶。",
+      "source": "01_风格参考/01_多器皿红底静物.jpg",
+      "source_sha256": "209c982b654c1504f5574f7b8cd494c6cd85d388210750c9e52a5d31c6af5ee8"
+    },
+    {
+      "file": "assets/references/02_单主体红底特写.jpg",
+      "role": "单个主体在大面积红底里的存在感、干净轮廓、克制投影、大留白呼吸；适合只有一道菜、一碗、一杯，或只有一件值得当主角。",
+      "source": "01_风格参考/02_单主体红底特写.jpg",
+      "source_sha256": "8300764c165c6dc312ee6d2ec2a4046346d3b87790dab3c71232871de22bfd7e"
+    }
+  ],
+  "reference_routing": "默认只带一张；两种情况都沾边时选 01；一张明显不够时才两张同带并说明各自职责。",
+  "post_process": {
+    "command": "python3 {skill_dir}/scripts/vintage_finish.py {generated_image}",
+    "purpose": "印刷质感收尾：降解析力、光学柔化、网点颗粒、动态范围压缩，不动颜色",
+    "required": false,
+    "strength": "auto（脚本自己量锐度、二分搜强度；不同模型出图锐度差很多，写死会失效）",
+    "optional_dependency": "Pillow",
+    "on_missing_dependency": "skip-and-show-original",
+    "calibration": {
+      "metric": "整图归一化到高 1200 后的拉普拉斯响应标准差",
+      "target_range": [
+        16.5,
+        22.5
+      ],
+      "baseline_source": "项目 8 张已验收成片实测",
+      "verified": {
+        "gpt-image-2": {
+          "raw": 38.97,
+          "auto_strength": 0.47,
+          "after": 20.34
+        },
+        "nanobanana-2": {
+          "raw": 41.97,
+          "auto_strength": 0.56,
+          "after": 22.13
+        }
+      }
+    }
+  },
+  "prompt": {
+    "embedded_in": "SKILL.md",
+    "source": "projects/餐桌照片重构复古/02_提示词/99_分享版.md",
+    "source_sha256": "f967781fbe8a77d3d54df7629e23ef558e58ba13aab82041551aa89d545a3db7",
+    "original_source": "projects/餐桌照片重构复古/复古餐桌杂志prompt.docx",
+    "original_source_sha256": "31cfe1403e2f4ce0cd79432ff659c67e1485d9a2cec00664780b7df49f8696e7"
+  },
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/retro-table-print/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/01_多器皿红底静物.jpg",
+      "assets/references/02_单主体红底特写.jpg"
+    ],
+    "bundled_third_party_assets": []
+  },
+  "generation_notes": {
+    "preferred_model_family": "GPT 系图像模型（实测更接近旧印刷品，且更听内容约束）",
+    "endpoint_requirement": "图生图必须走图像编辑端点；纯文生图端点带图会静默降级换模型",
+    "ratio": "目标 3:4；只提供 1:1/3:2/2:3 的模型选 2:3 再居中裁"
+  }
+}
