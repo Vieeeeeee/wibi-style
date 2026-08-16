@@ -8,7 +8,15 @@ A collection of visual style Skills, made and maintained by `@威比 Hunter Wei.
 
 > For business partnerships, commercial licensing, or usage questions, add WeChat: `Wibi2077` (please mention why you're reaching out).
 
-[![Wibi Style — 15 visual styles](assets/readme-style-overview.png)](https://style.abdc.online)
+## Style overview
+
+> Scroll horizontally to see all 16; click any thumbnail to open that Skill.
+
+|   |   |   |   |   |   |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| <a href="skills/wibi-frame/"><img src="assets/thumbs/wibi-frame.jpg" width="150" alt="Framed Comic Panel"></a><br><a href="skills/wibi-frame/">Framed Comic Panel</a> | <a href="skills/electric-blue-halftone-poster/"><img src="assets/thumbs/electric-blue-halftone-poster.jpg" width="150" alt="Electric Blue Halftone"></a><br><a href="skills/electric-blue-halftone-poster/">Electric Blue Halftone</a> | <a href="skills/diamond-kid-head-card/"><img src="assets/thumbs/diamond-kid-head-card.jpg" width="150" alt="Diamond Grin Kid"></a><br><a href="skills/diamond-kid-head-card/">Diamond Grin Kid</a> | <a href="skills/quirky-pop-doodle-sticker/"><img src="assets/thumbs/quirky-pop-doodle-sticker.jpg" width="150" alt="Quirky Pop Doodle"></a><br><a href="skills/quirky-pop-doodle-sticker/">Quirky Pop Doodle</a> | <a href="skills/clear-sky-urban-cel/"><img src="assets/thumbs/clear-sky-urban-cel.jpg" width="150" alt="Clear Sky Urban Cel"></a><br><a href="skills/clear-sky-urban-cel/">Clear Sky Urban Cel</a> | <a href="skills/photo-perler-charm/"><img src="assets/thumbs/photo-perler-charm.jpg" width="150" alt="Photo Perler Charm"></a><br><a href="skills/photo-perler-charm/">Photo Perler Charm</a> |
+| <a href="skills/dark-red-black-cel-shaded/"><img src="assets/thumbs/dark-red-black-cel-shaded.jpg" width="150" alt="Dark Red & Black Cel"></a><br><a href="skills/dark-red-black-cel-shaded/">Dark Red & Black Cel</a> | <a href="skills/glitch-pixel-collage/"><img src="assets/thumbs/glitch-pixel-collage.jpg" width="150" alt="Glitch Pixel Collage"></a><br><a href="skills/glitch-pixel-collage/">Glitch Pixel Collage</a> | <a href="skills/alt-manga-avatar/"><img src="assets/thumbs/alt-manga-avatar.jpg" width="150" alt="Bold Line Manga"></a><br><a href="skills/alt-manga-avatar/">Bold Line Manga</a> | <a href="skills/pixel-stretch/"><img src="assets/thumbs/pixel-stretch.jpg" width="150" alt="Pixel Slice Stretch"></a><br><a href="skills/pixel-stretch/">Pixel Slice Stretch</a> | <a href="skills/art-print-poster/"><img src="assets/thumbs/art-print-poster.jpg" width="150" alt="Crayon Sketch Avatar"></a><br><a href="skills/art-print-poster/">Crayon Sketch Avatar</a> | <a href="skills/iridescent-long-exposure/"><img src="assets/thumbs/iridescent-long-exposure.jpg" width="150" alt="Iridescent Long Exposure"></a><br><a href="skills/iridescent-long-exposure/">Iridescent Long Exposure</a> |
+| <a href="skills/blue-retro-print/"><img src="assets/thumbs/blue-retro-print.jpg" width="150" alt="Blue Retro Print"></a><br><a href="skills/blue-retro-print/">Blue Retro Print</a> | <a href="skills/fisheye-city-cover/"><img src="assets/thumbs/fisheye-city-cover.jpg" width="150" alt="Fisheye City Poster"></a><br><a href="skills/fisheye-city-cover/">Fisheye City Poster</a> | <a href="skills/retro-table-print/"><img src="assets/thumbs/retro-table-print.jpg" width="150" alt="Retro Table Magazine"></a><br><a href="skills/retro-table-print/">Retro Table Magazine</a> | <a href="skills/niulai-movie-poster/"><img src="assets/thumbs/niulai-movie-poster.jpg" width="150" alt="Niu Lai Movie Poster"></a><br><a href="skills/niulai-movie-poster/">Niu Lai Movie Poster</a> |   |   |
 
 ## Pick a style by your photo
 
@@ -28,6 +36,10 @@ Click a name to see 6 real generated results, what photos it suits, and the inst
 
 `Wibi Style ·` is a shared display prefix. The Skill name, GitHub path, and `$invocation-name` never carry it.
 
+
+<details>
+<summary>Show the full list (invocation names and suited photos)</summary>
+
 | Style | Skill | Works best with |
 | --- | --- | --- |
 | [Wibi Style · Framed Comic Panel](skills/wibi-frame/) | `wibi-frame` | Photos with clear eye contact, expression, gesture, or object relationships — crop first, then generate |
@@ -46,6 +58,8 @@ Click a name to see 6 real generated results, what photos it suits, and the inst
 | [Wibi Style · Fisheye City Poster](skills/fisheye-city-cover/) | `fisheye-city-cover` | Turning people, group shots, street or travel photos into a Y2K heavy-fisheye city cover |
 | [Wibi Style · Retro Table Magazine](skills/retro-table-print/) | `retro-table-print` | Table photos where the dishes and vessels are readable — a full table or a single plate |
 | [Wibi Style · Niu Lai Movie Poster](skills/niulai-movie-poster/) | `niulai-movie-poster` | Turning a landscape solo, duo or trio photo into a low-budget old-animation cow-head Chinese film poster |
+
+</details>
 
 ## Install and use in three steps
 

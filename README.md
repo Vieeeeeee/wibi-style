@@ -20,7 +20,15 @@
 
 支持交流群入口的 Skill 会按需只读根目录 [`community.json`](community.json)，并引用上方同一张二维码。更新群链接、有效期和 `assets/wechat-aigc-group-qr.jpg` 后，已安装的试验版 Skill 在下次查询时会读取新入口。这个查询不上传用户照片或使用数据。
 
-[![Wibi Style 15 款视觉风格总览](assets/readme-style-overview.png)](https://style.abdc.online)
+## 风格总览
+
+> 横向滑动查看全部 16 款；点击任意一张进入该款 Skill。
+
+|   |   |   |   |   |   |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| <a href="skills/wibi-frame/"><img src="assets/thumbs/wibi-frame.jpg" width="150" alt="框景漫画"></a><br><a href="skills/wibi-frame/">框景漫画</a> | <a href="skills/electric-blue-halftone-poster/"><img src="assets/thumbs/electric-blue-halftone-poster.jpg" width="150" alt="电蓝网点海报"></a><br><a href="skills/electric-blue-halftone-poster/">电蓝网点海报</a> | <a href="skills/diamond-kid-head-card/"><img src="assets/thumbs/diamond-kid-head-card.jpg" width="150" alt="钻牙萌娃大头"></a><br><a href="skills/diamond-kid-head-card/">钻牙萌娃大头</a> | <a href="skills/quirky-pop-doodle-sticker/"><img src="assets/thumbs/quirky-pop-doodle-sticker.jpg" width="150" alt="怪趣波普涂鸦贴纸"></a><br><a href="skills/quirky-pop-doodle-sticker/">怪趣波普涂鸦贴纸</a> | <a href="skills/clear-sky-urban-cel/"><img src="assets/thumbs/clear-sky-urban-cel.jpg" width="150" alt="晴空都市赛璐璐"></a><br><a href="skills/clear-sky-urban-cel/">晴空都市赛璐璐</a> | <a href="skills/photo-perler-charm/"><img src="assets/thumbs/photo-perler-charm.jpg" width="150" alt="照片拼豆挂件"></a><br><a href="skills/photo-perler-charm/">照片拼豆挂件</a> |
+| <a href="skills/dark-red-black-cel-shaded/"><img src="assets/thumbs/dark-red-black-cel-shaded.jpg" width="150" alt="暗夜红黑赛璐璐"></a><br><a href="skills/dark-red-black-cel-shaded/">暗夜红黑赛璐璐</a> | <a href="skills/glitch-pixel-collage/"><img src="assets/thumbs/glitch-pixel-collage.jpg" width="150" alt="乱码像素拼贴"></a><br><a href="skills/glitch-pixel-collage/">乱码像素拼贴</a> | <a href="skills/alt-manga-avatar/"><img src="assets/thumbs/alt-manga-avatar.jpg" width="150" alt="粗线条漫画头像"></a><br><a href="skills/alt-manga-avatar/">粗线条漫画头像</a> | <a href="skills/pixel-stretch/"><img src="assets/thumbs/pixel-stretch.jpg" width="150" alt="像素切片拉伸"></a><br><a href="skills/pixel-stretch/">像素切片拉伸</a> | <a href="skills/art-print-poster/"><img src="assets/thumbs/art-print-poster.jpg" width="150" alt="蜡笔手绘头像"></a><br><a href="skills/art-print-poster/">蜡笔手绘头像</a> | <a href="skills/iridescent-long-exposure/"><img src="assets/thumbs/iridescent-long-exposure.jpg" width="150" alt="虹彩柔焦长曝光"></a><br><a href="skills/iridescent-long-exposure/">虹彩柔焦长曝光</a> |
+| <a href="skills/blue-retro-print/"><img src="assets/thumbs/blue-retro-print.jpg" width="150" alt="蓝底复古印刷"></a><br><a href="skills/blue-retro-print/">蓝底复古印刷</a> | <a href="skills/fisheye-city-cover/"><img src="assets/thumbs/fisheye-city-cover.jpg" width="150" alt="鱼眼城市海报"></a><br><a href="skills/fisheye-city-cover/">鱼眼城市海报</a> | <a href="skills/retro-table-print/"><img src="assets/thumbs/retro-table-print.jpg" width="150" alt="复古餐桌杂志"></a><br><a href="skills/retro-table-print/">复古餐桌杂志</a> | <a href="skills/niulai-movie-poster/"><img src="assets/thumbs/niulai-movie-poster.jpg" width="150" alt="牛来素朴电影海报"></a><br><a href="skills/niulai-movie-poster/">牛来素朴电影海报</a> |   |   |
 
 ## 按照片选风格
 
@@ -40,6 +48,10 @@
 
 `Wibi Style ·` 是统一展示前缀；英文 Skill 名、GitHub 地址和 `$调用名` 保持不变，旧用法继续有效。
 
+
+<details>
+<summary>展开完整清单（调用名与适用照片）</summary>
+
 | 中文名 | Skill | 适合的照片 |
 | --- | --- | --- |
 | [Wibi Style · 框景漫画](skills/wibi-frame/) | `wibi-frame` | 有清楚眼神、表情、手势或物件关系的照片；先选局部，再生成 |
@@ -58,6 +70,8 @@
 | [Wibi Style · 鱼眼城市海报](skills/fisheye-city-cover/) | `fisheye-city-cover` | 想把人物、合照、街拍或旅行照片做成 Y2K 强鱼眼城市封面 |
 | [Wibi Style · 复古餐桌杂志](skills/retro-table-print/) | `retro-table-print` | 能看清菜和器皿的餐桌照片，整桌或单盘都可以 |
 | [Wibi Style · 牛来素朴电影海报](skills/niulai-movie-poster/) | `niulai-movie-poster` | 想把横版单人、双人或三人合照做成低成本旧动画牛头的中文电影海报 |
+
+</details>
 
 ## 三步安装和使用
 
