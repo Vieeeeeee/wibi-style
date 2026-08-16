@@ -4,7 +4,7 @@
 
 由 `@威比 Hunter Wei.` 制作和维护的视觉风格 Skill 仓库，抖音、小红书同名。
 
-当前收录 **15 款可独立安装的视觉风格 Skill**。选择一款、上传照片，即可在 Codex 中生成对应风格；也可以前往 [威比风格实验室](https://style.abdc.online) 在线体验。
+当前收录 **16 款可独立安装的视觉风格 Skill**。选择一款、上传照片，即可在 Codex 中生成对应风格；也可以前往 [威比风格实验室](https://style.abdc.online) 在线体验。
 
 > 商务合作、商业授权或使用咨询，请加微信：`Wibi2077`（添加时请备注来意）。
 
@@ -57,6 +57,7 @@
 | [Wibi Style · 蓝底复古印刷](skills/blue-retro-print/) | `blue-retro-print` | 轮廓和神态清楚的人物照片 |
 | [Wibi Style · 鱼眼城市海报](skills/fisheye-city-cover/) | `fisheye-city-cover` | 想把人物、合照、街拍或旅行照片做成 Y2K 强鱼眼城市封面 |
 | [Wibi Style · 复古餐桌杂志](skills/retro-table-print/) | `retro-table-print` | 能看清菜和器皿的餐桌照片，整桌或单盘都可以 |
+| [Wibi Style · 牛来素朴电影海报](skills/niulai-movie-poster/) | `niulai-movie-poster` | 想把横版单人、双人或三人合照做成低成本旧动画牛头的中文电影海报 |
 
 ## 三步安装和使用
 

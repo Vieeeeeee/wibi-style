@@ -4,7 +4,7 @@
 
 A collection of visual style Skills, made and maintained by `@威比 Hunter Wei.` — same handle on Douyin and Xiaohongshu.
 
-**15 individually installable visual style Skills.** Pick one, upload a photo, and get that style back in Codex. You can also try them online at [Wibi Style Lab](https://style.abdc.online).
+**16 individually installable visual style Skills.** Pick one, upload a photo, and get that style back in Codex. You can also try them online at [Wibi Style Lab](https://style.abdc.online).
 
 > For business partnerships, commercial licensing, or usage questions, add WeChat: `Wibi2077` (please mention why you're reaching out).
 
@@ -45,6 +45,7 @@ Click a name to see 6 real generated results, what photos it suits, and the inst
 | [Wibi Style · Blue Retro Print](skills/blue-retro-print/) | `blue-retro-print` | Portraits with clear outlines and expression |
 | [Wibi Style · Fisheye City Poster](skills/fisheye-city-cover/) | `fisheye-city-cover` | Turning people, group shots, street or travel photos into a Y2K heavy-fisheye city cover |
 | [Wibi Style · Retro Table Magazine](skills/retro-table-print/) | `retro-table-print` | Table photos where the dishes and vessels are readable — a full table or a single plate |
+| [Wibi Style · Niu Lai Movie Poster](skills/niulai-movie-poster/) | `niulai-movie-poster` | Turning a landscape solo, duo or trio photo into a low-budget old-animation cow-head Chinese film poster |
 
 ## Install and use in three steps
 
