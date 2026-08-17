@@ -4,7 +4,7 @@
 
 由 `@威比 Hunter Wei.` 制作和维护的视觉风格 Skill 仓库，抖音、小红书同名。
 
-当前收录 **16 款可独立安装的视觉风格 Skill**。选择一款、上传照片，即可在 Codex 中生成对应风格；也可以前往 [威比风格实验室](https://style.abdc.online) 在线体验。
+当前收录 **17 款可独立安装的视觉风格 Skill**。选择一款、上传照片，即可在 Codex 中生成对应风格；也可以前往 [威比风格实验室](https://style.abdc.online) 在线体验。
 
 > 商务合作、商业授权或使用咨询，请加微信：`Wibi2077`（添加时请备注来意）。
 
@@ -22,13 +22,13 @@
 
 ## 风格总览
 
-> 横向滑动查看全部 16 款；点击任意一张进入该款 Skill。
+> 横向滑动查看全部 17 款；点击任意一张进入该款 Skill。
 
 |   |   |   |   |   |   |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | <a href="skills/wibi-frame/"><img src="assets/thumbs/wibi-frame.jpg" width="150" alt="框景漫画"></a><br><a href="skills/wibi-frame/">框景漫画</a> | <a href="skills/electric-blue-halftone-poster/"><img src="assets/thumbs/electric-blue-halftone-poster.jpg" width="150" alt="电蓝网点海报"></a><br><a href="skills/electric-blue-halftone-poster/">电蓝网点海报</a> | <a href="skills/diamond-kid-head-card/"><img src="assets/thumbs/diamond-kid-head-card.jpg" width="150" alt="钻牙萌娃大头"></a><br><a href="skills/diamond-kid-head-card/">钻牙萌娃大头</a> | <a href="skills/quirky-pop-doodle-sticker/"><img src="assets/thumbs/quirky-pop-doodle-sticker.jpg" width="150" alt="怪趣波普涂鸦贴纸"></a><br><a href="skills/quirky-pop-doodle-sticker/">怪趣波普涂鸦贴纸</a> | <a href="skills/clear-sky-urban-cel/"><img src="assets/thumbs/clear-sky-urban-cel.jpg" width="150" alt="晴空都市赛璐璐"></a><br><a href="skills/clear-sky-urban-cel/">晴空都市赛璐璐</a> | <a href="skills/photo-perler-charm/"><img src="assets/thumbs/photo-perler-charm.jpg" width="150" alt="照片拼豆挂件"></a><br><a href="skills/photo-perler-charm/">照片拼豆挂件</a> |
 | <a href="skills/dark-red-black-cel-shaded/"><img src="assets/thumbs/dark-red-black-cel-shaded.jpg" width="150" alt="暗夜红黑赛璐璐"></a><br><a href="skills/dark-red-black-cel-shaded/">暗夜红黑赛璐璐</a> | <a href="skills/glitch-pixel-collage/"><img src="assets/thumbs/glitch-pixel-collage.jpg" width="150" alt="乱码像素拼贴"></a><br><a href="skills/glitch-pixel-collage/">乱码像素拼贴</a> | <a href="skills/alt-manga-avatar/"><img src="assets/thumbs/alt-manga-avatar.jpg" width="150" alt="粗线条漫画头像"></a><br><a href="skills/alt-manga-avatar/">粗线条漫画头像</a> | <a href="skills/pixel-stretch/"><img src="assets/thumbs/pixel-stretch.jpg" width="150" alt="像素切片拉伸"></a><br><a href="skills/pixel-stretch/">像素切片拉伸</a> | <a href="skills/art-print-poster/"><img src="assets/thumbs/art-print-poster.jpg" width="150" alt="蜡笔手绘头像"></a><br><a href="skills/art-print-poster/">蜡笔手绘头像</a> | <a href="skills/iridescent-long-exposure/"><img src="assets/thumbs/iridescent-long-exposure.jpg" width="150" alt="虹彩柔焦长曝光"></a><br><a href="skills/iridescent-long-exposure/">虹彩柔焦长曝光</a> |
-| <a href="skills/blue-retro-print/"><img src="assets/thumbs/blue-retro-print.jpg" width="150" alt="蓝底复古印刷"></a><br><a href="skills/blue-retro-print/">蓝底复古印刷</a> | <a href="skills/fisheye-city-cover/"><img src="assets/thumbs/fisheye-city-cover.jpg" width="150" alt="鱼眼城市海报"></a><br><a href="skills/fisheye-city-cover/">鱼眼城市海报</a> | <a href="skills/retro-table-print/"><img src="assets/thumbs/retro-table-print.jpg" width="150" alt="复古餐桌杂志"></a><br><a href="skills/retro-table-print/">复古餐桌杂志</a> | <a href="skills/niulai-movie-poster/"><img src="assets/thumbs/niulai-movie-poster.jpg" width="150" alt="牛来电影海报"></a><br><a href="skills/niulai-movie-poster/">牛来电影海报</a> |   |   |
+| <a href="skills/blue-retro-print/"><img src="assets/thumbs/blue-retro-print.jpg" width="150" alt="蓝底复古印刷"></a><br><a href="skills/blue-retro-print/">蓝底复古印刷</a> | <a href="skills/fisheye-city-cover/"><img src="assets/thumbs/fisheye-city-cover.jpg" width="150" alt="鱼眼城市海报"></a><br><a href="skills/fisheye-city-cover/">鱼眼城市海报</a> | <a href="skills/retro-table-print/"><img src="assets/thumbs/retro-table-print.jpg" width="150" alt="复古餐桌杂志"></a><br><a href="skills/retro-table-print/">复古餐桌杂志</a> | <a href="skills/niulai-movie-poster/"><img src="assets/thumbs/niulai-movie-poster.jpg" width="150" alt="牛来电影海报"></a><br><a href="skills/niulai-movie-poster/">牛来电影海报</a> | <a href="skills/kid-head-card/"><img src="assets/thumbs/kid-head-card.jpg" width="150" alt="童年大头卡贴"></a><br><a href="skills/kid-head-card/">童年大头卡贴</a> |   |
 
 ## 按照片选风格
 
@@ -36,7 +36,8 @@
 | --- | --- |
 | 自拍、头像、人物近景 | Wibi Style · 电蓝网点海报、Wibi Style · 粗线条漫画头像、Wibi Style · 蜡笔手绘头像、Wibi Style · 暗夜红黑赛璐璐、Wibi Style · 虹彩柔焦长曝光、Wibi Style · 蓝底复古印刷 |
 | 人物、合照、街拍或旅行照片 | Wibi Style · 鱼眼城市海报 |
-| 儿童正脸或大头照 | Wibi Style · 钻牙萌娃大头 |
+| 儿童正脸或大头照 | Wibi Style · 童年大头卡贴、Wibi Style · 钻牙萌娃大头 |
+| 自己的当代自拍，想看小时候的样子 | Wibi Style · 童年大头卡贴 |
 | 人物、宠物、产品或物件 | Wibi Style · 怪趣波普涂鸦贴纸、Wibi Style · 照片拼豆挂件、Wibi Style · 像素切片拉伸、Wibi Style · 乱码像素拼贴 |
 | 城市街景、建筑、旅行照片 | Wibi Style · 晴空都市赛璐璐 |
 | 餐厅打卡照、美食照、餐桌照 | Wibi Style · 复古餐桌杂志 |
@@ -57,6 +58,7 @@
 | [Wibi Style · 框景漫画](skills/wibi-frame/) | `wibi-frame` | 有清楚眼神、表情、手势或物件关系的照片；先选局部，再生成 |
 | [Wibi Style · 电蓝网点海报](skills/electric-blue-halftone-poster/) | `electric-blue-halftone-poster` | 单人人像或宠物大头照 |
 | [Wibi Style · 钻牙萌娃大头](skills/diamond-kid-head-card/) | `diamond-kid-head-card` | 脸部、头发或帽子大致可辨的单人儿童照片 |
+| [Wibi Style · 童年大头卡贴](skills/kid-head-card/) | `kid-head-card` | 儿童老照片做钻牙萌娃大头，当代自拍反推成 5–8 岁的童年酷照 |
 | [Wibi Style · 怪趣波普涂鸦贴纸](skills/quirky-pop-doodle-sticker/) | `quirky-pop-doodle-sticker` | 主体清楚、动作和轮廓有记忆点的人物、宠物、产品或道具 |
 | [Wibi Style · 晴空都市赛璐璐](skills/clear-sky-urban-cel/) | `clear-sky-urban-cel` | 城市街道、建筑、旅行纪实、交通设施和环境人物 |
 | [Wibi Style · 照片拼豆挂件](skills/photo-perler-charm/) | `photo-perler-charm` | 人物、宠物、花束、食物和轮廓清晰的物件 |

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "slug": "kid-head-card",
+  "name": "Wibi Style · 童年大头卡贴",
+  "version": "1.0.0",
+  "updated_at": "2026-08-16",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/kid-head-card",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/kid-head-card",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/kid-head-card",
+  "update_manifest_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/skills/kid-head-card/manifest.json",
+  "supersedes": {
+    "slug": "diamond-kid-head-card",
+    "note": "甜版·钻牙萌娃由 diamond-kid-head-card 1.0.4 并入，规则等价；旧包保留在仓库中并指向本包，不再单独更新。"
+  },
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "welcome": {
+    "waiting": [
+      "先发一张照片给我吧～",
+      "儿童老照片和你自己的当代自拍都能做：老照片我会重建成明亮可爱的钻牙萌娃大头，当代自拍我会把你反推成 5–8 岁的样子再配上潮童装饰。",
+      "我收到照片会先看一眼，直接告诉你这张走哪一版；只有走钻牙萌娃时会多问一句背景要哪种。"
+    ],
+    "received": [
+      "照片收到啦～我先看看它是老照片还是当代自拍，然后直接开做，并告诉你这张走的是哪一版。",
+      "走钻牙萌娃的话我只多问一句背景；走童年酷照就不用选，直接出图。"
+    ]
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "summary-once",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "modes": [
+    {
+      "id": "sweet",
+      "name": "甜版·钻牙萌娃",
+      "input": "儿童老照片",
+      "prompt_file": "references/mode-sweet-prompt.md",
+      "source": "projects/钻牙萌娃大头/02_提示词/09_v9_将D波普双色分区替换为干净可爱的蜡笔.md",
+      "source_sha256": "81ece4e2674106c8738d9d63b2bbb4e9f3534ace8268644b95104926fb803eb3",
+      "asks_background": true
+    },
+    {
+      "id": "cool",
+      "name": "酷版·童年酷照",
+      "input": "当代自拍",
+      "prompt_file": "references/mode-cool-prompt.md",
+      "source": "projects/童年酷照大头/02_提示词/09_v9_装饰按性别分档，男孩墨镜银饰冷色水钻.md",
+      "source_sha256": "853ce5ac8c1418e979c4d44b287a33b2cad38b0aae3aa48593e437e3a4799da0",
+      "asks_background": false
+    }
+  ],
+  "routing": {
+    "strategy": "auto-detect-then-confirm",
+    "signal": "照片的年代痕迹与主体年龄，不依赖文件名或用户措辞",
+    "ask_user_when": "清晰的当代照片但主体已经是儿童，两条路都成立"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 0
+  },
+  "references": [],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/kid-head-card/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": false,
+    "original_assets": [],
+    "redistributable_assets": [],
+    "bundled_third_party_assets": []
+  }
+}

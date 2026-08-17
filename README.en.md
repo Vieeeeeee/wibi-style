@@ -4,19 +4,19 @@
 
 A collection of visual style Skills, made and maintained by `@威比 Hunter Wei.` — same handle on Douyin and Xiaohongshu.
 
-**16 individually installable visual style Skills.** Pick one, upload a photo, and get that style back in Codex. You can also try them online at [Wibi Style Lab](https://style.abdc.online).
+**17 individually installable visual style Skills.** Pick one, upload a photo, and get that style back in Codex. You can also try them online at [Wibi Style Lab](https://style.abdc.online).
 
 > For business partnerships, commercial licensing, or usage questions, add WeChat: `Wibi2077` (please mention why you're reaching out).
 
 ## Style overview
 
-> Scroll horizontally to see all 16; click any thumbnail to open that Skill.
+> Scroll horizontally to see all 17; click any thumbnail to open that Skill.
 
 |   |   |   |   |   |   |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | <a href="skills/wibi-frame/"><img src="assets/thumbs/wibi-frame.jpg" width="150" alt="Framed Comic Panel"></a><br><a href="skills/wibi-frame/">Framed Comic Panel</a> | <a href="skills/electric-blue-halftone-poster/"><img src="assets/thumbs/electric-blue-halftone-poster.jpg" width="150" alt="Electric Blue Halftone"></a><br><a href="skills/electric-blue-halftone-poster/">Electric Blue Halftone</a> | <a href="skills/diamond-kid-head-card/"><img src="assets/thumbs/diamond-kid-head-card.jpg" width="150" alt="Diamond Grin Kid"></a><br><a href="skills/diamond-kid-head-card/">Diamond Grin Kid</a> | <a href="skills/quirky-pop-doodle-sticker/"><img src="assets/thumbs/quirky-pop-doodle-sticker.jpg" width="150" alt="Quirky Pop Doodle"></a><br><a href="skills/quirky-pop-doodle-sticker/">Quirky Pop Doodle</a> | <a href="skills/clear-sky-urban-cel/"><img src="assets/thumbs/clear-sky-urban-cel.jpg" width="150" alt="Clear Sky Urban Cel"></a><br><a href="skills/clear-sky-urban-cel/">Clear Sky Urban Cel</a> | <a href="skills/photo-perler-charm/"><img src="assets/thumbs/photo-perler-charm.jpg" width="150" alt="Photo Perler Charm"></a><br><a href="skills/photo-perler-charm/">Photo Perler Charm</a> |
 | <a href="skills/dark-red-black-cel-shaded/"><img src="assets/thumbs/dark-red-black-cel-shaded.jpg" width="150" alt="Dark Red & Black Cel"></a><br><a href="skills/dark-red-black-cel-shaded/">Dark Red & Black Cel</a> | <a href="skills/glitch-pixel-collage/"><img src="assets/thumbs/glitch-pixel-collage.jpg" width="150" alt="Glitch Pixel Collage"></a><br><a href="skills/glitch-pixel-collage/">Glitch Pixel Collage</a> | <a href="skills/alt-manga-avatar/"><img src="assets/thumbs/alt-manga-avatar.jpg" width="150" alt="Bold Line Manga"></a><br><a href="skills/alt-manga-avatar/">Bold Line Manga</a> | <a href="skills/pixel-stretch/"><img src="assets/thumbs/pixel-stretch.jpg" width="150" alt="Pixel Slice Stretch"></a><br><a href="skills/pixel-stretch/">Pixel Slice Stretch</a> | <a href="skills/art-print-poster/"><img src="assets/thumbs/art-print-poster.jpg" width="150" alt="Crayon Sketch Avatar"></a><br><a href="skills/art-print-poster/">Crayon Sketch Avatar</a> | <a href="skills/iridescent-long-exposure/"><img src="assets/thumbs/iridescent-long-exposure.jpg" width="150" alt="Iridescent Long Exposure"></a><br><a href="skills/iridescent-long-exposure/">Iridescent Long Exposure</a> |
-| <a href="skills/blue-retro-print/"><img src="assets/thumbs/blue-retro-print.jpg" width="150" alt="Blue Retro Print"></a><br><a href="skills/blue-retro-print/">Blue Retro Print</a> | <a href="skills/fisheye-city-cover/"><img src="assets/thumbs/fisheye-city-cover.jpg" width="150" alt="Fisheye City Poster"></a><br><a href="skills/fisheye-city-cover/">Fisheye City Poster</a> | <a href="skills/retro-table-print/"><img src="assets/thumbs/retro-table-print.jpg" width="150" alt="Retro Table Magazine"></a><br><a href="skills/retro-table-print/">Retro Table Magazine</a> | <a href="skills/niulai-movie-poster/"><img src="assets/thumbs/niulai-movie-poster.jpg" width="150" alt="Niu Lai Movie Poster"></a><br><a href="skills/niulai-movie-poster/">Niu Lai Movie Poster</a> |   |   |
+| <a href="skills/blue-retro-print/"><img src="assets/thumbs/blue-retro-print.jpg" width="150" alt="Blue Retro Print"></a><br><a href="skills/blue-retro-print/">Blue Retro Print</a> | <a href="skills/fisheye-city-cover/"><img src="assets/thumbs/fisheye-city-cover.jpg" width="150" alt="Fisheye City Poster"></a><br><a href="skills/fisheye-city-cover/">Fisheye City Poster</a> | <a href="skills/retro-table-print/"><img src="assets/thumbs/retro-table-print.jpg" width="150" alt="Retro Table Magazine"></a><br><a href="skills/retro-table-print/">Retro Table Magazine</a> | <a href="skills/niulai-movie-poster/"><img src="assets/thumbs/niulai-movie-poster.jpg" width="150" alt="Niu Lai Movie Poster"></a><br><a href="skills/niulai-movie-poster/">Niu Lai Movie Poster</a> | <a href="skills/kid-head-card/"><img src="assets/thumbs/kid-head-card.jpg" width="150" alt="Childhood Head Card"></a><br><a href="skills/kid-head-card/">Childhood Head Card</a> |   |
 
 ## Pick a style by your photo
 
@@ -24,7 +24,8 @@ A collection of visual style Skills, made and maintained by `@威比 Hunter Wei.
 | --- | --- |
 | Selfies, avatars, close-up portraits | Electric Blue Halftone Poster, Bold Line Manga Avatar, Crayon Sketch Avatar, Dark Red & Black Cel Shade, Iridescent Long Exposure, Blue Retro Print |
 | People, group shots, street or travel photos | Fisheye City Poster |
-| Front-facing or close-up photos of kids | Diamond Grin Kid Portrait |
+| Front-facing or close-up photos of kids | Childhood Head Card, Diamond Grin Kid Portrait |
+| Your own modern selfie, to see your younger self | Childhood Head Card |
 | People, pets, products, objects | Quirky Pop Doodle Sticker, Photo Perler Charm, Pixel Slice Stretch, Glitch Pixel Collage |
 | City streets, architecture, travel photos | Clear Sky Urban Cel |
 | Restaurant shots, food photos, full tables | Retro Table Magazine |
@@ -45,6 +46,7 @@ Click a name to see 6 real generated results, what photos it suits, and the inst
 | [Wibi Style · Framed Comic Panel](skills/wibi-frame/) | `wibi-frame` | Photos with clear eye contact, expression, gesture, or object relationships — crop first, then generate |
 | [Wibi Style · Electric Blue Halftone Poster](skills/electric-blue-halftone-poster/) | `electric-blue-halftone-poster` | Single-person portraits or pet close-ups |
 | [Wibi Style · Diamond Grin Kid Portrait](skills/diamond-kid-head-card/) | `diamond-kid-head-card` | Single-child photos where face, hair, or hat is recognizable |
+| [Wibi Style · Childhood Head Card](skills/kid-head-card/) | `kid-head-card` | Old childhood photos become diamond-grin head cards; modern selfies are aged back to 5–8 |
 | [Wibi Style · Quirky Pop Doodle Sticker](skills/quirky-pop-doodle-sticker/) | `quirky-pop-doodle-sticker` | People, pets, products, or props with a clear subject and memorable pose |
 | [Wibi Style · Clear Sky Urban Cel](skills/clear-sky-urban-cel/) | `clear-sky-urban-cel` | City streets, architecture, travel documentary, transit, people in their environment |
 | [Wibi Style · Photo Perler Charm](skills/photo-perler-charm/) | `photo-perler-charm` | People, pets, bouquets, food, and objects with clean silhouettes |

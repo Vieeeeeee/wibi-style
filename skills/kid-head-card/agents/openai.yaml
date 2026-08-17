@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wibi Style · 童年大头卡贴"
+  short_description: "Wibi Style 官方：老照片做成钻牙萌娃大头，当代自拍反推成 5–8 岁的童年酷照"
+  default_prompt: "使用 $kid-head-card 处理这张照片。"
