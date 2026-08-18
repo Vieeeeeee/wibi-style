@@ -2,8 +2,8 @@
   "schema_version": 1,
   "slug": "niulai-movie-poster",
   "name": "Wibi Style · 牛来电影海报",
-  "version": "1.0.1",
-  "updated_at": "2026-08-16",
+  "version": "1.0.2",
+  "updated_at": "2026-08-18",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/niulai-movie-poster",
@@ -25,20 +25,23 @@
   },
   "community": {
     "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
-    "opening": "summary-once",
+    "opening": "welcome-once-per-conversation",
     "on_generation_failure": "current-qr-once-per-conversation",
-    "on_first_success": "author-and-join-cta"
+    "on_first_success": "author-and-join-cta",
+    "qr_display": "download-current-github-image-and-render-locally"
   },
   "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
   "repository": "https://github.com/Vieeeeeee/wibi-style",
   "path": "skills/niulai-movie-poster",
   "prompt": {
-    "files": [
+    "source": "projects/牛来海报/02_提示词/99_分享版.md",
+    "source_sha256": "8c06e0b08880652eec0634caa6b4357393e1eb1a42238e79f0fb73831f192528",
+    "runtime_files": [
       "references/prompts/01-single.md",
       "references/prompts/02-double.md",
       "references/prompts/03-triple.md"
     ],
-    "source": "projects/牛来海报/02_提示词/13_核心规则_横版角色替换.md plus 14-16 templates"
+    "note": "运行时按人数路由到三份模板；99_分享版.md 是它们的合并来源稿。"
   },
   "input": {
     "type": "horizontal-photo-restyle",
@@ -48,24 +51,37 @@
   "references": [
     {
       "file": "assets/references/role-yellow-big-cow.png",
+      "source": "01_风格参考/07_角色设定_黄色大牛单角色.png",
+      "source_sha256": "97fb9c7fd6b02b20d1b0b6ff4a2f61182ee23ff5eaae82572071aacfac02dc6b",
       "sha256": "97fb9c7fd6b02b20d1b0b6ff4a2f61182ee23ff5eaae82572071aacfac02dc6b",
       "role": "single, double and triple left-role reference"
     },
     {
       "file": "assets/references/role-orange-small-cow.png",
+      "source": "01_风格参考/08_角色设定_橙色小牛单角色.png",
+      "source_sha256": "7a147bf7b4674c20d1a460aa61a958e69f076d691a6e2dd24a8b94cf67932101",
       "sha256": "7a147bf7b4674c20d1a460aa61a958e69f076d691a6e2dd24a8b94cf67932101",
       "role": "double and triple middle/right role reference"
     },
     {
       "file": "assets/references/role-yellow-black-spotted-leopard.png",
+      "source": "01_风格参考/09_角色设定_黄色黑斑豹单角色.png",
+      "source_sha256": "1241212bf37c81656c0a601399bd1be1fccc3dedc90f59e5c99e99c757d14a8f",
       "sha256": "1241212bf37c81656c0a601399bd1be1fccc3dedc90f59e5c99e99c757d14a8f",
       "role": "triple right-role reference only"
     }
   ],
   "rights": {
-    "status": "published",
-    "bundled_assets": "project role references only",
-    "user_photos_included": false
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/role-yellow-big-cow.png",
+      "assets/references/role-orange-small-cow.png",
+      "assets/references/role-yellow-black-spotted-leopard.png"
+    ],
+    "bundled_third_party_assets": []
   },
   "welcome": {
     "waiting": [
@@ -75,5 +91,10 @@
     "received": [
       "照片收到啦～我先看清楚人数、站位和谁挡着谁，再决定用哪套角色，然后直接出一张 3:2 横版海报。"
     ]
+  },
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "bundled_with_install": false
   }
 }

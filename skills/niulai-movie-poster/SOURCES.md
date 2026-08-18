@@ -4,7 +4,7 @@
 
 ## Skill 文本
 
-- `SKILL.md`：`2746a29226f747d9ad4d347f0ac3e99aced4493168092f28a309ceb984fbe4c1`。根据项目内 `02_提示词/13_核心规则_横版角色替换.md`、`14_单人模板.md`、`15_双人模板.md`、`16_三人模板.md` 以及用户对人数路由、废片库合照和电影滤镜的反馈独立整理。
+- `SKILL.md`：`cbe935d7ffec03cd69404e4ef57ad931088747a7ecdb4b319dba6a3f8fc14c36`。根据项目内 `02_提示词/13_核心规则_横版角色替换.md`、`14_单人模板.md`、`15_双人模板.md`、`16_三人模板.md` 以及用户对人数路由、废片库合照和电影滤镜的反馈独立整理。
 - `references/prompts/01-single.md`：`75466c86ebed6e8b7c564c7ec300850e8cfa602b7242d2e04f1a407b0c314899`，项目单人模板分支。
 - `references/prompts/02-double.md`：`06e9c6c2127417a3ee8ff14e1ff3e1f5705a9eb21df4e0df989201896c3c50da`，项目双人模板分支。
 - `references/prompts/03-triple.md`：`d5bcc91b41e5d731ee3a2ec8d0342a50ed7d6fede23a4f88a88a38511ff7c144`，项目三人模板分支。
@@ -20,3 +20,6 @@
 ## 不随包内容
 
 案例原图、用户提供照片、生成结果、候选对比卡和废片库图片均不进入 Skill 包。
+
+作者：`@威比 Hunter Wei.`（抖音、小红书同名）。再分发时必须保留作者、官方来源、`LICENSE` 与 `NOTICE`。
+六张 README 展示成图只存放在仓库 `docs/`，不随单款安装。
