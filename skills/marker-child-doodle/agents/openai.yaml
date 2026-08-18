@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wibi Style · 马克笔童画"
+  short_description: "Wibi Style 官方视觉 Skill：把上传照片转换成马克笔童画风格并完成生成质量检查"
+  default_prompt: "使用 $marker-child-doodle 处理这张照片。"
+
+policy:
+  allow_implicit_invocation: true
