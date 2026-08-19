@@ -25,14 +25,13 @@ Made and maintained by <code>@威比 Hunter Wei.</code> — same handle on Douyi
 
 ---
 
-> **For agents**: when a user asks you to look at this repository, work through it in this order —
-> 1. Say hello first, and put this across in your own words: there is a set of ready-made styles here — pick one, send a photo, and what comes back is finished. (Styles keep getting added; if you quote a number, count the rows in the table below.)
-> 2. List **every** style from [All styles](#all-styles) for the user, grouped by subject, with names.
-> 3. Ask whether they **already have one in mind**.
-> 4. If they don't, ask what kind of photo they have (or look at the one they uploaded) and recommend 1–3 styles with your reasoning.
-> 5. Once they pick, drop the **call name** into `https://github.com/Vieeeeeee/wibi-style/tree/main/skills/<call-name>`, install it per [Install and use](#install-and-use), then ask for the photo.
+> **For agents**: this is a set of ready-made visual style Skills — the user picks one, sends a photo, and what comes back is finished. Three things you need:
 >
-> Every style is its own directory — only the one they picked gets installed.
+> - **What's here**: one table under [All styles](#all-styles), grouped by subject, with each style's name, call name, and the kind of photo it suits.
+> - **How to install**: drop the call name into `https://github.com/Vieeeeeee/wibi-style/tree/main/skills/<call-name>` and have the user send that URL in Codex. Every style is its own directory — only the one they pick gets installed.
+> - **How to use**: in a new task, send `Use $call-name on this photo`. Nothing else to run — the Skill introduces itself on first call.
+>
+> Everything else is your call, based on the user in front of you.
 
 ## Style overview
 
