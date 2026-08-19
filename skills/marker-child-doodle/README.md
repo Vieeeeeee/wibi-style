@@ -23,11 +23,11 @@
 ## 安装
 
 ```text
-请安装这个 Skill；安装完成后，运行包内 `scripts/show_skill_info.py --always`，并把输出的 Skill 信息完整展示给我：
+请安装这个 Skill：
 https://github.com/Vieeeeeee/wibi-style/tree/main/skills/marker-child-doodle
 ```
 
-安装器只下载这一款 Skill。第一次使用还会补展示作者卡并查询更新。
+安装器只下载这一款 Skill。装完不用做别的，第一次调用时它会自己打招呼并告诉你下一步。
 
 本款运行需要的参考图：`1` 张。需要时已放在 Skill 自己的 `assets/references/` 中，会随本款一起安装；用户无需再次上传。
 

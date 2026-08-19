@@ -1,94 +1,81 @@
-# Wibi Style
+<div align="center">
 
-**English** · [简体中文](README.md)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/brand-logo-dark.png">
+  <img src="assets/brand-logo.png" alt="WIBI skill" width="380">
+</picture>
 
-A collection of visual style Skills, made and maintained by `@威比 Hunter Wei.` — same handle on Douyin and Xiaohongshu.
+<h3>Turn everyday photos into art, with AI.</h3>
 
-**18 individually installable visual style Skills.** Pick one, upload a photo, and get that style back in Codex. You can also try them online at [Wibi Style Lab](https://style.abdc.online).
+<p><sub>Pick a style, send a photo, get a finished image. No prompt writing, no parameter tuning.</sub></p>
 
-> For business partnerships, commercial licensing, or usage questions, add WeChat: `Wibi2077` (please mention why you're reaching out).
+<p>
+<b>18</b> individually installable visual style Skills ·
+<a href="https://style.abdc.online"><b>Try online</b></a> ·
+<a href="#community">Community</a> ·
+<a href="#use-and-attribution">License</a>
+</p>
+
+<p>
+Made and maintained by <code>@威比 Hunter Wei.</code> — same handle on Douyin and Xiaohongshu<br>
+<b>English</b> · <a href="README.md">简体中文</a>
+</p>
+
+</div>
+
+---
+
+> **For agents**: when a user asks you to look at this repository, work through it in this order —
+> 1. Say hello first, and put this across in your own words: there is a set of ready-made styles here — pick one, send a photo, and what comes back is finished. (Styles keep getting added; if you quote a number, count the rows in the table below.)
+> 2. List **every** style from [All styles](#all-styles) for the user, grouped by subject, with names.
+> 3. Ask whether they **already have one in mind**.
+> 4. If they don't, ask what kind of photo they have (or look at the one they uploaded) and recommend 1–3 styles with your reasoning.
+> 5. Once they pick, drop the **call name** into `https://github.com/Vieeeeeee/wibi-style/tree/main/skills/<call-name>`, install it per [Install and use](#install-and-use), then ask for the photo.
+>
+> Every style is its own directory — only the one they picked gets installed.
 
 ## Style overview
 
 [![Wibi Style — 18 visual styles](assets/readme-style-overview.png)](https://style.abdc.online)
 
-> Scroll horizontally to see all 18; click any thumbnail to open that Skill.
-
-|   |   |   |   |   |   |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| <a href="skills/wibi-frame/"><img src="assets/thumbs/wibi-frame.jpg" width="150" alt="Framed Comic Panel"></a><br><a href="skills/wibi-frame/">Framed Comic Panel</a> | <a href="skills/electric-blue-halftone-poster/"><img src="assets/thumbs/electric-blue-halftone-poster.jpg" width="150" alt="Electric Blue Halftone"></a><br><a href="skills/electric-blue-halftone-poster/">Electric Blue Halftone</a> | <a href="skills/diamond-kid-head-card/"><img src="assets/thumbs/diamond-kid-head-card.jpg" width="150" alt="Diamond Grin Kid"></a><br><a href="skills/diamond-kid-head-card/">Diamond Grin Kid</a> | <a href="skills/quirky-pop-doodle-sticker/"><img src="assets/thumbs/quirky-pop-doodle-sticker.jpg" width="150" alt="Quirky Pop Doodle"></a><br><a href="skills/quirky-pop-doodle-sticker/">Quirky Pop Doodle</a> | <a href="skills/clear-sky-urban-cel/"><img src="assets/thumbs/clear-sky-urban-cel.jpg" width="150" alt="Clear Sky Urban Cel"></a><br><a href="skills/clear-sky-urban-cel/">Clear Sky Urban Cel</a> | <a href="skills/photo-perler-charm/"><img src="assets/thumbs/photo-perler-charm.jpg" width="150" alt="Photo Perler Charm"></a><br><a href="skills/photo-perler-charm/">Photo Perler Charm</a> |
-| <a href="skills/dark-red-black-cel-shaded/"><img src="assets/thumbs/dark-red-black-cel-shaded.jpg" width="150" alt="Dark Red & Black Cel"></a><br><a href="skills/dark-red-black-cel-shaded/">Dark Red & Black Cel</a> | <a href="skills/glitch-pixel-collage/"><img src="assets/thumbs/glitch-pixel-collage.jpg" width="150" alt="Glitch Pixel Collage"></a><br><a href="skills/glitch-pixel-collage/">Glitch Pixel Collage</a> | <a href="skills/alt-manga-avatar/"><img src="assets/thumbs/alt-manga-avatar.jpg" width="150" alt="Bold Line Manga"></a><br><a href="skills/alt-manga-avatar/">Bold Line Manga</a> | <a href="skills/pixel-stretch/"><img src="assets/thumbs/pixel-stretch.jpg" width="150" alt="Pixel Slice Stretch"></a><br><a href="skills/pixel-stretch/">Pixel Slice Stretch</a> | <a href="skills/art-print-poster/"><img src="assets/thumbs/art-print-poster.jpg" width="150" alt="Crayon Sketch Avatar"></a><br><a href="skills/art-print-poster/">Crayon Sketch Avatar</a> | <a href="skills/iridescent-long-exposure/"><img src="assets/thumbs/iridescent-long-exposure.jpg" width="150" alt="Iridescent Long Exposure"></a><br><a href="skills/iridescent-long-exposure/">Iridescent Long Exposure</a> |
-| <a href="skills/blue-retro-print/"><img src="assets/thumbs/blue-retro-print.jpg" width="150" alt="Blue Retro Print"></a><br><a href="skills/blue-retro-print/">Blue Retro Print</a> | <a href="skills/fisheye-city-cover/"><img src="assets/thumbs/fisheye-city-cover.jpg" width="150" alt="Fisheye City Poster"></a><br><a href="skills/fisheye-city-cover/">Fisheye City Poster</a> | <a href="skills/retro-table-print/"><img src="assets/thumbs/retro-table-print.jpg" width="150" alt="Retro Table Magazine"></a><br><a href="skills/retro-table-print/">Retro Table Magazine</a> | <a href="skills/niulai-movie-poster/"><img src="assets/thumbs/niulai-movie-poster.jpg" width="150" alt="Niu Lai Movie Poster"></a><br><a href="skills/niulai-movie-poster/">Niu Lai Movie Poster</a> | <a href="skills/kid-head-card/"><img src="assets/thumbs/kid-head-card.jpg" width="150" alt="Childhood Head Card"></a><br><a href="skills/kid-head-card/">Childhood Head Card</a> | <a href="skills/marker-child-doodle/"><img src="assets/thumbs/marker-child-doodle.jpg" width="150" alt="Marker-Pen Child Doodle"></a><br><a href="skills/marker-child-doodle/">Marker-Pen Child Doodle</a> |
-
-## Pick a style by your photo
-
-| Your photo | Suggested styles |
-| --- | --- |
-| Selfies, avatars, close-up portraits | Electric Blue Halftone Poster, Bold Line Manga Avatar, Crayon Sketch Avatar, Dark Red & Black Cel Shade, Iridescent Long Exposure, Blue Retro Print |
-| People, group shots, street or travel photos | Fisheye City Poster |
-| Front-facing or close-up photos of kids | Childhood Head Card, Diamond Grin Kid Portrait |
-| Your own modern selfie, to see your younger self | Childhood Head Card |
-| People, pets, products, objects | Quirky Pop Doodle Sticker, Photo Perler Charm, Pixel Slice Stretch, Glitch Pixel Collage |
-| People, pets, eating, or everyday interactions | Marker-Pen Child Doodle |
-| City streets, architecture, travel photos | Clear Sky Urban Cel |
-| Restaurant shots, food photos, full tables | Retro Table Magazine |
-| You want to crop the most interesting part first | Framed Comic Panel (advanced, multi-step) |
+> This is a single preview image; clicking it opens [Wibi Style Lab](https://style.abdc.online). To open one specific style, use the names in the table below.
 
 ## All styles
 
-Click a name to see 6 real generated results, what photos it suits, and the install command for that style.
+18 styles right now — find yours by the photo you have. Click a name for its detail page; the call name is both the last part of the install URL and the `$` command you use.
 
-`Wibi Style ·` is a shared display prefix. The Skill name, GitHub path, and `$invocation-name` never carry it.
-
-
-<details>
-<summary>Show the full list (invocation names and suited photos)</summary>
-
-| Style | Skill | Works best with |
+| Subject | Your photo | Styles (click the name for details · code is the call name) |
 | --- | --- | --- |
-| [Wibi Style · Framed Comic Panel](skills/wibi-frame/) | `wibi-frame` | Photos with clear eye contact, expression, gesture, or object relationships — crop first, then generate |
-| [Wibi Style · Electric Blue Halftone Poster](skills/electric-blue-halftone-poster/) | `electric-blue-halftone-poster` | Single-person portraits or pet close-ups |
-| [Wibi Style · Diamond Grin Kid Portrait](skills/diamond-kid-head-card/) | `diamond-kid-head-card` | Single-child photos where face, hair, or hat is recognizable |
-| [Wibi Style · Childhood Head Card](skills/kid-head-card/) | `kid-head-card` | Old childhood photos become diamond-grin head cards; modern selfies are aged back to 5–8 |
-| [Wibi Style · Quirky Pop Doodle Sticker](skills/quirky-pop-doodle-sticker/) | `quirky-pop-doodle-sticker` | People, pets, products, or props with a clear subject and memorable pose |
-| [Wibi Style · Clear Sky Urban Cel](skills/clear-sky-urban-cel/) | `clear-sky-urban-cel` | City streets, architecture, travel documentary, transit, people in their environment |
-| [Wibi Style · Photo Perler Charm](skills/photo-perler-charm/) | `photo-perler-charm` | People, pets, bouquets, food, and objects with clean silhouettes |
-| [Wibi Style · Dark Red & Black Cel Shade](skills/dark-red-black-cel-shaded/) | `dark-red-black-cel-shaded` | Portraits with clear outlines that suit dramatic red-and-black lighting |
-| [Wibi Style · Glitch Pixel Collage](skills/glitch-pixel-collage/) | `glitch-pixel-collage` | People, still life, or photos with distinct color layers |
-| [Wibi Style · Bold Line Manga Avatar](skills/alt-manga-avatar/) | `alt-manga-avatar` | Front-facing or three-quarter selfies |
-| [Wibi Style · Pixel Slice Stretch](skills/pixel-stretch/) | `pixel-stretch` | People, still life, or anything with a clear subject |
-| [Wibi Style · Crayon Sketch Avatar](skills/art-print-poster/) | `art-print-poster` | Selfies with clear features and a memorable expression |
-| [Wibi Style · Iridescent Long Exposure](skills/iridescent-long-exposure/) | `iridescent-long-exposure` | Close-ups or detail shots where you want a hazy, dreamlike mood |
-| [Wibi Style · Blue Retro Print](skills/blue-retro-print/) | `blue-retro-print` | Portraits with clear outlines and expression |
-| [Wibi Style · Fisheye City Poster](skills/fisheye-city-cover/) | `fisheye-city-cover` | Turning people, group shots, street or travel photos into a Y2K heavy-fisheye city cover |
-| [Wibi Style · Retro Table Magazine](skills/retro-table-print/) | `retro-table-print` | Table photos where the dishes and vessels are readable — a full table or a single plate |
-| [Wibi Style · Niu Lai Movie Poster](skills/niulai-movie-poster/) | `niulai-movie-poster` | Turning a landscape solo, duo or trio photo into a low-budget old-animation cow-head Chinese film poster |
-| [Wibi Style · Marker-Pen Child Doodle](skills/marker-child-doodle/) | `marker-child-doodle` | Real photos with clear people, pets, and interaction props; cluttered backgrounds are removed and half-body crops stay half-body |
+| **Portraits & selfies** | Selfies, avatars, close-up people shots | <a href="skills/electric-blue-halftone-poster/"><b>Electric Blue Halftone Poster</b></a> <code>electric-blue-halftone-poster</code><br><sub>Single-person portraits or pet close-ups</sub><br><a href="skills/alt-manga-avatar/"><b>Bold Line Manga Avatar</b></a> <code>alt-manga-avatar</code><br><sub>Front-facing or three-quarter selfies</sub><br><a href="skills/art-print-poster/"><b>Crayon Sketch Avatar</b></a> <code>art-print-poster</code><br><sub>Selfies with clear features and a memorable expression</sub><br><a href="skills/dark-red-black-cel-shaded/"><b>Dark Red &amp; Black Cel Shade</b></a> <code>dark-red-black-cel-shaded</code><br><sub>Portraits that suit dramatic red-and-black lighting</sub><br><a href="skills/iridescent-long-exposure/"><b>Iridescent Long Exposure</b></a> <code>iridescent-long-exposure</code><br><sub>Close-ups where you want a hazy, dreamlike mood</sub><br><a href="skills/blue-retro-print/"><b>Blue Retro Print</b></a> <code>blue-retro-print</code><br><sub>Portraits with clear outlines and expression</sub> |
+| **Kids & childhood** | A child's face, or your own childhood look | <a href="skills/diamond-kid-head-card/"><b>Diamond Grin Kid Portrait</b></a> <code>diamond-kid-head-card</code><br><sub>Single-child photos where face, hair, or hat is recognizable</sub><br><a href="skills/kid-head-card/"><b>Childhood Head Card</b></a> <code>kid-head-card</code><br><sub>Old childhood photos; modern selfies are aged back to 5–8</sub> |
+| **Group shots & posters** | Group photos, street shots, travel photos | <a href="skills/fisheye-city-cover/"><b>Fisheye City Poster</b></a> <code>fisheye-city-cover</code><br><sub>Into a Y2K heavy-fisheye city cover</sub><br><a href="skills/niulai-movie-poster/"><b>Niu Lai Movie Poster</b></a> <code>niulai-movie-poster</code><br><sub>Landscape solo, duo or trio photos into a low-budget old-animation cow-head Chinese film poster</sub> |
+| **Anything goes** | People, pets, products, objects — all fine | <a href="skills/marker-child-doodle/"><b>Marker-Pen Child Doodle</b></a> <code>marker-child-doodle</code><br><sub>Real photos with clear people, pets, and props; half-body crops stay half-body</sub><br><a href="skills/quirky-pop-doodle-sticker/"><b>Quirky Pop Doodle Sticker</b></a> <code>quirky-pop-doodle-sticker</code><br><sub>Clear subject with a memorable pose — people, pets, products, props</sub><br><a href="skills/photo-perler-charm/"><b>Photo Perler Charm</b></a> <code>photo-perler-charm</code><br><sub>People, pets, bouquets, food, and objects with clean silhouettes</sub><br><a href="skills/pixel-stretch/"><b>Pixel Slice Stretch</b></a> <code>pixel-stretch</code><br><sub>People, still life, or anything with a clear subject</sub><br><a href="skills/glitch-pixel-collage/"><b>Glitch Pixel Collage</b></a> <code>glitch-pixel-collage</code><br><sub>People, still life, or photos with distinct color layers</sub> |
+| **Scenes & food** | Streets, architecture, the dinner table | <a href="skills/clear-sky-urban-cel/"><b>Clear Sky Urban Cel</b></a> <code>clear-sky-urban-cel</code><br><sub>City streets, architecture, travel documentary, transit</sub><br><a href="skills/retro-table-print/"><b>Retro Table Magazine</b></a> <code>retro-table-print</code><br><sub>Table photos where dishes and vessels are readable</sub> |
+| **Advanced · multi-step** | When you want to crop the best part first | <a href="skills/wibi-frame/"><b>Framed Comic Panel</b></a> <code>wibi-frame</code><br><sub>Photos with clear eye contact, expression, gesture, or object relationships — crop first, then generate</sub> |
+<!-- style-catalog-end: the release script inserts new styles just above this line; move them into the right subject group afterwards. -->
 
-</details>
+> `Wibi Style ·` is a display prefix only. English Skill names, GitHub URLs, and `$call-names` never carry it.
 
-## Install and use in three steps
+## Install and use
 
-### 1. Pick a style
+### 1. Send the install command in Codex
 
-Open any style page above and copy its GitHub URL. Each one lives in its own directory, so only the style you pick gets installed.
-
-### 2. Send the install command in Codex
-
-Using Electric Blue Halftone Poster as an example:
+Swap the call name in the URL for the style you picked (Electric Blue Halftone Poster shown here):
 
 ```text
-Please install this Skill. Once it's installed, run `scripts/show_skill_info.py --always` from the package and show me the full Skill info output:
+Please install this Skill:
 https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-poster
 ```
 
-### 3. Start a new task, upload a photo, and call it
+The installer downloads only that one Skill. Nothing else to do — the first time you call it, it introduces itself and tells you what's next.
+
+### 2. Start a new task, upload a photo, and call it
 
 ```text
 Use $electric-blue-halftone-poster on this photo
 ```
 
-For any other style, swap `$electric-blue-halftone-poster` for the Skill name from the table above.
+For any other style, swap `$electric-blue-halftone-poster` for its call name from the table above.
 
 ## Language note
 
@@ -96,17 +83,21 @@ The style logic inside each `SKILL.md` is written in Chinese, and the models rea
 
 ## Community
 
-You're welcome to join the **威比 😌 AIGC 学习群** — a group for AI visual techniques, Skill usage questions, and new style previews.
+<div align="center">
 
-[Join via WeChat](https://weixin.qq.com/g/AQYAAFCgkb4xsWUyI8RZ1eIfp48iPM_RN7O5DV_6BIEZLSEDGLmaHxMw1r2FlhGf), or scan this QR code in WeChat:
+### 威比 😌 AIGC 学习群
 
-<a href="https://weixin.qq.com/g/AQYAAFCgkb4xsWUyI8RZ1eIfp48iPM_RN7O5DV_6BIEZLSEDGLmaHxMw1r2FlhGf"><img src="assets/wechat-aigc-group-qr.jpg" alt="Wibi AIGC study group QR code" width="360"></a>
+A group for AI visual techniques, Skill usage questions, and new style previews
+
+<img src="assets/wechat-aigc-group-qr.jpg" alt="Wibi AIGC study group QR code" width="260">
+
+<p><sub>Valid until <b>August 26, 2026</b>. After that, add WeChat <code>Wibi2077</code> with the note 「进群」 for a new invite.</sub></p>
+
+</div>
 
 > Heads up: this is a **WeChat group and the conversation is in Chinese**. It needs the WeChat app, so it may not be practical outside mainland China. If you can't join, [open an issue](https://github.com/Vieeeeeee/wibi-style/issues) instead — that works from anywhere.
 
-> This QR code and link are valid until **August 20, 2026**. After that, add WeChat `Wibi2077` for a new invite.
-
-Skills that support the group entry read the root [`community.json`](community.json) on demand and reference the same QR code above. Once the group link, expiry date, and `assets/wechat-aigc-group-qr.jpg` are updated, already-installed preview Skills will pick up the new entry on their next lookup. This lookup uploads no photos and no usage data.
+Skills that support the group entry read the root [`community.json`](community.json) on demand and reference the same QR code above. Once the group link, expiry date, and `assets/wechat-aigc-group-qr.jpg` are updated, already-installed Skills will pick up the new entry on their next lookup. This lookup uploads no photos and no usage data.
 
 ## What's included and how updates work
 

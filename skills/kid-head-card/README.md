@@ -27,17 +27,12 @@
 
 ## 安装
 
-从官方来源安装本单款 Skill：
-
-`https://github.com/Vieeeeeee/wibi-style/tree/main/skills/kid-head-card`
-
-**安装后请立刻运行一次**，展示作者卡：
-
-```bash
-python3 {skill_dir}/scripts/show_skill_info.py --always
+```text
+请安装这个 Skill：
+https://github.com/Vieeeeeee/wibi-style/tree/main/skills/kid-head-card
 ```
 
-部分第三方界面不会自动执行安装后钩子；Skill 第一次使用时会再补一次兜底展示。
+安装器只下载这一款 Skill。装完不用做别的，第一次调用时它会自己打招呼并告诉你下一步。
 
 ## 使用
 

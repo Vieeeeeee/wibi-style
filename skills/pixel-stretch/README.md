@@ -23,7 +23,7 @@
 ## 安装
 
 ```text
-请安装这个 Skill；安装完成后，运行包内 `scripts/show_skill_info.py --always`，并把输出的 Skill 信息完整展示给我：
+请安装这个 Skill：
 https://github.com/Vieeeeeee/wibi-style/tree/main/skills/pixel-stretch
 ```
 
