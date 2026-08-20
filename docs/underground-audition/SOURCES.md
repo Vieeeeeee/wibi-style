@@ -1,4 +1,4 @@
-# flash-triptych 展示图来源
+# underground-audition 展示图来源
 
 本目录只包含项目已验收的生成结果，不包含案例原图或风格参考图，也不随单款 Skill 安装。
 
