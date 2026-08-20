@@ -10,7 +10,7 @@
 <p><sub>挑一款风格，发一张照片，出来就是成品。不用学提示词，也不用调参数。</sub></p>
 
 <p>
-<b>18 款</b> 可独立安装的视觉风格 Skill ·
+<b>19 款</b> 可独立安装的视觉风格 Skill ·
 <a href="https://style.abdc.online"><b>在线体验</b></a> ·
 <a href="#加入交流群">交流群</a> ·
 <a href="#使用与署名">授权说明</a>
@@ -35,17 +35,17 @@
 
 ## 风格总览
 
-[![Wibi Style 18 款视觉风格总览](assets/readme-style-overview.png)](https://style.abdc.online)
+[![Wibi Style 19 款视觉风格总览](assets/readme-style-overview.png)](https://style.abdc.online)
 
 > 这是一张整图预览，点它会打开[威比风格实验室](https://style.abdc.online)。要进具体某一款，用下面表格里的风格名。
 
 ## 全部风格
 
-当前共 18 款，按你手上的照片找。点击风格名进入详情页；调用名同时是安装地址的最后一段和使用时的 `$` 指令。
+当前共 19 款，按你手上的照片找。点击风格名进入详情页；调用名同时是安装地址的最后一段和使用时的 `$` 指令。
 
 | 题材 | 什么照片 | 风格（点名进详情页 · 后面是调用名） |
 | --- | --- | --- |
-| **人像 · 自拍** | 自拍、头像、人物近景 | <a href="skills/electric-blue-halftone-poster/"><b>电蓝网点海报</b></a> <code>electric-blue-halftone-poster</code><br><sub>单人人像或宠物大头照</sub><br><a href="skills/alt-manga-avatar/"><b>粗线条漫画头像</b></a> <code>alt-manga-avatar</code><br><sub>正面或半侧脸自拍</sub><br><a href="skills/art-print-poster/"><b>蜡笔手绘头像</b></a> <code>art-print-poster</code><br><sub>五官清楚、表情有记忆点的自拍</sub><br><a href="skills/dark-red-black-cel-shaded/"><b>暗夜红黑赛璐璐</b></a> <code>dark-red-black-cel-shaded</code><br><sub>适合戏剧性红黑光影的人物照片</sub><br><a href="skills/iridescent-long-exposure/"><b>虹彩柔焦长曝光</b></a> <code>iridescent-long-exposure</code><br><sub>想要朦胧氛围的近景或局部特写</sub><br><a href="skills/blue-retro-print/"><b>蓝底复古印刷</b></a> <code>blue-retro-print</code><br><sub>轮廓和神态清楚的人物照片</sub> |
+| **人像 · 自拍** | 自拍、头像、人物近景 | <a href="skills/electric-blue-halftone-poster/"><b>电蓝网点海报</b></a> <code>electric-blue-halftone-poster</code><br><sub>单人人像或宠物大头照</sub><br><a href="skills/alt-manga-avatar/"><b>粗线条漫画头像</b></a> <code>alt-manga-avatar</code><br><sub>正面或半侧脸自拍</sub><br><a href="skills/art-print-poster/"><b>蜡笔手绘头像</b></a> <code>art-print-poster</code><br><sub>五官清楚、表情有记忆点的自拍</sub><br><a href="skills/dark-red-black-cel-shaded/"><b>暗夜红黑赛璐璐</b></a> <code>dark-red-black-cel-shaded</code><br><sub>适合戏剧性红黑光影的人物照片</sub><br><a href="skills/iridescent-long-exposure/"><b>虹彩柔焦长曝光</b></a> <code>iridescent-long-exposure</code><br><sub>想要朦胧氛围的近景或局部特写</sub><br><a href="skills/blue-retro-print/"><b>蓝底复古印刷</b></a> <code>blue-retro-print</code><br><sub>轮廓和神态清楚的人物照片</sub><br><a href="skills/flash-triptych/"><b>三联情绪模特卡</b></a> <code>flash-triptych</code><br><sub>单人半身或大头照，做成冷调直闪的左中右三联转身卡</sub> |
 | **儿童 · 童年** | 小孩正脸、大头照，或想看自己小时候 | <a href="skills/diamond-kid-head-card/"><b>钻牙萌娃大头</b></a> <code>diamond-kid-head-card</code><br><sub>脸、头发或帽子大致可辨的单人儿童照</sub><br><a href="skills/kid-head-card/"><b>童年大头卡贴</b></a> <code>kid-head-card</code><br><sub>儿童老照片；也能把当代自拍反推成 5–8 岁童年照</sub> |
 | **合照 · 海报** | 多人合照、街拍、旅行照 | <a href="skills/fisheye-city-cover/"><b>鱼眼城市海报</b></a> <code>fisheye-city-cover</code><br><sub>做成 Y2K 强鱼眼城市封面</sub><br><a href="skills/niulai-movie-poster/"><b>牛来电影海报</b></a> <code>niulai-movie-poster</code><br><sub>横版单人／双人／三人合照，做成旧动画牛头电影海报</sub> |
 | **万物皆可** | 人、宠物、产品、物件都行 | <a href="skills/marker-child-doodle/"><b>马克笔童画</b></a> <code>marker-child-doodle</code><br><sub>人物、宠物和互动道具清楚的真实照片；半身照不补腿脚</sub><br><a href="skills/quirky-pop-doodle-sticker/"><b>怪趣波普涂鸦贴纸</b></a> <code>quirky-pop-doodle-sticker</code><br><sub>动作和轮廓有记忆点的人物、宠物、产品或道具</sub><br><a href="skills/photo-perler-charm/"><b>照片拼豆挂件</b></a> <code>photo-perler-charm</code><br><sub>人物、宠物、花束、食物和轮廓清晰的物件</sub><br><a href="skills/pixel-stretch/"><b>像素切片拉伸</b></a> <code>pixel-stretch</code><br><sub>主体清楚的人物、静物或其他照片</sub><br><a href="skills/glitch-pixel-collage/"><b>乱码像素拼贴</b></a> <code>glitch-pixel-collage</code><br><sub>人物、静物或色彩层次明确的照片</sub> |

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "slug": "flash-triptych",
+  "name": "Wibi Style · 三联情绪模特卡",
+  "version": "1.1.2",
+  "updated_at": "2026-08-20",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/flash-triptych",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "opening": "summary-once",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "先发一张你的清晰照片给我吧～正面或半侧的半身、大头照都可以，戴眼镜、卷发、长直发都试过没问题。",
+      "收到后我会把它做成一张纸白背景的三联模特资料卡：同一个人转身的三个角度，闪光灯直打的清冷试镜快照感。默认出小红书方图，过检后我会问你要不要顺便出一张手机壁纸尺寸，背景可以选纸白或深炭黑。"
+    ],
+    "received": [
+      "照片收到啦～我现在开始生成三联转身照，出来之后会先自己核对一下转身角度和表情有没有到位，没到位会告诉你具体哪里不对，问你要不要重出一张，不会自己偷偷多跑。",
+      "核对通过后默认给你小红书方图，然后会问一句要不要顺便出手机壁纸尺寸——背景色可以选纸白（默认，偏暖的白，不是纯白）或深炭黑，logo 颜色会自动跟着换。"
+    ]
+  },
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/flash-triptych",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/flash-triptych",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/flash-triptych/manifest.json?ref=main",
+  "input": {
+    "type": "single-photo-fixed-prompt-with-post-check",
+    "bundled_references": 0
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/三联情绪模特卡/02_提示词/98_线上版.md",
+    "source_sha256": "8997977ebafb3da8f751d883c0b4f73829a78f2cf625947b81c986aaee9b7fcd"
+  },
+  "references": [],
+  "generation_check": {
+    "mode": "check_then_ask",
+    "auto_redo": false,
+    "description": "生成后核对转身角度、镜像关系与表情；核心项不通过时只报告问题并询问用户是否重出，绝不擅自重新生成。"
+  },
+  "output_presets": {
+    "xhs": "2048×2048",
+    "xhs34": "1536×2048",
+    "lock": "1290×2796（手机锁屏，已避开顶部时钟与底部功能键）"
+  },
+  "background_presets": {
+    "paper": "纸白 #F7F5F0（默认，偏暖的白，不是纯白）",
+    "black": "深炭黑 #0A0A0A；logo 自动换成白底适配色，不需要单独准备素材"
+  },
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/flash-triptych/examples",
+    "bundled_with_install": false,
+    "status": "ready_pending_publish"
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "redistributable_assets": [],
+    "original_assets": [
+      "assets/brand/"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
