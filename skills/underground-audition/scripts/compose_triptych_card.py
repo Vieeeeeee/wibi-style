@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把「三联情绪模特卡」的生成图重新排版，并贴上 WIBI / skill 品牌标记。
+"""把「地下试镜skill」的生成图重新排版，并贴上 WIBI / skill 品牌标记。
 
 图像模型只负责出三张照片，画面里不含任何文字——品牌标记是随包的固化素材
 （assets/brand/logo_wibi_skill.png），每次贴同一张，不现场画字。同一张生成图

@@ -1,8 +1,8 @@
-# Wibi Style · 三联情绪模特卡
+# Wibi Style · 地下试镜skill
 
 把一张清晰人像照片做成纯白背景的三联"模特资料卡"：同一个人原地转身的三个定格——完整侧脸转向画面左侧、正面直视喊叫、完整侧脸镜像转向画面右侧——用九十年代模特试镜宝丽来快照式的机顶直闪硬光拍摄，清冷未修图质感。
 
-当前版本：`v1.1.2`
+当前版本：`v1.1.3`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,14 +11,14 @@
 以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="../_docs-staging/example-01.png" alt="三联情绪模特卡成图示例 1" width="30%" />
-  <img src="../_docs-staging/example-02.png" alt="三联情绪模特卡成图示例 2" width="30%" />
-  <img src="../_docs-staging/example-03.png" alt="三联情绪模特卡成图示例 3" width="30%" />
+  <img src="../_docs-staging/example-01.png" alt="地下试镜skill成图示例 1" width="30%" />
+  <img src="../_docs-staging/example-02.png" alt="地下试镜skill成图示例 2" width="30%" />
+  <img src="../_docs-staging/example-03.png" alt="地下试镜skill成图示例 3" width="30%" />
 </p>
 <p align="center">
-  <img src="../_docs-staging/example-04.png" alt="三联情绪模特卡成图示例 4" width="30%" />
-  <img src="../_docs-staging/example-05.png" alt="三联情绪模特卡成图示例 5" width="30%" />
-  <img src="../_docs-staging/example-06.png" alt="三联情绪模特卡成图示例 6" width="30%" />
+  <img src="../_docs-staging/example-04.png" alt="地下试镜skill成图示例 4" width="30%" />
+  <img src="../_docs-staging/example-05.png" alt="地下试镜skill成图示例 5" width="30%" />
+  <img src="../_docs-staging/example-06.png" alt="地下试镜skill成图示例 6" width="30%" />
 </p>
 
 手机壁纸的两套背景色预设（纸白 / 深炭黑，logo 颜色自动跟随适配）：
@@ -33,7 +33,7 @@
 
 ```text
 请安装这个 Skill：
-https://github.com/Vieeeeeee/wibi-style/tree/main/skills/flash-triptych
+https://github.com/Vieeeeeee/wibi-style/tree/main/skills/underground-audition
 ```
 
 安装器只下载这一款 Skill，不会下载仓库中的其他风格。这款 Skill 没有随包的视觉参考图，只包含规则文本和排版脚本；安装完成后会展示名称、版本、作者、同名平台、官方来源和安装路径。
@@ -47,7 +47,7 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/flash-triptych
 上传一张照片后说：
 
 ```text
-使用 $flash-triptych 处理这张照片
+使用 $underground-audition 处理这张照片
 ```
 
 Skill 会先看一遍照片、确认适合这套风格，再生成一张三联转身照。**生成后会自动核对转身角度、镜像关系和表情是否成立**——如果左右两张没有真的转到完整九十度、或者中间那张不像在喊叫，Skill 会展示当时的结果、说明具体哪里不对，并问你要不要再出一张；**只有你明确同意，才会重新生成，绝不擅自多跑一次**。

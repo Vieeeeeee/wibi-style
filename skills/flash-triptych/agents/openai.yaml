@@ -1,7 +1,0 @@
-interface:
-  display_name: "Wibi Style · 三联情绪模特卡"
-  short_description: "把一张照片做成纯白背景的转身三联模特资料卡，生成后自动核对角度、不通过只询问是否重出"
-  default_prompt: "使用 $flash-triptych 把我上传的照片做成三联情绪模特卡，生成后先自己核对转身角度和表情，有问题就告诉我并问我要不要重出。"
-
-policy:
-  allow_implicit_invocation: true
