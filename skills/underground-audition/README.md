@@ -2,7 +2,7 @@
 
 把一张清晰人像照片做成纯白背景的三联"模特资料卡"：同一个人原地转身的三个定格——完整侧脸转向画面左侧、正面直视喊叫、完整侧脸镜像转向画面右侧——用九十年代模特试镜宝丽来快照式的机顶直闪硬光拍摄，清冷未修图质感。
 
-当前版本：`v1.1.3`
+当前版本：`v1.1.4`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,20 +11,20 @@
 以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="../_docs-staging/example-01.png" alt="地下试镜skill成图示例 1" width="30%" />
-  <img src="../_docs-staging/example-02.png" alt="地下试镜skill成图示例 2" width="30%" />
-  <img src="../_docs-staging/example-03.png" alt="地下试镜skill成图示例 3" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-01.png" alt="地下试镜skill成图示例 1" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-02.png" alt="地下试镜skill成图示例 2" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-03.png" alt="地下试镜skill成图示例 3" width="30%" />
 </p>
 <p align="center">
-  <img src="../_docs-staging/example-04.png" alt="地下试镜skill成图示例 4" width="30%" />
-  <img src="../_docs-staging/example-05.png" alt="地下试镜skill成图示例 5" width="30%" />
-  <img src="../_docs-staging/example-06.png" alt="地下试镜skill成图示例 6" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-04.png" alt="地下试镜skill成图示例 4" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-05.png" alt="地下试镜skill成图示例 5" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-06.png" alt="地下试镜skill成图示例 6" width="30%" />
 </p>
 
 手机壁纸的两套背景色预设（纸白 / 深炭黑，logo 颜色自动跟随适配）：
 
 <p align="center">
-  <img src="../_docs-staging/bg-preset-demo.png" alt="纸白与深炭黑两套壁纸背景色对比" width="60%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/bg-preset-demo.png" alt="纸白与深炭黑两套壁纸背景色对比" width="60%" />
 </p>
 
 ## 安装
@@ -52,7 +52,7 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/underground-audition
 
 Skill 会先看一遍照片、确认适合这套风格，再生成一张三联转身照。**生成后会自动核对转身角度、镜像关系和表情是否成立**——如果左右两张没有真的转到完整九十度、或者中间那张不像在喊叫，Skill 会展示当时的结果、说明具体哪里不对，并问你要不要再出一张；**只有你明确同意，才会重新生成，绝不擅自多跑一次**。
 
-默认交付小红书方图；检查通过后 Skill 会主动问一句要不要顺便出一张手机壁纸尺寸，背景色可以选纸白（默认，偏暖的白，不是纯白）或深炭黑，logo 颜色会自动跟着背景换。也可以直接说"给我锁屏版，黑色背景"一步到位。
+默认交付小红书方图；检查通过后 Skill 会主动问一句要不要顺便出一张手机壁纸尺寸，背景色可以选纸白（默认，偏暖的白，不是纯白）或深炭黑，logo 颜色会自动跟着背景换。也可以直接说"给我锁屏版，黑色背景"一步到位。除了方图和锁屏，还有一档 3:4 竖版（1536×2048），说一句「要 3:4 竖版」就能拿到。
 
 ## 适合的照片
 
