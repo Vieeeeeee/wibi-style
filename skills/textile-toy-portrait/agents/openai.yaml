@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wibi Style · 颗粒绒感玩偶"
+  short_description: "Wibi Style 官方视觉 Skill：把上传照片转换成颗粒绒感玩偶风格并完成生成质量检查"
+  default_prompt: "使用 $textile-toy-portrait 处理这张照片。"
+
+policy:
+  allow_implicit_invocation: true

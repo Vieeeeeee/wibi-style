@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "slug": "textile-toy-portrait",
+  "name": "Wibi Style · 颗粒绒感玩偶",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/textile-toy-portrait",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/textile-toy-portrait",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/textile-toy-portrait",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/textile-toy-portrait/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "先发一张你想做成颗粒绒感玩偶的照片给我吧～",
+      "单人头像、头肩照或半身照都可以；发型、表情、帽子、眼镜或手部动作越清楚，玩偶越容易保留个性。收到后我会直接用内置风格参考完成方形胸像。"
+    ],
+    "received": [
+      "照片收到啦～我会先锁定真实可见的发型、表情、配饰和手部关系，再用颗粒绒与粗针织做成白底棚拍玩偶；参考图只负责风格，不会搬入它的角色或道具。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/颗粒绒感玩偶/02_提示词/98_线上版.md",
+    "source_sha256": "b0a86082b2a89d0abb352859995bd9bab075868481ec451c0fd55b086e189b69"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.jpeg",
+      "source": "01_风格参考/HNb3UhvWIAABGaW.jpeg",
+      "source_sha256": "9701bb8cb57b87a4bc6195f5e03eef45bdf00e947d67c5d73975cd5f20c2adf6"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/textile-toy-portrait/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.jpeg"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
