@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wibi Style · 冷蓝失真动漫"
+  short_description: "Wibi Style 官方视觉 Skill：把上传照片转换成冷蓝失真动漫风格并完成生成质量检查"
+  default_prompt: "使用 $cold-blue-glitch-anime 处理这张照片。"
+
+policy:
+  allow_implicit_invocation: true

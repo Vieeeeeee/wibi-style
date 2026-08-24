@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "slug": "cold-blue-glitch-anime",
+  "name": "Wibi Style · 冷蓝失真动漫",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/cold-blue-glitch-anime",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/cold-blue-glitch-anime",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/cold-blue-glitch-anime",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/cold-blue-glitch-anime/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "先发一张你想做成冷蓝失真动漫的照片给我吧～",
+      "人像写真、自拍、街头抓拍或夜景生活照都可以，姿态和轮廓越清晰，重绘出来的漫画感越出彩。"
+    ],
+    "received": [
+      "收到照片啦！正在为你提取人物主体与动作特征，结合 3 张内置参考图彻底重绘成冷蓝失真动漫海报～"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/冷蓝失真动漫/02_提示词/98_线上版.md",
+    "source_sha256": "75be018c19ca78966241cd9f6ba1860205d6e4625e1ef80625b6559cc72a4dd0"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 3
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.png",
+      "source": "01_风格参考/01_人物近景.png",
+      "source_sha256": "aacf75e4275ec60c5cdd0be2757b5fecc1d094df8f3903b19cd771ba1bbce88f"
+    },
+    {
+      "file": "assets/references/reference-02.png",
+      "source": "01_风格参考/02_动作细节.png",
+      "source_sha256": "18b9a3b9d052e9f507c820341a4b87c661d545f6863db53c378204ca69cdba5e"
+    },
+    {
+      "file": "assets/references/reference-03.png",
+      "source": "01_风格参考/03_环境文字.png",
+      "source_sha256": "2f3fbae16cf3504132f78a756b0f8c9428fe4b59d4ec523147f21e690576d4fd"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/cold-blue-glitch-anime/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.png",
+      "assets/references/reference-02.png",
+      "assets/references/reference-03.png"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
