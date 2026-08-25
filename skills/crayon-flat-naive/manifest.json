@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "slug": "crayon-flat-naive",
+  "name": "Wibi Style · 蜡笔极简扁平画",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/crayon-flat-naive",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/crayon-flat-naive",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/crayon-flat-naive",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/crayon-flat-naive/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": ["抖音", "小红书"],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "先发一张想转成蜡笔极简扁平画的照片给我吧～头像、半身或全身照都可以；收到后我会按画面景别选择近景或全身风格参考。",
+      "如果你有想保留的帽子、眼镜、鞋子或服装主色，也可以一起告诉我。"
+    ],
+    "received": [
+      "照片收到啦～我会先锁定人物身份、姿态和穿搭关系，再按景别选择参考并直接生成；缺少必要信息时只问一项。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/蜡笔极简扁平画/蜡笔极简手绘prompt.docx",
+    "source_sha256": "17beba7765d5e4db119c184f3aec025363562a951769cc520fef98e3323c8d32",
+    "adaptation_note": "从项目 DOCX 提炼为可按原片动态编译的运行规则；完整原始 DOCX 保留在项目根目录，不进入安装包。"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 2,
+    "output_default": "1:1"
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.jpg",
+      "source": "参考/剪贴板 2026-07-06 下午 5.12.49.jpg",
+      "source_sha256": "86fb784b328c1cddc2828998c0b1ef94941c4ec06008f66a7c6fe3e0197178c2",
+      "role": "近景人物：极简五官、近景配饰、颗粒与色块关系"
+    },
+    {
+      "file": "assets/references/reference-02.jpg",
+      "source": "参考/剪贴板 2026-07-06 下午 5.12.55.jpg",
+      "source_sha256": "1b6d80402e5e0dcec3bf8af5ce5e3b1f830781fd116235c6575c49b4c79ad62c",
+      "role": "全身坐姿：动作、四肢与鞋子、留白"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "status": "verified-six-pure-generated-results",
+    "repository_path": "docs/crayon-flat-naive/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided project references explicitly selected for this GitHub release",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.jpg",
+      "assets/references/reference-02.jpg"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
