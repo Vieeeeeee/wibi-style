@@ -2,9 +2,23 @@
 
 把一张真实照片重绘成纯白纸面、蜡笔颗粒、极简五官和高饱和扁平色块的手绘时装插画。
 
-当前版本：`v1.0.0`
+当前版本：`v1.0.1`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
+
+## 成图示例
+
+以下展示本 Skill 的 6 张纯生成结果，不包含用户原始照片或运行参考图。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/crayon-flat-naive-v1.0.1/docs/crayon-flat-naive/examples/example-01.png" width="30%" alt="蜡笔极简扁平画示例 01" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/crayon-flat-naive-v1.0.1/docs/crayon-flat-naive/examples/example-02.png" width="30%" alt="蜡笔极简扁平画示例 02" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/crayon-flat-naive-v1.0.1/docs/crayon-flat-naive/examples/example-03.png" width="30%" alt="蜡笔极简扁平画示例 03" />
+  <br />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/crayon-flat-naive-v1.0.1/docs/crayon-flat-naive/examples/example-04.png" width="30%" alt="蜡笔极简扁平画示例 04" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/crayon-flat-naive-v1.0.1/docs/crayon-flat-naive/examples/example-05.png" width="30%" alt="蜡笔极简扁平画示例 05" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/crayon-flat-naive-v1.0.1/docs/crayon-flat-naive/examples/example-06.png" width="30%" alt="蜡笔极简扁平画示例 06" />
+</p>
 
 ## 使用
 
