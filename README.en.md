@@ -97,7 +97,7 @@ A group for AI visual techniques, Skill usage questions, and new style previews
 
 <img src="assets/wechat-aigc-group-qr.jpg" alt="Wibi AIGC study group QR code" width="260">
 
-<p><sub>Valid until <b>August 26, 2026</b>. After that, add WeChat <code>Wibi2077</code> with the note 「进群」 for a new invite.</sub></p>
+<p><sub>Valid until <b>September 1, 2026</b>. After that, add WeChat <code>Wibi2077</code> with the note 「进群」 for a new invite.</sub></p>
 
 </div>
 

@@ -99,7 +99,8 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-
 
 <img src="assets/wechat-aigc-group-qr.jpg" alt="威比 AIGC 学习群二维码" width="260">
 
-<p><sub>二维码有效期至 <b>2026 年 8 月 26 日</b>。过期后加微信 <code>Wibi2077</code>，备注「进群」。</sub></p>
+<p><sub>二维码有效期至 <b>2026 年 9 月 1 日</b>。过期后加微信 <code>Wibi2077</code>，备注「进群」。</sub></p>
+<!-- current community invite: https://weixin.qq.com/g/AQYAAHQUC8ITwfP0uHRfFpzfJV9oeZx7fN6psRcKWgEWcxNSaJPm3lWJWlrTUAA5 -->
 
 </div>
 
