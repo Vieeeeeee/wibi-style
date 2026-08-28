@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "slug": "office-animals",
+  "name": "Wibi Style · 牛马宇宙",
+  "version": "1.0.0",
+  "updated_at": "2026-08-26",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/office-animals",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/office-animals",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/office-animals/manifest.json?ref=main",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/office-animals",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "今天想让哪位动物同事替你上班？可以直接点名，也可以只说“随机”～",
+      "场景、情绪和大标题都能指定；懒得选也没关系，我会从办公室灾难现场里替你抽一整套。"
+    ],
+    "received": [
+      "收到，这位同事已经打卡～信息齐了我就直接开工；空着的部分会自动随机补上，只在标题太长时请你选一次。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/Y2K牛马宇宙荒诞打工人/02_提示词/99_分享版.md",
+    "source_sha256": "9961fd62e69b016bcfa6f295268beda373709c50d9356ebbdc3b8b6f6e22dd05",
+    "runtime_sha256": "eb49c4e6fa872019f510dc35b008b379ae80bdc1659eccbcdf7ece89cea5072c",
+    "randomizer_sha256": "9fa1086e4185b60ea4ea8d897bfd4db087ad1055523009cd6dc178031233ae68",
+    "runtime_files": [
+      "references/style-prompt.md",
+      "references/random-system.md",
+      "scripts/draw_brief.py"
+    ]
+  },
+  "input": {
+    "type": "text-to-image",
+    "controls": [
+      "animal",
+      "scene",
+      "mood",
+      "headline"
+    ],
+    "missing_values": "random-compatible",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/y2k-office-typography-reference.png",
+      "source": "05_发布/01_Pastedimage20260513133701.png",
+      "source_sha256": "e06a986ad61a7025e294c40a92042b0d73243bbdfa88f21e4ec377995d4262a9",
+      "sha256": "e06a986ad61a7025e294c40a92042b0d73243bbdfa88f21e4ec377995d4262a9",
+      "role": "red hand-built Chinese headline, multi-weight blue Song typography, loose early-DTP layout, low-resolution direct-flash photography and red cutout outline only"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "candidate_count": 11,
+    "selection_required": 6,
+    "repository_path": "docs/office-animals/examples",
+    "bundled_with_install": false,
+    "status": "approved_for_public_display"
+  },
+  "validation": {
+    "status": "generated-awaiting-user-visual-review",
+    "tested_at": "2026-08-26",
+    "case": "水豚 × 周会现场 × 假装听懂 × 收到但没懂",
+    "single_case_rounds": 6,
+    "random_batch_count": 5,
+    "total_generation_count": 11,
+    "latest_controlled_result": "04_自测/结果_v10_自然直闪通透纸白.png",
+    "latest_controlled_result_sha256": "1bd707ab4ae6bf1984b659d5a966cde8657a44eb6214723db4409804c8bc71e8",
+    "random_batch_overview": "04_自测/随机5张总览.png",
+    "random_batch_overview_sha256": "ccd6d56e60685c756c3243aea0d916db8a7bb991164c507719bf5fe7f72c9cd0",
+    "blue_copy_core_rendered": "25/25",
+    "blue_copy_total_rendered": "64/65",
+    "animal_families_covered": 5,
+    "layouts_covered": 3,
+    "remaining": "GitHub publish and remote verification"
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "project-owned prompt, independently written dynamic rules, and user-selected project reference",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/y2k-office-typography-reference.png"
+    ],
+    "bundled_third_party_assets": []
+  }
+}

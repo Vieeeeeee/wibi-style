@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wibi Style · 牛马宇宙"
+  short_description: "随机或指定动物、办公室场景和标题，生成 Y2K 荒诞打工海报"
+  default_prompt: "使用 $office-animals 做一张牛马宇宙海报。保留我明确指定的动物、办公室场景、情绪和标题，没说的部分自动随机补齐；如果我只说随机，就直接抽一套有趣且动作成立的组合并生成。"
+
+policy:
+  allow_implicit_invocation: true
