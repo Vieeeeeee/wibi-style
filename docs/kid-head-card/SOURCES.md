@@ -4,11 +4,11 @@
 
 | 展示图 | 项目内生成结果 | SHA-256 |
 | --- | --- | --- |
-| `examples/example-01.png` | `05_发布/展示图/01_sweet.png` | `06eacc20c08e1ebe44513cb8d1a81af50feaa28ae2d5e4d9a3bce41c4b329e7b` |
-| `examples/example-02.png` | `05_发布/展示图/02_sweet.png` | `78d1dea8cae382b966f4f96ebbf894e17cac48b313ab5056bc8d2cf4d67ac621` |
-| `examples/example-03.png` | `05_发布/展示图/03_sweet.png` | `aeba028f675b8c88486c6f176fe5ab1b804aba15f34660243d6436646fec446a` |
-| `examples/example-04.png` | `03_案例/11/03_统一.png` | `5add2989c034d865162118019611455c28bcf3d1d1f2716a28b8508ca444c34b` |
-| `examples/example-05.png` | `03_案例/08/03_统一.png` | `27c902eb4702d2042d207e9a3dcc1c28986a2cdebf16c3f732d752b4f6ecbad7` |
-| `examples/example-06.png` | `03_案例/05/03_统一.png` | `005dcf05ed3b3d3ccb50bc615df41ffb909fb69c733232813456c1083a77784a` |
+| `examples/example-01.png` | `05_发布/展示图/01_sweet_对比图.png` | `a92799705d0e94f933f2017ab038ea6e4454843c81bbff0db4841f308c64ba26` |
+| `examples/example-02.png` | `05_发布/展示图/02_sweet_对比图.png` | `79234106043303f5363a9e1d398d50b3c8c602c060bb6eb310e0ef4f6ccc6801` |
+| `examples/example-03.png` | `05_发布/展示图/03_sweet_对比图.png` | `7d25f1bf350edf831f659f35c6937cf11bb945d1a7dc3752dd260e1e15b65a04` |
+| `examples/example-04.png` | `05_发布/01_对比图.png` | `92fe5e787085a5a5c3878736cdec300500f113aac3dc2261a7f22ecfadd1fd4f` |
+| `examples/example-05.png` | `05_发布/02_对比图.png` | `a35fd2ba8ce5ecb958096369ff1dd65789a4fd8b1d8e352a1663cde5ae111757` |
+| `examples/example-06.png` | `05_发布/03_对比图.png` | `fc39ba3fa76ee6fa528aef1b5d785330213f50facc558145e5b28e226af7132c` |
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）。展示许可不等于案例原图或第三方元素的独立授权。

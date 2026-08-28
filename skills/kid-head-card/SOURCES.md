@@ -17,7 +17,7 @@
 
 ## 展示图
 
-README 中的 6 张效果图存放在仓库 `docs/kid-head-card/examples/`，全部为已验收的生成结果，不随安装包下载，不含案例原图与用户照片。
+README 中的 6 张效果对比图存放在仓库 `docs/kid-head-card/examples/`，全部为已验收的原图与成图对比图，不随安装包下载。
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）。再分发时必须保留作者、官方来源、`LICENSE` 与 `NOTICE`。
 官方来源：`https://github.com/Vieeeeeee/wibi-style/tree/main/skills/kid-head-card`。
