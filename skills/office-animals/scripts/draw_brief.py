@@ -50,30 +50,63 @@ MOOD_KEYWORD_COPY = [
     (("下班", "来活"), ["新任务已送达", "下班暂缓执行", "截止时间很近"]),
 ]
 
+OPENER_COPY = [
+    "今日状态",
+    "工位实录",
+    "打工观察",
+    "班味监测",
+    "现场速报",
+    "牛马日志",
+    "精神状况",
+    "上班记录",
+]
+
 AUXILIARY_COPY = [
     "今日待办",
-    "任务进行中",
-    "稍后回复",
-    "继续跟进",
-    "保持在线",
-    "进度同步",
+    "装忙进行中",
+    "背锅待分配",
+    "需求又变了",
+    "已改第五版",
+    "会议仍在开",
+    "下班遥遥无期",
+    "工资尚未到账",
+    "周报待提交",
+    "老板已读未回",
+    "摸鱼被迫中断",
+    "电量严重不足",
+    "灵感已经枯竭",
+    "心已提前下班",
+    "人还留在工位",
+    "咖啡第三杯",
+    "明天再说吧",
+    "责任正在转移",
+    "进度靠意志力",
+    "问题继续增加",
     "结论待定",
     "等待确认",
-    "备注已更新",
     "优先处理",
     "反馈已收到",
+    "继续跟进",
     "今日有效",
 ]
 
 MICRO_COPY = [
     "状态栏",
-    "进度栏",
-    "备注栏",
     "待办栏",
+    "备注栏",
+    "进度栏",
+    "打工实录",
+    "牛马观察",
+    "加班记录",
+    "工位现场",
+    "摸鱼简报",
+    "续命档案",
+    "生存法则",
+    "打工语录",
+    "本期重点",
     "观察记录",
     "任务清单",
-    "本日进度",
-    "工作样本",
+    "今日份班味",
 ]
 
 COPY_COUNTS = {
@@ -247,7 +280,7 @@ def select_copy(
     counts = COPY_COUNTS[layout]
     core_copy = unique(core)[: counts["core"]]
     while len(core_copy) < counts["core"]:
-        for fallback in ("今日状态", "任务进行中", "稍后回复", "继续跟进", "保持在线"):
+        for fallback in AUXILIARY_COPY:
             if fallback not in core_copy:
                 core_copy.append(fallback)
                 break
@@ -310,14 +343,14 @@ def main() -> int:
         headline = args.headline.strip() if args.headline else rng.choice(
             ["今天也在上班", "事情正在发生", "先把今天过完"]
         )
-        core_copy = ["今日状态", mood, "场景观察", "任务进行中", "稍后继续"]
+        core_copy = [rng.choice(OPENER_COPY), mood, "场景观察", "进度靠意志力", "稍后继续"]
     else:
         scene = SCENES[scene_id]
         scene_label = scene["label"]
         layout = scene["layout"]
         action = scene["action"]
         headline = args.headline.strip() if args.headline else rng.choice(scene["headlines"])
-        core_copy = ["今日状态", mood, *scene["side_copy"]]
+        core_copy = [rng.choice(OPENER_COPY), mood, *scene["side_copy"]]
 
     copy_tiers = select_copy(rng, layout, core_copy, mood)
     side_copy = copy_tiers["core"] + copy_tiers["auxiliary"] + copy_tiers["micro"]

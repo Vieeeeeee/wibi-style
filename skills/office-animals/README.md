@@ -2,7 +2,7 @@
 
 把动物同事送进办公室：指定动物、场景、精神状态或大标题，也可以一句“随机”抽出一套动作成立的 Y2K 中文荒诞打工海报。
 
-当前版本：`v1.0.0`
+当前版本：`v1.1.0`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -19,12 +19,17 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/office-animals
 
 ## 展示图
 
-<img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.0.0/docs/office-animals/examples/example-01.png">
-<img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.0.0/docs/office-animals/examples/example-02.png">
-<img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.0.0/docs/office-animals/examples/example-03.png">
-<img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.0.0/docs/office-animals/examples/example-04.png">
-<img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.0.0/docs/office-animals/examples/example-05.png">
-<img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.0.0/docs/office-animals/examples/example-06.png">
+以下六张全部是本 Skill 的实际生成结果，不包含任何手工制作或项目既有素材。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-03.png" width="30%" />
+  <br />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-06.png" width="30%" />
+</p>
 
 ## 怎么玩
 
@@ -69,7 +74,7 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/office-animals
 
 ## 当前验证状态
 
-Skill 结构、随机脚本、欢迎卡、动态文案密度和单张内置字体参考已经完成本地检查。水豚周会经过六轮受控迭代；随后随机生成浣熊、猩猩、鹿、鹅和章鱼五张，覆盖五个动物家族、五个场景与三种版式。红色手工拼字、粗宋／中宋／细宋边注和参考内容隔离均成立；五张计划 65 组蓝字，实际正确呈现 64 组，其中 25 组核心文案全部出现。当前等待用户视觉确认，尚未选择六张展示图，也未进入发布流程。
+水豚周会经过六轮受控迭代定版；随后随机生成浣熊、猩猩、鹿、鹅和章鱼，覆盖五个动物家族、五个场景与三种版式。红色手工拼字、粗宋／中宋／细宋三层边注、蓝字贴器物走线和参考内容隔离均成立；标题按词义断行、不追加多余标点，同一组蓝字在整张图中只出现一次。随机脚本、欢迎卡与更新查询只使用 Python 标准库，不联网上传任何用户数据。
 
 ## 内置参考职责
 

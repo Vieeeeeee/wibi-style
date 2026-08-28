@@ -4,11 +4,11 @@
 
 | 展示图 | 项目内生成结果 | SHA-256 |
 | --- | --- | --- |
-| `examples/example-01.png` | `04_自测/随机5张/01_浣熊_打印机卡纸.png` | `982a10965e466a105e4c6dc59a841e2afc016e0132da0ac3e7a1ff94e9317df2` |
-| `examples/example-02.png` | `04_自测/随机5张/02_猩猩_门禁冲刺.png` | `55ca325bdd32ccdee1f6c04e6f69bcdab8f4e01b354cc2ff49d5aa7b9f46acd0` |
-| `examples/example-03.png` | `04_自测/随机5张/03_鹿_深夜加班.png` | `d77275fe4db5f6eb6b454af84d135cf3a1b7285a0f74d8176e4ab5b29b5139b3` |
-| `examples/example-04.png` | `04_自测/随机5张/04_鹅_KPI汇报.png` | `b50dde3c6d58aa46e588d8b7036d3e2f27b0eb578d74265f7c19eb84236427b3` |
-| `examples/example-05.png` | `04_自测/随机5张/05_章鱼_咖啡续命.png` | `4cc57d1bc3ddb54f006bf28c52d29031a0f7098e04874d4c5e8844a624021f44` |
-| `examples/example-06.png` | `05_发布/03_Pastedimage20260513143252.png` | `7914e39a97a08f66c578285c4810ed42da96b7348cfa38c20ad4f3723dddfdac` |
+| `examples/example-01.png` | `04_自测/v1.1.0展示图/example-01.png` | `b2429c408d42dc73a9753452bd6f5b3c3a503b5e3103dd5c04b1ca1d2f80bf58` |
+| `examples/example-02.png` | `04_自测/v1.1.0展示图/example-02.png` | `5efd124ef5790517f01e24388afc8c99486d1060843867833d6d7f0cf6cdd99e` |
+| `examples/example-03.png` | `04_自测/v1.1.0展示图/example-03.png` | `2b85233239363c1087537c1f747fff12b91de04bd1eb2ca16d913ced5ac06982` |
+| `examples/example-04.png` | `04_自测/v1.1.0展示图/example-04.png` | `5deded79822d5a201068d9f8773e984513bcda1421e11d402992439e4de7f96a` |
+| `examples/example-05.png` | `04_自测/v1.1.0展示图/example-05.png` | `d7943aeac0dd33a5bac013a0b40a20fb5356068545b802e59b823c28c5d1d35e` |
+| `examples/example-06.png` | `04_自测/v1.1.0展示图/example-06.png` | `6e0ee51148f981322c92f4c6f8671bbb5d6d43e1a191d4a5981b0c9763672b28` |
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）。展示许可不等于案例原图或第三方元素的独立授权。
