@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "home-journal",
   "name": "Wibi Style · 复古家居日志",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/home-journal",
@@ -44,7 +44,7 @@
   "prompt": {
     "file": "references/style-prompt.md",
     "source": "projects/复古家居日志/02_提示词/98_线上版.md",
-    "source_sha256": "797615a0ca4c87ea3e00c5c1011cf356680895b35fcc0f7a18ad8b919e33e302"
+    "source_sha256": "aac5a55081f7742188f3624c299cc161184cfd0df5110bc5101357bba367729e"
   },
   "input": {
     "type": "single-photo-restyle",
