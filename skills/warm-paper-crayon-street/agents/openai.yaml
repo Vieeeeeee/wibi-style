@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wibi Style · 暖纸蜡笔街拍"
+  short_description: "把人物照片转成象牙白纸面的粗蜡笔时尚编辑插画，配一处跳色和三个手写英文单词"
+  default_prompt: "使用 $warm-paper-crayon-street，把这张人物照片转成象牙白纸面的粗蜡笔街拍插画；保留姿态、穿搭和关键道具，清空原有环境，加一处高饱和跳色和三个粗钝手写英文单词。"
+
+policy:
+  allow_implicit_invocation: true

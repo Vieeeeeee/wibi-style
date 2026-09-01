@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "slug": "warm-paper-crayon-street",
+  "name": "Wibi Style · 暖纸蜡笔街拍",
+  "version": "1.0.0",
+  "maturity": "stable",
+  "welcome": {
+    "waiting": [
+      "先发一张想画成蜡笔街拍的人物照片吧～全身、半身、脸部特写都行。",
+      "收到后我会保留你的姿态、穿搭和手里那件关键物品，清掉原来的背景，画成象牙白纸上的粗蜡笔插画，再配三个手写英文单词。"
+    ],
+    "received": [
+      "照片收到啦～我先看景别、姿态和穿搭主色，再决定这次用电光蓝还是柠檬黄当跳色，然后直接开画，不用你再选别的。"
+    ]
+  },
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/warm-paper-crayon-street",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/warm-paper-crayon-street",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/warm-paper-crayon-street",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/warm-paper-crayon-street/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": ["抖音", "小红书"],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/暖纸蜡笔街拍/02_提示词/98_线上版.md",
+    "source_sha256": "ae8e02853bff0af6a8cd68c3ec11594e532ab12ae4bec0f5fea8cfac53f872b3"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1,
+    "output_default": "1:1"
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.png",
+      "source": "01_风格参考/02.png",
+      "source_sha256": "6fb2142d200fe6828d2ee9218ed8c96726e3ccbca9918924c4209588aeea3cbc",
+      "role": "蜡笔媒介、大团块抽象、象牙纸留白、低饱和配色与电光蓝跳色关系"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/warm-paper-crayon-street/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-and-selected-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.png"
+    ],
+    "bundled_third_party_assets": []
+  },
+  "updated_at": "2026-09-02"
+}
