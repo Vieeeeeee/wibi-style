@@ -97,14 +97,11 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-
 
 交流 AI 视觉玩法、Skill 使用和新风格内测
 
-<img src="assets/wechat-aigc-group-qr.jpg" alt="威比 AIGC 学习群二维码" width="260">
-
-<p><sub>二维码有效期至 <b>2026 年 9 月 1 日</b>。过期后加微信 <code>Wibi2077</code>，备注「进群」。</sub></p>
-<!-- current community invite: https://weixin.qq.com/g/AQYAAHQUC8ITwfP0uHRfFpzfJV9oeZx7fN6psRcKWgEWcxNSaJPm3lWJWlrTUAA5 -->
+<p>群已满 200 人，微信群二维码无法再扫码入群，请加微信 <code>Wibi2077</code>，备注「进群」，拉你进群。</p>
 
 </div>
 
-支持交流群入口的 Skill 会按需只读根目录 [`community.json`](community.json)，并引用上方同一张二维码。更新群链接、有效期和 `assets/wechat-aigc-group-qr.jpg` 后，已安装的 Skill 在下次查询时会读取新入口。这个查询不上传用户照片或使用数据。
+支持交流群入口的 Skill 会按需只读根目录 [`community.json`](community.json)。这个查询不上传用户照片或使用数据。
 
 ## 商务合作
 

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "revision": "2026-08-25-1",
+  "revision": "2026-09-01-1",
   "name": "威比 😌 AIGC 学习群",
   "description": "Skill 安装、选图、生图问题和新风格内测",
   "join_url": "https://weixin.qq.com/g/AQYAAHQUC8ITwfP0uHRfFpzfJV9oeZx7fN6psRcKWgEWcxNSaJPm3lWJWlrTUAA5",
   "qr_image_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/assets/wechat-aigc-group-qr.jpg?v=2026-08-25-1",
-  "valid_until": "2026-09-01T00:00:00+08:00",
+  "valid_until": "2026-08-01T00:00:00+08:00",
   "landing_url": "https://github.com/Vieeeeeee/wibi-style#加入交流群",
   "fallback_wechat": "Wibi2077",
   "social_handle": "@威比 Hunter Wei.",
