@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "slug": "serpent-line-ink",
+  "name": "Wibi Style · 蛇发游线墨绘",
+  "version": "0.1.0",
+  "maturity": "validated_single_test_pending_gallery",
+  "welcome": {
+    "waiting": [
+      "先发一张你的头肩、近景或半身照给我吧～自拍、镜面自拍、侧脸正脸都可以。",
+      "收到后我会保留你的神态和动作，用暖纸留白配自由钢笔墨线，给你画一头游线蛇发。"
+    ],
+    "received": [
+      "照片收到啦～我会先看你的头部角度、表情和发型动势，再直接开始画蛇发墨绘，不用你再选别的。"
+    ]
+  },
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/serpent-line-ink",
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/serpent-line-ink",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/serpent-line-ink",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/serpent-line-ink/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": ["抖音", "小红书"],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/蛇发游线墨绘/02_提示词/98_线上版.md",
+    "source_sha256": "dd93fb2fd0e464e39d1091948250f970bb813934464af2b068e7fdda074c9f6a"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.png",
+      "source": "01_风格参考/04_蛇发正面半身.png",
+      "source_sha256": "17f50c115ef2af593b6f9ead7e1e14549da9bf1546c341dbe79009d38d80164b",
+      "role": "不对称游线、局部浓黑、选择性完成与暖纸墨水材质"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/serpent-line-ink/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-and-selected-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.png"
+    ],
+    "bundled_third_party_assets": []
+  },
+  "updated_at": "2026-09-01"
+}
