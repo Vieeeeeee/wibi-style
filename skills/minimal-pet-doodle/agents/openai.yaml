@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wibi Style · 宠物极简线条"
+  short_description: "把猫狗照片变成大面积留白、笨拙黑线和一小块毛色彩铅组成的极简宠物画"
+  default_prompt: "使用 $minimal-pet-doodle，把这张真实宠物照片转成留白宠物涂鸦；保留最特别的动作、视线和身体曲线，用少量黑线与一块毛色彩铅完成。"
+
+policy:
+  allow_implicit_invocation: true
