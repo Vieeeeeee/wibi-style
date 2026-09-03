@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "warm-paper-crayon-street",
   "name": "Wibi Style · 暖纸蜡笔街拍",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "maturity": "stable",
   "welcome": {
     "waiting": [
@@ -23,7 +23,10 @@
   "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/warm-paper-crayon-street/manifest.json?ref=main",
   "attribution": {
     "text": "Visual Skill by @威比 Hunter Wei.",
-    "platforms": ["抖音", "小红书"],
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
     "retention_required_on_redistribution": true,
     "notice_file": "NOTICE"
   },

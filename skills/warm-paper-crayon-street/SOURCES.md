@@ -2,7 +2,7 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md` | 本项目风格规则与运行流程，SHA-256：`6a0db17081de116a0020948a3549a890df8a547fd177b28adda1257ca8358223` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
+| `SKILL.md` 与 `references/*.md` | 本项目风格规则与运行流程，SHA-256：`6a0db17081de116a0020948a3549a890df8a547fd177b28adda1257ca8358223` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `references/style-prompt.md` | 项目 `02_提示词/98_线上版.md` 的不依赖附件顺序版本，源文件 SHA-256：`ae8e02853bff0af6a8cd68c3ec11594e532ab12ae4bec0f5fea8cfac53f872b3` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/check_update.py` | 无遥测更新检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/show_skill_info.py` | 作者卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
