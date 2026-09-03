@@ -13,14 +13,14 @@
 判断完直接开工并告诉你走的哪一版，随时可以让它换另一版。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.2/docs/kid-head-card/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.2/docs/kid-head-card/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.2/docs/kid-head-card/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.3/docs/kid-head-card/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.3/docs/kid-head-card/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.3/docs/kid-head-card/examples/example-03.png" width="30%" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.2/docs/kid-head-card/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.2/docs/kid-head-card/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.2/docs/kid-head-card/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.3/docs/kid-head-card/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.3/docs/kid-head-card/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/kid-head-card-v1.0.3/docs/kid-head-card/examples/example-06.png" width="30%" />
 </p>
 
 上排为甜版·钻牙萌娃（顶部儿童老照片，底部明亮钻牙成图），下排为酷版·童年酷照（顶部当代自拍，底部 5–8 岁潮童成图）。
