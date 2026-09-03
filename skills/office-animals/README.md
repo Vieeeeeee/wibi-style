@@ -22,13 +22,13 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/office-animals
 以下六张全部是本 Skill 的实际生成结果，不包含任何手工制作或项目既有素材。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.1/docs/office-animals/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.1/docs/office-animals/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.1/docs/office-animals/examples/example-03.png" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.0/docs/office-animals/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.1/docs/office-animals/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.1/docs/office-animals/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/office-animals-v1.1.1/docs/office-animals/examples/example-06.png" width="30%" />
 </p>
 
 ## 怎么玩

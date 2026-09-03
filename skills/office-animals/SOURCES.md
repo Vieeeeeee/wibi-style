@@ -2,7 +2,7 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md`、`references/random-system.md`、`scripts/draw_brief.py` | 根据当前项目七张已发布海报独立提炼的动态运行规则、随机池与匹配逻辑 | © 2026 @威比 Hunter Wei.，按 `LICENSE` 授权 |
+| `SKILL.md` 与 `references/*.md` | 根据当前项目七张已发布海报独立提炼的动态运行规则、随机池与匹配逻辑 | © 2026 @威比 Hunter Wei.，按 `LICENSE` 授权 |
 | `references/style-prompt.md` | `02_提示词/99_分享版.md`，源文件 SHA-256：`9961fd62e69b016bcfa6f295268beda373709c50d9356ebbdc3b8b6f6e22dd05`；结合七张既有成图重新整理为动态模板 | © 2026 @威比 Hunter Wei.，按 `LICENSE` 授权 |
 | `scripts/check_update.py` | Wibi Style 无遥测更新检查 | © 2026 @威比 Hunter Wei.，按 `LICENSE` 授权 |
 | `scripts/show_skill_info.py` | 安装作者卡、每对话欢迎卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按 `LICENSE` 授权 |
