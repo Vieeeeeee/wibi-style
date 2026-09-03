@@ -11,13 +11,13 @@
 以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-01.png" alt="面条与筷子局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-02.png" alt="双眼局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-03.png" alt="帽檐与眼神局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.4.0/docs/wibi-frame/examples/example-01.png" alt="面条与筷子局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.4.0/docs/wibi-frame/examples/example-02.png" alt="双眼局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.4.0/docs/wibi-frame/examples/example-03.png" alt="帽檐与眼神局部成图" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-04.png" alt="帽子与双手局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-05.png" alt="西瓜与表情局部成图" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.3.7/docs/wibi-frame/examples/example-06.png" alt="侧脸与香烟局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.4.0/docs/wibi-frame/examples/example-04.png" alt="帽子与双手局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.4.0/docs/wibi-frame/examples/example-05.png" alt="西瓜与表情局部成图" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/wibi-frame-v1.4.0/docs/wibi-frame/examples/example-06.png" alt="侧脸与香烟局部成图" width="30%" />
 </p>
 
 ## 安装
