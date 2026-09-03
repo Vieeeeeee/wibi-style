@@ -2,7 +2,7 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md`、`references/style-prompt.md` | 地下试镜skill项目的真实案例迭代：19 轮 Prompt 版本（v1–v19），在 14 位不同测试对象（不同性别、发型、眼镜、帽子、耳饰）上反复验证 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
+| `SKILL.md` 与 `references/*.md` | 地下试镜skill项目的真实案例迭代：19 轮 Prompt 版本（v1–v19），在 14 位不同测试对象（不同性别、发型、眼镜、帽子、耳饰）上反复验证 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
 | `assets/brand/logo_wibi_skill.png` | 作者原创设计并生成的 WIBI 品牌标记（WIBI 半调网点 + skill 手写体），只在出图后由排版脚本贴上，不参与生成、不是风格参考图 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
 | `scripts/compose_triptych_card.py` | 为本项目原创编写的排版脚本，负责识别生成图中的照片区域、重排到目标画幅、贴上品牌标记素材并按背景明暗自动换色，支持纸白/深炭黑两套背景预设 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
 | `scripts/check_update.py` | 为 Wibi Style 独立编写的无遥测更新检查 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |

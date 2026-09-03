@@ -11,20 +11,20 @@
 以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-01.png" alt="地下试镜skill成图示例 1" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-02.png" alt="地下试镜skill成图示例 2" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-03.png" alt="地下试镜skill成图示例 3" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-01.png" alt="地下试镜skill成图示例 1" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-02.png" alt="地下试镜skill成图示例 2" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-03.png" alt="地下试镜skill成图示例 3" width="30%" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-04.png" alt="地下试镜skill成图示例 4" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-05.png" alt="地下试镜skill成图示例 5" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/examples/example-06.png" alt="地下试镜skill成图示例 6" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-04.png" alt="地下试镜skill成图示例 4" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-05.png" alt="地下试镜skill成图示例 5" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-06.png" alt="地下试镜skill成图示例 6" width="30%" />
 </p>
 
 手机壁纸的两套背景色预设（纸白 / 深炭黑，logo 颜色自动跟随适配）：
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.4/docs/underground-audition/bg-preset-demo.png" alt="纸白与深炭黑两套壁纸背景色对比" width="60%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/bg-preset-demo.png" alt="纸白与深炭黑两套壁纸背景色对比" width="60%" />
 </p>
 
 ## 安装
