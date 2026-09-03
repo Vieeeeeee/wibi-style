@@ -11,13 +11,13 @@
 以下仅展示本 Skill 的实际生成结果，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.0/docs/serpent-line-ink/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.0/docs/serpent-line-ink/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.0/docs/serpent-line-ink/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.1/docs/serpent-line-ink/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.1/docs/serpent-line-ink/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.1/docs/serpent-line-ink/examples/example-03.png" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.0/docs/serpent-line-ink/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.0/docs/serpent-line-ink/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.0/docs/serpent-line-ink/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.1/docs/serpent-line-ink/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.1/docs/serpent-line-ink/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/serpent-line-ink-v0.1.1/docs/serpent-line-ink/examples/example-06.png" width="30%" />
 </p>
 
 ## 当前状态

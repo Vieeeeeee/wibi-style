@@ -2,7 +2,7 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md` 与 `references/style-prompt.md` | 当前项目已验收规则，源文件 `02_提示词/98_线上版.md`，SHA-256：`dd93fb2fd0e464e39d1091948250f970bb813934464af2b068e7fdda074c9f6a` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
+| `SKILL.md` 与 `references/*.md` | 当前项目已验收规则，源文件 `02_提示词/98_线上版.md`，SHA-256：`dd93fb2fd0e464e39d1091948250f970bb813934464af2b068e7fdda074c9f6a` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/check_update.py` | 无遥测更新检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/show_skill_info.py` | 作者卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口，不上传照片或使用数据 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |

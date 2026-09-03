@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "serpent-line-ink",
   "name": "Wibi Style · 蛇发游线墨绘",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "maturity": "validated_single_test_pending_gallery",
   "welcome": {
     "waiting": [
@@ -23,7 +23,10 @@
   "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/serpent-line-ink/manifest.json?ref=main",
   "attribution": {
     "text": "Visual Skill by @威比 Hunter Wei.",
-    "platforms": ["抖音", "小红书"],
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
     "retention_required_on_redistribution": true,
     "notice_file": "NOTICE"
   },
