@@ -2,16 +2,7 @@
   "schema_version": 1,
   "slug": "dark-red-black-cel-shaded",
   "name": "Wibi Style · 暗夜红黑赛璐璐",
-  "version": "1.0.4",
-  "welcome": {
-    "waiting": [
-      "先发一张你想做成暗夜动画海报的照片给我吧～",
-      "我会保留人物与构图，把它变成张力很强的红黑赛璐璐画面。"
-    ],
-    "received": [
-      "照片收到啦～我会保留人物、动作和构图，把它变成张力很强的暗夜红黑赛璐璐画面。"
-    ]
-  },
+  "version": "1.0.5",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/dark-red-black-cel-shaded",
@@ -32,7 +23,7 @@
   "post_install": {
     "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
     "display_output": true,
-    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
   },
   "community": {
     "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
@@ -40,6 +31,15 @@
     "qr_display": "download-current-github-image-and-render-locally",
     "on_generation_failure": "current-qr-once-per-conversation",
     "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "先发一张你想做成暗夜动画海报的照片给我吧～",
+      "我会保留人物与构图，把它变成张力很强的红黑赛璐璐画面。"
+    ],
+    "received": [
+      "照片收到啦～我会保留人物、动作和构图，把它变成张力很强的暗夜红黑赛璐璐画面。"
+    ]
   },
   "prompt": {
     "file": "references/style-prompt.md",
@@ -66,11 +66,11 @@
   "rights": {
     "status": "cleared",
     "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
     "original_assets": [],
     "redistributable_assets": [
       "assets/references/reference-01.jpg"
     ],
     "bundled_third_party_assets": []
-  },
-  "updated_at": "2026-08-15"
+  }
 }
