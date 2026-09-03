@@ -2,7 +2,7 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md`、`references/background-options.md` 与 `references/generation-rules.md` | 钻牙萌娃大头项目的已验证复杂风格规则 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
+| `SKILL.md` 与 `references/*.md` | 钻牙萌娃大头项目的已验证复杂风格规则 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `references/style-prompt.md` | 项目 v9 Prompt，源文件 SHA-256：`81ece4e2674106c8738d9d63b2bbb4e9f3534ace8268644b95104926fb803eb3` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/check_update.py` | 无遥测更新检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/show_skill_info.py` | 作者卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |

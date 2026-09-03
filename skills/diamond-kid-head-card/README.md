@@ -15,13 +15,13 @@
 以下均为本 Skill 的实际生成结果，只展示生成成品，不包含儿童老照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.5/docs/diamond-kid-head-card/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.5/docs/diamond-kid-head-card/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.5/docs/diamond-kid-head-card/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-03.png" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.5/docs/diamond-kid-head-card/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.5/docs/diamond-kid-head-card/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.5/docs/diamond-kid-head-card/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-06.png" width="30%" />
 </p>
 
 ## 安装
