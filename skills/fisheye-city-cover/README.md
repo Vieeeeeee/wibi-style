@@ -73,13 +73,13 @@ Skill 每次固定携带一张内置鱼眼版式参考。参考只定义鱼眼�
 以下均为本 Skill 的实际生成结果，只展示成图，不包含用户原图、Before / After 对比图或运行参考。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-01.png" alt="深圳黑银鱼眼城市海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-02.png" alt="香港黑银鱼眼城市海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-03.png" alt="成都靛蓝鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.5/docs/fisheye-city-cover/examples/example-01.png" alt="深圳黑银鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.5/docs/fisheye-city-cover/examples/example-02.png" alt="香港黑银鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.5/docs/fisheye-city-cover/examples/example-03.png" alt="成都靛蓝鱼眼城市海报" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-04.png" alt="杭州清透粉鱼眼城市海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-05.png" alt="新加坡清透粉鱼眼城市海报" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.4/docs/fisheye-city-cover/examples/example-06.png" alt="北京三人合照鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.5/docs/fisheye-city-cover/examples/example-04.png" alt="杭州清透粉鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.5/docs/fisheye-city-cover/examples/example-05.png" alt="新加坡清透粉鱼眼城市海报" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/fisheye-city-cover-v0.13.5/docs/fisheye-city-cover/examples/example-06.png" alt="北京三人合照鱼眼城市海报" width="30%" />
 </p>
 
 ## 更新与隐私

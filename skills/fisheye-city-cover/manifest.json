@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "fisheye-city-cover",
   "name": "Wibi Style · 鱼眼城市海报",
-  "version": "0.13.4",
+  "version": "0.13.5",
   "welcome": {
     "waiting": [
       "先发一张你想做成海报的照片给我吧～",
@@ -18,7 +18,10 @@
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/fisheye-city-cover",
   "attribution": {
     "text": "Visual Skill by @威比 Hunter Wei.",
-    "platforms": ["抖音", "小红书"],
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
     "retention_required_on_redistribution": true,
     "notice_file": "NOTICE"
   },
