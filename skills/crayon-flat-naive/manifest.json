@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "crayon-flat-naive",
   "name": "Wibi Style · 蜡笔极简扁平画",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/crayon-flat-naive",
@@ -13,7 +13,10 @@
   "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/crayon-flat-naive/manifest.json?ref=main",
   "attribution": {
     "text": "Visual Skill by @威比 Hunter Wei.",
-    "platforms": ["抖音", "小红书"],
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
     "retention_required_on_redistribution": true,
     "notice_file": "NOTICE"
   },
