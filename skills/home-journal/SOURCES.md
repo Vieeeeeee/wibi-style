@@ -2,7 +2,7 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md` 与 `references/style-prompt.md` | 当前项目已验收规则，源文件 SHA-256：`aac5a55081f7742188f3624c299cc161184cfd0df5110bc5101357bba367729e` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
+| `SKILL.md`、`references/style-prompt.md` 与 `references/community.md` | 当前项目已验收规则与统一社群规范，源文件 SHA-256：`b5f62f3424eb87838ea767ffb1ff2348592ac3bd1a55510bec420f874946153d` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/check_update.py` | 无遥测更新检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/show_skill_info.py` | 安装作者卡、每对话欢迎卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口并把当前二维码下载到本地，不上传照片或使用数据 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |

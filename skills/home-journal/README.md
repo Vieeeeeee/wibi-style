@@ -1,8 +1,8 @@
 # Wibi Style · 复古家居日志
 
-家里任意角落的随手照片，客厅、卧室、咖啡台、书架都行
+家里任意角落的随手照片，客厅、卧室、咖啡台、书架都行。
 
-当前版本：`v1.0.0`
+当前版本：`v1.0.2`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,13 +11,13 @@
 以下仅展示本 Skill 的实际生成结果，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.1/docs/home-journal/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.1/docs/home-journal/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.1/docs/home-journal/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.2/docs/home-journal/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.2/docs/home-journal/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.2/docs/home-journal/examples/example-03.png" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.1/docs/home-journal/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.1/docs/home-journal/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.1/docs/home-journal/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.2/docs/home-journal/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.2/docs/home-journal/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/home-journal-v1.0.2/docs/home-journal/examples/example-06.png" width="30%" />
 </p>
 
 ## 安装
