@@ -2,7 +2,7 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md` | 当前项目已验收的风格规则，由项目 Prompt 与 8 组成片反推。项目源文件 `02_提示词/99_分享版.md`，SHA-256：`f967781fbe8a77d3d54df7629e23ef558e58ba13aab82041551aa89d545a3db7` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
+| `SKILL.md` 与 `references/*.md` | 当前项目已验收的风格规则，由项目 Prompt 与 8 组成片反推。项目源文件 `02_提示词/99_分享版.md`，SHA-256：`f967781fbe8a77d3d54df7629e23ef558e58ba13aab82041551aa89d545a3db7` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | 原始 Prompt | 项目文件 `复古餐桌杂志prompt.docx`，SHA-256：`31cfe1403e2f4ce0cd79432ff659c67e1485d9a2cec00664780b7df49f8696e7` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/vintage_finish.py` | 出图后的印刷质感收尾（降解析力、光学柔化、网点颗粒、动态范围压缩），强度自动标定。目标区间由本项目 8 张已验收成片实测得出，只用 Pillow，不联网、不读写用户其他文件 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
 | `scripts/check_update.py` | 无遥测更新检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
