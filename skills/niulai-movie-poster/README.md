@@ -2,11 +2,25 @@
 
 把一张横版照片做成《牛来》式低成本电影海报：真人手机照片负责场景、人数、姿势、衣服和道具，低清旧动画牛头负责头脸反差，朱砂红「牛来」毛笔片名和一枚朱红印章负责海报身份。
 
-当前版本：`v1.0.2`
+当前版本：`v1.0.3`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
 官方来源：`https://github.com/Vieeeeeee/wibi-style/tree/main/skills/niulai-movie-poster`
+
+## 成图示例
+
+以下仅展示本 Skill 的实际生成结果，不包含用户原始照片。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/niulai-movie-poster-v1.0.3/docs/niulai-movie-poster/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/niulai-movie-poster-v1.0.3/docs/niulai-movie-poster/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/niulai-movie-poster-v1.0.3/docs/niulai-movie-poster/examples/example-03.png" width="30%" />
+  <br />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/niulai-movie-poster-v1.0.3/docs/niulai-movie-poster/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/niulai-movie-poster-v1.0.3/docs/niulai-movie-poster/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/niulai-movie-poster-v1.0.3/docs/niulai-movie-poster/examples/example-06.png" width="30%" />
+</p>
 
 ## 安装
 
