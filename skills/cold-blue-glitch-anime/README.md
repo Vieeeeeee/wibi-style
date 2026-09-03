@@ -1,8 +1,8 @@
 # Wibi Style · 冷蓝失真动漫
 
-适合人物写真、自拍、街头抓拍、夜景生活照、姿态与情绪明确的照片
+适合人物写真、自拍、街头抓拍、夜景生活照、姿态与情绪明确的照片。
 
-当前版本：`v1.0.0`
+当前版本：`v1.0.1`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,13 +11,13 @@
 以下仅展示本 Skill 的实际生成结果，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.0/docs/cold-blue-glitch-anime/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.0/docs/cold-blue-glitch-anime/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.0/docs/cold-blue-glitch-anime/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.1/docs/cold-blue-glitch-anime/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.1/docs/cold-blue-glitch-anime/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.1/docs/cold-blue-glitch-anime/examples/example-03.png" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.0/docs/cold-blue-glitch-anime/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.0/docs/cold-blue-glitch-anime/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.0/docs/cold-blue-glitch-anime/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.1/docs/cold-blue-glitch-anime/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.1/docs/cold-blue-glitch-anime/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cold-blue-glitch-anime-v1.0.1/docs/cold-blue-glitch-anime/examples/example-06.png" width="30%" />
 </p>
 
 ## 安装
