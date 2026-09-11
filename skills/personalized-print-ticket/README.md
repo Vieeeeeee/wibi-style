@@ -2,7 +2,7 @@
 
 把一张人物、旅行、街景、建筑、食物或日常照片做成一张中英混排的私人纪念票根。Skill 会先理解画面，再写出属于这个瞬间的 Hero 文案，从四套印刷方向里选择一套，并在一次图片生成中完成照片制版、字形、纸张和油墨。
 
-当前版本：`v1.0.0`
+当前版本：`v1.1.0`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -36,6 +36,7 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/personalized-print-tick
 3. 选择忠实印刷化或艺术化重绘，再匹配一套票根预设。
 4. 用脚本生成准确文字和构图的排版导引图。
 5. 把原始票根、用户照片和排版导引图交给当前环境可用的图片生成工具，一次完成整张票根。
+6. 生成通过检查后，用代码沿照片副券边缘加入撕票虚线与缺口，并输出带四角裁口、侧边打孔的黑底展示图和透明裁切图。
 
 城市名只在用户确认或画面证据足够明确时进入文案。照片决定人物与场景内容，内置参考只决定票根的结构、字形和纸墨方式。
 
@@ -53,18 +54,18 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/personalized-print-tick
 以下均为本 Skill 的实际生成结果，只展示生成成品，不包含用户原图、对比排版或运行参考。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.0.0/docs/personalized-print-ticket/examples/example-01.png" alt="香港雨未落橙黑票根" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.0.0/docs/personalized-print-ticket/examples/example-02.png" alt="马尼拉的手势珊瑚票根" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.0.0/docs/personalized-print-ticket/examples/example-03.png" alt="迎面风粉纸朱红票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.1.0/docs/personalized-print-ticket/examples/example-01.png" alt="香港雨未落橙黑票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.1.0/docs/personalized-print-ticket/examples/example-02.png" alt="马尼拉的手势珊瑚票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.1.0/docs/personalized-print-ticket/examples/example-03.png" alt="迎面风粉纸朱红票根" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.0.0/docs/personalized-print-ticket/examples/example-04.png" alt="一脸夏光橙黑票根" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.0.0/docs/personalized-print-ticket/examples/example-05.png" alt="夜还没跑完黑白票根" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.0.0/docs/personalized-print-ticket/examples/example-06.png" alt="雨停在伦敦橙黑票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.1.0/docs/personalized-print-ticket/examples/example-04.png" alt="一脸夏光橙黑票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.1.0/docs/personalized-print-ticket/examples/example-05.png" alt="夜还没跑完黑白票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.1.0/docs/personalized-print-ticket/examples/example-06.png" alt="雨停在伦敦橙黑票根" width="30%" />
 </p>
 
 ## 输出与检查
 
-默认生成 `2048×769` 的横向窄票根，同时保留信息 JSON、完整生成 Prompt 和排版导引图。Skill 会检查主体身份、逐字文案、照片裁切、信息格、色版和整体印刷质感；一次调用只生成一张，失败或视觉未通过时不会自动重试。
+默认先生成 `2048×769` 的横向窄票根，再输出同尺寸黑底裁切展示图和带透明通道的独立票根。裁切严格跟随照片副券边缘，包含四角裁口、上下撕票口、虚线和侧边打孔。Skill 同时保留原始横向票根、信息 JSON、完整生成 Prompt 和排版导引图；一次调用只生成一张，失败或视觉未通过时不会自动重试。
 
 ## 更新、隐私与社群
 

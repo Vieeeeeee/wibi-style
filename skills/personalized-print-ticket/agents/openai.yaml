@@ -1,7 +1,7 @@
 interface:
   display_name: "Wibi Style · 定制印刷票根"
   short_description: "把人物、旅行、街景或日常照片制作成带专属中英文文案的印刷票根"
-  default_prompt: "使用 $personalized-print-ticket 分析我上传的照片，选择合适的印刷预设并制作一张定制票根。"
+  default_prompt: "使用 $personalized-print-ticket 分析我上传的照片，选择合适的印刷预设，制作定制票根并输出带实体裁口和打孔的最终展示图。"
 
 policy:
   allow_implicit_invocation: true

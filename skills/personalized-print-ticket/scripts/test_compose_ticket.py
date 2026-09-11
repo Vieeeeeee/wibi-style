@@ -13,6 +13,7 @@ from PIL import Image, ImageDraw
 HERE = Path(__file__).resolve().parent
 COMPOSITOR = HERE / "compose_ticket.py"
 COMPILER = HERE / "compile_prompt.py"
+FINISHER = HERE / "finish_ticket.py"
 PRESETS = ["orbit-orange", "blossom-red", "sketch-black", "signal-coral"]
 
 
@@ -78,6 +79,7 @@ def main():
             "--out", str(guide),
         ])
         with Image.open(guide) as image:
+            guide_image_size = image.size
             if image.size != (2048, 769):
                 raise SystemExit(f"{preset}: unexpected size {image.size}")
 
@@ -104,6 +106,26 @@ def main():
                 raise SystemExit("signal-coral: unsupported text tier leaked into exact copy")
         elif '- kicker:' not in compiled or '- subtitle:' not in compiled:
             raise SystemExit(f"{preset}: supported text tier missing")
+
+        finished = out_dir / f"selftest-{preset}-finished.png"
+        transparent = out_dir / f"selftest-{preset}-cutout.png"
+        run([
+            sys.executable, str(FINISHER),
+            "--ticket", str(guide),
+            "--out", str(finished),
+            "--transparent-out", str(transparent),
+        ])
+        with Image.open(finished) as image:
+            if image.size != guide_image_size:
+                raise SystemExit(f"{preset}: finished canvas size changed")
+            if image.getpixel((0, 0)) != (5, 5, 5):
+                raise SystemExit(f"{preset}: black presentation background missing")
+        with Image.open(transparent) as image:
+            if image.mode != "RGBA":
+                raise SystemExit(f"{preset}: cutout is not RGBA")
+            alpha = image.getchannel("A")
+            if alpha.getpixel((0, 0)) != 0 or alpha.getpixel((image.width // 2, image.height // 2)) != 255:
+                raise SystemExit(f"{preset}: cutout alpha mask failed")
 
     print(json.dumps({"ok": True, "presets": PRESETS, "out_dir": str(out_dir.resolve())}, ensure_ascii=False))
 
