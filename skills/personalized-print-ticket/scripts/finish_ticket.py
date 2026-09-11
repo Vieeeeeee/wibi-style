@@ -120,8 +120,8 @@ def finish(
         "source": str(source.resolve()),
         "output": str(output.resolve()),
         "preview_output": str(preview_output.resolve()) if preview_output else None,
-        "canvas": list(canvas.size),
-        "ticket": list(ticket.size),
+        "output_size": list(cutout.size),
+        "preview_canvas_size": list(canvas.size),
         "photo_seam_ratio": PHOTO_SEAM_RATIO,
         "background": background,
     }

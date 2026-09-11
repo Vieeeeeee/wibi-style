@@ -41,8 +41,23 @@ REQUIRED_FIELDS = (
     "social_note",
 )
 MAX_QR_BYTES = 5 * 1024 * 1024
-OFFICIAL_QR_HOST = "raw.githubusercontent.com"
-OFFICIAL_QR_PATH_PREFIX = "/Vieeeeeee/wibi-style/"
+MAX_CONFIG_BYTES = 256 * 1024
+OFFICIAL_HOST = "raw.githubusercontent.com"
+OFFICIAL_PATH_PREFIX = "/Vieeeeeee/wibi-style/"
+
+
+def _checked_official_url(url: str) -> urllib.parse.SplitResult:
+    parsed = urllib.parse.urlsplit(url)
+    if (
+        parsed.scheme != "https"
+        or parsed.hostname != OFFICIAL_HOST
+        or not parsed.path.startswith(OFFICIAL_PATH_PREFIX)
+        or parsed.username
+        or parsed.password
+        or parsed.port not in (None, 443)
+    ):
+        raise ValueError("community data must come from the official GitHub repository")
+    return parsed
 
 
 def _is_expired(value: str) -> bool:
@@ -53,13 +68,7 @@ def _is_expired(value: str) -> bool:
 
 
 def _download_qr(url: str, revision: str, timeout: float) -> str:
-    parsed = urllib.parse.urlsplit(url)
-    if (
-        parsed.scheme != "https"
-        or parsed.hostname != OFFICIAL_QR_HOST
-        or not parsed.path.startswith(OFFICIAL_QR_PATH_PREFIX)
-    ):
-        raise ValueError("QR image must come from the official GitHub repository")
+    parsed = _checked_official_url(url)
 
     separator = "&" if parsed.query else "?"
     checked_url = f"{url}{separator}checked_at={int(time.time())}"
@@ -68,13 +77,7 @@ def _download_qr(url: str, revision: str, timeout: float) -> str:
         headers={"User-Agent": "wibi-style-community/2", "Cache-Control": "no-cache"},
     )
     with urllib.request.urlopen(request, timeout=timeout) as response:
-        final = urllib.parse.urlsplit(response.geturl())
-        if (
-            final.scheme != "https"
-            or final.hostname != OFFICIAL_QR_HOST
-            or not final.path.startswith(OFFICIAL_QR_PATH_PREFIX)
-        ):
-            raise ValueError("QR download redirected outside the official GitHub repository")
+        _checked_official_url(response.geturl())
         content_length = response.headers.get("Content-Length")
         if content_length and int(content_length) > MAX_QR_BYTES:
             raise ValueError("QR image is too large")
@@ -106,22 +109,24 @@ def _download_qr(url: str, revision: str, timeout: float) -> str:
 
 
 def load_community(timeout: float = 3.0, download_qr: bool = False) -> dict[str, object]:
-    config_url = os.environ.get("WIBI_COMMUNITY_CONFIG_URL", DEFAULT_CONFIG_URL)
-    parsed = urllib.parse.urlsplit(config_url)
-    separator = "&" if parsed.query else "?"
-    checked_url = (
-        f"{config_url}{separator}checked_at={int(time.time())}"
-        if parsed.scheme in {"http", "https"}
-        else config_url
-    )
-    request = urllib.request.Request(
-        checked_url,
-        headers={"User-Agent": "wibi-style-community/1", "Cache-Control": "no-cache"},
-    )
-
     try:
+        config_url = os.environ.get("WIBI_COMMUNITY_CONFIG_URL", DEFAULT_CONFIG_URL)
+        parsed = _checked_official_url(config_url)
+        separator = "&" if parsed.query else "?"
+        checked_url = f"{config_url}{separator}checked_at={int(time.time())}"
+        request = urllib.request.Request(
+            checked_url,
+            headers={"User-Agent": "wibi-style-community/1", "Cache-Control": "no-cache"},
+        )
         with urllib.request.urlopen(request, timeout=timeout) as response:
-            payload = json.loads(response.read().decode("utf-8"))
+            _checked_official_url(response.geturl())
+            declared_length = response.headers.get("Content-Length")
+            if declared_length and int(declared_length) > MAX_CONFIG_BYTES:
+                raise ValueError("community config is too large")
+            raw = response.read(MAX_CONFIG_BYTES + 1)
+            if len(raw) > MAX_CONFIG_BYTES:
+                raise ValueError("community config is too large")
+            payload = json.loads(raw.decode("utf-8"))
         if payload.get("schema_version") != 1:
             raise ValueError("unsupported community schema")
         for field in REQUIRED_FIELDS:

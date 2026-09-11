@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "personalized-print-ticket",
   "name": "Wibi Style · 定制印刷票根",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "welcome": {
     "waiting": [
       "先发一张你想做成私人票根的照片给我吧～",

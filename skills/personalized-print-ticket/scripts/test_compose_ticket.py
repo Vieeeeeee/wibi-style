@@ -3,6 +3,7 @@
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -14,6 +15,8 @@ HERE = Path(__file__).resolve().parent
 COMPOSITOR = HERE / "compose_ticket.py"
 COMPILER = HERE / "compile_prompt.py"
 FINISHER = HERE / "finish_ticket.py"
+UPDATE_CHECKER = HERE / "check_update.py"
+COMMUNITY_INFO = HERE / "community_info.py"
 PRESETS = ["orbit-orange", "blossom-red", "sketch-black", "signal-coral"]
 
 
@@ -44,6 +47,42 @@ def main():
     found = [token for token in forbidden if token in source]
     if found:
         raise SystemExit("compose_ticket.py 仍含旧实现：" + ", ".join(found))
+
+    rejected_update = subprocess.run(
+        [sys.executable, str(UPDATE_CHECKER), "--json"],
+        check=True,
+        capture_output=True,
+        text=True,
+        env={
+            **os.environ,
+            "WIBI_STYLE_UPDATE_MANIFEST": "https://example.com/manifest.json",
+        },
+    )
+    rejected_payload = json.loads(rejected_update.stdout)
+    expected_rejection = {
+        "status": "CHECK_UNAVAILABLE",
+        "slug": "personalized-print-ticket",
+        "reason": "ValueError",
+    }
+    if rejected_payload != expected_rejection:
+        raise SystemExit("check_update.py 未拒绝非官方更新地址")
+
+    rejected_community = subprocess.run(
+        [sys.executable, str(COMMUNITY_INFO), "--json"],
+        check=True,
+        capture_output=True,
+        text=True,
+        env={
+            **os.environ,
+            "WIBI_COMMUNITY_CONFIG_URL": "https://example.com/community.json",
+        },
+    )
+    rejected_community_payload = json.loads(rejected_community.stdout)
+    if (
+        rejected_community_payload.get("status") != "unavailable"
+        or rejected_community_payload.get("reason") != "ValueError"
+    ):
+        raise SystemExit("community_info.py 未拒绝非官方配置地址")
 
     photo = out_dir / "fixture-city-walk.png"
     data_path = out_dir / "fixture-ticket.json"
