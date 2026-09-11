@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "slug": "personalized-print-ticket",
+  "name": "Wibi Style · 定制印刷票根",
+  "version": "1.0.0",
+  "welcome": {
+    "waiting": [
+      "先发一张你想做成私人票根的照片给我吧～",
+      "人物、旅行、街景、建筑、食物或日常随拍都可以；如果你没有指定风格，我会按画面推荐一套。"
+    ],
+    "received": [
+      "照片收到啦～我会先读画面并整理专属中英文文案；信息足够就直接选择合适的票根风格，缺少关键事实时只问一项。"
+    ]
+  },
+  "updated_at": "2026-09-11",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/personalized-print-ticket",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "Each new conversation shows the two-section Markdown welcome card once."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/personalized-print-ticket",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/personalized-print-ticket",
+  "update_manifest_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/skills/personalized-print-ticket/manifest.json",
+  "prompt": {
+    "authored_in_package": true,
+    "runtime_files": [
+      "SKILL.md",
+      "references/intake.md",
+      "references/presets.md",
+      "references/ticket-data.md",
+      "references/artistic-redraw.md",
+      "references/checks.md",
+      "references/prompts/orbit-orange.md",
+      "references/prompts/blossom-red.md",
+      "references/prompts/sketch-black.md",
+      "references/prompts/signal-coral.md"
+    ]
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 4,
+    "preserve_source_styling": false
+  },
+  "references": [
+    {
+      "file": "assets/references/orbit-orange.png",
+      "source": "01_风格参考/01_太空橙黑票根.png",
+      "source_sha256": "08d0e1b89efb22c293cc5adbcec8c75fa10b0934fb1f95fda695fc49efafdf90",
+      "role": "橙黑活版票根的版式、字形与纸墨参考"
+    },
+    {
+      "file": "assets/references/blossom-red.png",
+      "source": "01_风格参考/02_粉纸朱红票根.png",
+      "source_sha256": "5692cb83205f1393807ae4ed544e9a334bc6b3a6cfd904ad96ffa5e0605c7c61",
+      "role": "粉纸朱红票根的版式、字形与纸墨参考"
+    },
+    {
+      "file": "assets/references/sketch-black.png",
+      "source": "01_风格参考/03_黑白手绘票根.png",
+      "source_sha256": "59738d3410a37c540e32883e4e7a7e61fe3cf356aba6d01995856cfb1872e9f8",
+      "role": "黑白手绘票根的版式、字形与纸墨参考"
+    },
+    {
+      "file": "assets/references/signal-coral.png",
+      "source": "01_风格参考/04_珊瑚黑墨票根.png",
+      "source_sha256": "af2dff40bb3521d7b93b725e4e37c5bb7b8889b0931d593c012d8026741416ac",
+      "role": "珊瑚黑墨票根的版式、字形与纸墨参考"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/personalized-print-ticket/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/orbit-orange.png",
+      "assets/references/blossom-red.png",
+      "assets/references/sketch-black.png",
+      "assets/references/signal-coral.png"
+    ],
+    "bundled_third_party_assets": []
+  }
+}

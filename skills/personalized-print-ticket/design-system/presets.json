@@ -1,0 +1,65 @@
+{
+  "canvas": {
+    "width": 2048,
+    "height": 769,
+    "photo_x": 1472,
+    "photo_width_ratio": 0.28125,
+    "outer_margin": 64,
+    "info_band_top": 556,
+    "info_band_bottom": 714
+  },
+  "presets": {
+    "orbit-orange": {
+      "paper": "#ECE9E3",
+      "ink": "#090909",
+      "accent": "#E35F23",
+      "plates": ["black-photo-and-facts", "orange-rules-and-emphasis"],
+      "photo": "dense",
+      "title": "sans",
+      "title_weight": 850,
+      "paper_texture": 2.8,
+      "halftone_cell": 4,
+      "prompt": "references/prompts/orbit-orange.md",
+      "local_style_reference": "assets/references/orbit-orange.png"
+    },
+    "blossom-red": {
+      "paper": "#EBC2DA",
+      "ink": "#DC2D1D",
+      "accent": "#DC2D1D",
+      "plates": ["vermilion-image-type-and-rules"],
+      "photo": "soft",
+      "title": "sans",
+      "title_weight": 760,
+      "paper_texture": 3.0,
+      "halftone_cell": 5,
+      "prompt": "references/prompts/blossom-red.md",
+      "local_style_reference": "assets/references/blossom-red.png"
+    },
+    "sketch-black": {
+      "paper": "#EFEEEA",
+      "ink": "#2F2F2F",
+      "accent": "#2F2F2F",
+      "plates": ["black-linework-image-type-and-rules"],
+      "photo": "sketch",
+      "title": "outline",
+      "title_weight": 440,
+      "paper_texture": 2.5,
+      "halftone_cell": 4,
+      "prompt": "references/prompts/sketch-black.md",
+      "local_style_reference": "assets/references/sketch-black.png"
+    },
+    "signal-coral": {
+      "paper": "#E46169",
+      "ink": "#29191A",
+      "accent": "#29191A",
+      "plates": ["near-black-image-type-and-rules"],
+      "photo": "dense",
+      "title": "sans",
+      "title_weight": 670,
+      "paper_texture": 3.2,
+      "halftone_cell": 4,
+      "prompt": "references/prompts/signal-coral.md",
+      "local_style_reference": "assets/references/signal-coral.png"
+    }
+  }
+}
