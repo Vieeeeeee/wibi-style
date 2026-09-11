@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "personalized-print-ticket",
   "name": "Wibi Style · 定制印刷票根",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "welcome": {
     "waiting": [
       "先发一张你想做成私人票根的照片给我吧～",
@@ -63,10 +63,10 @@
     "preserve_source_styling": false
   },
   "output": {
-    "primary": "black-background punched-ticket presentation PNG",
+    "primary": "transparent punched-ticket PNG",
     "additional": [
-      "transparent punched-ticket PNG",
       "original flat ticket PNG",
+      "optional black-background preview PNG",
       "ticket data JSON",
       "compiled prompt",
       "layout guide"
@@ -104,7 +104,9 @@
     "layout": "3x2",
     "count": 6,
     "repository_path": "docs/personalized-print-ticket/examples",
-    "bundled_with_install": false
+    "bundled_with_install": false,
+    "format": "transparent punched-ticket PNG",
+    "alpha_outside_ticket": true
   },
   "rights": {
     "status": "cleared",

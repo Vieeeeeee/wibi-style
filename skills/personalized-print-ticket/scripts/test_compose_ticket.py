@@ -107,19 +107,19 @@ def main():
         elif '- kicker:' not in compiled or '- subtitle:' not in compiled:
             raise SystemExit(f"{preset}: supported text tier missing")
 
-        finished = out_dir / f"selftest-{preset}-finished.png"
-        transparent = out_dir / f"selftest-{preset}-cutout.png"
+        transparent = out_dir / f"selftest-{preset}-finished.png"
+        preview = out_dir / f"selftest-{preset}-preview.png"
         run([
             sys.executable, str(FINISHER),
             "--ticket", str(guide),
-            "--out", str(finished),
-            "--transparent-out", str(transparent),
+            "--out", str(transparent),
+            "--preview-out", str(preview),
         ])
-        with Image.open(finished) as image:
+        with Image.open(preview) as image:
             if image.size != guide_image_size:
-                raise SystemExit(f"{preset}: finished canvas size changed")
+                raise SystemExit(f"{preset}: preview canvas size changed")
             if image.getpixel((0, 0)) != (5, 5, 5):
-                raise SystemExit(f"{preset}: black presentation background missing")
+                raise SystemExit(f"{preset}: optional black preview missing")
         with Image.open(transparent) as image:
             if image.mode != "RGBA":
                 raise SystemExit(f"{preset}: cutout is not RGBA")

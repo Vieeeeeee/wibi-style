@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把横向票根裁成带撕票口与打孔的黑底展示成品。"""
+"""把横向票根裁成带撕票口、打孔和透明背景的独立 PNG。"""
 
 import argparse
 import json
@@ -93,7 +93,7 @@ def add_perforation(ticket: Image.Image, seam_x: int) -> None:
 def finish(
     source: Path,
     output: Path,
-    transparent_output: Path | None,
+    preview_output: Path | None,
     background: str,
     margin_x: int,
     margin_y: int,
@@ -110,16 +110,16 @@ def finish(
     top = (canvas.height - ticket.height) // 2
     canvas.paste(cutout, (left, top), cutout)
     output.parent.mkdir(parents=True, exist_ok=True)
-    canvas.save(output)
+    cutout.save(output)
 
-    if transparent_output:
-        transparent_output.parent.mkdir(parents=True, exist_ok=True)
-        cutout.save(transparent_output)
+    if preview_output:
+        preview_output.parent.mkdir(parents=True, exist_ok=True)
+        canvas.save(preview_output)
 
     return {
         "source": str(source.resolve()),
         "output": str(output.resolve()),
-        "transparent_output": str(transparent_output.resolve()) if transparent_output else None,
+        "preview_output": str(preview_output.resolve()) if preview_output else None,
         "canvas": list(canvas.size),
         "ticket": list(ticket.size),
         "photo_seam_ratio": PHOTO_SEAM_RATIO,
@@ -128,10 +128,10 @@ def finish(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="生成带实体裁口、撕票虚线和打孔的票根展示图")
+    parser = argparse.ArgumentParser(description="生成带实体裁口、撕票虚线、打孔和透明背景的独立票根")
     parser.add_argument("--ticket", required=True)
     parser.add_argument("--out", required=True)
-    parser.add_argument("--transparent-out")
+    parser.add_argument("--preview-out")
     parser.add_argument("--background", default="#050505")
     parser.add_argument("--margin-x", type=int, default=72)
     parser.add_argument("--margin-y", type=int, default=36)
@@ -143,7 +143,7 @@ def main() -> None:
     result = finish(
         Path(args.ticket),
         Path(args.out),
-        Path(args.transparent_out) if args.transparent_out else None,
+        Path(args.preview_out) if args.preview_out else None,
         args.background,
         args.margin_x,
         args.margin_y,
