@@ -23,3 +23,8 @@
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）。再分发时必须保留作者、官方来源、`LICENSE` 与 `NOTICE`。
 六张 README 展示成图只存放在仓库 `docs/`，不随单款安装。
+
+## 授权说明
+
+- 代码与脚本（scripts/*.py）：遵循 MIT License，© 2026 @威比 Hunter Wei.。
+- 提示词与文本规则（SKILL.md、references/*.md）：遵循 Wibi Personal Non-Commercial License 1.0，仅限个人非商业使用。

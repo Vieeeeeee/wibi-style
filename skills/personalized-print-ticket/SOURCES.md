@@ -2,10 +2,10 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md`、`references/*.md`、`design-system/presets.json` 与票根脚本 | 当前项目已验收的动态票根规则、四预设路由和排版实现 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
-| `scripts/check_update.py` | 无遥测更新检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
-| `scripts/show_skill_info.py` | 安装作者卡、每对话欢迎卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
-| `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口并下载到本地，不上传照片或使用数据 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
+| `SKILL.md`、`references/*.md`、`design-system/presets.json` 与票根脚本 | 当前项目已验收的动态票根规则、四预设路由和排版实现 | Wibi Personal Non-Commercial License 1.0，© 2026 @威比 Hunter Wei. |
+| `scripts/check_update.py` | 无遥测更新检查 | MIT License，© 2026 @威比 Hunter Wei. |
+| `scripts/show_skill_info.py` | 安装作者卡、每对话欢迎卡与署名完整性检查 | MIT License，© 2026 @威比 Hunter Wei. |
+| `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口并下载到本地，不上传照片或使用数据 | MIT License，© 2026 @威比 Hunter Wei. |
 | `assets/fonts/NotoSansSC-VF.ttf` | Google Fonts / Noto Sans SC | SIL Open Font License 1.1，许可正文见 `assets/fonts/OFL-Noto.txt` |
 | `assets/references/orbit-orange.png` | 项目素材 `01_风格参考/01_太空橙黑票根.png`，SHA-256：`08d0e1b89efb22c293cc5adbcec8c75fa10b0934fb1f95fda695fc49efafdf90` | 项目作者选择进入本次公开包，按 LICENSE 作为运行参考分发 |
 | `assets/references/blossom-red.png` | 项目素材 `01_风格参考/02_粉纸朱红票根.png`，SHA-256：`5692cb83205f1393807ae4ed544e9a334bc6b3a6cfd904ad96ffa5e0605c7c61` | 项目作者选择进入本次公开包，按 LICENSE 作为运行参考分发 |

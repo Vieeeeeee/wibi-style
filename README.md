@@ -11,7 +11,7 @@
 
 <p>
 <a href="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml"><img src="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-Dual%20MIT%20%2F%20Non--Commercial-blue.svg" alt="License: Dual MIT / Non-Commercial"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-Tooling%3A%20MIT%20%7C%20Visual%20content%3A%20Non--commercial-blue.svg" alt="License: Tooling: MIT | Visual content: Non-commercial"></a>
 <a href="https://openai.com"><img src="https://img.shields.io/badge/Built%20for-OpenAI%20Codex-10a37f.svg" alt="Built for OpenAI Codex"></a>
 <a href="#all-styles"><img src="https://img.shields.io/badge/Styles-31%20Ready--to--Use-6f42c1.svg" alt="31 Styles"></a>
 </p>
@@ -122,7 +122,7 @@ When you share generated results publicly, please credit:
 Visual Skill by @威比 Hunter Wei.
 ```
 
-This repository follows a **Dual License** structure (see [`LICENSE`](LICENSE)):
+This repository follows **Component-Specific Licensing** (see [`LICENSE`](LICENSE)):
 
 - **Code and Tooling (MIT License)**: All automation scripts, test suites, manifest schemas, and CI workflows are freely available under the permissive MIT License.
 - **Original Visual Skills & Prompts (Personal Non-Commercial License)**: Original Skill logic, prompts, styling directives, and composition guides are licensed for **personal, non-commercial use only**. Commercial use, resale, paid redistribution, or commercial SaaS integration requires prior written permission from the author.

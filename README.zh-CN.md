@@ -11,7 +11,7 @@
 
 <p>
 <a href="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml"><img src="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%2F%20Non--Commercial-blue.svg" alt="License"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-Tooling%3A%20MIT%20%7C%20Visual%20content%3A%20Non--commercial-blue.svg" alt="License: Tooling: MIT | Visual content: Non-commercial"></a>
 <a href="https://openai.com"><img src="https://img.shields.io/badge/Built%20for-OpenAI%20Codex-brightgreen.svg" alt="OpenAI Codex"></a>
 </p>
 
@@ -99,6 +99,7 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-
 
 每个新任务第一次调用时，只查询当前使用的这一款是否有新版本；发现新版才提示，不自动覆盖本地文件，也不上传用户照片或使用数据。
 
+<a id="community"></a>
 ## 加入交流群
 
 <div align="center">
@@ -125,7 +126,7 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/electric-blue-halftone-
 Visual Skill by @威比 Hunter Wei.
 ```
 
-本仓库采用**双轨许可协议**（见 [`LICENSE`](LICENSE)）：
+本仓库采用**组件分项授权协议**（Component-Specific Licensing，见 [`LICENSE`](LICENSE)）：
 - **代码与工程工具链**：自动化脚本、测试套件与 CI/CD 流程遵循 **MIT 许可证**，完全开源自由；
 - **原创视觉风格与提示词**：原创 Skill 逻辑、提示词与原创构图模板仅限**个人非商业使用**；商业使用请先联系作者获得许可。复制、修改、转发、镜像或重新打包某款 Skill 时，必须保留作者、抖音/小红书同名备注、官方来源、`LICENSE` 与 `NOTICE`；修改版必须明确标注经过修改，不得冒充官方版本。
 

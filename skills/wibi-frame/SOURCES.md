@@ -2,7 +2,7 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md` 与 `references/*.md` | 框景漫画特写项目的 25 组案例验证与历次规则迭代 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
+| `SKILL.md` 与 `references/*.md` | 框景漫画特写项目的 25 组案例验证与历次规则迭代 | Wibi Personal Non-Commercial License 1.0，© 2026 @威比 Hunter Wei. |
 | `assets/layout-guides/` | 项目自制的 14 张空白构图卡 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
 | `assets/references/01_手眼镜面横框.png` | 框景漫画特写项目 `01_风格参考/01_手眼镜面横框.png`；SHA-256：`f03fb7fc9cc4eb3fbc61cf4dae37c0c84baf6ff6df91ca689b28627763ea48c8` | 项目作者确认有来源并允许随本款 Skill 分发 |
 | `assets/references/02_分块眼神拼窗.png` | 框景漫画特写项目 `01_风格参考/02_分块眼神拼窗.png`；SHA-256：`84a59aefacf79c5a4be38cc21569c936ff2080dec464556bf9c42c4c2a255c2c` | 项目作者确认有来源并允许随本款 Skill 分发 |
@@ -43,9 +43,9 @@
 | `15_梳发动作窄竖框.png` | 狭长动作切片；适合梳头、系领带和拉拉链等纵向动作 |
 | `16_耳饰蛇形菱框.png` | 耳饰与身体小细节；适合耳环、耳骨夹、纹身、痣和发饰 |
 | `17_眼妆方框特写.png` | 眼妆纯特写；适合眼妆、眉形和彩色隐形眼镜 |
-| `scripts/check_update.py` | 为 Wibi Style 独立编写的无遥测更新检查 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
-| `scripts/show_skill_info.py` | 安装后作者卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
-| `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口，不上传照片或使用数据 | © 2026 @威比 Hunter Wei.，按本包 LICENSE 授权 |
+| `scripts/check_update.py` | 为 Wibi Style 独立编写的无遥测更新检查 | MIT License，© 2026 @威比 Hunter Wei. |
+| `scripts/show_skill_info.py` | 安装后作者卡与署名完整性检查 | MIT License，© 2026 @威比 Hunter Wei. |
+| `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口，不上传照片或使用数据 | MIT License，© 2026 @威比 Hunter Wei. |
 | `NOTICE` | 作者、同名平台和官方来源声明 | © 2026 @威比 Hunter Wei.，必须随再分发副本保留 |
 
 本包不包含案例原图或用户照片。运行时上传的照片只用于用户当次任务；本 Skill 不把照片写入 GitHub，也不把照片发送给版本检查地址。`assets/references/` 中的 17 张图是本项目作者确认有来源并允许随本款 Skill 分发的运行参考，使用时仅作为风格输入。

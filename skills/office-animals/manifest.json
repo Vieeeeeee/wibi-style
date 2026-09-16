@@ -11,7 +11,7 @@
   "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/office-animals/manifest.json?ref=main",
   "repository": "https://github.com/Vieeeeeee/wibi-style",
   "path": "skills/office-animals",
-  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
   "attribution": {
     "text": "Visual Skill by @威比 Hunter Wei.",
     "platforms": [

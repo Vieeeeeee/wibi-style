@@ -66,10 +66,4 @@ Skill 默认生成一张 1:1 PNG。每个新任务第一次使用时会检查这
 
 ## 使用与授权
 
-原创 Skill 规则与提示词仅限个人非商业使用；商业使用请先联系作者获得许可。复制、修改、转发、镜像或重新打包本 Skill 时，必须完整保留作者、抖音/小红书同名备注、官方仓库地址、`LICENSE` 和 `NOTICE`。公开分享生成结果时欢迎标注：
-
-```text
-Visual Skill by @威比 Hunter Wei.
-```
-
-本包没有打包 Pinterest 图片、第三方参考图、案例原图或用户照片。README 展示的六张成图位于仓库 `docs/`，不随单款 Skill 安装。完整范围见 [`LICENSE`](LICENSE) 与 [`SOURCES.md`](SOURCES.md)。
+本 Skill 采用组件分项授权（详见 LICENSE）：运行脚本与自动化代码遵循 MIT 许可证；原创设计指令、提示词与构图资源遵循 Wibi 个人非商业许可证（仅限个人非商业使用；商业使用请先联系作者获得许可）。复制、修改、转发、镜像或重新打包时，必须保留 @威比 Hunter Wei.、抖音、小红书同名、官方来源、LICENSE 与 NOTICE。

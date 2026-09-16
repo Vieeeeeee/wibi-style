@@ -6,7 +6,7 @@
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/urban-mecha-cel",
-  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
   "repository": "https://github.com/Vieeeeeee/wibi-style",
   "path": "skills/urban-mecha-cel",
   "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/urban-mecha-cel",
@@ -33,13 +33,13 @@
     "on_first_success": "author-and-join-cta"
   },
   "welcome": {
-        "waiting": [
-            "先发一张你想做成都市机械赛璐璐的照片给我吧～",
-            "表情有点怪、动作有记忆点的单人照最适合，我会把它重画成白底、红衣、粗线条的未完成漫画。"
-        ],
-        "received": [
-            "照片收到啦～我会保留人物身份、原本神态和关键动作，直接重画成红黑粗线漫画。"
-        ]
+    "waiting": [
+      "先发一张你想做成都市机械赛璐璐的照片给我吧～",
+      "表情有点怪、动作有记忆点的单人照最适合，我会把它重画成白底、红衣、粗线条的未完成漫画。"
+    ],
+    "received": [
+      "照片收到啦～我会保留人物身份、原本神态和关键动作，直接重画成红黑粗线漫画。"
+    ]
   },
   "prompt": {
     "file": "references/style-prompt.md",
