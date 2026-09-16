@@ -1,15 +1,45 @@
 Copyright (c) 2026 @威比 Hunter Wei.
 
-Permission is granted to use, copy, and modify the original Skill instructions
-and original layout-guide assets in this repository for personal,
-non-commercial purposes, provided that the author attribution is retained.
+# Licenses and Terms of Use
 
-Commercial use, resale, paid redistribution, or incorporation into a paid
-product or service requires prior written permission from the author.
+This repository follows a dual-licensing model to support open-source agent tooling while protecting original visual design intellectual property.
 
-Reference images bundled with a Skill are provided only for visual-style
-research. Rights in those images remain with their respective rights holders.
-They may not be extracted from this repository for separate redistribution or
-commercial use.
+## 1. Code, Tooling, and Framework (MIT License)
 
-THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+Copyright (c) 2026 @威比 Hunter Wei.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*Applies to: All runtime automation scripts (`scripts/`), CI/CD workflows (`.github/`), test suites (`tests/`), manifest schemas, and developer tooling across this repository.*
+
+---
+
+## 2. Original Design Prompts and Visual Skills (Personal Non-Commercial License)
+
+Copyright (c) 2026 @威比 Hunter Wei.
+
+Permission is granted to use, copy, and modify original Skill instructions, styling prompts, and layout guides in this repository for **personal, non-commercial purposes**, provided that the original author attribution (`Visual Skill by @威比 Hunter Wei.`) and official repository links are retained.
+
+Commercial use, resale, paid redistribution, paid generation services, or incorporation into commercial products requires prior written permission from the author.
+
+---
+
+## 3. Third-Party Reference Assets
+
+Reference images bundled with a Skill are provided only for visual-style research. Rights in those images remain with their respective rights holders. They may not be extracted from this repository for separate redistribution or commercial use.

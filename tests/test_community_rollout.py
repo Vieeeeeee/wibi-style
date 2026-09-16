@@ -50,7 +50,11 @@ class CommunityRolloutTest(unittest.TestCase):
 
     def test_root_config_matches_readme_and_current_qr(self) -> None:
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        readme_zh = (ROOT / "README.zh-CN.md").read_text(encoding="utf-8")
         self.assertIn(self.config["fallback_wechat"], readme)
+        self.assertIn(self.config["fallback_wechat"], readme_zh)
+        self.assertIn("README.zh-CN.md", readme)
+        self.assertIn("README.md", readme_zh)
         self.assertTrue((ROOT / "assets/wechat-aigc-group-qr.jpg").is_file())
         expires_at = datetime.fromisoformat(self.config["valid_until"])
         self.assertIsNotNone(expires_at.tzinfo)

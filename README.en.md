@@ -7,39 +7,40 @@
 
 <h3>Turn everyday photos into art, with AI.</h3>
 
-<p><sub>Pick a style, send a photo, get a finished image. No prompt writing, no parameter tuning.</sub></p>
+<p><sub>Pick a style, send a photo, get a finished artwork. No prompt engineering, no parameter tuning.</sub></p>
 
 <p>
 <a href="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml"><img src="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-Dual%20MIT%20%2F%20Non--Commercial-blue.svg" alt="License: Dual MIT / Non-Commercial"></a>
+<a href="https://openai.com"><img src="https://img.shields.io/badge/Built%20for-OpenAI%20Codex-10a37f.svg" alt="Built for OpenAI Codex"></a>
+<a href="#all-styles"><img src="https://img.shields.io/badge/Styles-31%20Ready--to--Use-6f42c1.svg" alt="31 Styles"></a>
 </p>
 
 <p>
 <b>31</b> individually installable visual style Skills ·
 <a href="https://style.abdc.online"><b>Try online</b></a> ·
 <a href="#community">Community</a> ·
-<a href="#use-and-attribution">License</a>
+<a href="#license-and-attribution">License</a>
 </p>
 
 <p>
-Made and maintained by <code>@威比 Hunter Wei.</code> — same handle on Douyin and Xiaohongshu<br>
-<b>English</b> · <a href="README.md">简体中文</a>
+Created and maintained by <code>@威比 Hunter Wei.</code> (same handle on Douyin &amp; Xiaohongshu)<br>
+<b>English</b> · <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 </div>
 
 ---
 
-> **For agents**: this is a set of ready-made visual style Skills — the user picks one, sends a photo, and what comes back is finished. Three things you need:
+> **For AI Agents**: This repository provides modular, production-ready visual style Skills for OpenAI Codex. The user selects a style, supplies a photo, and receives a completed design artifact.
 >
-> - **What's here**: one table under [All styles](#all-styles), grouped by subject, with each style's name, call name, and the kind of photo it suits.
-> - **How to install**: drop the call name into `https://github.com/Vieeeeeee/wibi-style/tree/main/skills/<call-name>` and have the user send that URL in Codex. Every style is its own directory — only the one they pick gets installed.
-> - **How to use**: in a new task, send `Use $call-name on this photo`. Nothing else to run — the Skill introduces itself on first call.
->
-> Everything else is your call, based on the user in front of you.
+> - **Available Skills**: See the [All styles](#all-styles) directory below, organized by subject with style names, invocation slugs, and photo recommendations.
+> - **How to install**: Provide `https://github.com/Vieeeeeee/wibi-style/tree/main/skills/<call-name>` and have the user run or install that URL in Codex. Each style resides in an isolated directory; only the selected Skill is downloaded.
+> - **How to use**: In a new task, submit `Use $call-name on this photo`. The Skill introduces itself with an interactive welcome card on its first turn.
 
 ## Style overview
 
-> Click any thumbnail to open that Skill. You can also try them online at [Wibi Style Lab](https://style.abdc.online).
+> Click any thumbnail to jump to that Skill's dedicated directory. You can also preview them interactively at [Wibi Style Lab](https://style.abdc.online).
 
 |   |   |   |   |   |
 | :---: | :---: | :---: | :---: | :---: |
@@ -57,11 +58,11 @@ Made and maintained by <code>@威比 Hunter Wei.</code> — same handle on Douyi
 
 | Subject | Your photo | Styles (click the name for details · code is the call name) |
 | --- | --- | --- |
-| **Portraits & selfies** | Selfies, avatars, close-up people shots | <a href="skills/electric-blue-halftone-poster/"><b>Electric Blue Halftone Poster</b></a> <code>electric-blue-halftone-poster</code><br><sub>Single-person portraits or pet close-ups</sub><br><a href="skills/alt-manga-avatar/"><b>Bold Line Manga Avatar</b></a> <code>alt-manga-avatar</code><br><sub>Front-facing or three-quarter selfies</sub><br><a href="skills/art-print-poster/"><b>Crayon Sketch Avatar</b></a> <code>art-print-poster</code><br><sub>Selfies with clear features and a memorable expression</sub><br><a href="skills/dark-red-black-cel-shaded/"><b>Dark Red &amp; Black Cel Shade</b></a> <code>dark-red-black-cel-shaded</code><br><sub>Portraits that suit dramatic red-and-black lighting</sub><br><a href="skills/iridescent-long-exposure/"><b>Iridescent Long Exposure</b></a> <code>iridescent-long-exposure</code><br><sub>Close-ups where you want a hazy, dreamlike mood</sub><br><a href="skills/blue-retro-print/"><b>Blue Retro Print</b></a> <code>blue-retro-print</code><br><sub>Portraits with clear outlines and expression</sub><br><a href="skills/underground-audition/"><b>Underground Audition Skill</b></a> <code>underground-audition</code><br><sub>Single-person half-body or close-up photos for a cool direct-flash turn-card sequence</sub><br><a href="skills/cold-blue-glitch-anime/"><b>Cold Blue Glitch Anime</b></a> <code>cold-blue-glitch-anime</code><br><sub>Portraits, selfies, street snapshots, or nightlife photos with expressive poses</sub><br><a href="skills/crayon-flat-naive/"><b>Crayon Flat Naive</b></a> <code>crayon-flat-naive</code><br><sub>Portraits, half-body, full-body, or seated photos where clothing and pose are clear</sub><br><a href="skills/serpent-line-ink/"><b>Serpent Line Ink (beta)</b></a> <code>serpent-line-ink</code><br><sub>Single-person head-and-shoulders, close-up, or half-body portraits — selfies or mirror selfies both work</sub><br><a href="skills/warm-paper-crayon-street/"><b>Warm Paper Crayon Street</b></a> <code>warm-paper-crayon-street</code><br><sub>Street snaps, full-body or half-body portraits; half-body shots keep their crop</sub> |
+| **Portraits & selfies** | Selfies, avatars, close-up people shots | <a href="skills/electric-blue-halftone-poster/"><b>Electric Blue Halftone Poster</b></a> <code>electric-blue-halftone-poster</code><br><sub>Single-person portraits or pet close-ups</sub><br><a href="skills/alt-manga-avatar/"><b>Bold Line Manga Avatar</b></a> <code>alt-manga-avatar</code><br><sub>Front-facing or three-quarter selfies</sub><br><a href="skills/art-print-poster/"><b>Crayon Sketch Avatar</b></a> <code>art-print-poster</code><br><sub>Selfies with clear features and a memorable expression</sub><br><a href="skills/dark-red-black-cel-shaded/"><b>Dark Red &amp; Black Cel Shade</b></a> <code>dark-red-black-cel-shaded</code><br><sub>Portraits that suit dramatic red-and-black lighting</sub><br><a href="skills/iridescent-long-exposure/"><b>Iridescent Long Exposure</b></a> <code>iridescent-long-exposure</code><br><sub>Close-ups where you want a hazy, dreamlike mood</sub><br><a href="skills/blue-retro-print/"><b>Blue Retro Print</b></a> <code>blue-retro-print</code><br><sub>Portraits with clear outlines and expression</sub><br><a href="skills/underground-audition/"><b>Underground Audition Skill</b></a> <code>underground-audition</code><br><sub>Single-person half-body or close-up photos for a cool direct-flash turn-card sequence</sub><br><a href="skills/textile-toy-portrait/"><b>Textile Toy Portrait</b></a> <code>textile-toy-portrait</code><br><sub>Clear solo portraits with readable hair, expression, accessories, or hand interaction</sub><br><a href="skills/cold-blue-glitch-anime/"><b>Cold Blue Glitch Anime</b></a> <code>cold-blue-glitch-anime</code><br><sub>Portraits, selfies, street snapshots, or nightlife photos with expressive poses</sub><br><a href="skills/crayon-flat-naive/"><b>Crayon Flat Naive</b></a> <code>crayon-flat-naive</code><br><sub>Portraits, half-body, full-body, or seated photos where clothing and pose are clear</sub><br><a href="skills/serpent-line-ink/"><b>Serpent Line Ink (beta)</b></a> <code>serpent-line-ink</code><br><sub>Single-person head-and-shoulders, close-up, or half-body portraits — selfies or mirror selfies both work</sub><br><a href="skills/warm-paper-crayon-street/"><b>Warm Paper Crayon Street</b></a> <code>warm-paper-crayon-street</code><br><sub>Street snaps, full-body or half-body portraits; half-body shots keep their crop</sub> |
 | **Kids & childhood** | A child's face, or your own childhood look | <a href="skills/diamond-kid-head-card/"><b>Diamond Grin Kid Portrait</b></a> <code>diamond-kid-head-card</code><br><sub>Single-child photos where face, hair, or hat is recognizable</sub><br><a href="skills/kid-head-card/"><b>Childhood Head Card</b></a> <code>kid-head-card</code><br><sub>Old childhood photos; modern selfies are aged back to 5–8</sub> |
 | **Group shots & posters** | Group photos, street shots, travel photos | <a href="skills/fisheye-city-cover/"><b>Fisheye City Poster (beta)</b></a> <code>fisheye-city-cover</code><br><sub>Into a Y2K heavy-fisheye city cover</sub><br><a href="skills/niulai-movie-poster/"><b>Niu Lai Movie Poster</b></a> <code>niulai-movie-poster</code><br><sub>Landscape solo, duo or trio photos into a low-budget old-animation cow-head Chinese film poster</sub> |
 | **Pets** | One cat or dog with a clear pose, gaze, and body outline | <a href="skills/minimal-pet-doodle/"><b>Minimal Pet Line Art</b></a> <code>minimal-pet-doodle</code><br><sub>Turns a memorable gesture into a few black lines, one fur-color smudge, and expansive paper space</sub> |
-| **Anything goes** | People, pets, products, objects — all fine | <a href="skills/marker-child-doodle/"><b>Marker-Pen Child Doodle</b></a> <code>marker-child-doodle</code><br><sub>Real photos with clear people, pets, and props; half-body crops stay half-body</sub><br><a href="skills/quirky-pop-doodle-sticker/"><b>Quirky Pop Doodle Sticker</b></a> <code>quirky-pop-doodle-sticker</code><br><sub>Clear subject with a memorable pose — people, pets, products, props</sub><br><a href="skills/photo-perler-charm/"><b>Photo Perler Charm</b></a> <code>photo-perler-charm</code><br><sub>People, pets, bouquets, food, and objects with clean silhouettes</sub><br><a href="skills/pixel-stretch/"><b>Pixel Slice Stretch</b></a> <code>pixel-stretch</code><br><sub>People, still life, or anything with a clear subject</sub><br><a href="skills/glitch-pixel-collage/"><b>Glitch Pixel Collage</b></a> <code>glitch-pixel-collage</code><br><sub>People, still life, or photos with distinct color layers</sub><br><a href="skills/textile-toy-portrait/"><b>Textile Toy Portrait</b></a> <code>textile-toy-portrait</code><br><sub>Clear solo portraits with readable hair, expression, accessories, or hand interaction</sub><br><a href="skills/office-animals/"><b>Office Animals</b></a> <code>office-animals</code><br><sub>Specify an animal and office scene to generate a Y2K absurd work poster</sub><br><a href="skills/personalized-print-ticket/"><b>Personalized Print Ticket</b></a> <code>personalized-print-ticket</code><br><sub>People, travel, streets, architecture, food, and everyday photos with custom bilingual copy in one of four print-ticket styles</sub> |
+| **Anything goes** | People, pets, products, objects — all fine | <a href="skills/marker-child-doodle/"><b>Marker-Pen Child Doodle</b></a> <code>marker-child-doodle</code><br><sub>Real photos with clear people, pets, and props; half-body crops stay half-body</sub><br><a href="skills/quirky-pop-doodle-sticker/"><b>Quirky Pop Doodle Sticker</b></a> <code>quirky-pop-doodle-sticker</code><br><sub>Clear subject with a memorable pose — people, pets, products, props</sub><br><a href="skills/photo-perler-charm/"><b>Photo Perler Charm</b></a> <code>photo-perler-charm</code><br><sub>People, pets, bouquets, food, and objects with clean silhouettes</sub><br><a href="skills/pixel-stretch/"><b>Pixel Slice Stretch</b></a> <code>pixel-stretch</code><br><sub>People, still life, or anything with a clear subject</sub><br><a href="skills/glitch-pixel-collage/"><b>Glitch Pixel Collage</b></a> <code>glitch-pixel-collage</code><br><sub>People, still life, or photos with distinct color layers</sub><br><a href="skills/office-animals/"><b>Office Animals</b></a> <code>office-animals</code><br><sub>Specify an animal and office scene to generate a Y2K absurd work poster</sub><br><a href="skills/personalized-print-ticket/"><b>Personalized Print Ticket</b></a> <code>personalized-print-ticket</code><br><sub>People, travel, streets, architecture, food, and everyday photos with custom bilingual copy in one of four print-ticket styles</sub> |
 | **Scenes & food** | Streets, architecture, the dinner table, countryside, and coastlines | <a href="skills/clear-sky-urban-cel/"><b>Clear Sky Urban Cel</b></a> <code>clear-sky-urban-cel</code><br><sub>City streets, architecture, travel documentary, transit</sub><br><a href="skills/primary-hardlight-city/"><b>Primary Hardlight City</b></a> <code>primary-hardlight-city</code><br><sub>City streets, architecture, public transit, travel documentary, and people in urban environments</sub><br><a href="skills/retro-table-print/"><b>Retro Table Magazine</b></a> <code>retro-table-print</code><br><sub>Table photos where dishes and vessels are readable</sub><br><a href="skills/museum-impression-oil/"><b>Museum Impression Oil</b></a> <code>museum-impression-oil</code><br><sub>Landscape photos of streets, villages, roads, hills, riverbanks, and coastlines</sub> |
 | **Home & interiors** | Corners of your home — living room, bedroom, shelves, coffee bar | <a href="skills/home-journal/"><b>Vintage Home Journal</b></a> <code>home-journal</code><br><sub>Any casual corner of your home — living room, bedroom, coffee bar, bookshelf</sub> |
 | **Advanced · multi-step** | When you want to crop the best part first | <a href="skills/wibi-frame/"><b>Framed Comic Panel</b></a> <code>wibi-frame</code><br><sub>Photos with clear eye contact, expression, gesture, or object relationships — crop first, then generate</sub> |
@@ -91,9 +92,11 @@ Use $electric-blue-halftone-poster on this photo
 
 For any other style, swap `$electric-blue-halftone-poster` for its call name from the table above.
 
-## Language note
+## What's included and how updates work
 
-The style logic inside each `SKILL.md` is written in Chinese, and the models read it fine — you can talk to the Skill in English and it will answer you in English. What is still Chinese-only today: the welcome card and author card the Skill prints on first use, and the per-style README inside each package. Everything works; some of the text just won't be in your language yet. English versions of those are planned.
+Every style ships its own `SKILL.md`, runtime rules, prompt, version manifest, and whatever reference material or support files that style needs. Nothing is shared or mixed between styles.
+
+The first time you call a style in a new task, it checks whether that one style has a new version — nothing else. It only tells you when a newer version exists; it never overwrites your local files, and it uploads no photos and no usage data.
 
 ## Community
 
@@ -109,15 +112,9 @@ A group for AI visual techniques, Skill usage questions, and new style previews
 
 > Heads up: this is a **WeChat group and the conversation is in Chinese**. It needs the WeChat app, so it may not be practical outside mainland China. If you can't join, [open an issue](https://github.com/Vieeeeeee/wibi-style/issues) instead — that works from anywhere.
 
-Skills that support the group entry read the root [`community.json`](community.json) on demand and reference the same QR code above. Once the group link, expiry date, and `assets/wechat-aigc-group-qr.jpg` are updated, already-installed Skills will pick up the new entry on their next lookup. This lookup uploads no photos and no usage data.
+Skills that support the group entry read the root [`community.json`](community.json) on demand. This lookup uploads no photos and no usage data.
 
-## What's included and how updates work
-
-Every style ships its own `SKILL.md`, runtime rules, prompt, version manifest, and whatever reference material or support files that style needs. Nothing is shared or mixed between styles.
-
-The first time you call a style in a new task, it checks whether that one style has a new version — nothing else. It only tells you when a newer version exists; it never overwrites your local files, and it uploads no photos and no usage data.
-
-## Use and attribution
+## License and attribution
 
 When you share generated results publicly, please credit:
 
@@ -125,6 +122,9 @@ When you share generated results publicly, please credit:
 Visual Skill by @威比 Hunter Wei.
 ```
 
-The original Skill logic, prompts, and original composition templates in this repository are for **personal, non-commercial use only** — please contact the author for permission before any commercial use. If you copy, modify, redistribute, mirror, or repackage a style, you must keep the author credit, the Douyin/Xiaohongshu handle note, the official source link, `LICENSE`, and `NOTICE`. Modified versions must be clearly marked as modified and must not present themselves as official.
+This repository follows a **Dual License** structure (see [`LICENSE`](LICENSE)):
 
-Each Skill's `SOURCES.md` states exactly which rights the package does and does not hold. A third-party image being publicly visible does not grant redistribution rights; material that hasn't cleared the copyright gate never goes into a new public install package.
+- **Code and Tooling (MIT License)**: All automation scripts, test suites, manifest schemas, and CI workflows are freely available under the permissive MIT License.
+- **Original Visual Skills & Prompts (Personal Non-Commercial License)**: Original Skill logic, prompts, styling directives, and composition guides are licensed for **personal, non-commercial use only**. Commercial use, resale, paid redistribution, or commercial SaaS integration requires prior written permission from the author.
+
+Each Skill's `SOURCES.md` states exactly which rights the package does and does not hold. Third-party reference assets are bundled solely for visual-style guidance; rights remain with their respective rights holders.
