@@ -10,6 +10,10 @@
 <p><sub>Pick a style, send a photo, get a finished image. No prompt writing, no parameter tuning.</sub></p>
 
 <p>
+<a href="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml"><img src="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+</p>
+
+<p>
 <b>31</b> individually installable visual style Skills ·
 <a href="https://style.abdc.online"><b>Try online</b></a> ·
 <a href="#community">Community</a> ·
@@ -99,9 +103,7 @@ The style logic inside each `SKILL.md` is written in Chinese, and the models rea
 
 A group for AI visual techniques, Skill usage questions, and new style previews
 
-<img src="assets/wechat-aigc-group-qr.jpg" alt="Wibi AIGC study group QR code" width="260">
-
-<p><sub>Valid until <b>September 1, 2026</b>. After that, add WeChat <code>Wibi2077</code> with the note 「进群」 for a new invite.</sub></p>
+<p>The group has reached 200 members, so direct QR code scanning is no longer available. Please add WeChat <code>Wibi2077</code> with the note 「进群」 to be invited.</p>
 
 </div>
 

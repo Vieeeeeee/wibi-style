@@ -10,6 +10,10 @@
 <p><sub>挑一款风格，发一张照片，出来就是成品。不用学提示词，也不用调参数。</sub></p>
 
 <p>
+<a href="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml"><img src="https://github.com/Vieeeeeee/wibi-style/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+</p>
+
+<p>
 <b>31 款</b> 可独立安装的视觉风格 Skill ·
 <a href="https://style.abdc.online"><b>在线体验</b></a> ·
 <a href="#加入交流群">交流群</a> ·
