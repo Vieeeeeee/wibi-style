@@ -6,14 +6,17 @@
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/museum-impression-oil",
-  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
   "repository": "https://github.com/Vieeeeeee/wibi-style",
   "path": "skills/museum-impression-oil",
   "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/museum-impression-oil",
   "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/museum-impression-oil/manifest.json?ref=main",
   "attribution": {
     "text": "Visual Skill by @威比 Hunter Wei.",
-    "platforms": ["抖音", "小红书"],
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
     "retention_required_on_redistribution": true,
     "notice_file": "NOTICE"
   },

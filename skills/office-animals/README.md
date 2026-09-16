@@ -92,8 +92,4 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/office-animals
 
 ## 使用与授权
 
-原创 Skill 规则、Prompt 适配和随机系统仅限个人非商业使用；商业使用请先联系作者。复制、修改、转发、镜像或重新打包时，必须保留作者、抖音/小红书同名备注、官方仓库地址、`LICENSE` 和 `NOTICE`。公开分享生成结果时欢迎标注：
-
-```text
-Visual Skill by @威比 Hunter Wei.
-```
+本 Skill 采用组件分项授权（详见 LICENSE）：运行脚本与自动化代码遵循 MIT 许可证；原创设计指令、提示词与构图资源遵循 Wibi 个人非商业许可证（仅限个人非商业使用；商业使用请先联系作者获得许可）。复制、修改、转发、镜像或重新打包时，必须保留 @威比 Hunter Wei.、抖音、小红书同名、官方来源、LICENSE 与 NOTICE。

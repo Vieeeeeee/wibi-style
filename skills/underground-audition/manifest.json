@@ -38,7 +38,7 @@
       "核对通过后默认给你小红书方图，然后会问一句要不要顺便出手机壁纸尺寸——背景色可以选纸白（默认，偏暖的白，不是纯白）或深炭黑，logo 颜色会自动跟着换。"
     ]
   },
-  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
   "repository": "https://github.com/Vieeeeeee/wibi-style",
   "path": "skills/underground-audition",
   "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/underground-audition",

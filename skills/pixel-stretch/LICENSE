@@ -1,10 +1,55 @@
-Wibi Personal Non-Commercial License 1.0
+# Component-Specific License for pixel-stretch
 
-Copyright (c) 2026 @威比 Hunter Wei.
 Author: @威比 Hunter Wei.
 Platforms: 抖音、小红书同名
 Official source: https://github.com/Vieeeeeee/wibi-style/tree/main/skills/pixel-stretch
 
-Personal non-commercial use, copying, modification, and redistribution are permitted only when the complete author attribution, platform note, official source URL, LICENSE, and NOTICE remain with every copy. Modified copies must state that they were modified and must not claim to be official Wibi Style releases. Commercial use, resale, paid redistribution, or paid generation services require prior written permission.
+This Skill package is distributed under component-specific terms:
 
-This license covers original material identified in SOURCES.md. Project-owner-supplied reference assets explicitly marked there as redistributable may be retained and used as bundled inputs for personal, non-commercial use of this Skill; this grants no separate or broader use outside the Skill. No rights are granted to user photos or trademarks. THE MATERIALS ARE PROVIDED "AS IS".
+## 1. Tooling & Automation Code (MIT License)
+
+Copyright (c) 2026 @威比 Hunter Wei.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*Applies to: All Python scripts within this package (scripts/*.py), manifest.json, and supporting developer tooling.*
+
+---
+
+## 2. Original Design Prompts & Styling Instructions (Wibi Personal Non-Commercial License 1.0)
+
+Copyright (c) 2026 @威比 Hunter Wei.
+
+Permission is granted to use, copy, modify, and redistribute the original Skill
+instructions, prompt directives, and layout-guide assets in this package for
+personal, non-commercial purposes, provided that the author attribution
+(@威比 Hunter Wei.), platform note (抖音、小红书同名), official source URL,
+LICENSE, and NOTICE remain with every copy. Modified copies must state that they
+were modified and must not claim to be official Wibi Style releases.
+
+Commercial use, resale, paid redistribution, or incorporation into a paid
+product or service requires prior written permission from the author.
+
+*Applies to: SKILL.md, references/*.md, design presets, and original prompt engineering.*
+
+---
+
+## 3. Third-Party Resources & Reference Images
+
+Reference images in assets/references/ are bundled exclusively for visual-style guidance. Rights in third-party works remain with their respective rights holders. Any bundled fonts are governed by their respective open font licenses (such as SIL Open Font License 1.1).

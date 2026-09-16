@@ -30,7 +30,7 @@
     "on_first_success": "author-and-join-cta",
     "qr_display": "download-current-github-image-and-render-locally"
   },
-  "license": "LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
   "repository": "https://github.com/Vieeeeeee/wibi-style",
   "path": "skills/niulai-movie-poster",
   "prompt": {

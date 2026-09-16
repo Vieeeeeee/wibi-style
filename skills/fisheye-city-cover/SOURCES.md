@@ -8,9 +8,9 @@
 | `references/styles/retro-pink.md` | `02_提示词/02_迭代记录/121_风格分支_C_清透珠光粉强鱼眼_英文设计小字.md` | © 2026 @威比 Hunter Wei. |
 | `references/presets.md` | 本项目独立编写的配色、鱼眼与文字密度选项 | © 2026 @威比 Hunter Wei. |
 | `assets/references/y2k-fisheye-layout-reference.png` | `01_风格参考/01_Y2K鱼眼版式参考.png`，SHA-256 `9fae4a112369ddab549edce7c007f2cbe1bffd925575ab7511022cbff4869924` | 用户于 2026-08-14 明确确认为公开素材，并授权随本 Skill 公开再分发 |
-| `scripts/check_update.py` | Wibi Style 无遥测更新检查 | © 2026 @威比 Hunter Wei. |
-| `scripts/community_info.py` | 只读访问仓库统一交流群入口；不上传照片或使用数据 | © 2026 @威比 Hunter Wei. |
-| `scripts/show_skill_info.py` | 安装后作者卡与署名检查 | © 2026 @威比 Hunter Wei. |
+| `scripts/check_update.py` | Wibi Style 无遥测更新检查 | MIT License，© 2026 @威比 Hunter Wei. |
+| `scripts/community_info.py` | 只读访问仓库统一交流群入口；不上传照片或使用数据 | MIT License，© 2026 @威比 Hunter Wei. |
+| `scripts/show_skill_info.py` | 安装后作者卡与署名检查 | MIT License，© 2026 @威比 Hunter Wei. |
 
 内置参考只负责鱼眼空间、标题规模、边框、信息层级和光学质感，不提供人物、品牌、Logo、兔子标记、组合身份或具体文案。用户照片只用于当次任务，不进入公开包。
 

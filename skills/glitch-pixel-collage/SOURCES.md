@@ -2,10 +2,10 @@
 
 | 内容 | 来源 | 版权状态 |
 | --- | --- | --- |
-| `SKILL.md`、`references/style-prompt.md` 与 `references/community.md` | 当前项目已验收规则与统一社群规范，源文件 SHA-256：`c77b943e8c6fe1c9d38108684743af8296d55a164a0cc2fa7406f39d3a1ac38c` | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
-| `scripts/check_update.py` | 无遥测更新检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
-| `scripts/show_skill_info.py` | 安装作者卡、每对话欢迎卡与署名完整性检查 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
-| `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口并把当前二维码下载到本地，不上传照片或使用数据 | © 2026 @威比 Hunter Wei.，按 LICENSE 授权 |
+| `SKILL.md`、`references/style-prompt.md` 与 `references/community.md` | 当前项目已验收规则与统一社群规范，源文件 SHA-256：`c77b943e8c6fe1c9d38108684743af8296d55a164a0cc2fa7406f39d3a1ac38c` | Wibi Personal Non-Commercial License 1.0，© 2026 @威比 Hunter Wei. |
+| `scripts/check_update.py` | 无遥测更新检查 | MIT License，© 2026 @威比 Hunter Wei. |
+| `scripts/show_skill_info.py` | 安装作者卡、每对话欢迎卡与署名完整性检查 | MIT License，© 2026 @威比 Hunter Wei. |
+| `scripts/community_info.py` | 只读获取官方仓库的当前交流群入口并把当前二维码下载到本地，不上传照片或使用数据 | MIT License，© 2026 @威比 Hunter Wei. |
 | `NOTICE` | 作者、平台和官方来源声明 | 必须随再分发副本保留 |
 | `assets/references/reference-01.jpg` | 项目素材 `01_风格参考/01_足球人物.jpg`，SHA-256：`18aa8662a1b1cbcde277508765ad7878d86038834d76bccde6bed48bf735a18e` | 用户提供或选择进入项目，按项目约定允许随本款 Skill 分发 |
 | `assets/references/reference-02.jpg` | 项目素材 `01_风格参考/02_果盘静物.jpg`，SHA-256：`aa1c100b5cdcca8a5ad8705dfc89522041afedde37536308088a5be2ac8f61c3` | 用户提供或选择进入项目，按项目约定允许随本款 Skill 分发 |
