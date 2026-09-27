@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "slug": "red-blue-fashion-manga",
+  "name": "Wibi Style · 红蓝手绘时装",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/red-blue-fashion-manga",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/red-blue-fashion-manga",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/red-blue-fashion-manga",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/red-blue-fashion-manga/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "发一张单人穿搭照片给我吧～半身或全身都可以，我会保留照片里的动作和衣物关系，做成 3:4 竖版红蓝手绘时装海报。",
+      "海报上的字会根据照片来写；如果你想指定两行标题、引题或人物旁小注，也可以一起告诉我。"
+    ],
+    "received": [
+      "照片收到啦。我会从可见的动作、穿搭或物件里选一个主题写海报字；你已指定的文字会按原文保留，然后直接生成 3:4 竖版海报。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/红蓝手绘时装/02_提示词/98_线上版.md",
+    "source_sha256": "aa7620d9e5016e29c9db038f926cbb927a565cc0e3230b9bebfc0120f300c98d"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.png",
+      "source": "01_风格参考/01_红蓝时装海报.png",
+      "source_sha256": "6a4d4382d8b1ec252db1f20f54cbf04850d63e447070fefd7ef3207883c832f6"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/red-blue-fashion-manga/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.png"
+    ],
+    "bundled_third_party_assets": []
+  }
+}

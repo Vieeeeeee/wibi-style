@@ -16,7 +16,7 @@
 </p>
 
 <p>
-<b>34 款</b> 可独立安装的视觉风格 Skill ·
+<b>35 款</b> 可独立安装的视觉风格 Skill ·
 <a href="https://style.abdc.online"><b>在线体验</b></a> ·
 <a href="#加入交流群">交流群</a> ·
 <a href="#使用与署名">授权说明</a>
@@ -51,11 +51,11 @@
 | <a href="skills/glitch-pixel-collage/"><img src="assets/thumbs/glitch-pixel-collage.jpg" width="140" alt="乱码像素拼贴"></a><br><a href="skills/glitch-pixel-collage/">乱码像素拼贴</a> | <a href="skills/clear-sky-urban-cel/"><img src="assets/thumbs/clear-sky-urban-cel.jpg" width="140" alt="晴空都市赛璐璐"></a><br><a href="skills/clear-sky-urban-cel/">晴空都市赛璐璐</a> | <a href="skills/retro-table-print/"><img src="assets/thumbs/retro-table-print.jpg" width="140" alt="复古餐桌杂志"></a><br><a href="skills/retro-table-print/">复古餐桌杂志</a> | <a href="skills/wibi-frame/"><img src="assets/thumbs/wibi-frame.jpg" width="140" alt="框景漫画"></a><br><a href="skills/wibi-frame/">框景漫画</a> | <a href="skills/textile-toy-portrait/"><img src="assets/thumbs/textile-toy-portrait.jpg" width="140" alt="颗粒绒感玩偶"></a><br><a href="skills/textile-toy-portrait/">颗粒绒感玩偶</a> |
 | <a href="skills/cold-blue-glitch-anime/"><img src="assets/thumbs/cold-blue-glitch-anime.jpg" width="140" alt="冷蓝失真动漫"></a><br><a href="skills/cold-blue-glitch-anime/">冷蓝失真动漫</a> | <a href="skills/crayon-flat-naive/"><img src="assets/thumbs/crayon-flat-naive.jpg?v=833e7cf" width="140" alt="蜡笔极简扁平画"></a><br><a href="skills/crayon-flat-naive/">蜡笔极简扁平画</a> | <a href="skills/office-animals/"><img src="assets/thumbs/office-animals.jpg" width="140" alt="牛马宇宙"></a><br><a href="skills/office-animals/">牛马宇宙</a> | <a href="skills/home-journal/"><img src="assets/thumbs/home-journal.jpg" width="140" alt="复古家居日志"></a><br><a href="skills/home-journal/">复古家居日志</a> | <a href="skills/serpent-line-ink/"><img src="assets/thumbs/serpent-line-ink.jpg" width="140" alt="蛇发游线墨绘"></a><br><a href="skills/serpent-line-ink/">蛇发游线墨绘</a> |
 | <a href="skills/warm-paper-crayon-street/"><img src="assets/thumbs/warm-paper-crayon-street.jpg" width="140" alt="暖纸蜡笔街拍"></a><br><a href="skills/warm-paper-crayon-street/">暖纸蜡笔街拍</a> | <a href="skills/minimal-pet-doodle/"><img src="assets/thumbs/minimal-pet-doodle.jpg" width="140" alt="宠物极简线条"></a><br><a href="skills/minimal-pet-doodle/">宠物极简线条</a> | <a href="skills/museum-impression-oil/"><img src="assets/thumbs/museum-impression-oil.jpg" width="140" alt="馆藏印象油画"></a><br><a href="skills/museum-impression-oil/">馆藏印象油画</a> | <a href="skills/urban-mecha-cel/"><img src="assets/thumbs/urban-mecha-cel.jpg" width="140" alt="都市机械赛璐璐"></a><br><a href="skills/urban-mecha-cel/">都市机械赛璐璐</a> | <a href="skills/primary-hardlight-city/"><img src="assets/thumbs/primary-hardlight-city.jpg" width="140" alt="原色硬光都市"></a><br><a href="skills/primary-hardlight-city/">原色硬光都市</a> |
-| <a href="skills/personalized-print-ticket/"><img src="assets/thumbs/personalized-print-ticket.jpg" width="140" alt="定制印刷票根"></a><br><a href="skills/personalized-print-ticket/">定制印刷票根</a> | <a href="skills/paper-flat-vignette/"><img src="assets/thumbs/paper-flat-vignette.jpg" width="140" alt="留白平涂小景"></a><br><a href="skills/paper-flat-vignette/">留白平涂小景</a> | <a href="skills/lofi-print-anime/"><img src="assets/thumbs/lofi-print-anime.jpg" width="140" alt="低清晰印刷感动漫"></a><br><a href="skills/lofi-print-anime/">低清晰印刷感动漫</a> | <a href="skills/retro-flat-anime-head/"><img src="assets/thumbs/retro-flat-anime-head.jpg" width="140" alt="复古扁平动画头"></a><br><a href="skills/retro-flat-anime-head/">复古扁平动画头</a> |  |
+| <a href="skills/personalized-print-ticket/"><img src="assets/thumbs/personalized-print-ticket.jpg" width="140" alt="定制印刷票根"></a><br><a href="skills/personalized-print-ticket/">定制印刷票根</a> | <a href="skills/paper-flat-vignette/"><img src="assets/thumbs/paper-flat-vignette.jpg" width="140" alt="留白平涂小景"></a><br><a href="skills/paper-flat-vignette/">留白平涂小景</a> | <a href="skills/lofi-print-anime/"><img src="assets/thumbs/lofi-print-anime.jpg" width="140" alt="低清晰印刷感动漫"></a><br><a href="skills/lofi-print-anime/">低清晰印刷感动漫</a> | <a href="skills/retro-flat-anime-head/"><img src="assets/thumbs/retro-flat-anime-head.jpg" width="140" alt="复古扁平动画头"></a><br><a href="skills/retro-flat-anime-head/">复古扁平动画头</a> | <a href="skills/red-blue-fashion-manga/"><img src="assets/thumbs/red-blue-fashion-manga.jpg" width="140" alt="红蓝手绘时装"></a><br><a href="skills/red-blue-fashion-manga/">红蓝手绘时装</a> |
 
 ## 全部风格
 
-当前共 34 款，按你手上的照片找。点击风格名进入详情页；调用名同时是安装地址的最后一段和使用时的 `$` 指令。
+当前共 35 款，按你手上的照片找。点击风格名进入详情页；调用名同时是安装地址的最后一段和使用时的 `$` 指令。
 
 | 题材 | 什么照片 | 风格（点名进详情页 · 后面是调用名） |
 | --- | --- | --- |
@@ -68,7 +68,7 @@
 | **场景 · 美食** | 街景、建筑、餐桌、山野与海岸 | <a href="skills/clear-sky-urban-cel/"><b>晴空都市赛璐璐</b></a> <code>clear-sky-urban-cel</code><br><sub>城市街道、建筑、旅行纪实、交通设施</sub><br><a href="skills/primary-hardlight-city/"><b>原色硬光都市</b></a> <code>primary-hardlight-city</code><br><sub>城市街道、建筑、公共交通、旅行纪实和环境人物照片</sub><br><a href="skills/retro-table-print/"><b>复古餐桌杂志</b></a> <code>retro-table-print</code><br><sub>能看清菜和器皿的餐桌照，整桌或单盘都行</sub><br><a href="skills/museum-impression-oil/"><b>馆藏印象油画</b></a> <code>museum-impression-oil</code><br><sub>街景、乡村、道路、山野、河岸与海岸风景照片</sub><br><a href="skills/paper-flat-vignette/"><b>留白平涂小景</b></a> <code>paper-flat-vignette</code><br><sub>街拍、咖啡店、书店、旅行和日常人像，收成暖白纸中央的平涂小画</sub> |
 | **家居 · 空间** | 家里的角落、客厅、卧室、书架、咖啡台 | <a href="skills/home-journal/"><b>复古家居日志</b></a> <code>home-journal</code><br><sub>家里任意角落的随手照片，客厅、卧室、咖啡台、书架都行</sub> |
 | **进阶 · 多步骤** | 想先挑出照片里最有意思的局部 | <a href="skills/wibi-frame/"><b>框景漫画</b></a> <code>wibi-frame</code><br><sub>有清楚眼神、表情、手势或物件关系的照片；先选局部，再生成</sub> |
-| **人像 · 表情动作** | 表情或动作有记忆点的单人照 | <a href="skills/urban-mecha-cel/"><b>都市机械赛璐璐</b></a> <code>urban-mecha-cel</code><br><sub>清晰自拍、随手拍和废片都可以，转成白底红衣的粗线漫画</sub> |
+| **人像 · 表情动作** | 表情或动作有记忆点的单人照 | <a href="skills/urban-mecha-cel/"><b>都市机械赛璐璐</b></a> <code>urban-mecha-cel</code><br><sub>清晰自拍、随手拍和废片都可以，转成白底红衣的粗线漫画</sub><br><a href="skills/red-blue-fashion-manga/"><b>红蓝手绘时装</b></a> <code>red-blue-fashion-manga</code><br><sub>单人穿搭与街拍；方形红蓝漫画海报，自动按照片设计文字</sub> |
 <!-- style-catalog-end：发布脚本在这一行之前插入新款，插完请把它挪到正确的题材分组 -->
 
 > `Wibi Style ·` 是统一展示前缀。英文 Skill 名、GitHub 地址和 `$调用名` 都不带前缀，旧用法继续有效。
