@@ -2,7 +2,7 @@
   "schema_version": 1,
   "slug": "cream-paper-doodle",
   "name": "Wibi Style · 奶油纸涂鸦漫画",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "@威比 Hunter Wei.",
   "author_note": "抖音、小红书同名",
   "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/cream-paper-doodle",
@@ -58,8 +58,8 @@
     }
   ],
   "gallery": {
-    "layout": "3x2",
-    "count": 6,
+    "layout": "2x2",
+    "count": 4,
     "repository_path": "docs/cream-paper-doodle/examples",
     "bundled_with_install": false
   },
@@ -79,6 +79,7 @@
     "accepted_at": "2026-09-30T17:37:56.313593+08:00",
     "delivery": "05_发布/奶油纸涂鸦漫画_真实原图对照交付",
     "attachment_role_check": "passed",
-    "content_correspondence_check": "passed"
+    "content_correspondence_check": "passed",
+    "gallery_change": "用户明确撤下原第1、5张，原第3张作为封面；四张展示图。"
   }
 }

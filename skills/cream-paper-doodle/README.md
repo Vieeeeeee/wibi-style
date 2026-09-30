@@ -2,20 +2,18 @@
 
 把清晰的人像、日常动作或人与宠物合照，改画成浅暖纸上的蓝黑手绘漫画。
 
-版本：`v1.0.0`。作者：`@威比 Hunter Wei.`（抖音、小红书同名）。
+版本：`v1.0.1`。作者：`@威比 Hunter Wei.`（抖音、小红书同名）。
 
 ## 成图示例
 
-以下为已确认交付版的六张照片迁移成图，仅展示生成结果。用户原照决定内容，内置参考定义画法。
+以下为已确认交付版的四张照片迁移成图，仅展示生成结果。用户原照决定内容，内置参考定义画法。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.0/docs/cream-paper-doodle/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.0/docs/cream-paper-doodle/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.0/docs/cream-paper-doodle/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.1/docs/cream-paper-doodle/examples/example-01.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.1/docs/cream-paper-doodle/examples/example-02.png" width="45%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.0/docs/cream-paper-doodle/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.0/docs/cream-paper-doodle/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.0/docs/cream-paper-doodle/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.1/docs/cream-paper-doodle/examples/example-03.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/cream-paper-doodle-v1.0.1/docs/cream-paper-doodle/examples/example-04.png" width="45%" />
 </p>
 
 ## 安装
