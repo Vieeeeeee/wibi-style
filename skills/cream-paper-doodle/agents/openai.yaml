@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wibi Style · 奶油纸涂鸦漫画"
+  short_description: "把照片改画成浅暖纸上的蓝黑手绘漫画"
+  default_prompt: "使用 $cream-paper-doodle 处理这张照片。"
+
+policy:
+  allow_implicit_invocation: true
