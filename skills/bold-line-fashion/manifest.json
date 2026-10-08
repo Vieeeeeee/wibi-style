@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "slug": "bold-line-fashion",
+  "name": "Wibi Style · 粗线手绘穿搭插画",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/bold-line-fashion",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/bold-line-fashion",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/bold-line-fashion",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/bold-line-fashion/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "发一张穿搭和动作清楚的照片给我吧～",
+      "我会保留衣服与配饰的辨识点，把它画成浅灰背景里的方形时装角色插画。"
+    ],
+    "received": [
+      "照片收到啦～我会先看人物姿势、穿搭和画面边界，再画成黑色轮廓与清楚色块的方形角色插画。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/粗线手绘穿搭插画/02_提示词/98_线上版.md",
+    "source_sha256": "b0d9bdceccd27c88b31d484567d4b2bbf16c9553952b725216a0f17d1d2b3f8b"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.png",
+      "source": "05_发布/11_风格参考_末张.png",
+      "source_sha256": "af0e6c044c5ef01aece23c72ee0ce06d7207e5255555c7407aaf7a44c04ce943"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/bold-line-fashion/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.png"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
