@@ -11,13 +11,13 @@
 以下仅展示本 Skill 的实际生成结果，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.6/docs/clear-sky-urban-cel/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.6/docs/clear-sky-urban-cel/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.6/docs/clear-sky-urban-cel/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.5/docs/clear-sky-urban-cel/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.5/docs/clear-sky-urban-cel/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.5/docs/clear-sky-urban-cel/examples/example-03.png" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.6/docs/clear-sky-urban-cel/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.6/docs/clear-sky-urban-cel/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.6/docs/clear-sky-urban-cel/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.5/docs/clear-sky-urban-cel/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.5/docs/clear-sky-urban-cel/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/clear-sky-urban-cel-v1.0.5/docs/clear-sky-urban-cel/examples/example-06.png" width="30%" />
 </p>
 
 ## 安装

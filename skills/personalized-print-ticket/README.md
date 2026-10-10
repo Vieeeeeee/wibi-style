@@ -54,13 +54,13 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/personalized-print-tick
 以下均为本 Skill 实际完成后的透明裁切成品，只包含独立票根，不包含用户原图、对比排版或运行参考。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.2/docs/personalized-print-ticket/examples/example-01.png" alt="香港雨未落橙黑透明裁切票根" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.2/docs/personalized-print-ticket/examples/example-02.png" alt="马尼拉的手势珊瑚透明裁切票根" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.2/docs/personalized-print-ticket/examples/example-03.png" alt="迎面风粉纸朱红透明裁切票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.1/docs/personalized-print-ticket/examples/example-01.png" alt="香港雨未落橙黑透明裁切票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.1/docs/personalized-print-ticket/examples/example-02.png" alt="马尼拉的手势珊瑚透明裁切票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.1/docs/personalized-print-ticket/examples/example-03.png" alt="迎面风粉纸朱红透明裁切票根" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.2/docs/personalized-print-ticket/examples/example-04.png" alt="一脸夏光橙黑透明裁切票根" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.2/docs/personalized-print-ticket/examples/example-05.png" alt="夜还没跑完黑白透明裁切票根" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.2/docs/personalized-print-ticket/examples/example-06.png" alt="雨停在伦敦橙黑透明裁切票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.1/docs/personalized-print-ticket/examples/example-04.png" alt="一脸夏光橙黑透明裁切票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.1/docs/personalized-print-ticket/examples/example-05.png" alt="夜还没跑完黑白透明裁切票根" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/personalized-print-ticket-v1.2.1/docs/personalized-print-ticket/examples/example-06.png" alt="雨停在伦敦橙黑透明裁切票根" width="30%" />
 </p>
 
 ## 输出与检查
