@@ -1,6 +1,6 @@
 ---
 name: art-print-poster
-description: Wibi Style 官方视觉风格：把一张照片转换成蜡笔手绘头像。五官清楚、表情有记忆点的自拍。适用于用户要求蜡笔手绘头像、上传照片换风格，或明确调用 $art-print-poster 时。
+description: Wibi Style 官方视觉风格：把一张照片转换成蜡笔手绘头像。五官清楚、表情有记忆点的自拍。适用于用户要求蜡笔手绘头像，或明确调用 $art-print-poster 时。
 ---
 
 # Wibi Style · 蜡笔手绘头像

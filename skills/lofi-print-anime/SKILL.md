@@ -1,6 +1,6 @@
 ---
 name: lofi-print-anime
-description: Wibi Style 官方视觉风格：把一张照片转换成低清晰印刷感动漫。正面、半侧脸或侧脸清楚的单人近照与自拍，表情、发型和眼镜、帽子等特征可辨。适用于用户要求低清晰印刷感动漫、上传照片换风格，或明确调用 $lofi-print-anime 时。
+description: Wibi Style 官方视觉风格：把一张照片转换成低清晰印刷感动漫。正面、半侧脸或侧脸清楚的单人近照与自拍，表情、发型和眼镜、帽子等特征可辨。适用于用户要求低清晰印刷感动漫，或明确调用 $lofi-print-anime 时。
 ---
 
 # Wibi Style · 低清晰印刷感动漫

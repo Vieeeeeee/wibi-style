@@ -68,8 +68,10 @@ def detect_band(img, white=244):
     返回它们在整条 band 里的局部 x 范围，供调用方在非白色背景下把这些
     缝改画成画布背景色，而不是让生成图里烤死的白色透出来。
     """
-    a = np.array(img.convert("L"))
-    ink = (a < white)
+    a = np.array(img.convert("RGB"), dtype=np.int16)
+    # shortcut: assumes a uniform paper border; use segmentation if textured borders become supported.
+    paper = np.median(np.concatenate((a[0], a[-1], a[:, 0], a[:, -1])), axis=0)
+    ink = np.max(np.abs(a - paper), axis=2) > 255 - white
     rows = ink.sum(axis=1)
     segs, start = [], None
     for i, v in enumerate(rows):
@@ -93,6 +95,8 @@ def detect_band(img, white=244):
         elif v > 0 and in_gap:
             in_gap = False
             gaps.append((gap_start - l, x - l))
+    if len(gaps) != 2:
+        raise SystemExit("未能识别三张分离的照片面板，停止排版，请检查原始生成图")
     return l, top, r, bot, gaps
 
 

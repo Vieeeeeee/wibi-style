@@ -18,9 +18,9 @@
 
 Select exactly one complete template from the user's choice:
 
-- `黑银` → [references/styles/black-silver.md](references/styles/black-silver.md)
-- `靛蓝` → [references/styles/indigo.md](references/styles/indigo.md)
-- `复古粉` → [references/styles/retro-pink.md](references/styles/retro-pink.md)
+- `黑银` → [styles/black-silver.md](styles/black-silver.md)
+- `靛蓝` → [styles/indigo.md](styles/indigo.md)
+- `复古粉` → [styles/retro-pink.md](styles/retro-pink.md)
 
 Never mix colors or partial instructions across templates. `references/style-prompt.md` remains a backward-compatible alias of the black-silver template.
 

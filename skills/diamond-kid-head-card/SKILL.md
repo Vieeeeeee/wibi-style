@@ -5,6 +5,8 @@ description: Wibi Style 官方视觉风格。将单人儿童老照片重新拍�
 
 # Wibi Style · 钻牙萌娃大头
 
+本包为保留兼容的旧版，不再单独更新；新用户推荐使用 `$kid-head-card`，其中甜版沿用本包规则。用户明确调用本包时继续按下面流程执行，不自动替换已选风格。
+
 ## 运行
 
 先按 [references/community.md](references/community.md) 展示欢迎卡、检查更新并处理进群与失败提示，再执行下面的步骤。

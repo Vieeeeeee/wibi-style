@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 import unittest
 
@@ -94,6 +95,13 @@ class SkillsIntegrityTest(unittest.TestCase):
                 if ref_file:
                     target = skill_dir / ref_file
                     self.assertTrue(target.is_file(), f"{slug} referenced file does not exist: {ref_file}")
+
+    def test_relative_markdown_links_exist(self) -> None:
+        for path in SKILLS_DIR.rglob("*.md"):
+            for link in re.findall(r"\[[^\]]*\]\(([^)]+)\)", path.read_text(encoding="utf-8")):
+                target = link.split("#", 1)[0]
+                if target and ":" not in target and "{" not in target:
+                    self.assertTrue((path.parent / target).exists(), f"Broken link in {path}: {link}")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 表情或动作有记忆点的单人照片，清晰自拍、随手拍和废片都可以。
 
-当前版本：`v1.0.0`
+当前版本：`v1.0.1`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,13 +11,13 @@
 以下仅展示本 Skill 的实际生成结果，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.0/docs/urban-mecha-cel/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.0/docs/urban-mecha-cel/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.0/docs/urban-mecha-cel/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.1/docs/urban-mecha-cel/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.1/docs/urban-mecha-cel/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.1/docs/urban-mecha-cel/examples/example-03.png" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.0/docs/urban-mecha-cel/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.0/docs/urban-mecha-cel/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.0/docs/urban-mecha-cel/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.1/docs/urban-mecha-cel/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.1/docs/urban-mecha-cel/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/urban-mecha-cel-v1.0.1/docs/urban-mecha-cel/examples/example-06.png" width="30%" />
 </p>
 
 ## 安装

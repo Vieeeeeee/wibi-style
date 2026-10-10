@@ -1,6 +1,6 @@
 ---
 name: cold-blue-glitch-anime
-description: Wibi Style 官方视觉风格：把一张照片转换成冷蓝失真动漫。适合人物写真、自拍、街头抓拍、夜景生活照、姿态与情绪明确的照片。适用于用户要求冷蓝失真动漫、上传照片换风格，或明确调用 $cold-blue-glitch-anime 时。
+description: Wibi Style 官方视觉风格：把一张照片转换成冷蓝失真动漫。适合人物写真、自拍、街头抓拍、夜景生活照、姿态与情绪明确的照片。适用于用户要求冷蓝失真动漫，或明确调用 $cold-blue-glitch-anime 时。
 ---
 
 # Wibi Style · 冷蓝失真动漫

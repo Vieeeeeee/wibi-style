@@ -32,8 +32,11 @@ python3 {baseDir}/scripts/compose_ticket.py \
 ```bash
 python3 {baseDir}/scripts/finish_ticket.py \
   --ticket 最终票根.png \
+  --preset orbit-orange \
   --out 最终透明票根.png
 ```
+
+`--preset` 必须与本次生成选择一致，撕票虚线使用该预设的墨色。裁切后再检查色版与透明通道。
 
 ## 四套风格
 

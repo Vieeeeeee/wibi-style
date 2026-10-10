@@ -2,7 +2,7 @@
 
 把一张清晰人像照片做成纯白背景的三联"模特资料卡"：同一个人原地转身的三个定格——完整侧脸转向画面左侧、正面直视喊叫、完整侧脸镜像转向画面右侧——用九十年代模特试镜宝丽来快照式的机顶直闪硬光拍摄，清冷未修图质感。
 
-当前版本：`v1.1.4`
+当前版本：`v1.1.6`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -11,20 +11,20 @@
 以下均为本 Skill 的实际生成结果，仅展示成图，不包含用户原始照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-01.png" alt="地下试镜skill成图示例 1" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-02.png" alt="地下试镜skill成图示例 2" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-03.png" alt="地下试镜skill成图示例 3" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.6/docs/underground-audition/examples/example-01.png" alt="地下试镜skill成图示例 1" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.6/docs/underground-audition/examples/example-02.png" alt="地下试镜skill成图示例 2" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.6/docs/underground-audition/examples/example-03.png" alt="地下试镜skill成图示例 3" width="30%" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-04.png" alt="地下试镜skill成图示例 4" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-05.png" alt="地下试镜skill成图示例 5" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/examples/example-06.png" alt="地下试镜skill成图示例 6" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.6/docs/underground-audition/examples/example-04.png" alt="地下试镜skill成图示例 4" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.6/docs/underground-audition/examples/example-05.png" alt="地下试镜skill成图示例 5" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.6/docs/underground-audition/examples/example-06.png" alt="地下试镜skill成图示例 6" width="30%" />
 </p>
 
 手机壁纸的两套背景色预设（纸白 / 深炭黑，logo 颜色自动跟随适配）：
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.5/docs/underground-audition/bg-preset-demo.png" alt="纸白与深炭黑两套壁纸背景色对比" width="60%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/underground-audition-v1.1.6/docs/underground-audition/bg-preset-demo.png" alt="纸白与深炭黑两套壁纸背景色对比" width="60%" />
 </p>
 
 ## 安装

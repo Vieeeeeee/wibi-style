@@ -1,6 +1,6 @@
 ---
 name: iridescent-long-exposure
-description: Wibi Style 官方视觉风格：把一张照片转换成虹彩柔焦长曝光。想要朦胧氛围的人物近景或局部特写。适用于用户要求虹彩柔焦长曝光、上传照片换风格，或明确调用 $iridescent-long-exposure 时。
+description: Wibi Style 官方视觉风格：把一张照片转换成虹彩柔焦长曝光。想要朦胧氛围的人物近景或局部特写。适用于用户要求虹彩柔焦长曝光，或明确调用 $iridescent-long-exposure 时。
 ---
 
 # Wibi Style · 虹彩柔焦长曝光

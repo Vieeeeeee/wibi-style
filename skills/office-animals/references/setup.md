@@ -31,7 +31,7 @@ python3 {baseDir}/scripts/draw_brief.py [--animal 动物] [--scene 场景] [--mo
 
 需要复现同一套抽签时增加 `--seed 整数`。脚本返回动物家族、场景、动作、版式、大标题，以及分成核心、辅助、微型三层的蓝色边注。用户给了自定义动物或场景时照常传入；脚本会保留原文，并为无法识别的动物选择对身体要求较低的动作。
 
-动物和场景的完整池及匹配原则见 [references/random-system.md](references/random-system.md)。运行时以脚本输出为准，文档负责解释设计意图。
+动物和场景的完整池及匹配原则见 [random-system.md](random-system.md)。运行时以脚本输出为准，文档负责解释设计意图。
 
 抽签完成后，用一句短句告诉用户本次设定，例如：
 

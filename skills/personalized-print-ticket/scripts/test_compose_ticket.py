@@ -151,6 +151,7 @@ def main():
         run([
             sys.executable, str(FINISHER),
             "--ticket", str(guide),
+            "--preset", preset,
             "--out", str(transparent),
             "--preview-out", str(preview),
         ])

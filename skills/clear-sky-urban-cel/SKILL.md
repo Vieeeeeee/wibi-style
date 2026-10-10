@@ -1,6 +1,6 @@
 ---
 name: clear-sky-urban-cel
-description: Wibi Style 官方视觉风格：把一张照片转换成晴空都市赛璐璐。适合城市街道、建筑、旅行纪实、交通设施和环境人物照片。适用于用户要求晴空都市赛璐璐、上传照片换风格，或明确调用 $clear-sky-urban-cel 时。
+description: Wibi Style 官方视觉风格：把一张照片转换成晴空都市赛璐璐。适合城市街道、建筑、旅行纪实、交通设施和环境人物照片。适用于用户要求晴空都市赛璐璐，或明确调用 $clear-sky-urban-cel 时。
 ---
 
 # Wibi Style · 晴空都市赛璐璐

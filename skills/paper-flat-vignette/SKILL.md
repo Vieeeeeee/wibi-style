@@ -1,6 +1,6 @@
 ---
 name: paper-flat-vignette
-description: Wibi Style 官方视觉风格：把一张照片转换成留白平涂小景。适合街拍、咖啡店、书店、旅行和日常人像，把人物动作与现场关系收成纸面中央的平涂小画。适用于用户要求留白平涂小景、上传照片换风格，或明确调用 $paper-flat-vignette 时。
+description: Wibi Style 官方视觉风格：把一张照片转换成留白平涂小景。适合街拍、咖啡店、书店、旅行和日常人像，把人物动作与现场关系收成纸面中央的平涂小画。适用于用户要求留白平涂小景，或明确调用 $paper-flat-vignette 时。
 ---
 
 # Wibi Style · 留白平涂小景

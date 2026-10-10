@@ -1,6 +1,6 @@
 ---
 name: warm-naive-comic
-description: Wibi Style 官方视觉风格：把一张照片转换成暖彩粗线日常漫画。适合表情鲜明的人像、日常动作、人与宠物和随身物件，重绘成白底暖彩手绘漫画。适用于用户要求暖彩粗线日常漫画、上传照片换风格，或明确调用 $warm-naive-comic 时。
+description: Wibi Style 官方视觉风格：把一张照片转换成暖彩粗线日常漫画。适合表情鲜明的人像、日常动作、人与宠物和随身物件，重绘成白底暖彩手绘漫画。适用于用户要求暖彩粗线日常漫画，或明确调用 $warm-naive-comic 时。
 ---
 
 # Wibi Style · 暖彩粗线日常漫画

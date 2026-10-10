@@ -2,7 +2,7 @@
 
 ## 动态成像
 
-读取 [references/style-prompt.md](references/style-prompt.md)，把脚本或用户需求中的字段填入对应占位符：
+读取 [style-prompt.md](style-prompt.md)，把脚本或用户需求中的字段填入对应占位符：
 
 - `{ANIMAL}`：动物；
 - `{ANIMAL_BEHAVIOR}`：与身体结构匹配的具体动作；

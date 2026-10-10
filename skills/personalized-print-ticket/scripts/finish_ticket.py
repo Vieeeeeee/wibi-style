@@ -9,6 +9,9 @@ from PIL import Image, ImageDraw
 
 
 PHOTO_SEAM_RATIO = 1472 / 2048
+PRESETS = json.loads(
+    (Path(__file__).resolve().parents[1] / "design-system/presets.json").read_text(encoding="utf-8")
+)["presets"]
 
 
 def fit_inside(image: Image.Image, size: tuple[int, int]) -> Image.Image:
@@ -74,7 +77,7 @@ def make_mask(size: tuple[int, int], seam_x: int) -> Image.Image:
     return mask.resize(size, Image.Resampling.LANCZOS)
 
 
-def add_perforation(ticket: Image.Image, seam_x: int) -> None:
+def add_perforation(ticket: Image.Image, seam_x: int, ink: str) -> None:
     draw = ImageDraw.Draw(ticket)
     margin = round(ticket.height * 0.075)
     dash = max(8, round(ticket.height * 0.021))
@@ -84,7 +87,7 @@ def add_perforation(ticket: Image.Image, seam_x: int) -> None:
     while cursor < end:
         draw.line(
             (seam_x, cursor, seam_x, min(cursor + dash, end)),
-            fill="#111111",
+            fill=ink,
             width=max(3, round(ticket.height * 0.007)),
         )
         cursor += dash + gap
@@ -97,12 +100,13 @@ def finish(
     background: str,
     margin_x: int,
     margin_y: int,
+    preset: str = "orbit-orange",
 ) -> dict:
     image = Image.open(source).convert("RGB")
     canvas = Image.new("RGB", image.size, background)
     ticket = fit_inside(image, (image.width - margin_x * 2, image.height - margin_y * 2))
     seam_x = round(ticket.width * PHOTO_SEAM_RATIO)
-    add_perforation(ticket, seam_x)
+    add_perforation(ticket, seam_x, PRESETS[preset]["ink"])
     cutout = ticket.convert("RGBA")
     cutout.putalpha(make_mask(ticket.size, seam_x))
 
@@ -124,6 +128,7 @@ def finish(
         "preview_canvas_size": list(canvas.size),
         "photo_seam_ratio": PHOTO_SEAM_RATIO,
         "background": background,
+        "preset": preset,
     }
 
 
@@ -131,6 +136,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="生成带实体裁口、撕票虚线、打孔和透明背景的独立票根")
     parser.add_argument("--ticket", required=True)
     parser.add_argument("--out", required=True)
+    parser.add_argument("--preset", choices=sorted(PRESETS), default="orbit-orange")
     parser.add_argument("--preview-out")
     parser.add_argument("--background", default="#050505")
     parser.add_argument("--margin-x", type=int, default=72)
@@ -147,6 +153,7 @@ def main() -> None:
         args.background,
         args.margin_x,
         args.margin_y,
+        args.preset,
     )
     print(json.dumps(result, ensure_ascii=False))
 

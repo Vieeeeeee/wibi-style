@@ -2,7 +2,7 @@
 
 ## 甜版·钻牙萌娃
 
-读取 [mode-sweet-prompt.md](references/mode-sweet-prompt.md) 组合生成指令，背景选项读 [background-options.md](references/background-options.md)。
+读取 [mode-sweet-prompt.md](mode-sweet-prompt.md) 组合生成指令，背景选项读 [background-options.md](background-options.md)。
 
 第一次生成前先询问背景，给五个选项：A 默认白色（推荐）、B 复古大波点、C 柔和双色渐变、D 蜡笔手绘小星星、E 柔粉纯色。用户说「默认」「都行」「你决定」或没提彩色背景时，一律用 A，不得自行改选彩色。
 
@@ -16,7 +16,7 @@
 
 ## 酷版·童年酷照
 
-读取 [mode-cool-prompt.md](references/mode-cool-prompt.md) 组合生成指令。这一版不询问背景，固定浅灰白。
+读取 [mode-cool-prompt.md](mode-cool-prompt.md) 组合生成指令。这一版不询问背景，固定浅灰白。
 
 固定结果：
 

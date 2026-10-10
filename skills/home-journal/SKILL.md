@@ -1,6 +1,6 @@
 ---
 name: home-journal
-description: Wibi Style 官方视觉风格：把一张照片转换成复古家居日志。家里任意角落的随手照片，客厅、卧室、咖啡台、书架都行。适用于用户要求复古家居日志、上传照片换风格，或明确调用 $home-journal 时。
+description: Wibi Style 官方视觉风格：把一张照片转换成复古家居日志。家里任意角落的随手照片，客厅、卧室、咖啡台、书架都行。适用于用户要求复古家居日志，或明确调用 $home-journal 时。
 ---
 
 # Wibi Style · 复古家居日志

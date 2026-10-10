@@ -6,7 +6,7 @@
 
 把一张单人儿童老照片重新拍摄式地转换成明亮、可爱的现代儿童摄影纯大头卡贴。只有原片明显露齿时才做细密满钻牙；闭嘴人物保持原表情。可选择暖白、复古大波点、柔和双色渐变、蜡笔手绘小星星或柔粉纯色背景。
 
-当前版本：`v1.0.5`
+当前版本：`v1.0.7`
 
 作者：`@威比 Hunter Wei.`（抖音、小红书同名）
 
@@ -15,13 +15,13 @@
 以下均为本 Skill 的实际生成结果，只展示生成成品，不包含儿童老照片。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-01.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-02.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-03.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.7/docs/diamond-kid-head-card/examples/example-01.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.7/docs/diamond-kid-head-card/examples/example-02.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.7/docs/diamond-kid-head-card/examples/example-03.png" width="30%" />
   <br />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-04.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-05.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.6/docs/diamond-kid-head-card/examples/example-06.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.7/docs/diamond-kid-head-card/examples/example-04.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.7/docs/diamond-kid-head-card/examples/example-05.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Vieeeeeee/wibi-style/diamond-kid-head-card-v1.0.7/docs/diamond-kid-head-card/examples/example-06.png" width="30%" />
 </p>
 
 ## 安装

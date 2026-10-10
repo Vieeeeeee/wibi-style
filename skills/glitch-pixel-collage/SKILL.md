@@ -1,6 +1,6 @@
 ---
 name: glitch-pixel-collage
-description: Wibi Style 官方视觉风格：把一张照片转换成乱码像素拼贴。人物、静物或色彩层次明确的照片。适用于用户要求乱码像素拼贴、上传照片换风格，或明确调用 $glitch-pixel-collage 时。
+description: Wibi Style 官方视觉风格：把一张照片转换成乱码像素拼贴。人物、静物或色彩层次明确的照片。适用于用户要求乱码像素拼贴，或明确调用 $glitch-pixel-collage 时。
 ---
 
 # Wibi Style · 乱码像素拼贴
