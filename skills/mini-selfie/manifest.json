@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "slug": "mini-selfie",
+  "name": "Wibi Style · 俯拍迷你自拍",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/mini-selfie",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/mini-selfie",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/mini-selfie",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/mini-selfie/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "发一张五官清楚的单人自拍给我吧～",
+      "我会保留你的神态和配饰，把你变成宽阔地面上的巨头迷你小人。"
+    ],
+    "received": [
+      "自拍收到啦～我会保留你的脸、发型和配饰，做成从头顶俯拍的巨头小人，脚下铺上宽块面的简洁地面。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/俯拍迷你自拍/02_提示词/98_线上版.md",
+    "source_sha256": "052bccbd4a275ee316601b2ed6eb8dfc9117aa3136f957f8b760404f106675eb"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 0
+  },
+  "references": [],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/mini-selfie/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": false,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [],
+    "bundled_third_party_assets": []
+  },
+  "validation": {
+    "maturity": "beta",
+    "prompt_version": "v13",
+    "tested_cases": [
+      "08",
+      "10"
+    ],
+    "base_prompt_version": "v9",
+    "base_validation": "三图两轮与十组交付；展示图中四张沿用v9",
+    "generation_input": "仅自拍，无运行参考",
+    "untested": [
+      "v13三图重复稳定性",
+      "网站执行后的生图",
+      "安装后实际生图"
+    ]
+  }
+}
