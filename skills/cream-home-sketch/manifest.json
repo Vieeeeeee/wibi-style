@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "slug": "cream-home-sketch",
+  "name": "Wibi Style · 奶油纸复古家居速写",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/cream-home-sketch",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/cream-home-sketch",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/cream-home-sketch",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/cream-home-sketch/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "发一张你喜欢的家居角落照片给我吧～",
+      "窗边植物、木椅和茶具都适合，会变成奶油纸上的松动线条小画。"
+    ],
+    "received": [
+      "照片收到啦～我会保留主要陈设和位置，用奶油纸底、细黑轮廓和少量彩色笔迹画出来。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/奶油纸复古家居速写/02_提示词/98_线上版.md",
+    "source_sha256": "c261a6637824353e7a2ff991386fb1e3d178d5455d665be7683627f93c1e7701"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.png",
+      "source": "01_风格参考/公开生成参考.png",
+      "source_sha256": "8c8fa9d4063103085d5e2f77d5f8614f1e6da3b24b71db0c44d25926c411f6b0"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/cream-home-sketch/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "User authorized public release; bundled reference is an accepted AI-generated project output; original third-party style reference is excluded.",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.png"
+    ],
+    "bundled_third_party_assets": []
+  },
+  "validation": {
+    "status": "experimental",
+    "note": "Gallery was generated with the original private style reference. Public runtime reference is an accepted generated result; replacement has not been generation-tested."
+  }
+}
