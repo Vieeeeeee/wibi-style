@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "slug": "sunny-gouache",
+  "name": "Wibi Style · 晴彩手绘",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/sunny-gouache",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/sunny-gouache",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/sunny-gouache",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/sunny-gouache/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "发一张你想画成晴彩手绘的人像照片吧，单人或双人都可以。",
+      "我会保留姿态和穿搭细节，把它画成明亮细腻的方形水粉插画。"
+    ],
+    "received": [
+      "照片收到了，我会先看人物、手势和服装，再用内置画风参考重绘成1:1插画。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/晴彩手绘/02_提示词/98_线上版.md",
+    "source_sha256": "d535412f9a11980f2766231c8d0069e1fe58feea5f6077b0ae5cfab627fe314c"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.png",
+      "source": "01_风格参考/01_原始参考.png",
+      "source_sha256": "07f2ce7aef23098d6c533cc59331c79aebf698157f662e88bb912362ae4f7835"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/sunny-gouache/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.png"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
