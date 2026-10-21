@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wibi Style · 纸上人物志·CD版"
+  short_description: "Wibi Style 官方视觉 Skill：把上传照片转换成纸上人物志·CD版风格并完成生成质量检查"
+  default_prompt: "使用 $paper-portrait-cd 处理这张照片。"
+
+policy:
+  allow_implicit_invocation: true
