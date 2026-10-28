@@ -16,7 +16,7 @@
 </p>
 
 <p>
-<b>46 款</b> 可独立安装的视觉风格 Skill ·
+<b>47 款</b> 可独立安装的视觉风格 Skill ·
 <a href="https://style.abdc.online"><b>在线体验</b></a> ·
 <a href="#加入交流群">交流群</a> ·
 <a href="#使用与署名">授权说明</a>
@@ -56,11 +56,12 @@
 | <a href="skills/cream-home-sketch/"><img src="assets/thumbs/cream-home-sketch.jpg" width="140" alt="奶油纸复古家居速写"></a><br><a href="skills/cream-home-sketch/">奶油纸复古家居速写</a> | <a href="skills/sunny-gouache/"><img src="assets/thumbs/sunny-gouache.jpg" width="140" alt="晴彩手绘"></a><br><a href="skills/sunny-gouache/">晴彩手绘</a> | <a href="skills/paper-portrait-cd/"><img src="assets/thumbs/paper-portrait-cd.jpg" width="140" alt="纸上人物志·CD版"></a><br><a href="skills/paper-portrait-cd/">纸上人物志·CD版</a> | <a href="skills/blue-paper-manga-type/"><img src="assets/thumbs/blue-paper-manga-type.jpg" width="140" alt="蓝纸漫画大字海报"></a><br><a href="skills/blue-paper-manga-type/">蓝纸漫画大字海报</a>  | <a href="skills/yellow-hair-doodle/"><img src="assets/thumbs/yellow-hair-doodle.jpg" width="140" alt="明黄发丝涂鸦"></a><br><a href="skills/yellow-hair-doodle/">明黄发丝涂鸦</a> |
 
 
-| <a href="skills/monochrome-manga-color/"><img src="assets/thumbs/monochrome-manga-color.jpg" width="140" alt="黑白漫画纯色背景"></a><br><a href="skills/monochrome-manga-color/">黑白漫画纯色背景</a> |  |  |  |  |
+| <a href="skills/monochrome-manga-color/"><img src="assets/thumbs/monochrome-manga-color.jpg" width="140" alt="黑白漫画纯色背景"></a><br><a href="skills/monochrome-manga-color/">黑白漫画纯色背景</a> | <a href="skills/white-crayon-pet/"><img src="assets/thumbs/white-crayon-pet.jpg" width="140" alt="白底蜡笔宠物"></a><br><a href="skills/white-crayon-pet/">白底蜡笔宠物</a> |  |  |  |
+
 
 ## 全部风格
 
-当前共 46 款，按你手上的照片找。点击风格名进入详情页；调用名同时是安装地址的最后一段和使用时的 `$` 指令。
+当前共 47 款，按你手上的照片找。点击风格名进入详情页；调用名同时是安装地址的最后一段和使用时的 `$` 指令。
 
 | 题材 | 什么照片 | 风格（点名进详情页 · 后面是调用名） |
 | --- | --- | --- |
@@ -68,7 +69,7 @@
 | **人像 · 低清头像** | 正面、半侧脸或侧脸清楚的单人近照与自拍 | <a href="skills/lofi-print-anime/"><b>低清晰印刷感动漫</b></a> <code>lofi-print-anime</code><br><sub>表情、发型和眼镜、帽子等特征可辨的单人近照</sub> |
 | **儿童 · 童年** | 小孩正脸、大头照，或想看自己小时候 | <a href="skills/diamond-kid-head-card/"><b>钻牙萌娃大头</b></a> <code>diamond-kid-head-card</code><br><sub>脸、头发或帽子大致可辨的单人儿童照</sub><br><a href="skills/kid-head-card/"><b>童年大头卡贴</b></a> <code>kid-head-card</code><br><sub>儿童老照片；也能把当代自拍反推成 5–8 岁童年照</sub> |
 | **合照 · 海报** | 多人合照、街拍、旅行照 | <a href="skills/fisheye-city-cover/"><b>鱼眼城市海报</b></a> <code>fisheye-city-cover</code><br><sub>内测 · 做成 Y2K 强鱼眼城市封面</sub><br><a href="skills/niulai-movie-poster/"><b>牛来电影海报</b></a> <code>niulai-movie-poster</code><br><sub>横版单人／双人／三人合照，做成旧动画牛头电影海报</sub> |
-| **宠物** | 单只猫狗，动作、视线和身体轮廓清楚 | <a href="skills/minimal-pet-doodle/"><b>宠物极简线条</b></a> <code>minimal-pet-doodle</code><br><sub>把最特别的动作画成少量黑线、一块毛色彩铅和大面积纸面留白</sub> |
+| **宠物** | 单只猫狗，动作、视线和身体轮廓清楚 | <a href="skills/minimal-pet-doodle/"><b>宠物极简线条</b></a> <code>minimal-pet-doodle</code><br><sub>把最特别的动作画成少量黑线、一块毛色彩铅和大面积纸面留白</sub><br><a href="skills/white-crayon-pet/"><b>白底蜡笔宠物</b></a> <code>white-crayon-pet</code><br><sub>猫狗脸部与耳朵清楚的照片，可按要求写名字</sub> |
 | **万物皆可** | 人、宠物、产品、物件都行 | <a href="skills/marker-child-doodle/"><b>马克笔童画</b></a> <code>marker-child-doodle</code><br><sub>人物、宠物和互动道具清楚的真实照片；半身照不补腿脚</sub><br><a href="skills/quirky-pop-doodle-sticker/"><b>怪趣波普涂鸦贴纸</b></a> <code>quirky-pop-doodle-sticker</code><br><sub>动作和轮廓有记忆点的人物、宠物、产品或道具</sub><br><a href="skills/photo-perler-charm/"><b>照片拼豆挂件</b></a> <code>photo-perler-charm</code><br><sub>人物、宠物、花束、食物和轮廓清晰的物件</sub><br><a href="skills/pixel-stretch/"><b>像素切片拉伸</b></a> <code>pixel-stretch</code><br><sub>主体清楚的人物、静物或其他照片</sub><br><a href="skills/glitch-pixel-collage/"><b>乱码像素拼贴</b></a> <code>glitch-pixel-collage</code><br><sub>人物、静物或色彩层次明确的照片</sub><br><a href="skills/office-animals/"><b>牛马宇宙</b></a> <code>office-animals</code><br><sub>直接指定动物与办公室场景生成 Y2K 荒诞海报</sub><br><a href="skills/personalized-print-ticket/"><b>定制印刷票根</b></a> <code>personalized-print-ticket</code><br><sub>人物、旅行、街景、建筑、食物和日常随拍；自动写中英文纪念文案并匹配四种印刷票根</sub> |
 | **场景 · 美食** | 街景、建筑、餐桌、山野与海岸 | <a href="skills/clear-sky-urban-cel/"><b>晴空都市赛璐璐</b></a> <code>clear-sky-urban-cel</code><br><sub>城市街道、建筑、旅行纪实、交通设施</sub><br><a href="skills/primary-hardlight-city/"><b>原色硬光都市</b></a> <code>primary-hardlight-city</code><br><sub>城市街道、建筑、公共交通、旅行纪实和环境人物照片</sub><br><a href="skills/retro-table-print/"><b>复古餐桌杂志</b></a> <code>retro-table-print</code><br><sub>能看清菜和器皿的餐桌照，整桌或单盘都行</sub><br><a href="skills/museum-impression-oil/"><b>馆藏印象油画</b></a> <code>museum-impression-oil</code><br><sub>街景、乡村、道路、山野、河岸与海岸风景照片</sub><br><a href="skills/paper-flat-vignette/"><b>留白平涂小景</b></a> <code>paper-flat-vignette</code><br><sub>街拍、咖啡店、书店、旅行和日常人像，收成暖白纸中央的平涂小画</sub> |
 | **家居 · 空间** | 家里的角落、客厅、卧室、书架、咖啡台 | <a href="skills/home-journal/"><b>复古家居日志</b></a> <code>home-journal</code><br><sub>家里任意角落的随手照片，客厅、卧室、咖啡台、书架都行</sub><br><a href="skills/cream-home-sketch/"><b>奶油纸复古家居速写</b></a> <code>cream-home-sketch</code><br><sub>家居角落、植物、茶具和日式房间；奶油纸留白速写（测试版）</sub> |
