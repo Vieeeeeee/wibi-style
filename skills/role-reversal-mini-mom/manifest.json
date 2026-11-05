@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "slug": "role-reversal-mini-mom",
+  "name": "Wibi Style · 角色颠倒·拇指妈妈",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/role-reversal-mini-mom",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/role-reversal-mini-mom",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/role-reversal-mini-mom",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/role-reversal-mini-mom/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "发一张母女或亲子室内互动的抓拍照吧。",
+      "我会保持同一房间机位与自然光线，把角色颠倒为大头女儿抱着拇指小人妈妈。"
+    ],
+    "received": [
+      "照片收到啦，我会保留你们的真实长相、表情与家具比例，重绘为超现实角色颠倒抓拍。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/母女角色颠倒大头/02_提示词/98_线上版.md",
+    "source_sha256": "7acf101214709754f61604af19c830e5f50887fe41105ffae13d1ff389de7c35"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 0
+  },
+  "references": [],
+  "gallery": {
+    "layout": "2x2",
+    "count": 4,
+    "repository_path": "docs/role-reversal-mini-mom/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": false,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [],
+    "bundled_third_party_assets": []
+  }
+}
