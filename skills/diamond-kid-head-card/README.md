@@ -55,7 +55,7 @@ https://github.com/Vieeeeeee/wibi-style/tree/main/skills/diamond-kid-head-card
 - 一次只使用一种背景，蜡笔星星不得遮挡五官；
 - 本款不需要运行参考图，生成时只携带用户上传的照片。
 
-在线体验更多风格：[威比风格实验室](https://style.abdc.online)
+在线体验更多风格：[威比风格实验室](https://style.abdc.design)
 
 ## 使用与授权
 

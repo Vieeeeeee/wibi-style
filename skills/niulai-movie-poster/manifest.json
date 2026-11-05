@@ -95,6 +95,7 @@
   "gallery": {
     "layout": "3x2",
     "count": 6,
+    "repository_path": "docs/niulai-movie-poster/examples",
     "bundled_with_install": false
   }
 }

@@ -17,7 +17,7 @@
 
 <p>
 <b>50 款</b> 可独立安装的视觉风格 Skill ·
-<a href="https://style.abdc.online"><b>在线体验</b></a> ·
+<a href="https://style.abdc.design"><b>在线体验</b></a> ·
 <a href="#加入交流群">交流群</a> ·
 <a href="#使用与署名">授权说明</a>
 </p>
@@ -41,7 +41,7 @@
 
 ## 风格总览
 
-> 点任意一张进入该款 Skill。也可以到[威比风格实验室](https://style.abdc.online)在线体验。
+> 点任意一张进入该款 Skill。也可以到[威比风格实验室](https://style.abdc.design)在线体验。
 
 |   |   |   |   |   |
 | :---: | :---: | :---: | :---: | :---: |
@@ -54,8 +54,6 @@
 | <a href="skills/personalized-print-ticket/"><img src="assets/thumbs/personalized-print-ticket.jpg" width="140" alt="定制印刷票根"></a><br><a href="skills/personalized-print-ticket/">定制印刷票根</a> | <a href="skills/paper-flat-vignette/"><img src="assets/thumbs/paper-flat-vignette.jpg" width="140" alt="留白平涂小景"></a><br><a href="skills/paper-flat-vignette/">留白平涂小景</a> | <a href="skills/lofi-print-anime/"><img src="assets/thumbs/lofi-print-anime.jpg" width="140" alt="低清晰印刷感动漫"></a><br><a href="skills/lofi-print-anime/">低清晰印刷感动漫</a> | <a href="skills/retro-flat-anime-head/"><img src="assets/thumbs/retro-flat-anime-head.jpg" width="140" alt="复古扁平动画头"></a><br><a href="skills/retro-flat-anime-head/">复古扁平动画头</a> | <a href="skills/red-blue-fashion-manga/"><img src="assets/thumbs/red-blue-fashion-manga.jpg" width="140" alt="红蓝手绘时装"></a><br><a href="skills/red-blue-fashion-manga/">红蓝手绘时装</a> |
 | <a href="skills/cream-paper-doodle/"><img src="assets/thumbs/cream-paper-doodle.jpg" width="140" alt="奶油纸涂鸦漫画"></a><br><a href="skills/cream-paper-doodle/">奶油纸涂鸦漫画</a> | <a href="skills/bold-line-fashion/"><img src="assets/thumbs/bold-line-fashion.jpg" width="140" alt="粗线手绘穿搭插画"></a><br><a href="skills/bold-line-fashion/">粗线手绘穿搭插画</a> | <a href="skills/orange-navy-fashion/"><img src="assets/thumbs/orange-navy-fashion.jpg" width="140" alt="橙底蓝墨时装漫画"></a><br><a href="skills/orange-navy-fashion/">橙底蓝墨时装漫画</a> | <a href="skills/warm-naive-comic/"><img src="assets/thumbs/warm-naive-comic.jpg" width="140" alt="暖彩粗线日常漫画"></a><br><a href="skills/warm-naive-comic/">暖彩粗线日常漫画</a> | <a href="skills/mini-selfie/"><img src="assets/thumbs/mini-selfie.jpg" width="140" alt="俯拍迷你自拍"></a><br><a href="skills/mini-selfie/">俯拍迷你自拍</a> |
 | <a href="skills/cream-home-sketch/"><img src="assets/thumbs/cream-home-sketch.jpg" width="140" alt="奶油纸复古家居速写"></a><br><a href="skills/cream-home-sketch/">奶油纸复古家居速写</a> | <a href="skills/sunny-gouache/"><img src="assets/thumbs/sunny-gouache.jpg" width="140" alt="晴彩手绘"></a><br><a href="skills/sunny-gouache/">晴彩手绘</a> | <a href="skills/paper-portrait-cd/"><img src="assets/thumbs/paper-portrait-cd.jpg" width="140" alt="纸上人物志·CD版"></a><br><a href="skills/paper-portrait-cd/">纸上人物志·CD版</a> | <a href="skills/blue-paper-manga-type/"><img src="assets/thumbs/blue-paper-manga-type.jpg" width="140" alt="蓝纸漫画大字海报"></a><br><a href="skills/blue-paper-manga-type/">蓝纸漫画大字海报</a>  | <a href="skills/yellow-hair-doodle/"><img src="assets/thumbs/yellow-hair-doodle.jpg" width="140" alt="明黄发丝涂鸦"></a><br><a href="skills/yellow-hair-doodle/">明黄发丝涂鸦</a> |
-
-
 | <a href="skills/monochrome-manga-color/"><img src="assets/thumbs/monochrome-manga-color.jpg" width="140" alt="黑白漫画纯色背景"></a><br><a href="skills/monochrome-manga-color/">黑白漫画纯色背景</a> | <a href="skills/white-crayon-pet/"><img src="assets/thumbs/white-crayon-pet.jpg" width="140" alt="白底蜡笔宠物"></a><br><a href="skills/white-crayon-pet/">白底蜡笔宠物</a> | <a href="skills/blue-ink-fashion-croquis/"><img src="assets/thumbs/blue-ink-fashion-croquis.jpg" width="140" alt="蓝墨长比例时装速写"></a><br><a href="skills/blue-ink-fashion-croquis/">蓝墨长比例时装速写</a> | <a href="skills/warm-paper-breeze-sketch/"><img src="assets/thumbs/warm-paper-breeze-sketch.jpg" width="140" alt="暖纸轻风速写"></a><br><a href="skills/warm-paper-breeze-sketch/">暖纸轻风速写</a> | <a href="skills/role-reversal-mini-mom/"><img src="assets/thumbs/role-reversal-mini-mom.jpg" width="140" alt="角色颠倒·拇指妈妈"></a><br><a href="skills/role-reversal-mini-mom/">角色颠倒·拇指妈妈</a> |
 
 

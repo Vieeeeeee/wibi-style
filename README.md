@@ -18,7 +18,7 @@
 
 <p>
 <b>50</b> individually installable visual style Skills ·
-<a href="https://style.abdc.online"><b>Try online</b></a> ·
+<a href="https://style.abdc.design"><b>Try online</b></a> ·
 <a href="#community">Community</a> ·
 <a href="#license-and-attribution">License</a>
 </p>
@@ -40,7 +40,7 @@ Created and maintained by <code>@威比 Hunter Wei.</code> (same handle on Douyi
 
 ## Style overview
 
-> Click any thumbnail to jump to that Skill's dedicated directory. You can also preview them interactively at [Wibi Style Lab](https://style.abdc.online).
+> Click any thumbnail to jump to that Skill's dedicated directory. You can also preview them interactively at [Wibi Style Lab](https://style.abdc.design).
 
 |   |   |   |   |   |
 | :---: | :---: | :---: | :---: | :---: |
@@ -53,8 +53,6 @@ Created and maintained by <code>@威比 Hunter Wei.</code> (same handle on Douyi
 | <a href="skills/personalized-print-ticket/"><img src="assets/thumbs/personalized-print-ticket.jpg" width="140" alt="Personalized Print Ticket"></a><br><a href="skills/personalized-print-ticket/">Personalized Print Ticket</a> | <a href="skills/paper-flat-vignette/"><img src="assets/thumbs/paper-flat-vignette.jpg" width="140" alt="Paper Flat Vignette"></a><br><a href="skills/paper-flat-vignette/">Paper Flat Vignette</a> | <a href="skills/lofi-print-anime/"><img src="assets/thumbs/lofi-print-anime.jpg" width="140" alt="Lo-Fi Print Anime"></a><br><a href="skills/lofi-print-anime/">Lo-Fi Print Anime</a> | <a href="skills/retro-flat-anime-head/"><img src="assets/thumbs/retro-flat-anime-head.jpg" width="140" alt="Retro Flat Anime Avatar"></a><br><a href="skills/retro-flat-anime-head/">Retro Flat Anime Avatar</a> | <a href="skills/red-blue-fashion-manga/"><img src="assets/thumbs/red-blue-fashion-manga.jpg" width="140" alt="Red &amp; Blue Fashion Manga"></a><br><a href="skills/red-blue-fashion-manga/">Red &amp; Blue Fashion Manga</a> |
 | <a href="skills/cream-paper-doodle/"><img src="assets/thumbs/cream-paper-doodle.jpg" width="140" alt="Cream Paper Doodle"></a><br><a href="skills/cream-paper-doodle/">Cream Paper Doodle</a> | <a href="skills/bold-line-fashion/"><img src="assets/thumbs/bold-line-fashion.jpg" width="140" alt="Bold Line Fashion"></a><br><a href="skills/bold-line-fashion/">Bold Line Fashion</a> | <a href="skills/orange-navy-fashion/"><img src="assets/thumbs/orange-navy-fashion.jpg" width="140" alt="Orange & Navy Fashion Manga"></a><br><a href="skills/orange-navy-fashion/">Orange & Navy Fashion Manga</a> | <a href="skills/warm-naive-comic/"><img src="assets/thumbs/warm-naive-comic.jpg" width="140" alt="Warm Naive Comic"></a><br><a href="skills/warm-naive-comic/">Warm Naive Comic</a> | <a href="skills/mini-selfie/"><img src="assets/thumbs/mini-selfie.jpg" width="140" alt="Mini Selfie"></a><br><a href="skills/mini-selfie/">Mini Selfie</a> |
 | <a href="skills/cream-home-sketch/"><img src="assets/thumbs/cream-home-sketch.jpg" width="140" alt="Cream Paper Home Sketch"></a><br><a href="skills/cream-home-sketch/">Cream Paper Home Sketch</a> | <a href="skills/sunny-gouache/"><img src="assets/thumbs/sunny-gouache.jpg" width="140" alt="Sunny Gouache Portraits"></a><br><a href="skills/sunny-gouache/">Sunny Gouache Portraits</a> | <a href="skills/paper-portrait-cd/"><img src="assets/thumbs/paper-portrait-cd.jpg" width="140" alt="Paper Portrait CD"></a><br><a href="skills/paper-portrait-cd/">Paper Portrait CD</a> | <a href="skills/blue-paper-manga-type/"><img src="assets/thumbs/blue-paper-manga-type.jpg" width="140" alt="Blue Paper Manga Type"></a><br><a href="skills/blue-paper-manga-type/">Blue Paper Manga Type</a>  | <a href="skills/yellow-hair-doodle/"><img src="assets/thumbs/yellow-hair-doodle.jpg" width="140" alt="Yellow Hair Doodle Portrait"></a><br><a href="skills/yellow-hair-doodle/">Yellow Hair Doodle Portrait</a> |
-
-
 | <a href="skills/monochrome-manga-color/"><img src="assets/thumbs/monochrome-manga-color.jpg" width="140" alt="Monochrome Manga Color"></a><br><a href="skills/monochrome-manga-color/">Monochrome Manga Color</a> | <a href="skills/white-crayon-pet/"><img src="assets/thumbs/white-crayon-pet.jpg" width="140" alt="White Paper Crayon Pet"></a><br><a href="skills/white-crayon-pet/">White Paper Crayon Pet</a> | <a href="skills/blue-ink-fashion-croquis/"><img src="assets/thumbs/blue-ink-fashion-croquis.jpg" width="140" alt="Blue Ink Fashion Croquis"></a><br><a href="skills/blue-ink-fashion-croquis/">Blue Ink Fashion Croquis</a> | <a href="skills/warm-paper-breeze-sketch/"><img src="assets/thumbs/warm-paper-breeze-sketch.jpg" width="140" alt="Warm Paper Breeze Sketch"></a><br><a href="skills/warm-paper-breeze-sketch/">Warm Paper Breeze Sketch</a> | <a href="skills/role-reversal-mini-mom/"><img src="assets/thumbs/role-reversal-mini-mom.jpg" width="140" alt="Role Reversal Mini Mom"></a><br><a href="skills/role-reversal-mini-mom/">Role Reversal Mini Mom</a> |
 
 
