@@ -16,7 +16,7 @@
 </p>
 
 <p>
-<b>50 款</b> 可独立安装的视觉风格 Skill ·
+<b>51 款</b> 可独立安装的视觉风格 Skill ·
 <a href="https://style.abdc.design"><b>在线体验</b></a> ·
 <a href="#加入交流群">交流群</a> ·
 <a href="#使用与署名">授权说明</a>
@@ -55,11 +55,12 @@
 | <a href="skills/cream-paper-doodle/"><img src="assets/thumbs/cream-paper-doodle.jpg" width="140" alt="奶油纸涂鸦漫画"></a><br><a href="skills/cream-paper-doodle/">奶油纸涂鸦漫画</a> | <a href="skills/bold-line-fashion/"><img src="assets/thumbs/bold-line-fashion.jpg" width="140" alt="粗线手绘穿搭插画"></a><br><a href="skills/bold-line-fashion/">粗线手绘穿搭插画</a> | <a href="skills/orange-navy-fashion/"><img src="assets/thumbs/orange-navy-fashion.jpg" width="140" alt="橙底蓝墨时装漫画"></a><br><a href="skills/orange-navy-fashion/">橙底蓝墨时装漫画</a> | <a href="skills/warm-naive-comic/"><img src="assets/thumbs/warm-naive-comic.jpg" width="140" alt="暖彩粗线日常漫画"></a><br><a href="skills/warm-naive-comic/">暖彩粗线日常漫画</a> | <a href="skills/mini-selfie/"><img src="assets/thumbs/mini-selfie.jpg" width="140" alt="俯拍迷你自拍"></a><br><a href="skills/mini-selfie/">俯拍迷你自拍</a> |
 | <a href="skills/cream-home-sketch/"><img src="assets/thumbs/cream-home-sketch.jpg" width="140" alt="奶油纸复古家居速写"></a><br><a href="skills/cream-home-sketch/">奶油纸复古家居速写</a> | <a href="skills/sunny-gouache/"><img src="assets/thumbs/sunny-gouache.jpg" width="140" alt="晴彩手绘"></a><br><a href="skills/sunny-gouache/">晴彩手绘</a> | <a href="skills/paper-portrait-cd/"><img src="assets/thumbs/paper-portrait-cd.jpg" width="140" alt="纸上人物志·CD版"></a><br><a href="skills/paper-portrait-cd/">纸上人物志·CD版</a> | <a href="skills/blue-paper-manga-type/"><img src="assets/thumbs/blue-paper-manga-type.jpg" width="140" alt="蓝纸漫画大字海报"></a><br><a href="skills/blue-paper-manga-type/">蓝纸漫画大字海报</a>  | <a href="skills/yellow-hair-doodle/"><img src="assets/thumbs/yellow-hair-doodle.jpg" width="140" alt="明黄发丝涂鸦"></a><br><a href="skills/yellow-hair-doodle/">明黄发丝涂鸦</a> |
 | <a href="skills/monochrome-manga-color/"><img src="assets/thumbs/monochrome-manga-color.jpg" width="140" alt="黑白漫画纯色背景"></a><br><a href="skills/monochrome-manga-color/">黑白漫画纯色背景</a> | <a href="skills/white-crayon-pet/"><img src="assets/thumbs/white-crayon-pet.jpg" width="140" alt="白底蜡笔宠物"></a><br><a href="skills/white-crayon-pet/">白底蜡笔宠物</a> | <a href="skills/blue-ink-fashion-croquis/"><img src="assets/thumbs/blue-ink-fashion-croquis.jpg" width="140" alt="蓝墨长比例时装速写"></a><br><a href="skills/blue-ink-fashion-croquis/">蓝墨长比例时装速写</a> | <a href="skills/warm-paper-breeze-sketch/"><img src="assets/thumbs/warm-paper-breeze-sketch.jpg" width="140" alt="暖纸轻风速写"></a><br><a href="skills/warm-paper-breeze-sketch/">暖纸轻风速写</a> | <a href="skills/role-reversal-mini-mom/"><img src="assets/thumbs/role-reversal-mini-mom.jpg" width="140" alt="角色颠倒·拇指妈妈"></a><br><a href="skills/role-reversal-mini-mom/">角色颠倒·拇指妈妈</a> |
+| <a href="skills/red-star-space-anime/"><img src="assets/thumbs/red-star-space-anime.jpg" width="140" alt="红星太空潮流漫"></a><br><a href="skills/red-star-space-anime/">红星太空潮流漫</a> | | | | |
 
 
 ## 全部风格
 
-当前共 50 款，按你手上的照片找。点击风格名进入详情页；调用名同时是安装地址的最后一段和使用时的 `$` 指令。
+当前共 51 款，按你手上的照片找。点击风格名进入详情页；调用名同时是安装地址的最后一段和使用时的 `$` 指令。
 
 | 题材 | 什么照片 | 风格（点名进详情页 · 后面是调用名） |
 | --- | --- | --- |
@@ -72,7 +73,7 @@
 | **场景 · 美食** | 街景、建筑、餐桌、山野与海岸 | <a href="skills/clear-sky-urban-cel/"><b>晴空都市赛璐璐</b></a> <code>clear-sky-urban-cel</code><br><sub>城市街道、建筑、旅行纪实、交通设施</sub><br><a href="skills/primary-hardlight-city/"><b>原色硬光都市</b></a> <code>primary-hardlight-city</code><br><sub>城市街道、建筑、公共交通、旅行纪实和环境人物照片</sub><br><a href="skills/retro-table-print/"><b>复古餐桌杂志</b></a> <code>retro-table-print</code><br><sub>能看清菜和器皿的餐桌照，整桌或单盘都行</sub><br><a href="skills/museum-impression-oil/"><b>馆藏印象油画</b></a> <code>museum-impression-oil</code><br><sub>街景、乡村、道路、山野、河岸与海岸风景照片</sub><br><a href="skills/paper-flat-vignette/"><b>留白平涂小景</b></a> <code>paper-flat-vignette</code><br><sub>街拍、咖啡店、书店、旅行和日常人像，收成暖白纸中央的平涂小画</sub> |
 | **家居 · 空间** | 家里的角落、客厅、卧室、书架、咖啡台 | <a href="skills/home-journal/"><b>复古家居日志</b></a> <code>home-journal</code><br><sub>家里任意角落的随手照片，客厅、卧室、咖啡台、书架都行</sub><br><a href="skills/cream-home-sketch/"><b>奶油纸复古家居速写</b></a> <code>cream-home-sketch</code><br><sub>家居角落、植物、茶具和日式房间；奶油纸留白速写（测试版）</sub> |
 | **进阶 · 多步骤** | 想先挑出照片里最有意思的局部 | <a href="skills/wibi-frame/"><b>框景漫画</b></a> <code>wibi-frame</code><br><sub>有清楚眼神、表情、手势或物件关系的照片；先选局部，再生成</sub> |
-| **人像 · 表情动作** | 表情或动作有记忆点的单人照 | <a href="skills/urban-mecha-cel/"><b>都市机械赛璐璐</b></a> <code>urban-mecha-cel</code><br><sub>清晰自拍、随手拍和废片都可以，转成白底红衣的粗线漫画</sub><br><a href="skills/red-blue-fashion-manga/"><b>红蓝手绘时装</b></a> <code>red-blue-fashion-manga</code><br><sub>单人穿搭与街拍；方形红蓝漫画海报，自动按照片设计文字</sub><br><a href="skills/bold-line-fashion/"><b>粗线手绘穿搭插画</b></a> <code>bold-line-fashion</code><br><sub>穿搭和姿态清楚的街拍或坐姿照片，浅灰底黑色轮廓角色插画（beta）</sub><br><a href="skills/orange-navy-fashion/"><b>橙底蓝墨时装漫画</b></a> <code>orange-navy-fashion</code><br><sub>单人穿搭、半身与近景照片；橙底蓝墨方形时装插画（测试版）</sub><br><a href="skills/warm-naive-comic/"><b>暖彩粗线日常漫画</b></a> <code>warm-naive-comic</code><br><sub>表情鲜明的人像、日常动作及人与宠物；白底暖彩手绘漫画（测试版）</sub><br><a href="skills/blue-ink-fashion-croquis/"><b>蓝墨长比例时装速写</b></a> <code>blue-ink-fashion-croquis</code><br><sub>适合单人全身或半身穿搭照片，转为奶油纸底、长比例折面与断续钴蓝线条的时装速写手稿；半身照不补腿脚（测试版）</sub> |
+| **人像 · 表情动作** | 表情或动作有记忆点的单人照 | <a href="skills/urban-mecha-cel/"><b>都市机械赛璐璐</b></a> <code>urban-mecha-cel</code><br><sub>清晰自拍、随手拍和废片都可以，转成白底红衣的粗线漫画</sub><br><a href="skills/red-blue-fashion-manga/"><b>红蓝手绘时装</b></a> <code>red-blue-fashion-manga</code><br><sub>单人穿搭与街拍；方形红蓝漫画海报，自动按照片设计文字</sub><br><a href="skills/bold-line-fashion/"><b>粗线手绘穿搭插画</b></a> <code>bold-line-fashion</code><br><sub>穿搭和姿态清楚的街拍或坐姿照片，浅灰底黑色轮廓角色插画（beta）</sub><br><a href="skills/orange-navy-fashion/"><b>橙底蓝墨时装漫画</b></a> <code>orange-navy-fashion</code><br><sub>单人穿搭、半身与近景照片；橙底蓝墨方形时装插画（测试版）</sub><br><a href="skills/warm-naive-comic/"><b>暖彩粗线日常漫画</b></a> <code>warm-naive-comic</code><br><sub>表情鲜明的人像、日常动作及人与宠物；白底暖彩手绘漫画（测试版）</sub><br><a href="skills/blue-ink-fashion-croquis/"><b>蓝墨长比例时装速写</b></a> <code>blue-ink-fashion-croquis</code><br><sub>适合单人全身或半身穿搭照片，转为奶油纸底、长比例折面与断续钴蓝线条的时装速写手稿；半身照不补腿脚（测试版）</sub><br><a href="skills/red-star-space-anime/"><b>红星太空潮流漫</b></a> <code>red-star-space-anime</code><br><sub>适合五官清晰、角度生动的半身或特写人物照片，重构为高反差硬边切光与深空红星先锋潮流漫海报（测试版）</sub> |
 <!-- style-catalog-end：发布脚本在这一行之前插入新款，插完请把它挪到正确的题材分组 -->
 
 > `Wibi Style ·` 是统一展示前缀。英文 Skill 名、GitHub 地址和 `$调用名` 都不带前缀，旧用法继续有效。

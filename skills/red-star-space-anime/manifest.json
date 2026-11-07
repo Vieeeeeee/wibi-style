@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "slug": "red-star-space-anime",
+  "name": "Wibi Style · 红星太空潮流漫",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/red-star-space-anime",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/red-star-space-anime",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/red-star-space-anime",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/red-star-space-anime/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "先发一张你想做成红星太空潮流漫的照片给我吧～",
+      "半身照或特写最出彩，男女生皆宜，我会保留你的面部特征与眼神，重构为高反差硬边切光与深空红星先锋潮流漫海报。"
+    ],
+    "received": [
+      "照片收到啦！我会精准捕捉你的五官比例与神态，重构为边缘行者高反差硬边切光、橙红色散边缘与深空巨型红星插画。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/红星太空潮流漫/02_提示词/98_线上版.md",
+    "source_sha256": "0e51f1ebe30c2bb4f316b4f650868f36d4c6914de1fe5d9019bbdcc053df00e0"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 1
+  },
+  "references": [
+    {
+      "file": "assets/references/reference-01.png",
+      "source": "05_发布/生图参考/共用_主参考_风格02.png",
+      "source_sha256": "b63af33d0d3b2bff4d65b3d3e2321839a0873fe9ff1eb4bfa041c3c3d93e6928"
+    }
+  ],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/red-star-space-anime/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": true,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [
+      "assets/references/reference-01.png"
+    ],
+    "bundled_third_party_assets": []
+  }
+}
