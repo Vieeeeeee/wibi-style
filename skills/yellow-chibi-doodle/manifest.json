@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "slug": "yellow-chibi-doodle",
+  "name": "Wibi Style · 明黄软萌Q版手绘",
+  "version": "1.0.0",
+  "author": "@威比 Hunter Wei.",
+  "author_note": "抖音、小红书同名",
+  "official_source": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/yellow-chibi-doodle",
+  "license": "MIT AND LicenseRef-Wibi-Personal-NonCommercial-1.0",
+  "repository": "https://github.com/Vieeeeeee/wibi-style",
+  "path": "skills/yellow-chibi-doodle",
+  "install_url": "https://github.com/Vieeeeeee/wibi-style/tree/main/skills/yellow-chibi-doodle",
+  "update_manifest_url": "https://api.github.com/repos/Vieeeeeee/wibi-style/contents/skills/yellow-chibi-doodle/manifest.json?ref=main",
+  "attribution": {
+    "text": "Visual Skill by @威比 Hunter Wei.",
+    "platforms": [
+      "抖音",
+      "小红书"
+    ],
+    "retention_required_on_redistribution": true,
+    "notice_file": "NOTICE"
+  },
+  "post_install": {
+    "command": "python3 {skill_dir}/scripts/show_skill_info.py --always",
+    "display_output": true,
+    "fallback": "The first Skill invocation shows the author card once if the installer does not."
+  },
+  "community": {
+    "config_url": "https://raw.githubusercontent.com/Vieeeeeee/wibi-style/main/community.json",
+    "opening": "welcome-once-per-conversation",
+    "qr_display": "download-current-github-image-and-render-locally",
+    "on_generation_failure": "current-qr-once-per-conversation",
+    "on_first_success": "author-and-join-cta"
+  },
+  "welcome": {
+    "waiting": [
+      "先发一张你想做成明黄软萌Q版手绘的照片给我吧～",
+      "单人、双人或人宠合照都可以，我会直接把照片重绘成明黄底手账小人，并按画面情绪配上原创手写中文与带声调拼音标题（也可以直接告诉我你想写的 2–3 个字）。"
+    ],
+    "received": [
+      "收到照片啦，马上为你画成明黄软萌Q版手绘并配上契合氛围的手写中文与拼音标题。"
+    ]
+  },
+  "prompt": {
+    "file": "references/style-prompt.md",
+    "source": "projects/明黄软萌Q版手绘/02_提示词/98_线上版.md",
+    "source_sha256": "1d18a1aee8bb08b4d98462eeaeab8e9993823db8a371ff7fc68bb24817769fab"
+  },
+  "input": {
+    "type": "single-photo-restyle",
+    "bundled_references": 0
+  },
+  "references": [],
+  "gallery": {
+    "layout": "3x2",
+    "count": 6,
+    "repository_path": "docs/yellow-chibi-doodle/examples",
+    "bundled_with_install": false
+  },
+  "rights": {
+    "status": "cleared",
+    "project_owner_confirmed_reference_distribution": false,
+    "authorization_basis": "user-provided-or-user-approved-project-assets",
+    "original_assets": [],
+    "redistributable_assets": [],
+    "bundled_third_party_assets": []
+  }
+}
